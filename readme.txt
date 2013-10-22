@@ -6,7 +6,7 @@ v.28
 
 Regiment and Ethnic Diversity for Civilization V.
 
-- Rescaling : All human and mounted units have been scaled down; no more giant infantry against mini tanks!  Of course, the relative scale is nothing close to reality, but it looks way better IMO.  The sea and air units are respectively better proportioned.
+- Rescaling : All human and mounted units have been scaled down; no more giant infantry against mini tanks!  Of course, the relative scale is nothing close to reality, but it does give a better sense of proportion.  The sea and air units are rescaled the same way, relative to each other in their respective domain.
 - Formation : Most units are now multi-figure, and the number of figures is raised in all human and mounted units.  Existing formations have been reworked to reflect the change in scale, and 14 new formations have been added.
 - Diversity : Hundreds of new unit models for diversity, with no change to gameplay.  See newunits.xls or forum thread on CivFanatics website for details.
 
@@ -508,7 +508,7 @@ Formatted presentation for Steam Workshop
 
 [b]Regiment and Ethnic Diversity[/b] for Civilization V, G+K, BNW and all DLC
 
-- Rescaling : All human and mounted units have been scaled down; no more giant infantry against mini tanks!  Of course, the relative scale is nothing close to reality, but it looks way better IMO.  The sea and air units are respectively better proportioned.
+- Rescaling : All human and mounted units have been scaled down; no more giant infantry against mini tanks!  Of course, the relative scale is nothing close to reality, but it does give a better sense of proportion.  The sea and air units are resized the same way, relative to each other in their respective domain.
 - Formation : Most units are now multi-figure, and the number of figures is raised in all human and mounted units.  Existing formations have been reworked to reflect the change in scale, and 14 new formations have been added.
 - Diversity : Hundreds of new unit models for diversity, with no change to gameplay.  See newunits.xls or version history for details.
 
