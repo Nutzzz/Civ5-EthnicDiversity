@@ -7,10 +7,10 @@
     <Guid>8670da15-d435-44ea-9758-7438cb321411</Guid>
     <ModVersion>28</ModVersion>
     <Stability>Beta</Stability>
-    <Teaser>Units rescaling, new formations and more diversity</Teaser>
-    <Description>Regiment and Ethnic Diversity for Civilization V (and DLC)[NEWLINE][ICON_BULLET] [COLOR_YELLOW]Rescaling[/COLOR] : all human and mounted units have been scaled down, no more giant infantry against tank ! Of course, the relative scale is nothing close to realism, but it does give a better sense of proportion. The sea and air units are rescaled the same way : relative to each other in their respective domain.[NEWLINE][ICON_BULLET] [COLOR_YELLOW]Formation[/COLOR] : most units have multiple figure, and the number of figures is raised in all human and mounted units. Existing formations have been reworked to reflect the change in scale, and 14 new formations have been added.[NEWLINE][ICON_BULLET] [COLOR_YELLOW]Units graphics[/COLOR] : hundreds of new unit models for diversity, no gameplay change. See newunits.xls or forum thread on civfanatics website for details.</Description>
+    <Teaser>Unit rescaling, new formations, and more diversity</Teaser>
+    <Description>Regiment and Ethnic Diversity for Civilization V (and DLC)[NEWLINE][ICON_BULLET] [COLOR_YELLOW]Rescaling[/COLOR] : All human and mounted units have been scaled down; no more giant infantry against mini tanks!  Of course, the relative scale is nothing close to reality, but it does give a better sense of proportion.  The sea and air units are rescaled the same way, relative to each other in their respective domain.[NEWLINE][ICON_BULLET] [COLOR_YELLOW]Formation[/COLOR] : Most units are now multi-figure, and the number of figures is raised in all human and mounted units.  Existing formations have been reworked to reflect the change in scale, and 14 new formations have been added.[NEWLINE][ICON_BULLET] [COLOR_YELLOW]Diversity[/COLOR] : Hundreds of new unit models for diversity, with no change to gameplay.  See newunits.xls or forum thread on CivFanatics website for details.</Description>
     <Authors>Gedemon</Authors>
-    <SpecialThanks>All units maker, civfanatics</SpecialThanks>
+    <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
     <Categories>$Categories$</Categories>
     <AffectsSavedGames>false</AffectsSavedGames>
     <MinCompatibleSaveVersion>12</MinCompatibleSaveVersion>
