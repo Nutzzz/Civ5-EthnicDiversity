@@ -48,6 +48,8 @@ Fix for fighter propeller and archer arrow positions (optional) :
 	-- Version History --
 	
 v.28 (Oct xx, 2013):
+- add Wolfdog's conversion of KrugerPritz's A129 Mangusta (helicopter gunship) for Rome
+- add Wolfdog's conversion of KrugerPritz and Nikko's Dardo IFV (mechanized infantry) for Rome
 - add Wolfdog's conversion of dutchking's ML-20 Howitzer (artillery) for Russia
 - add Wolfdog's conversion of Snafusmith's Los Angeles class nuclear submarine for America
 - add Wolfdog's conversion of Refar's Astute class nuclear submarine for England
