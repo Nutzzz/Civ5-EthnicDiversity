@@ -35,7 +35,7 @@
 	<Texture file="Unit_Environment_Sharp.dds"/>
 	<Texture file="Unit_Irradiance.dds"/>
 	<Texture file="irosp1.dds"/>
-	<Texture file="irosp1_sref.dds"/>
+	<Texture file="no_gloss.dds"/>
 	<BoneUsage>
 		<Bone name="Base HumanRPalm"/>
 		<Bone name="Base HumanLPalm"/>

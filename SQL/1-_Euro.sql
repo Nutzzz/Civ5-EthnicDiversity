@@ -56,7 +56,7 @@ INSERT INTO UnitGraphicConfiguration
 --SELECT	'EURO',		'EURO',			'unit_model_name',				'ART_DEF_UNIT_TRANSPORT',			'ART_DEF_UNIT_MEMBER_TRANSPORT',					0,				NULL,			0		UNION ALL
 --SELECT	'EURO',		'EURO',			'unit_model_name',				'ART_DEF_UNIT_TREBUCHET',			'ART_DEF_UNIT_MEMBER_TREBUCHET',					0,				NULL,			0		UNION ALL
 --SELECT	'EURO',		'EURO',			'unit_model_name',				'ART_DEF_UNIT_TRIREME',				'ART_DEF_UNIT_MEMBER_TRIREME',						0,				NULL,			0		UNION ALL
---SELECT	'EURO',		'EURO',			'BearWarrior.fxsxml',			'ART_DEF_UNIT__WARRIOR',			'ART_DEF_UNIT_MEMBER_WARRIOR',						0,				NULL,			0		UNION ALL
+--SELECT	'EURO',		'EURO',			'unit_model_name',				'ART_DEF_UNIT__WARRIOR',			'ART_DEF_UNIT_MEMBER_WARRIOR',						0,				NULL,			0		UNION ALL
 --SELECT	'EURO',		'EURO',			'unit_model_name',				'ART_DEF_UNIT_WORKBOAT',			'ART_DEF_UNIT_MEMBER_WORKBOAT',						0,				NULL,			0		UNION ALL
 --SELECT	'EURO',		'EURO',			'unit_model_name',				'ART_DEF_UNIT_ARTIST',				'ART_DEF_UNIT_MEMBER_GREATARTIST_EARLY_FLUTE',		0,				NULL,			0		UNION ALL
 --SELECT	'EURO',		'EURO',			'unit_model_name',				'ART_DEF_UNIT_ARTIST',				'ART_DEF_UNIT_MEMBER_GREATARTIST_EARLY_TAMBOURINE',	0,				NULL,			0		UNION ALL
@@ -73,7 +73,7 @@ INSERT INTO UnitGraphicConfiguration
 --SELECT	'EURO',		'EURO',			'unit_model_name',				'ART_DEF_UNIT__WORKER',				'ART_DEF_UNIT_MEMBER_WORKER_EURO',					0,				NULL,			0		UNION ALL
 --SELECT	'EURO',		'EURO',			'unit_model_name',				'ART_DEF_UNIT__WORKER_LATE',		'ART_DEF_UNIT_MEMBER_WORKER_EURO_LATE',				0,				NULL,			0		UNION ALL
 --SELECT	'EURO',		'EURO',			'unit_model_name',				'ART_DEF_UNIT__SETTLER',			'ART_DEF_UNIT_MEMBER_EUROMALE45',					0,				NULL,			0		UNION ALL
---SELECT	'EURO',		'EURO',			'unit_model_name',				'ART_DEF_UNIT_GALLEON',				'ART_DEF_UNIT_MEMBER_GALLEON',						0,				NULL,			0		UNION ALL
+SELECT	'EURO',		'EURO',				'euro_galleon.fxsxml',			'ART_DEF_UNIT_GALLEON',				'ART_DEF_UNIT_MEMBER_GALLEON',						0,				NULL,			0		UNION ALL
 --SELECT	'EURO',		'EURO',			'unit_model_name',				'ART_DEF_UNIT_SS_BOOSTER',			'ART_DEF_UNIT_MEMBER_SS_BOOSTER',					0,				NULL,			0		UNION ALL
 --SELECT	'EURO',		'EURO',			'unit_model_name',				'ART_DEF_UNIT_SS_CAPSULE',			'ART_DEF_UNIT_MEMBER_SS_CAPSULE',					0,				NULL,			0		UNION ALL
 --SELECT	'EURO',		'EURO',			'unit_model_name',				'ART_DEF_UNIT_SS_ENGINE',			'ART_DEF_UNIT_MEMBER_SS_ENGINE',					0,				NULL,			0		UNION ALL
@@ -100,6 +100,6 @@ INSERT INTO UnitGraphicConfiguration
 --SELECT	'EURO',		'EURO',			'unit_model_name',				'ART_DEF_UNIT_WW1_FIGHTER',			'ART_DEF_UNIT_MEMBER_WW1_FIGHTER',					0,				NULL,			0		UNION ALL	
 --SELECT	'EURO',		'EURO',			'unit_model_name',				'ART_DEF_UNIT_WW1_INFANTRY',		'ART_DEF_UNIT_MEMBER_WW1_INFANTRY',					0,				NULL,			0		UNION ALL	
 --SELECT	'EURO',		'EURO',			'unit_model_name',				'ART_DEF_UNIT_WW1_TANK',			'ART_DEF_UNIT_MEMBER_WW1_TANK',						0,				NULL,			0		UNION ALL	
---SELECT	'EURO',		'EURO',			'unit_model_name',				'ART_DEF_UNIT_WW2_INFANTRY',		'ART_DEF_UNIT_MEMBER_WW2_INFANTRY',					0,				NULL,			0		UNION ALL
+--SELECT	'EURO',		'EURO',			'unit_model_name',				'ART_DEF_UNIT_XCOM_SQUAD',			'ART_DEF_UNIT_MEMBER_XCOM_SQUAD',					0,				NULL,			0		UNION ALL	
 
 SELECT	'END_OF_INSERT',		NULL,			NULL,							NULL,								NULL,											NULL,				NULL,			NULL;

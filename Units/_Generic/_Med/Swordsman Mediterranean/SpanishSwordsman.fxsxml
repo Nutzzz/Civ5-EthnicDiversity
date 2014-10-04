@@ -37,7 +37,7 @@
 	<Texture file="Unit_Environment_Sharp.dds"/>
 	<Texture file="Unit_Irradiance.dds"/>
 	<Texture file="spasm3.dds"/>
-	<Texture file="swordsman3_SREF.dds"/>
+	<Texture file="spasm3_SREF.dds"/>
 	<BoneUsage>
 		<Bone name="Point_SWORD"/>
 		<Bone name="HumanRibcage_x"/>

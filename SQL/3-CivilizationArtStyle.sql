@@ -184,11 +184,11 @@ INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType'
 -- OTTOMAN
 UPDATE Civilizations SET ArtStyleSuffix = "_OTTOMAN" WHERE Type = 'CIVILIZATION_OTTOMAN';
 INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
-	SELECT	REPLACE("Type", '_MIDEAST', '_OTTOMAN'), "DamageStates", "Formation"
-	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_MIDEAST';
+	SELECT	REPLACE("Type", '_CENTAS', '_OTTOMAN'), "DamageStates", "Formation"
+	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_CENTAS';
 INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
-	SELECT	REPLACE("UnitInfoType", '_MIDEAST', '_OTTOMAN'), "UnitMemberInfoType", "NumMembers"
-	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_MIDEAST';
+	SELECT	REPLACE("UnitInfoType", '_CENTAS', '_OTTOMAN'), "UnitMemberInfoType", "NumMembers"
+	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_CENTAS';
 	
 -- PERSIA
 UPDATE Civilizations SET ArtStyleSuffix = "_PERSIA" WHERE Type = 'CIVILIZATION_PERSIA';
@@ -220,11 +220,11 @@ INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType'
 -- RUSSIA
 UPDATE Civilizations SET ArtStyleSuffix = "_RUSSIA" WHERE Type = 'CIVILIZATION_RUSSIA';
 INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
-	SELECT	REPLACE("Type", '_EURO', '_RUSSIA'), "DamageStates", "Formation"
-	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_EURO';
+	SELECT	REPLACE("Type", '_EASTEU', '_RUSSIA'), "DamageStates", "Formation"
+	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_EASTEU';
 INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
-	SELECT	REPLACE("UnitInfoType", '_EURO', '_RUSSIA'), "UnitMemberInfoType", "NumMembers"
-	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_EURO';
+	SELECT	REPLACE("UnitInfoType", '_EASTEU', '_RUSSIA'), "UnitMemberInfoType", "NumMembers"
+	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_EASTEU';
 
 -- SIAM
 UPDATE Civilizations SET ArtStyleSuffix = "_SIAM" WHERE Type = 'CIVILIZATION_SIAM';
@@ -305,11 +305,11 @@ INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType'
 -- HUNS
 UPDATE Civilizations SET ArtStyleSuffix = "_HUNS" WHERE Type = 'CIVILIZATION_HUNS';
 INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
-	SELECT	REPLACE("Type", '_ASIA', '_HUNS'), "DamageStates", "Formation"
-	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_ASIA';
+	SELECT	REPLACE("Type", '_CENTAS', '_HUNS'), "DamageStates", "Formation"
+	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_CENTAS';
 INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
-	SELECT	REPLACE("UnitInfoType", '_ASIA', '_HUNS'), "UnitMemberInfoType", "NumMembers"
-	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_ASIA';
+	SELECT	REPLACE("UnitInfoType", '_CENTAS', '_HUNS'), "UnitMemberInfoType", "NumMembers"
+	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_CENTAS';
 	
 -- MAYA
 UPDATE Civilizations SET ArtStyleSuffix = "_MAYA" WHERE Type = 'CIVILIZATION_MAYA';
@@ -372,11 +372,11 @@ INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType'
 -- POLAND
 UPDATE Civilizations SET ArtStyleSuffix = "_POLAND" WHERE Type = 'CIVILIZATION_POLAND';
 INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
-	SELECT	REPLACE("Type", '_EURO', '_POLAND'), "DamageStates", "Formation"
-	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_EURO';
+	SELECT	REPLACE("Type", '_EASTEU', '_POLAND'), "DamageStates", "Formation"
+	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_EASTEU';
 INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
-	SELECT	REPLACE("UnitInfoType", '_EURO', '_POLAND'), "UnitMemberInfoType", "NumMembers"
-	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_EURO';
+	SELECT	REPLACE("UnitInfoType", '_EASTEU', '_POLAND'), "UnitMemberInfoType", "NumMembers"
+	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_EASTEU';
 	
 -- PORTUGAL
 UPDATE Civilizations SET ArtStyleSuffix = "_PORTUGAL" WHERE Type = 'CIVILIZATION_PORTUGAL';
@@ -428,29 +428,105 @@ INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType'
 -- Minor Civs
 --------------------------------------------------------------------------------------------------------------------------------------
 
--- ANTWERP
-UPDATE MinorCivilizations SET ArtStyleSuffix = "_SWEDEN" WHERE Type = 'MINOR_CIV_ANTWERP';
+-- BELGIUM (Antwerp, Brussels)
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_BELGIUM" WHERE Type = 'MINOR_CIV_ANTWERP';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_BELGIUM" WHERE Type = 'MINOR_CIV_BRUSSELS';
 INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
-	SELECT	REPLACE("Type", '_EURO', '_ANTWERP'), "DamageStates", "Formation"
+	SELECT	REPLACE("Type", '_EURO', '_BELGIUM'), "DamageStates", "Formation"
 	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_EURO';
 INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
-	SELECT	REPLACE("UnitInfoType", '_EURO', '_ANTWERP'), "UnitMemberInfoType", "NumMembers"
+	SELECT	REPLACE("UnitInfoType", '_EURO', '_BELGIUM'), "UnitMemberInfoType", "NumMembers"
 	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_EURO';
-	
--- LISBON
-UPDATE MinorCivilizations SET ArtStyleSuffix = "_LISBON" WHERE Type = 'MINOR_CIV_LISBON';
-INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
-	SELECT	REPLACE("Type", '_MED', '_LISBON'), "DamageStates", "Formation"
-	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_MED';
-INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
-	SELECT	REPLACE("UnitInfoType", '_MED', '_LISBON'), "UnitMemberInfoType", "NumMembers"
-	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_MED';
 
--- GARAMANTES
+-- GARAMANTES [YnAEMP]
 UPDATE MinorCivilizations SET ArtStyleSuffix = "_GARAMANTES" WHERE Type = 'MINOR_CIV_GARAMANTES';
 INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
 	SELECT	REPLACE("Type", '_MIDEAST', '_GARAMANTES'), "DamageStates", "Formation"
 	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_MIDEAST';
 INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
 	SELECT	REPLACE("UnitInfoType", '_MIDEAST', '_GARAMANTES'), "UnitMemberInfoType", "NumMembers"
-	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_MIDEAST';	
+	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_MIDEAST';
+
+-- MILAN [just re-using VENICE]
+--UPDATE MinorCivilizations SET ArtStyleSuffix = "_MILAN" WHERE Type = 'MINOR_CIV_MILAN';
+--INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
+--	SELECT	REPLACE("Type", '_MED', '_MILAN'), "DamageStates", "Formation"
+--	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_MED';
+--INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
+--	SELECT	REPLACE("UnitInfoType", '_MED', '_MILAN'), "UnitMemberInfoType", "NumMembers"
+--	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_MED';
+
+-- MOGADISHU
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_MOGADISHU" WHERE Type = 'MINOR_CIV_MOGADISHU';
+INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
+	SELECT	REPLACE("Type", '_AFRI', '_MOGADISHU'), "DamageStates", "Formation"
+	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_AFRI';
+INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
+	SELECT	REPLACE("UnitInfoType", '_AFRI', '_MOGADISHU'), "UnitMemberInfoType", "NumMembers"
+	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_AFRI';
+
+-- MOMBASA
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_MOMBASA" WHERE Type = 'MINOR_CIV_MOMBASA';
+INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
+	SELECT	REPLACE("Type", '_AFRI', '_MOMBASA'), "DamageStates", "Formation"
+	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_AFRI';
+INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
+	SELECT	REPLACE("UnitInfoType", '_AFRI', '_MOMBASA'), "UnitMemberInfoType", "NumMembers"
+	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_AFRI';
+
+-- PHOENICIA (Byblos, Sidon, Tyre)
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_PHOENICIA" WHERE Type = 'MINOR_CIV_BYBLOS';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_PHOENICIA" WHERE Type = 'MINOR_CIV_SIDON';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_PHOENICIA" WHERE Type = 'MINOR_SIDON';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_PHOENICIA" WHERE Type = 'MINOR_CIV_TYRE';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_PHOENICIA" WHERE Type = 'MINOR_TYRE';
+INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
+	SELECT	REPLACE("Type", '_MIDEAST', '_PHOENICIA'), "DamageStates", "Formation"
+	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_MIDEAST';
+INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
+	SELECT	REPLACE("UnitInfoType", '_MIDEAST', '_PHOENICIA'), "UnitMemberInfoType", "NumMembers"
+	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_MIDEAST';
+
+-- SWITZERLAND (Geneva, Zurich)
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_SWISS" WHERE Type = 'MINOR_CIV_GENEVA';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_SWISS" WHERE Type = 'MINOR_CIV_ZURICH';
+INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
+	SELECT	REPLACE("Type", '_EURO', '_SWISS'), "DamageStates", "Formation"
+	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_EURO';
+INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
+	SELECT	REPLACE("UnitInfoType", '_EURO', '_SWISS'), "UnitMemberInfoType", "NumMembers"
+	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_EURO';
+
+-- VATICAN CITY
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_VATICAN_CITY" WHERE Type = 'MINOR_CIV_VATICAN_CITY';
+INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
+	SELECT	REPLACE("Type", '_MED', '_VATICAN_CITY'), "DamageStates", "Formation"
+	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_MED';
+INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
+	SELECT	REPLACE("UnitInfoType", '_MED', '_VATICAN_CITY'), "UnitMemberInfoType", "NumMembers"
+	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_MED';
+
+-- Reuse major civ's units
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_HUNS" WHERE Type = 'MINOR_CIV_ALMATY';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_ROME" WHERE Type = 'MINOR_CIV_FLORENCE';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_ROME" WHERE Type = 'MINOR_CIV_GENOA';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_CHINA" WHERE Type = 'MINOR_CIV_HONG_KONG';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_HUNS" WHERE Type = 'MINOR_CIV_KYZYL';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_CHINA" WHERE Type = 'MINOR_CIV_LHASA';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_VENICE" WHERE Type = 'MINOR_CIV_MILAN';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_FRANCE" WHERE Type = 'MINOR_CIV_MONACO';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_GERMANY" WHERE Type = 'MINOR_CIV_WITTENBERG';
+-- Reuse major civ's units (Vanilla and G+K only)
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_CELTS" WHERE Type = 'MINOR_CIV_DUBLIN';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_CELTS" WHERE Type = 'MINOR_CIV_EDINBURGH';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_SWEDEN" WHERE Type = 'MINOR_CIV_HELSINKI';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_INDONESIA" WHERE Type = 'MINOR_CIV_JAKARTA';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_MOROCCO" WHERE Type = 'MINOR_CIV_MARRAKECH';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_PORTUGAL" WHERE Type = 'MINOR_CIV_LISBON';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_DENMARK" WHERE Type = 'MINOR_CIV_OSLO';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_BRAZIL" WHERE Type = 'MINOR_CIV_RIO_DE_JANEIRO';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_KOREA" WHERE Type = 'MINOR_CIV_SEOUL';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_SWEDEN" WHERE Type = 'MINOR_CIV_STOCKHOLM';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_ROME" WHERE Type = 'MINOR_CIV_VENICE';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_AUSTRIA" WHERE Type = 'MINOR_CIV_VIENNA';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_POLAND" WHERE Type = 'MINOR_CIV_WARSAW';

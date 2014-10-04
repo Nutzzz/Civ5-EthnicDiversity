@@ -151,6 +151,7 @@ UPDATE ArtDefine_UnitInfos SET Formation = 'Nelson' WHERE Type = 'ART_DEF_UNIT_F
 UPDATE ArtDefine_UnitMemberInfos SET Scale = 0.10 WHERE Type = 'ART_DEF_UNIT_MEMBER_GALLEON';
 UPDATE ArtDefine_UnitInfoMemberInfos SET NumMembers = 3 WHERE UnitMemberInfoType = 'ART_DEF_UNIT_MEMBER_GALLEON';
 UPDATE ArtDefine_UnitInfos SET Formation = 'Flotilla' WHERE Type = 'ART_DEF_UNIT_GALLEON';
+UPDATE ArtDefine_UnitMemberInfos SET Model = 'euro_galleon.fxsxml' WHERE Type = 'ART_DEF_UNIT_MEMBER_GALLEON';
 
 -- GALLEY
 UPDATE ArtDefine_UnitMemberInfos SET Scale = 0.10 WHERE Type = 'ART_DEF_UNIT_MEMBER_GALLEY';
@@ -590,7 +591,7 @@ UPDATE ArtDefine_UnitInfoMemberInfos SET NumMembers = 18 WHERE UnitMemberInfoTyp
 UPDATE ArtDefine_UnitMemberInfos SET Scale = 0.098 WHERE Type = 'ART_DEF_UNIT_MEMBER_U_DANISH_BERSERKER';
 UPDATE ArtDefine_UnitInfoMemberInfos SET NumMembers = 18 WHERE UnitMemberInfoType = 'ART_DEF_UNIT_MEMBER_U_DANISH_BERSERKER';
 
--- DANISH SKY INFANTRY
+-- DANISH SKI INFANTRY
 UPDATE ArtDefine_UnitMemberInfos SET Scale = 0.087 WHERE Type = 'ART_DEF_UNIT_MEMBER_U_DANISH_SKY_INFANTRY';
 UPDATE ArtDefine_UnitInfoMemberInfos SET NumMembers = 19 WHERE UnitMemberInfoType = 'ART_DEF_UNIT_MEMBER_U_DANISH_SKY_INFANTRY';
 
@@ -730,9 +731,10 @@ UPDATE ArtDefine_UnitInfoMemberInfos SET NumMembers = 18 WHERE UnitMemberInfoTyp
 -- WW1 TANK
 UPDATE ArtDefine_UnitMemberInfos SET Scale = 0.12 WHERE Type = 'ART_DEF_UNIT_MEMBER_WW1_TANK';
 
--- WW2 INFANTRY
+-- WW2 INFANTRY [unused; R.E.D. goes back to using ART_DEF_UNIT_INFANTRY instead]
 UPDATE ArtDefine_UnitMemberInfos SET Scale = 0.09 WHERE Type = 'ART_DEF_UNIT_MEMBER_WW2_INFANTRY';
 UPDATE ArtDefine_UnitInfoMemberInfos SET NumMembers = 18 WHERE UnitMemberInfoType = 'ART_DEF_UNIT_MEMBER_WW2_INFANTRY';
+UPDATE ArtDefine_UnitMemberInfos SET Model = 'Infantry_Generic.fxsxml' WHERE Type = 'ART_DEF_UNIT_MEMBER_WW2_INFANTRY';
 
 -- GATLINGGUN
 UPDATE ArtDefine_UnitMemberInfos SET Scale = 0.085 WHERE Type = 'ART_DEF_UNIT_MEMBER_GATLINGGUN';

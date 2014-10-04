@@ -20,14 +20,11 @@ SELECT	'FRANCE',		'FRANCE',			'Archer_France.fxsxml',				'ART_DEF_UNIT_ARCHER',	
 --SELECT	'FRANCE',		'FRANCE',			'unit_model_name',				'ART_DEF_UNIT_ATOMIC_BOMB',			'ART_DEF_UNIT_MEMBER_ATOMICBOMB',					0,				NULL,			0		UNION ALL
 SELECT	'FRANCE',		'FRANCE',			'Richelieu_Class.fxsxml',			'ART_DEF_UNIT_BATTLESHIP',			'ART_DEF_UNIT_MEMBER_BATTLESHIP',					0,				NULL,			0		UNION ALL
 SELECT	'FRANCE',		'FRANCE',				'Amiot_350.fxsxml',				'ART_DEF_UNIT_BOMBER',				'ART_DEF_UNIT_MEMBER_BOMBER',						0,				NULL,			0		UNION ALL
---SELECT	'FRANCE',		'FRANCE',			'unit_model_name',				'ART_DEF_UNIT_CANNON',				'ART_DEF_UNIT_MEMBER_CANNON',						0,				NULL,			0		UNION ALL
+SELECT	'FRANCE',		'FRANCE',			'NapoleonCannon.fxsxml',			'ART_DEF_UNIT_CANNON',				'ART_DEF_UNIT_MEMBER_CANNON',						0,				NULL,			0		UNION ALL
 --SELECT	'FRANCE',		'FRANCE',			'unit_model_name',				'ART_DEF_UNIT_CARAVEL',				'ART_DEF_UNIT_MEMBER_CARAVEL',						0,				NULL,			0		UNION ALL
 SELECT	'FRANCE',		'FRANCE',			'Joffre_Class.fxsxml',				'ART_DEF_UNIT_CARRIER',				'ART_DEF_UNIT_MEMBER_CARRIER',						0,				NULL,			0		UNION ALL
 --SELECT	'FRANCE',		'FRANCE',			'unit_model_name',				'ART_DEF_UNIT_CATAPULT',			'ART_DEF_UNIT_MEMBER_CATAPULT',						0,				NULL,			0		UNION ALL
-
--- special case, use Lancer melee attack, not cavalry ranged...
-SELECT	'FRANCE',		'FRANCE_CVL',			'frecu1.fxsxml',				'ART_DEF_UNIT_CAVALRY',				'ART_DEF_UNIT_MEMBER_LANCER',						0,				NULL,			0		UNION ALL
-
+SELECT	'FRANCE',		'FRANCE',				'freca1.fxsxml',				'ART_DEF_UNIT_CAVALRY',				'ART_DEF_UNIT_MEMBER_CAVALRY',						0,				NULL,			0		UNION ALL
 --SELECT	'FRANCE',		'FRANCE',			'unit_model_name',				'ART_DEF_UNIT_CHARIOT_ARCHER',		'ART_DEF_UNIT_MEMBER_CHARIOTARCHER',				0,				NULL,			0		UNION ALL
 SELECT	'FRANCE',		'FRANCE',			'Longbowman_France.fxsxml',			'ART_DEF_UNIT_CROSSBOWMAN',			'ART_DEF_UNIT_MEMBER_CROSSBOWMAN',					0,				NULL,			0		UNION ALL
 SELECT	'FRANCE',		'FRANCE',			'Fantasque_Class.fxsxml',			'ART_DEF_UNIT_DESTROYER',			'ART_DEF_UNIT_MEMBER_DESTROYER',					0,				NULL,			0		UNION ALL
@@ -114,7 +111,7 @@ SELECT	'FRANCE',		'FRANCE_V2',		'FrankWarrior.fxsxml',				'ART_DEF_UNIT__WARRIOR
 --SELECT	'FRANCE',		'FRANCE',			'unit_model_name',				'ART_DEF_UNIT__WORKER',				'ART_DEF_UNIT_MEMBER_WORKER_EURO',					0,				NULL,			0		UNION ALL
 --SELECT	'FRANCE',		'FRANCE',			'unit_model_name',				'ART_DEF_UNIT__WORKER_LATE',		'ART_DEF_UNIT_MEMBER_WORKER_EURO_LATE',				0,				NULL,			0		UNION ALL
 --SELECT	'FRANCE',		'FRANCE',			'unit_model_name',				'ART_DEF_UNIT__SETTLER',			'ART_DEF_UNIT_MEMBER_EUROMALE45',					0,				NULL,			0		UNION ALL
---SELECT	'FRANCE',		'FRANCE',			'unit_model_name',				'ART_DEF_UNIT_GALLEON',				'ART_DEF_UNIT_MEMBER_GALLEON',						0,				NULL,			0		UNION ALL
+SELECT	'FRANCE',		'FRANCE',			'french_galleon.fxsxml',			'ART_DEF_UNIT_GALLEON',				'ART_DEF_UNIT_MEMBER_GALLEON',						0,				NULL,			0		UNION ALL
 --SELECT	'FRANCE',		'FRANCE',			'unit_model_name',				'ART_DEF_UNIT_SS_BOOSTER',			'ART_DEF_UNIT_MEMBER_SS_BOOSTER',					0,				NULL,			0		UNION ALL
 --SELECT	'FRANCE',		'FRANCE',			'unit_model_name',				'ART_DEF_UNIT_SS_CAPSULE',			'ART_DEF_UNIT_MEMBER_SS_CAPSULE',					0,				NULL,			0		UNION ALL
 --SELECT	'FRANCE',		'FRANCE',			'unit_model_name',				'ART_DEF_UNIT_SS_ENGINE',			'ART_DEF_UNIT_MEMBER_SS_ENGINE',					0,				NULL,			0		UNION ALL
@@ -140,7 +137,9 @@ SELECT	'FRANCE',		'FRANCE',		'Composite_Bowman_France.fxsxml',		'ART_DEF_UNIT_CO
 --SELECT	'FRANCE',		'FRANCE',			'unit_model_name',				'ART_DEF_UNIT_WW1_BOMBER',			'ART_DEF_UNIT_MEMBER_WW1_BOMBER',					0,				NULL,			0		UNION ALL	
 SELECT	'FRANCE',		'FRANCE',			'Nieuport_17.fxsxml',				'ART_DEF_UNIT_WW1_FIGHTER',			'ART_DEF_UNIT_MEMBER_WW1_FIGHTER',					0,				NULL,			0		UNION ALL	
 SELECT	'FRANCE',		'FRANCE',				'fregw1.fxsxml',				'ART_DEF_UNIT_WW1_INFANTRY',		'ART_DEF_UNIT_MEMBER_WW1_INFANTRY',					0,				NULL,			0		UNION ALL	
-SELECT	'FRANCE',		'FRANCE',			'Renault_FT-17.fxsxml',				'ART_DEF_UNIT_WW1_TANK',			'ART_DEF_UNIT_MEMBER_WW1_TANK',						4,			'FourBigGuns',		0.11	UNION ALL	
---SELECT	'FRANCE',		'FRANCE',			'unit_model_name',				'ART_DEF_UNIT_WW2_INFANTRY',		'ART_DEF_UNIT_MEMBER_WW2_INFANTRY',					0,				NULL,			0		UNION ALL
+SELECT	'FRANCE',		'FRANCE',			'Renault_FT-17.fxsxml',				'ART_DEF_UNIT_WW1_TANK',			'ART_DEF_UNIT_MEMBER_WW1_TANK',						1,			'FourBigGuns',		0.11	UNION ALL	
+SELECT	'FRANCE',		'FRANCE_V2',		'RenaultFTFrance1.fxsxml',			'ART_DEF_UNIT_WW1_TANK',			'ART_DEF_UNIT_MEMBER_WW1_TANK',						2,			'FourBigGuns',		0.11	UNION ALL	
+SELECT	'FRANCE',		'FRANCE_V3',		'RenaultFTFrance2.fxsxml',			'ART_DEF_UNIT_WW1_TANK',			'ART_DEF_UNIT_MEMBER_WW1_TANK',						1,			'FourBigGuns',		0.11	UNION ALL	
+--SELECT	'FRANCE',		'FRANCE',			'unit_model_name',				'ART_DEF_UNIT_XCOM_SQUAD',			'ART_DEF_UNIT_MEMBER_XCOM_SQUAD',					0,				NULL,			0		UNION ALL	
 
 SELECT	'END_OF_INSERT',		NULL,			NULL,							NULL,								NULL,											NULL,				NULL,			NULL;

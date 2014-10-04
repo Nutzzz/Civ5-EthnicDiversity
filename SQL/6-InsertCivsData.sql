@@ -139,3 +139,33 @@ UPDATE ArtDefine_UnitInfoMemberInfos SET UnitInfoType='ART_DEF_UNIT_U_JAPANESE_S
 -- Greece UU --------------------------------------------------------------------------------------------------------------------------------------
 UPDATE ArtDefine_UnitInfoMemberInfos SET UnitInfoType='ART_DEF_UNIT_U_GREEK_HOPLITE' WHERE UnitInfoType='ART_DEF_UNIT_U_GREEK_HOPLITE_TEMP';
 ---------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- Almaty/Kyzyl East Asian Settlers with Donkey ---------------------------------------------------------------------------------------------------
+UPDATE ArtDefine_UnitInfoMemberInfos SET UnitMemberInfoType='ART_DEF_UNIT_MEMBER_EURODONKEY'
+	WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_CENTAS' AND UnitMemberInfoType='ART_DEF_UNIT_MEMBER_SETTLERS_ASIAN_OX';
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- Huns East Asian Settlers with Donkey -----------------------------------------------------------------------------------------------------------
+UPDATE ArtDefine_UnitInfoMemberInfos SET UnitMemberInfoType='ART_DEF_UNIT_MEMBER_EURODONKEY'
+	WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_HUNS' AND UnitMemberInfoType='ART_DEF_UNIT_MEMBER_SETTLERS_ASIAN_OX';
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- Ottoman Middle Eastern Settlers with Donkey ----------------------------------------------------------------------------------------------------
+DELETE FROM ArtDefine_UnitInfoMemberInfos WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_OTTOMAN';
+INSERT INTO ArtDefine_UnitInfoMemberInfos (UnitInfoType, UnitMemberInfoType, NumMembers)
+	SELECT 'ART_DEF_UNIT__SETTLER_OTTOMAN', UnitMemberInfoType, NumMembers
+	FROM ArtDefine_UnitInfoMemberInfos
+	WHERE UnitInfoType = 'ART_DEF_UNIT__SETTLER_AFRI';
+UPDATE ArtDefine_UnitInfoMemberInfos SET UnitMemberInfoType='ART_DEF_UNIT_MEMBER_EURODONKEY'
+	WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_OTTOMAN' AND UnitMemberInfoType='ART_DEF_UNIT_MEMBER_AFRICAMEL';
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- Polynesia Amerindian Settlers with Donkey ------------------------------------------------------------------------------------------------------
+DELETE FROM ArtDefine_UnitInfoMemberInfos WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_POLYNESIA';
+INSERT INTO ArtDefine_UnitInfoMemberInfos (UnitInfoType, UnitMemberInfoType, NumMembers)
+	SELECT 'ART_DEF_UNIT__SETTLER_POLYNESIA', UnitMemberInfoType, NumMembers
+	FROM ArtDefine_UnitInfoMemberInfos
+	WHERE UnitInfoType = 'ART_DEF_UNIT__SETTLER_AMER';
+UPDATE ArtDefine_UnitInfoMemberInfos SET UnitMemberInfoType='ART_DEF_UNIT_MEMBER_EURODONKEY'
+	WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_POLYNESIA' AND UnitMemberInfoType='ART_DEF_UNIT_MEMBER_AMERLLAMA';
+---------------------------------------------------------------------------------------------------------------------------------------------------

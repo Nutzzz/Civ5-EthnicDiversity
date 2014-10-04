@@ -32,7 +32,7 @@
 	<Animation file="Tank_DeathB.gr2" ec="2200"/>
 	<Animation file="Tank_DeathB_Idle.gr2" ec="2220"/>
 	<Texture file="Marder_diff.dds"/>
-	<Texture file="Marder_sref.dds"/>
+	<Texture file="no_gloss.dds"/>
 	<AnimGraph file="EDITED_AIM_FORTIFY_GRAPH.dge"/>
 	<AnimGraph file="EDITED_AIM_IDLE_GRAPH.dge"/>
 	<AnimGraph file="EDITED_AIM_MELEE_ATTACKS.dge"/>

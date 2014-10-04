@@ -30,7 +30,7 @@ SELECT	'AZTEC',		'AZTEC',			'Longbowman_Aztec.fxsxml',			'ART_DEF_UNIT_CROSSBOWM
 --SELECT	'AZTEC',		'AZTEC',			'unit_model_name',				'ART_DEF_UNIT_DESTROYER',			'ART_DEF_UNIT_MEMBER_DESTROYER',					0,				NULL,			0		UNION ALL
 --SELECT	'AZTEC',		'AZTEC',			'unit_model_name',				'ART_DEF_UNIT_FIGHTER',				'ART_DEF_UNIT_MEMBER_FIGHTER',						0,				NULL,			0		UNION ALL
 --SELECT	'AZTEC',		'AZTEC',			'unit_model_name',				'ART_DEF_UNIT_FRIGATE',				'ART_DEF_UNIT_MEMBER_FRIGATE',						0,				NULL,			0		UNION ALL
---SELECT	'AZTEC',		'AZTEC',			'unit_model_name',				'ART_DEF_UNIT_GALLEY',				'ART_DEF_UNIT_MEMBER_GALLEY',						0,				NULL,			0		UNION ALL
+SELECT	'AZTEC',		'AZTEC',			'andes_cargo_ship.fxsxml',			'ART_DEF_UNIT_GALLEY',				'ART_DEF_UNIT_MEMBER_GALLEY',						0,				NULL,			0		UNION ALL
 --SELECT	'AZTEC',		'AZTEC',			'unit_model_name',				'ART_DEF_UNIT_GUIDED_MISSILE',		'ART_DEF_UNIT_MEMBER_GUIDEDMISSILE',				0,				NULL,			0		UNION ALL
 SELECT	'AZTEC',		'AZTEC',				'Mi8Mexico.fxsxml',				'ART_DEF_UNIT_HELICOPTER_GUNSHIP',	'ART_DEF_UNIT_MEMBER_HELICOPTERGUNSHIP',			0,				NULL,			0		UNION ALL
 SELECT	'AZTEC',		'AZTEC',			'Horseman_Aztec.fxsxml',			'ART_DEF_UNIT_HORSEMAN',			'ART_DEF_UNIT_MEMBER_HORSEMAN',						0,				NULL,			0		UNION ALL
@@ -112,6 +112,6 @@ SELECT	'AZTEC',		'AZTEC',		'Composite_Bowman_Aztec.fxsxml',		'ART_DEF_UNIT_COMPO
 --SELECT	'AZTEC',		'AZTEC',			'unit_model_name',				'ART_DEF_UNIT_WW1_FIGHTER',			'ART_DEF_UNIT_MEMBER_WW1_FIGHTER',					0,				NULL,			0		UNION ALL	
 --SELECT	'AZTEC',		'AZTEC',			'unit_model_name',				'ART_DEF_UNIT_WW1_INFANTRY',		'ART_DEF_UNIT_MEMBER_WW1_INFANTRY',					0,				NULL,			0		UNION ALL	
 --SELECT	'AZTEC',		'AZTEC',			'unit_model_name',				'ART_DEF_UNIT_WW1_TANK',			'ART_DEF_UNIT_MEMBER_WW1_TANK',						0,				NULL,			0		UNION ALL	
---SELECT	'AZTEC',		'AZTEC',			'unit_model_name',				'ART_DEF_UNIT_WW2_INFANTRY',		'ART_DEF_UNIT_MEMBER_WW2_INFANTRY',					0,				NULL,			0		UNION ALL
+--SELECT	'AZTEC',		'AZTEC',			'unit_model_name',				'ART_DEF_UNIT_XCOM_SQUAD',			'ART_DEF_UNIT_MEMBER_XCOM_SQUAD',					0,				NULL,			0		UNION ALL	
 
 SELECT	'END_OF_INSERT',		NULL,			NULL,							NULL,								NULL,											NULL,				NULL,			NULL;

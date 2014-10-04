@@ -9,7 +9,7 @@
 	<Animation file="JetFighter_DeathB.gr2" ec="2200"/>
 	<Animation file="JetFighter_DeathB_Idle.gr2" ec="2220"/>
 	<Texture file="Rafale_diff.dds"/>
-	<Texture file="Rafale_sref.dds"/>
+	<Texture file="no_gloss.dds"/>
 	<Texture file="Unit_Environment_Dull.dds"/>
 	<Texture file="Unit_Environment_Sharp.dds"/>
 	<Texture file="Unit_Irradiance.dds"/>

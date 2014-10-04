@@ -74,7 +74,7 @@ SELECT	'ASIA',		'ASIA',			'Swordsman_China.fxsxml',			'ART_DEF_UNIT_SWORDSMAN',	
 --SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT__WORKER',				'ART_DEF_UNIT_MEMBER_WORKER_EURO',					0,				NULL,			0		UNION ALL
 --SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT__WORKER_LATE',		'ART_DEF_UNIT_MEMBER_WORKER_EURO_LATE',				0,				NULL,			0		UNION ALL
 --SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT__SETTLER',			'ART_DEF_UNIT_MEMBER_EUROMALE45',					0,				NULL,			0		UNION ALL
---SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT_GALLEON',				'ART_DEF_UNIT_MEMBER_GALLEON',						0,				NULL,			0		UNION ALL
+SELECT	'ASIA',		'ASIA',				'WarJunk.fxsxml',				'ART_DEF_UNIT_GALLEON',				'ART_DEF_UNIT_MEMBER_GALLEON',						0,				NULL,			0		UNION ALL
 --SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT_SS_BOOSTER',			'ART_DEF_UNIT_MEMBER_SS_BOOSTER',					0,				NULL,			0		UNION ALL
 --SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT_SS_CAPSULE',			'ART_DEF_UNIT_MEMBER_SS_CAPSULE',					0,				NULL,			0		UNION ALL
 --SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT_SS_ENGINE',			'ART_DEF_UNIT_MEMBER_SS_ENGINE',					0,				NULL,			0		UNION ALL
@@ -93,7 +93,9 @@ SELECT	'ASIA',		'ASIA',			'Composite_Bowman_China.fxsxml',	'ART_DEF_UNIT_COMPOSI
 --SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT_GALLEASS',			'ART_DEF_UNIT_MEMBER_GALLEASS',						0,				NULL,			0		UNION ALL	
 --SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT_GATLINGGUN',			'ART_DEF_UNIT_MEMBER_GATLINGGUN',					0,				NULL,			0		UNION ALL	
 --SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT_GREAT_PROPHET',		'ART_DEF_UNIT_MEMBER_GREAT_PROPHET',				0,				NULL,			0		UNION ALL	
---SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT_MISSIONARY',			'ART_DEF_UNIT_MEMBER_MISSIONARY',					0,				NULL,			0		UNION ALL	
+SELECT	'ASIA',		'ASIA',			'buddhist_missionary.fxsxml',		'ART_DEF_UNIT_MISSIONARY',			'ART_DEF_UNIT_MEMBER_MISSIONARY',					0,				NULL,			0		UNION ALL	
+SELECT	'ASIA',		'ASIA_01',		'buddhist_missionary_01.fxsxml',	'ART_DEF_UNIT_MISSIONARY',			'ART_DEF_UNIT_MEMBER_MISSIONARY_01',				0,				NULL,			0		UNION ALL	
+SELECT	'ASIA',		'ASIA_02',		'buddhist_missionary_02.fxsxml',	'ART_DEF_UNIT_MISSIONARY',			'ART_DEF_UNIT_MEMBER_MISSIONARY_02',				0,				NULL,			0		UNION ALL	
 --SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT_INQUISITOR',			'ART_DEF_UNIT_MEMBER_INQUISITOR',					0,				NULL,			0		UNION ALL	
 --SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT_XP_PRIVATEER',		'ART_DEF_UNIT_MEMBER_XP_PRIVATEER',					0,				NULL,			0		UNION ALL	
 --SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT_MARINE',				'ART_DEF_UNIT_MEMBER_MARINE',						0,				NULL,			0		UNION ALL	
@@ -101,6 +103,6 @@ SELECT	'ASIA',		'ASIA',			'Composite_Bowman_China.fxsxml',	'ART_DEF_UNIT_COMPOSI
 --SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT_WW1_FIGHTER',			'ART_DEF_UNIT_MEMBER_WW1_FIGHTER',					0,				NULL,			0		UNION ALL	
 --SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT_WW1_INFANTRY',		'ART_DEF_UNIT_MEMBER_WW1_INFANTRY',					0,				NULL,			0		UNION ALL	
 --SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT_WW1_TANK',			'ART_DEF_UNIT_MEMBER_WW1_TANK',						0,				NULL,			0		UNION ALL	
---SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT_WW2_INFANTRY',		'ART_DEF_UNIT_MEMBER_WW2_INFANTRY',					0,				NULL,			0		UNION ALL
+--SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT_XCOM_SQUAD',			'ART_DEF_UNIT_MEMBER_XCOM_SQUAD',					0,				NULL,			0		UNION ALL	
 
 SELECT	'END_OF_INSERT',		NULL,			NULL,							NULL,								NULL,											NULL,				NULL,			NULL;

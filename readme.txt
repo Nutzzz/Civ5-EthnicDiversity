@@ -31,13 +31,13 @@ Fix for fighter propeller and archer arrow positions (optional) :
 
 
 	-- Compatibility --
-
+...
 
 
 
 	-- Credits and Thanks --
 
-- danrell, bernie14, JTitan, Patum33, snafusmith, asioasioasio, Coffee Junkie, nautil, Nuvoloblu, Oleg153, Rabbit White, Splinter13, Generalmatt and all other unit makers for the models and conversions
+- danrell, bernie14, Wolfdog, JTitan, snafusmith, Patum33, asioasioasio, Coffee Junkie, nautil, Nuvoloblu, Oleg153, Rabbit White, Splinter13, Generalmatt and all other unit makers for the models and conversions
 - RTW unit makers that have allowed conversion of their models to Civ5
 - seZereth and Porges, who created the initial regiment mod for Civ4
 - Pazyryk for SQL corrections
@@ -47,19 +47,40 @@ Fix for fighter propeller and archer arrow positions (optional) :
 
 	-- Version History --
 	
-v.28 (Oct xx, 2013):
-- add Wolfdog's conversion of KrugerPritz's A129 Mangusta (helicopter gunship) for Rome
-- add Wolfdog's conversion of KrugerPritz and Nikko's Dardo IFV (mechanized infantry) for Rome
+v.28 (Sep 5, 2014):
+- reduced texture sizes and removed extraneous specular textures (reduces mod size from 200MB to 120MB)
+- embarked unit diversity using Wolfdog's conversion of GeneralMatt's War Junk, hangman's conversion of Chuggi's Andean Cargo Ship, and Nutty's versions of JustATourist's galleon reskins
+- Venice and Milan city state now re-use Roman units starting in the Medieval era; other city states re-use units of related major civs
+- new general suffix types for Eastern Europe (Russia, Poland, and city states with Slavic influence) and Central Asia (Huns, Ottomans, and city states with Turkic influence)
+- donkeys given to Ottoman, Hun, and Polynesian settlers instead of camels or oxen
+- add bernie14's longswordsmen for Portugal, Venice, and Vatican City city state
+- add Civitar & Nutty's Reislaufer [anachronistic] Swiss guard (pikeman) for city state Vatican City
+- add hangman's conversion of the Buddhist missionary for Asian civs
+- add Patum333's Netherlands archer (composite bowman)
+- add Snafusmith's P-40 Warhawk (fighter) for Brazil
+- add Snafusmith's Renault FT (WWI tank) for Brazil, central European city states, and additional members for France
+- add Wolfdog's conversion of Bakuel's Streltsy (musketmen) for Russia
+- add Wolfdog's conversion of bernie14's Napoleonic French infantry for French Cannon crew
+- add Wolfdog's conversion of bernie14's Sioux knight for Shoshone
 - add Wolfdog's conversion of dutchking's ML-20 Howitzer (artillery) for Russia
-- add Wolfdog's conversion of Snafusmith's Los Angeles class nuclear submarine for America
-- add Wolfdog's conversion of Refar's Astute class nuclear submarine for England
-- add Wolfdog's conversion of TheCoyote's Akula class nuclear submarine for Russia
-	
+- add Wolfdog's conversion of Gagonite's Arquebusier (musketman) for Austria, Poland, and central European city states
+- add Wolfdog's conversion of KrugerPritz's A129 Mangusta (helicopter gunship) for Rome (Italy)
+- add Wolfdog's conversion of KrugerPritz & Nikko's Ariete MBT (modern armor) for Rome (Italy)
+- add Wolfdog's conversion of KrugerPritz & Nikko's Dardo IFV (mechanized infantry) for Rome (Italy)
+- add Wolfdog's conversion of Refar's Astute class (nuclear submarine) for England
+- add Wolfdog's conversion of Snafusmith's Los Angeles class (nuclear submarine) for America
+- add Wolfdog's conversion of TheCoyote's Akula class (nuclear submarine) for Russia
+- add Wolfdog's conversion of Zever's Royal Marine commando for England
+- add zwei833's conversion of the Realism: Invictus musketman for Germany (HRE)
+- update bernie14's French and German cavalry
+- add ProtectedBigGun formation for the Indian Civ Pack
+- fix some specular textures to reduce excess "shininess" of some units
+
 v.27 (Jul 12, 2013):
 - set scale for all BNW units
 - set continental art-styles for units of all Brave New World civilizations and new CS's
 - add (and replace) Snafusmith's T-55 (modern armor) for African continent (tan TC), China, Egypt, Ethiopia, Inca (Peru), Mongol, Songhai (Mali)
-- add Wolfdog's conversion of TheCoyote's and Bernie14's Tiger (helicopter gunship) for Austria, France, Germany, Netherlands, Rome (Italy), Spain, Sweden
+- add Wolfdog's conversion of TheCoyote & Bernie14's Tiger (helicopter gunship) for Austria, France, Germany, Netherlands, Rome (Italy), Spain, Sweden
 - add Wolfdog's conversion of the Rafale (jet fighter) for France
 - add Wolfdog's conversion of Snafusmith's Char Leclerc (modern armor) for France
 - add Wolfdog's conversion of Snafusmith's Marder IFV (mechanized infantry) for Germany
@@ -543,7 +564,7 @@ Launch Steam, then Civ5, and subscribe again from ingame.
 [b]Credits and Thanks[/b]
 ==============================================================================
 
-- danrell, bernie14, Patum33, JTitan, snafusmith, asioasioasio, Coffee Junkie, nautil, Nuvoloblu, Oleg153, Rabbit White, Splinter13 for the units models and conversion,
+- danrell, bernie14, Wolfdog, JTitan, snafusmith, Patum33, asioasioasio, Coffee Junkie, nautil, Nuvoloblu, Oleg153, Rabbit White, Splinter13 for the units models and conversion,
 RTW unit makers that have allowed conversion of their models to Civ5
 - seZereth and Porges who've done the initial regiment mod for Civ4,
 - Pazyryk for SQL tutorials,

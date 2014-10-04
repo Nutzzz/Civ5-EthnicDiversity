@@ -35,7 +35,7 @@
 	<Texture file="Unit_Environment_Sharp.dds"/>
 	<Texture file="Unit_Irradiance.dds"/>
 	<Texture file="ararm1.dds"/>
-	<Texture file="ararm1_sref.dds"/>
+	<Texture file="no_gloss.dds"/>
 	<AnimGraph file="RUN_CHARGE_SHUFFLE_TO_SHUFFLE_RUN_CHARGE.dge"/>
 	<AnimGraph file="IDLE_OFFSET_CONTINUE_TRUE_GRAPH.dge"/>
 	<AnimGraph file="FORTIFY_FIDGET_GRAPH.dge"/>

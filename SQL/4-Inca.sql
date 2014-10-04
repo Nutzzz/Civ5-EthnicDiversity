@@ -34,7 +34,7 @@ SELECT	'INCA',		'INCA',			'Longbowman_Inca.fxsxml',			'ART_DEF_UNIT_CROSSBOWMAN'
 --SELECT	'INCA',		'INCA',			'unit_model_name',				'ART_DEF_UNIT_DESTROYER',			'ART_DEF_UNIT_MEMBER_DESTROYER',					0,				NULL,			0		UNION ALL
 --SELECT	'INCA',		'INCA',			'unit_model_name',				'ART_DEF_UNIT_FIGHTER',				'ART_DEF_UNIT_MEMBER_FIGHTER',						0,				NULL,			0		UNION ALL
 --SELECT	'INCA',		'INCA',			'unit_model_name',				'ART_DEF_UNIT_FRIGATE',				'ART_DEF_UNIT_MEMBER_FRIGATE',						0,				NULL,			0		UNION ALL
---SELECT	'INCA',		'INCA',			'unit_model_name',				'ART_DEF_UNIT_GALLEY',				'ART_DEF_UNIT_MEMBER_GALLEY',						0,				NULL,			0		UNION ALL
+SELECT	'INCA',		'INCA',			'andes_cargo_ship.fxsxml',			'ART_DEF_UNIT_GALLEY',				'ART_DEF_UNIT_MEMBER_GALLEY',						0,				NULL,			0		UNION ALL
 --SELECT	'INCA',		'INCA',			'unit_model_name',				'ART_DEF_UNIT_GUIDED_MISSILE',		'ART_DEF_UNIT_MEMBER_GUIDEDMISSILE',				0,				NULL,			0		UNION ALL
 SELECT	'INCA',		'INCA',			'Mi8PlainTeamColor.fxsxml',			'ART_DEF_UNIT_HELICOPTER_GUNSHIP',	'ART_DEF_UNIT_MEMBER_HELICOPTERGUNSHIP',			0,				NULL,			0		UNION ALL
 SELECT	'INCA',		'INCA',			'Horseman_Inca.fxsxml',				'ART_DEF_UNIT_HORSEMAN',			'ART_DEF_UNIT_MEMBER_HORSEMAN',						0,				NULL,			0		UNION ALL
@@ -123,6 +123,6 @@ SELECT	'INCA',		'INCA',		'Composite_Bowman_Inca.fxsxml',			'ART_DEF_UNIT_COMPOSI
 --SELECT	'INCA',		'INCA',			'unit_model_name',				'ART_DEF_UNIT_WW1_FIGHTER',			'ART_DEF_UNIT_MEMBER_WW1_FIGHTER',					0,				NULL,			0		UNION ALL	
 --SELECT	'INCA',		'INCA',			'unit_model_name',				'ART_DEF_UNIT_WW1_INFANTRY',		'ART_DEF_UNIT_MEMBER_WW1_INFANTRY',					0,				NULL,			0		UNION ALL	
 --SELECT	'INCA',		'INCA',			'unit_model_name',				'ART_DEF_UNIT_WW1_TANK',			'ART_DEF_UNIT_MEMBER_WW1_TANK',						0,				NULL,			0		UNION ALL	
---SELECT	'INCA',		'INCA',			'unit_model_name',				'ART_DEF_UNIT_WW2_INFANTRY',		'ART_DEF_UNIT_MEMBER_WW2_INFANTRY',					0,				NULL,			0		UNION ALL
+--SELECT	'INCA',		'INCA',			'unit_model_name',				'ART_DEF_UNIT_XCOM_SQUAD',			'ART_DEF_UNIT_MEMBER_XCOM_SQUAD',					0,				NULL,			0		UNION ALL	
 
 SELECT	'END_OF_INSERT',		NULL,			NULL,							NULL,								NULL,											NULL,				NULL,			NULL;

@@ -32,7 +32,7 @@
 	<Animation file="U_American_Minuteman_DeathA_Idle.gr2" ec="1220"/>
 	<Animation file="U_American_Minuteman_DeathB.gr2" ec="2200"/>
 	<Animation file="U_American_Minuteman_DeathB_Idle.gr2" ec="2220"/>
-	<Texture file="cyborg_128.dds"/>
+	<Texture file="U_American_Minuteman_DIFF.dds"/>
 	<Texture file="U_American_Minuteman_SREF.dds"/>
 	<Texture file="Unit_Environment_Dull.dds"/>
 	<Texture file="Unit_Environment_Sharp.dds"/>

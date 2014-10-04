@@ -34,7 +34,7 @@
 	<Animation file="MechanizedInfantry_DeathB.gr2" ec="2200"/>
 	<Animation file="MechanizedInfantry_DeathB_Idle.gr2" ec="2220"/>
 	<Texture file="Dardo_DIFF.dds"/>
-	<Texture file="Dardo_SREF.dds"/>
+	<Texture file="no_gloss.dds"/>
 	<StateMachine file="MECHANIZED_AIM_STATE_01.fsmxml"/>
 	<AnimGraph file="AIM_FIDGETS_GRAPH.dge"/>
 	<AnimGraph file="AIM_START_RUNNING.dge"/>

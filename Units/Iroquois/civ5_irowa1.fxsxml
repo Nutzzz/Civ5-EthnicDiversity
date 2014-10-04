@@ -35,7 +35,7 @@
 	<Texture file="Unit_Environment_Sharp.dds"/>
 	<Texture file="Unit_Irradiance.dds"/>
 	<Texture file="irowa1.dds"/>
-	<Texture file="irowa1_sref.dds"/>
+	<Texture file="no_gloss.dds"/>
 	<TimedTrigger file="FX_Triggers_Warrior.ftsxml"/>
 	<BoneUsage>
 		<Bone name="bone_CLUB"/>

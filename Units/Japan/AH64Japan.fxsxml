@@ -19,7 +19,7 @@
 	<Animation file="HelicopterGunship_DeathB.gr2" ec="2200"/>
 	<Animation file="HelicopterGunship_DeathB_Idle.gr2" ec="2220"/>
 	<Texture file="AH64Japan.dds"/>
-	<Texture file="AH64SREF.dds"/>
+	<Texture file="no_gloss.dds"/>
 	<Texture file="Unit_Environment_Dull.dds"/>
 	<Texture file="Unit_Environment_Sharp.dds"/>
 	<Texture file="Unit_Irradiance.dds"/>

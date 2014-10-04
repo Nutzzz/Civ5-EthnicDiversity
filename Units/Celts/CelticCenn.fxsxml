@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Asset>
   <Mesh file="CelticCenn.gr2" />
   <Animation file="U_Roman_Legion_IdleA.gr2" ec="1000" />
@@ -38,7 +38,7 @@
   <Texture file="Unit_Environment_Sharp.dds" />
   <Texture file="Unit_Irradiance.dds" />
   <Texture file="CelticCenn.dds" />
-  <Texture file="CelticCenn_sref.dds" />
+  <Texture file="no_gloss.dds" />
   <StateMachine file="ROMAN_LEGION_STATE_01.fsmxml" />
   <AnimGraph file="DIG_LOOP_GRAPH.dge" />
   <AnimGraph file="ENTER_DIG_GRAPH.dge" />

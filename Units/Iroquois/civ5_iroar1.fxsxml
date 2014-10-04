@@ -36,7 +36,7 @@
 	<Texture file="Environment_Steel_Dull_32.dds"/>
 	<Texture file="Environment_Steel_Sharp_64.dds"/>
 	<Texture file="Archer_Native_America1.dds"/>
-	<Texture file="Archer_Native_America1_sref.dds"/>
+	<Texture file="no_gloss.dds"/>
 	<AnimGraph file="RUN_CHARGE_SHUFFLE_TO_SHUFFLE_RUN_CHARGE.dge"/>
 	<AnimGraph file="IDLE_OFFSET_CONTINUE_TRUE_GRAPH.dge"/>
 	<AnimGraph file="FORTIFY_FIDGET_GRAPH.dge"/>

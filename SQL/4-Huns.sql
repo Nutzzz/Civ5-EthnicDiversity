@@ -59,7 +59,7 @@ SELECT	'HUNS',		'HUNS',		'Paratrooper_Hungary_MG.fxsxml',		'ART_DEF_UNIT_PARATRO
 SELECT	'HUNS',		'HUNS_V2',	'Paratrooper_Hungary.fxsxml',			'ART_DEF_UNIT_PARATROOPER',			'ART_DEF_UNIT_MEMBER_PARATROOPER',					2,				NULL,			0		UNION ALL
 
 --SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT_PIKEMAN',				'ART_DEF_UNIT_MEMBER_PIKEMAN',						0,				NULL,			0		UNION ALL
---SELECT	'HUNS',		'HUNS',				'hunrm1.fxsxml',				'ART_DEF_UNIT_RIFLEMAN',			'ART_DEF_UNIT_MEMBER_RIFLEMAN',						0,				NULL,			0		UNION ALL
+SELECT	'HUNS',		'HUNS',				'hunrm1.fxsxml',				'ART_DEF_UNIT_RIFLEMAN',			'ART_DEF_UNIT_MEMBER_RIFLEMAN',						0,				NULL,			0		UNION ALL
 --SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT_SCOUT',				'ART_DEF_UNIT_MEMBER_SCOUT',						0,				NULL,			0		UNION ALL
 --SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT_SPEARMAN',			'ART_DEF_UNIT_MEMBER_SPEARMAN',						0,				NULL,			0		UNION ALL
 --SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT_STEALTH_BOMBER',		'ART_DEF_UNIT_MEMBER_STEALTHBOMBER',				0,				NULL,			0		UNION ALL
@@ -118,6 +118,6 @@ SELECT	'HUNS',		'HUNS_V2',		'ScythiaWarrior2.fxsxml',			'ART_DEF_UNIT__WARRIOR',
 SELECT	'HUNS',		'HUNS',			'Fokker_D.VII.fxsxml',				'ART_DEF_UNIT_WW1_FIGHTER',			'ART_DEF_UNIT_MEMBER_WW1_FIGHTER',					0,				NULL,			0		UNION ALL	
 --SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT_WW1_INFANTRY',		'ART_DEF_UNIT_MEMBER_WW1_INFANTRY',					0,				NULL,			0		UNION ALL	
 SELECT		'HUNS',		'HUNS',			'LK_II.fxsxml',					'ART_DEF_UNIT_WW1_TANK',			'ART_DEF_UNIT_MEMBER_WW1_TANK',						4,			'FourBigGuns',		0.11	UNION ALL	
---SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT_WW2_INFANTRY',		'ART_DEF_UNIT_MEMBER_WW2_INFANTRY',					0,				NULL,			0		UNION ALL
+--SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT_XCOM_SQUAD',			'ART_DEF_UNIT_MEMBER_XCOM_SQUAD',					0,				NULL,			0		UNION ALL	
 
 SELECT	'END_OF_INSERT',		NULL,			NULL,							NULL,								NULL,											NULL,				NULL,			NULL;
