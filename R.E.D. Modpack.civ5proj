@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Deploy" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
@@ -13309,18 +13309,6 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Units\_Generic\_Euro\Galleon European\euro_galleon.fxsxml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Units\_Generic\_Euro\Galleon European\euro_galleon.gr2">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Units\_Generic\_Euro\Galleon European\euro_galleon_diff.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
     <Content Include="Units\_Generic\_Euro\Knight Russia\russian_knight.fxsxml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -13778,7 +13766,6 @@
     <Folder Include="Units\_Generic\_Amer\Andes Cargo Ship" />
     <Folder Include="Units\_Generic\_Asia\War Junk" />
     <Folder Include="Units\_Generic\_Euro\Arquebusier" />
-    <Folder Include="Units\_Generic\_Euro\Galleon European" />
     <Folder Include="Units\_Generic\_Med\Galleon Mediterranean" />
     <Folder Include="Units\_Minors" />
     <Folder Include="Units\Sweden" />
