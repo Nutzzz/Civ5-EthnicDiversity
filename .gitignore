@@ -1,2 +1,6 @@
 #ignore backup files
 *.bak
+#ignore compiled files
+*.civ5suo
+#ignore thumbnails
+Thumbs.db
