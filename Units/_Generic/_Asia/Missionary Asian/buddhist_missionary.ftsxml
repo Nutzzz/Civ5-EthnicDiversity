@@ -1,0 +1,139 @@
+<trigger_system type="FGrannyTimedTriggerSystem">
+  <event_tracks>
+    <event_track ec="1000">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1040">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1020">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="2000">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="2040">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="2020">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1500">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1520">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1580">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1420">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1400">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1440">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1990">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1195">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1995">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1280">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1285">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1290">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1200">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1220">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+  </event_tracks>
+  <triggers>
+    <trigger type="FTimedTriggerSound" id="3" time="0.385185182" duration="0" repeat="0" ec="1200" track="1" event="AS3D_UNIT_MISSIONARY_SCIENTIST_LATE_SURRENDER" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="4" time="0.21111089" duration="0" repeat="0" ec="1400" track="1" event="AS3D_UNIT_MISSIONARY_FOOT_$(TERRAIN)" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="5" time="0.5574077" duration="0" repeat="0" ec="1400" track="1" event="AS3D_UNIT_MISSIONARY_FOOT_$(TERRAIN)" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="6" time="0.251851559" duration="0" repeat="0" ec="1440" track="1" event="AS3D_UNIT_MISSIONARY_FOOT_$(TERRAIN)" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="9" time="0.551851749" duration="0" repeat="0" ec="1990" track="1" event="AS3D_UNIT_MISSIONARY_FOOT_$(TERRAIN)" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="7" time="0.4851854" duration="0" repeat="0" ec="1440" track="1" event="AS3D_UNIT_MISSIONARY_FOOT_$(TERRAIN)" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="2" time="0.6388887" duration="0" repeat="0" ec="1990" track="1" event="AS3D_UNIT_MISSIONARY_CLOTH_SAIL_WIND" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="8" time="0" duration="0" repeat="0" ec="1500" track="1" event="AS3D_UNIT_MISSIONARY_FORTIFY" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="10" time="0.400000483" duration="0" repeat="0" ec="1500" track="1" event="AS3D_UNIT_MISSIONARY_FOOT_$(TERRAIN)" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="11" time="0.11111109" duration="0" repeat="0" ec="1280" track="1" event="AS3D_UNIT_MISSIONARY_SCIENTIST_LATE_SURRENDER" bone="" tier="-1" />
+    <trigger type="FTimedTriggerEffect" id="22" time="0.105557568" duration="2" repeat="0" ec="1990" track="2" event="ART_DEF_VEFFECT_RELIGION_ACTIVATE" bone="WORLD_center" />
+    <trigger type="FTimedTriggerEffect" id="1" time="1.342595" duration="0" repeat="0" ec="1990" track="2" event="ART_DEF_VEFFECT_RELIGION_ACTIVATE_FLASH" bone="WORLD_center" />
+    <trigger type="FTimedTriggerSound" id="13" time="0" duration="0" repeat="0" ec="1990" track="1" event="AS3D_UNIT_MISSIONARY_RELIGION_ACTIVATE" bone="" tier="0" />
+  </triggers>
+</trigger_system>

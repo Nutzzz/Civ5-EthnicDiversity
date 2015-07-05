@@ -12,9 +12,15 @@ function OnEraChanged(iEraID, iPlayerID)
 	local iTeamID = pPlayer:GetTeam();
 
 	if (iEraID < 2) then
+		--if (civType == GameInfo.Civilizations["CIVILIZATION_DENMARK"].ID) then
+		--	pPlayer:SetEmbarkedGraphicOverride("ART_DEF_UNIT_U_DANISH_LONGBOAT");
+		--	Teams[iTeamID]:UpdateEmbarkGraphics();
 		if (GameInfo.Civilizations[civType].ArtStyleType == "ARTSTYLE_SOUTH_AMERICA") then
 			pPlayer:SetEmbarkedGraphicOverride("ART_DEF_UNIT_GALLEY_SOUTHAM");
 			Teams[iTeamID]:UpdateEmbarkGraphics();
+		--elseif (GameInfo.Civilizations[civType].ArtStyleType == "ARTSTYLE_POLYNESIAN") then
+		--	pPlayer:SetEmbarkedGraphicOverride("ART_DEF_UNIT_U_POLYNESIAN_WAR_CANOE");
+		--	Teams[iTeamID]:UpdateEmbarkGraphics();
 		end
 	elseif (iEraID >= 2 and iEraID < 5) then
 		if (civType == GameInfo.Civilizations["CIVILIZATION_DENMARK"].ID) then
@@ -47,6 +53,12 @@ function OnEraChanged(iEraID, iPlayerID)
 		elseif (civType == GameInfo.Civilizations["CIVILIZATION_SWEDEN"].ID) then
 			pPlayer:SetEmbarkedGraphicOverride("ART_DEF_UNIT_GALLEON_SWEDEN");
 			Teams[iTeamID]:UpdateEmbarkGraphics();
+		elseif (civType == GameInfo.Civilizations["CIVILIZATION_HUNS"].ID) then
+			pPlayer:SetEmbarkedGraphicOverride("ART_DEF_UNIT_GALLEON_EURO");
+			Teams[iTeamID]:UpdateEmbarkGraphics();
+		elseif (civType == GameInfo.Civilizations["CIVILIZATION_OTTOMAN"].ID) then
+			pPlayer:SetEmbarkedGraphicOverride("ART_DEF_UNIT_GALLEON_EURO");
+			Teams[iTeamID]:UpdateEmbarkGraphics();
 		elseif (GameInfo.Civilizations[civType].ArtStyleType == "ARTSTYLE_ASIAN") then
 			pPlayer:SetEmbarkedGraphicOverride("ART_DEF_UNIT_GALLEON_ASIA");
 			Teams[iTeamID]:UpdateEmbarkGraphics();
@@ -54,9 +66,9 @@ function OnEraChanged(iEraID, iPlayerID)
 				GameInfo.Civilizations[civType].ArtStyleType == "ARTSTYLE_MIDDLE_EAST") then
 			pPlayer:SetEmbarkedGraphicOverride("ART_DEF_UNIT_GALLEON_MED");
 			Teams[iTeamID]:UpdateEmbarkGraphics();
-		elseif (civType == GameInfo.Civilizations["CIVILIZATION_OTTOMAN"].ID) then
-			pPlayer:SetEmbarkedGraphicOverride("ART_DEF_UNIT_GALLEON_EURO");
-			Teams[iTeamID]:UpdateEmbarkGraphics();
+		--elseif (GameInfo.Civilizations[civType].ArtStyleType == "ARTSTYLE_POLYNESIAN") then
+		--	pPlayer:SetEmbarkedGraphicOverride("ART_DEF_UNIT_U_POLYNESIAN_WAR_CANOE");
+		--	Teams[iTeamID]:UpdateEmbarkGraphics();
 		else
 			pPlayer:SetEmbarkedGraphicOverride("ART_DEF_UNIT_GALLEON_EURO");
 			Teams[iTeamID]:UpdateEmbarkGraphics();
