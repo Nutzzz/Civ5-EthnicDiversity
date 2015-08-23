@@ -1,5 +1,5 @@
 <Asset>
-	<Mesh file="buddhist_missionary.gr2"/>
+	<Mesh file="u_anishinaabe_medicine_man.gr2"/>
 	<Animation file="Missionary_IdleA.gr2" ec="1000"/>
 	<Animation file="Missionary_FidgetA.gr2" ec="1040"/>
 	<Animation file="Missionary_IdleA_Trans_IdleB.gr2" ec="1020"/>
@@ -21,8 +21,8 @@
 	<Texture file="Unit_Environment_Dull.dds"/>
 	<Texture file="Unit_Environment_Sharp.dds"/>
 	<Texture file="Unit_Irradiance.dds"/>
-	<Texture file="buddhist_missionary_diff2.dds"/>
-	<Texture file="buddhist_missionary_sref2.dds"/>
+	<Texture file="u_anishinaabe_medicine_man_diff.dds"/>
+	<Texture file="black_4x4.dds"/>
 	<AnimGraph file="CIVILIAN_DEATH_FINAL.dge"/>
 	<AnimGraph file="RUNNING_LOOP_GRAPH.dge"/>
 	<AnimGraph file="STOP_RUNNING_CIVILIAN.dge"/>
@@ -39,7 +39,7 @@
 	<AnimGraph file="CIVILIAN_ACTIVATE_CAPTURED.dge"/>
 	<AnimGraph file="LEAVE_BOMBARD_DEFEND_TRANS_IDLE_A_GRAPH.dge"/>
 	<StateMachine file="CIVILIAN_STATE_01.fsmxml"/>
-	<TimedTrigger file="buddhist_missionary.ftsxml"/>
+	<TimedTrigger file="FX_Triggers_Missionary.ftsxml"/>
 	<BoneUsage>
 		<Bone name="WORLD_center"/>
 	</BoneUsage>

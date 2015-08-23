@@ -26,7 +26,7 @@ SELECT	'AMER',		'AMER',			'civ5_irolb4.fxsxml',				'ART_DEF_UNIT_CROSSBOWMAN',		
 --SELECT	'AMER',		'AMER',			'unit_model_name',				'ART_DEF_UNIT_DESTROYER',			'ART_DEF_UNIT_MEMBER_DESTROYER',					0,				NULL,			0		UNION ALL
 SELECT	'AMER',		'AMER',			'Fighter_Default.fxsxml',			'ART_DEF_UNIT_FIGHTER',				'ART_DEF_UNIT_MEMBER_FIGHTER',						0,				NULL,			0		UNION ALL
 --SELECT	'AMER',		'AMER',			'unit_model_name',				'ART_DEF_UNIT_FRIGATE',				'ART_DEF_UNIT_MEMBER_FRIGATE',						0,				NULL,			0		UNION ALL
-SELECT	'AMER',		'AMER',			'andes_cargo_ship.fxsxml',			'ART_DEF_UNIT_GALLEY',				'ART_DEF_UNIT_MEMBER_GALLEY',						0,				NULL,			0		UNION ALL
+SELECT	'AMER',		'AMER',			'TribalAmerican_Embark.fxsxml',		'ART_DEF_UNIT_GALLEY',				'ART_DEF_UNIT_MEMBER_GALLEY',						0,				NULL,			0		UNION ALL
 --SELECT	'AMER',		'AMER',			'unit_model_name',				'ART_DEF_UNIT_GUIDED_MISSILE',		'ART_DEF_UNIT_MEMBER_GUIDEDMISSILE',				0,				NULL,			0		UNION ALL
 --SELECT	'AMER',		'AMER',			'unit_model_name',				'ART_DEF_UNIT_HELICOPTER_GUNSHIP',	'ART_DEF_UNIT_MEMBER_HELICOPTERGUNSHIP',			0,				NULL,			0		UNION ALL
 SELECT	'AMER',		'AMER',			'civ5_irohm5.fxsxml',				'ART_DEF_UNIT_HORSEMAN',			'ART_DEF_UNIT_MEMBER_HORSEMAN',						0,				NULL,			0		UNION ALL

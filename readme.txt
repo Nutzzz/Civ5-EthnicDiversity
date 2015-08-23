@@ -47,7 +47,17 @@ Fix for fighter propeller and archer arrow positions (optional) :
 
 	-- Version History --
 	
-v.28 (Sep 5, 2014):
+v.28 beta 2 (August 23, 2015):
+- add Civitar's Anishinaabe Medicine Man as missionary for North American civs
+- add hangman's Chimu General as missionary for South American civs
+- add Wolfdog's conversion of English cannon crew
+- add Wolfdog's conversions of Ambrox62's scouts and warriors
+- add early units (spearman, swordsman, pikeman, and crossbowman) for America from Ethnic Units
+- add additional embarked units (Wolfdog's barge for Middle East civs, Sukritact's canoe for Native American civs)
+- embarked units are now overridden by Cultural Diversity
+- embarked unit era adjustments now adjusted by Prehistoric Era (including extra eras in v14+), Prehistoric Era Reborn, and CCTP (v4+)
+
+v.28 beta 1 (Sep 5, 2014):
 - reduced texture sizes and removed extraneous specular textures (reduces mod size from 200MB to 120MB)
 - embarked unit diversity using Wolfdog's conversion of GeneralMatt's War Junk, hangman's conversion of Chuggi's Andean Cargo Ship, and Nutty's versions of JustATourist's galleon reskins
 - Venice and Milan city state now re-use Roman units starting in the Medieval era; other city states re-use units of related major civs
@@ -521,7 +531,7 @@ fb230d1a-dd7d-427b-8323-0e30aaf480c1 = Ethnic Diversity - Single Unit Graphics
   Babylon swordsman.fxsxml
   civ5_nedwa1.fxsxml (Netherlands warrior)
   Quechua.fxsxml
-
+  GERMANY_longsw1.fxsxml
 
 
 -----------------------------------------------------------------------------------------------------------------
