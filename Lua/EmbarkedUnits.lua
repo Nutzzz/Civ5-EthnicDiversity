@@ -81,7 +81,7 @@ for i, mod in pairs(Modding.GetActivatedMods()) do
 			iLateEra = iLateEra + 1;
 		end
 	elseif (mod.ID == strPreHistID or mod.ID == strPHERebornID) then
-		elseif (mod.ID == strPreHistID and mod.Version >= 14) then
+		if (mod.ID == strPreHistID and mod.Version >= 14) then
 			iMidEra = iMidEra + 4;
 			iLateEra = iLateEra + 4;
 		else
@@ -96,5 +96,7 @@ if not (bCulDivActive) then
 	Events.SerialEventEraChanged.Add(OnEraChanged);
 end
 
-function OnGameInitComplete(iPlayerID) OnEraChanged(Players[iPlayerID]:GetCurrentEra(), Game.GetActivePlayer()); end
-Events.SequenceGameInitComplete.Add();
+function OnGameInitComplete(iPlayerID)
+	OnEraChanged(Players[iPlayerID]:GetCurrentEra(), Game.GetActivePlayer());
+end
+Events.SequenceGameInitComplete.Add(OnGameInitComplete);

@@ -1,2 +1,6 @@
 #ignore backup files
 *.bak
+~*.*
+*.civ5suo
+Thumbs.db
+newunits.xls

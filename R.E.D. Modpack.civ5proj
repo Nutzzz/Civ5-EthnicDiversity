@@ -355,6 +355,13 @@
       </Association>
       <Association>
         <Type>Mod</Type>
+        <Name>Cultural Diversity</Name>
+        <Id>31a31d1c-b9d7-45e1-842c-23232d66cd47</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
         <Name>Ynaemp City States</Name>
         <Id>53da86d6-4a0d-4f92-a489-4d1a7fb7cd30</Id>
         <MinVersion>0</MinVersion>
