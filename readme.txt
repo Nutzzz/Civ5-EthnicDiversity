@@ -47,12 +47,15 @@ Fix for fighter propeller and archer arrow positions (optional) :
 
 	-- Version History --
 	
+
 v.28 beta 2 (August 23, 2015):
+
 - add Civitar's Anishinaabe Medicine Man as missionary for North American civs
 - add hangman's Chimu General as missionary for South American civs
 - add Wolfdog's conversion of English cannon crew
 - add Wolfdog's conversions of Ambrox62's scouts and warriors
 - add early units (spearman, swordsman, pikeman, and crossbowman) for America from Ethnic Units
+
 - add additional embarked units (Wolfdog's barge for Middle East civs, Sukritact's canoe for Native American civs)
 - embarked units are now overridden by Cultural Diversity
 - embarked unit era adjustments now adjusted by Prehistoric Era (including extra eras in v14+), Prehistoric Era Reborn, and CCTP (v4+)
