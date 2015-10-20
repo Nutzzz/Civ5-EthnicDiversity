@@ -58,6 +58,8 @@ function OnEraChanged(iEraID, iPlayerID)
 		elseif (civType == GameInfo.Civilizations["CIVILIZATION_HUNS"].ID or
 			civType == GameInfo.Civilizations["CIVILIZATION_OTTOMAN"].ID) then
 			pPlayer:SetEmbarkedGraphicOverride("ART_DEF_UNIT_GALLEON_EURO");
+		elseif (civType == GameInfo.Civilizations["CIVILIZATION_INDIA"].ID) then
+			pPlayer:SetEmbarkedGraphicOverride("ART_DEF_UNIT_GALLEON_MED");
 		elseif (GameInfo.Civilizations[civType].ArtStyleType == "ARTSTYLE_ASIAN") then
 			pPlayer:SetEmbarkedGraphicOverride("ART_DEF_UNIT_GALLEON_ASIA");
 		elseif (GameInfo.Civilizations[civType].ArtStyleType == "ARTSTYLE_GRECO_ROMAN" or

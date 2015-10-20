@@ -96,7 +96,7 @@ SELECT	'ASIA',		'ASIA',			'Composite_Bowman_China.fxsxml',	'ART_DEF_UNIT_COMPOSI
 SELECT	'ASIA',		'ASIA',			'buddhist_missionary.fxsxml',		'ART_DEF_UNIT_MISSIONARY',			'ART_DEF_UNIT_MEMBER_MISSIONARY',					0,				NULL,			0		UNION ALL	
 SELECT	'ASIA',		'ASIA_01',		'buddhist_missionary_01.fxsxml',	'ART_DEF_UNIT_MISSIONARY',			'ART_DEF_UNIT_MEMBER_MISSIONARY_01',				0,				NULL,			0		UNION ALL	
 SELECT	'ASIA',		'ASIA_02',		'buddhist_missionary_02.fxsxml',	'ART_DEF_UNIT_MISSIONARY',			'ART_DEF_UNIT_MEMBER_MISSIONARY_02',				0,				NULL,			0		UNION ALL	
---SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT_INQUISITOR',			'ART_DEF_UNIT_MEMBER_INQUISITOR',					0,				NULL,			0		UNION ALL	
+SELECT	'ASIA',		'ASIA',			'WarriorMonk_Japan_v2.fxsxml',		'ART_DEF_UNIT_INQUISITOR',			'ART_DEF_UNIT_MEMBER_INQUISITOR',					0,				NULL,			0		UNION ALL	
 --SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT_XP_PRIVATEER',		'ART_DEF_UNIT_MEMBER_XP_PRIVATEER',					0,				NULL,			0		UNION ALL	
 --SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT_MARINE',				'ART_DEF_UNIT_MEMBER_MARINE',						0,				NULL,			0		UNION ALL	
 --SELECT	'ASIA',		'ASIA',			'unit_model_name',				'ART_DEF_UNIT_WW1_BOMBER',			'ART_DEF_UNIT_MEMBER_WW1_BOMBER',					0,				NULL,			0		UNION ALL	

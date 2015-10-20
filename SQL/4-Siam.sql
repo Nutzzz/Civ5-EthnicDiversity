@@ -36,7 +36,7 @@ INSERT INTO UnitGraphicConfiguration
 --SELECT	'SIAM',		'SIAM',			'unit_model_name',				'ART_DEF_UNIT_HORSEMAN',			'ART_DEF_UNIT_MEMBER_HORSEMAN',						0,				NULL,			0		UNION ALL
 SELECT	'SIAM',		'SIAM',		'Infantry_China_Communist.fxsxml',		'ART_DEF_UNIT_INFANTRY',			'ART_DEF_UNIT_MEMBER_INFANTRY',						0,				NULL,			0		UNION ALL
 --SELECT	'SIAM',		'SIAM',			'unit_model_name',				'ART_DEF_UNIT_IRONCLAD',			'ART_DEF_UNIT_MEMBER_IRONCLAD',						0,				NULL,			0		UNION ALL
---SELECT	'SIAM',		'SIAM',			'unit_model_name',				'ART_DEF_UNIT_JET_FIGHTER',			'ART_DEF_UNIT_MEMBER_JETFIGHTER',					0,				NULL,			0		UNION ALL
+SELECT	'SIAM',		'SIAM',				'A-7.fxsxml',					'ART_DEF_UNIT_JET_FIGHTER',			'ART_DEF_UNIT_MEMBER_JETFIGHTER',					0,				NULL,			0		UNION ALL
 --SELECT	'SIAM',		'SIAM',			'unit_model_name',				'ART_DEF_UNIT_KNIGHT',				'ART_DEF_UNIT_MEMBER_KNIGHT',						0,				NULL,			0		UNION ALL
 --SELECT	'SIAM',		'SIAM',			'unit_model_name',				'ART_DEF_UNIT_LANCER',				'ART_DEF_UNIT_MEMBER_LANCER',						0,				NULL,			0		UNION ALL
 --SELECT	'SIAM',		'SIAM',			'unit_model_name',				'ART_DEF_UNIT_LONGSWORDSMAN',		'ART_DEF_UNIT_MEMBER_LONGSWORDSMAN',				0,				NULL,			0		UNION ALL
@@ -97,7 +97,9 @@ SELECT	'SIAM',		'SIAM',			'civ5_siarm1.fxsxml',				'ART_DEF_UNIT_RIFLEMAN',			'A
 --SELECT	'SIAM',		'SIAM',			'unit_model_name',				'ART_DEF_UNIT_GALLEASS',			'ART_DEF_UNIT_MEMBER_GALLEASS',						0,				NULL,			0		UNION ALL	
 --SELECT	'SIAM',		'SIAM',			'unit_model_name',				'ART_DEF_UNIT_GATLINGGUN',			'ART_DEF_UNIT_MEMBER_GATLINGGUN',					0,				NULL,			0		UNION ALL	
 --SELECT	'SIAM',		'SIAM',			'unit_model_name',				'ART_DEF_UNIT_GREAT_PROPHET',		'ART_DEF_UNIT_MEMBER_GREAT_PROPHET',				0,				NULL,			0		UNION ALL	
---SELECT	'SIAM',		'SIAM',			'unit_model_name',				'ART_DEF_UNIT_MISSIONARY',			'ART_DEF_UNIT_MEMBER_MISSIONARY',					0,				NULL,			0		UNION ALL	
+SELECT	'SIAM',		'SIAM',			'buddhist_missionary.fxsxml',		'ART_DEF_UNIT_MISSIONARY',			'ART_DEF_UNIT_MEMBER_MISSIONARY',					0,				NULL,			0		UNION ALL	
+SELECT	'SIAM',		'SIAM_01',		'buddhist_missionary_01.fxsxml',	'ART_DEF_UNIT_MISSIONARY',			'ART_DEF_UNIT_MEMBER_MISSIONARY_01',				0,				NULL,			0		UNION ALL	
+SELECT	'SIAM',		'SIAM_02',		'buddhist_missionary_02.fxsxml',	'ART_DEF_UNIT_MISSIONARY',			'ART_DEF_UNIT_MEMBER_MISSIONARY_02',				0,				NULL,			0		UNION ALL	
 --SELECT	'SIAM',		'SIAM',			'unit_model_name',				'ART_DEF_UNIT_INQUISITOR',			'ART_DEF_UNIT_MEMBER_INQUISITOR',					0,				NULL,			0		UNION ALL	
 --SELECT	'SIAM',		'SIAM',			'unit_model_name',				'ART_DEF_UNIT_XP_PRIVATEER',		'ART_DEF_UNIT_MEMBER_XP_PRIVATEER',					0,				NULL,			0		UNION ALL	
 --SELECT	'SIAM',		'SIAM',			'unit_model_name',				'ART_DEF_UNIT_MARINE',				'ART_DEF_UNIT_MEMBER_MARINE',						0,				NULL,			0		UNION ALL	

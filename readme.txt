@@ -47,15 +47,36 @@ Fix for fighter propeller and archer arrow positions (optional) :
 
 	-- Version History --
 	
+v.28 beta 3 TEST (Oct 19, 2015):
+- new general suffix types for South Asia (India and Colombo city state) and Oceania
+- add bernie14's German marines
+- add Civitar's conversion of the wizard/druid as missionary for Celts
+- add Civitar's conversion of Bakuel's Cuman units for Huns
+- add Civitar's conversion of Bakuel's silat for Indonesia
+- add Civitar's Zapotec battle priest as inquisitor for Native North and South American civs
+- add Civitar's Dervish Maara Weyn as cavalry for Middle Eastern civs
+- add Civitar's conversion of Bakuel's Hebrew units for Levant city states
+- add danrell's akazonae as lancer for Japan
+- add hangman's Inca axeman as a second longswordsman model
+- add Nomad or What's conversions of Bakuel's Berbers for Morocco
+- add Snafusmith's F-4 jets for Greece?, Egypt, Japan, Korea, and Ottomans
+- add Sukritact's Ogichida as musketman for Native North American civs
+- add Wolfdog's Qizilbash as lancer for Persia
+- add Wolfdog's conversion of TheCoyote's A-7 Corsair II as jet fighter for Greece, Portugal and Siam
+- add zwei833's Schwaben reskin of bernie14's longswordsman as an additional model for Germany
+- add zwei833's Bohemian reskin of bernie14's longswordsman for Prague and Bratislava
+- [test] add danrell's warrior monk as inquisitor for Asian civs
+- [test] add Kwadjh's conversion of the assassin as inquisitor for Middle Eastern and Central Asian civs
+- [test] add Ho229 (world war II prototype) as stealth bomber for Germany
+- [test] add V1 Rocket as guided missile for Germany
+- [Q?] should Austria use more German units, etc.?
 
-v.28 beta 2 (August 23, 2015):
-
-- add Civitar's Anishinaabe Medicine Man as missionary for North American civs
-- add hangman's Chimu General as missionary for South American civs
+v.28 beta 2 (Aug 23, 2015):
+- add Civitar's Anishinaabe Midew medicine man as missionary for Native North American civs
+- add hangman's Chimu General as missionary for Native South American civs
 - add Wolfdog's conversion of English cannon crew
-- add Wolfdog's conversions of Ambrox62's scouts and warriors
+- add Wolfdog's conversions of Ambrox62's scouts and warriors (African, European, Mediterranean, and Middle Eastern)
 - add early units (spearman, swordsman, pikeman, and crossbowman) for America from Ethnic Units
-
 - add additional embarked units (Wolfdog's barge for Middle East civs, Sukritact's canoe for Native American civs)
 - embarked units are now overridden by Cultural Diversity
 - embarked unit era adjustments now adjusted by Prehistoric Era (including extra eras in v14+), Prehistoric Era Reborn, and CCTP (v4+)
@@ -71,12 +92,12 @@ v.28 beta 1 (Sep 5, 2014):
 - add hangman's conversion of the Buddhist missionary for Asian civs
 - add Patum333's Netherlands archer (composite bowman)
 - add Snafusmith's P-40 Warhawk (fighter) for Brazil
-- add Snafusmith's Renault FT (WWI tank) for Brazil, central European city states, and additional members for France
+- add Snafusmith's Renault FT (WWI tank) for Brazil, Central/Eastern European city states, and additional members for France
 - add Wolfdog's conversion of Bakuel's Streltsy (musketmen) for Russia
 - add Wolfdog's conversion of bernie14's Napoleonic French infantry for French Cannon crew
 - add Wolfdog's conversion of bernie14's Sioux knight for Shoshone
 - add Wolfdog's conversion of dutchking's ML-20 Howitzer (artillery) for Russia
-- add Wolfdog's conversion of Gagonite's Arquebusier (musketman) for Austria, Poland, and central European city states
+- add Wolfdog's conversion of Gagonite's Arquebusier (musketman) for Austria, Netherlands, Poland, and central/eastern European city states
 - add Wolfdog's conversion of KrugerPritz's A129 Mangusta (helicopter gunship) for Rome (Italy)
 - add Wolfdog's conversion of KrugerPritz & Nikko's Ariete MBT (modern armor) for Rome (Italy)
 - add Wolfdog's conversion of KrugerPritz & Nikko's Dardo IFV (mechanized infantry) for Rome (Italy)

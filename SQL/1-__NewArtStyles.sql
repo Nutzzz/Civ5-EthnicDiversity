@@ -32,7 +32,7 @@ INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType'
 	SELECT	REPLACE("UnitInfoType", '_ASIA', '_CENTAS'), "UnitMemberInfoType", "NumMembers"
 	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_ASIA';
 
--- EASTERN EUROPEAN (new suffix type)
+-- EAST EUROPEAN (new suffix type)
 UPDATE MinorCivilizations SET ArtStyleSuffix = "_EASTEU" 
 	WHERE Type = 'MINOR_CIV_BELGRADE' OR
 		Type = 'MINOR_CIV_BRATISLAVA' OR
@@ -79,4 +79,24 @@ INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
 	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_AMER';
 INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
 	SELECT	REPLACE("UnitInfoType", '_AMER', '_SOUTHAM'), "UnitMemberInfoType", "NumMembers"
+	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_AMER';
+
+-- SOUTH ASIAN (new suffix type)
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_SOUTHAS" 
+	WHERE Type = 'MINOR_CIV_COLOMBO';
+INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
+	SELECT	REPLACE("Type", '_ASIA', '_SOUTHAS'), "DamageStates", "Formation"
+	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_ASIA';
+INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
+	SELECT	REPLACE("UnitInfoType", '_ASIA', '_SOUTHAS'), "UnitMemberInfoType", "NumMembers"
+	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_ASIA';
+
+-- OCEANIC (new suffix type)
+--UPDATE MinorCivilizations SET ArtStyleSuffix = "_POLY" 
+--	WHERE Type = 'MINOR_CIV_WELLINGTON';
+INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
+	SELECT	REPLACE("Type", '_AMER', '_POLY'), "DamageStates", "Formation"
+	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_AMER';
+INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
+	SELECT	REPLACE("UnitInfoType", '_AMER', '_POLY'), "UnitMemberInfoType", "NumMembers"
 	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_AMER';

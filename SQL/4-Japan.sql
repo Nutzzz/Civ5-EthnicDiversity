@@ -39,9 +39,9 @@ SELECT	'JAPAN',		'JAPAN',		'Infantry_Japan_Sword.fxsxml',			'ART_DEF_UNIT_INFANT
 SELECT	'JAPAN',		'JAPAN_V2',			'Infantry_Japan.fxsxml',			'ART_DEF_UNIT_INFANTRY',			'ART_DEF_UNIT_MEMBER_INFANTRY',						17,				NULL,			0		UNION ALL
 
 --SELECT	'JAPAN',		'JAPAN',			'unit_model_name',				'ART_DEF_UNIT_IRONCLAD',			'ART_DEF_UNIT_MEMBER_IRONCLAD',						0,				NULL,			0		UNION ALL
---SELECT	'JAPAN',		'JAPAN',			'unit_model_name',				'ART_DEF_UNIT_JET_FIGHTER',			'ART_DEF_UNIT_MEMBER_JETFIGHTER',					0,				NULL,			0		UNION ALL
+SELECT	'JAPAN',		'JAPAN',				'F4Japan.fxsxml',				'ART_DEF_UNIT_JET_FIGHTER',			'ART_DEF_UNIT_MEMBER_JETFIGHTER',					0,				NULL,			0		UNION ALL
 SELECT	'JAPAN',		'JAPAN',			'Knight_Japan.fxsxml',				'ART_DEF_UNIT_KNIGHT',				'ART_DEF_UNIT_MEMBER_KNIGHT',						0,				NULL,			0		UNION ALL
---SELECT	'JAPAN',		'JAPAN',			'unit_model_name',				'ART_DEF_UNIT_LANCER',				'ART_DEF_UNIT_MEMBER_LANCER',						0,				NULL,			0		UNION ALL
+SELECT	'JAPAN',		'JAPAN',			'Akazonae_Japan.fxsxml',			'ART_DEF_UNIT_LANCER',				'ART_DEF_UNIT_MEMBER_LANCER',						0,				NULL,			0		UNION ALL
 
 -- Special case for UU replacement (see 'Initialize' above and 'Finalize' in '5-CompleteTable.sql')
 SELECT		'TEMP',		'_V1',			'Longswordsman_Japan.fxsxml',		'ART_DEF_UNIT_U_JAPANESE_SAMURAI',		'ART_DEF_UNIT_MEMBER_U_JAPANESE_SAMURAI',			2,				NULL,			0		UNION ALL
@@ -125,7 +125,9 @@ SELECT	'JAPAN',		'JAPAN',		'Composite_Bowman_Japan.fxsxml',		'ART_DEF_UNIT_COMPO
 --SELECT	'JAPAN',		'JAPAN',			'unit_model_name',				'ART_DEF_UNIT_GALLEASS',			'ART_DEF_UNIT_MEMBER_GALLEASS',						0,				NULL,			0		UNION ALL	
 --SELECT	'JAPAN',		'JAPAN',			'unit_model_name',				'ART_DEF_UNIT_GATLINGGUN',			'ART_DEF_UNIT_MEMBER_GATLINGGUN',					0,				NULL,			0		UNION ALL	
 --SELECT	'JAPAN',		'JAPAN',			'unit_model_name',				'ART_DEF_UNIT_GREAT_PROPHET',		'ART_DEF_UNIT_MEMBER_GREAT_PROPHET',				0,				NULL,			0		UNION ALL	
---SELECT	'JAPAN',		'JAPAN',			'unit_model_name',				'ART_DEF_UNIT_MISSIONARY',			'ART_DEF_UNIT_MEMBER_MISSIONARY',					0,				NULL,			0		UNION ALL	
+SELECT	'JAPAN',		'JAPAN',		'buddhist_missionary.fxsxml',			'ART_DEF_UNIT_MISSIONARY',			'ART_DEF_UNIT_MEMBER_MISSIONARY',					0,				NULL,			0		UNION ALL	
+SELECT	'JAPAN',		'JAPAN_01',		'buddhist_missionary_01.fxsxml',		'ART_DEF_UNIT_MISSIONARY',			'ART_DEF_UNIT_MEMBER_MISSIONARY_01',				0,				NULL,			0		UNION ALL	
+SELECT	'JAPAN',		'JAPAN_02',		'buddhist_missionary_02.fxsxml',		'ART_DEF_UNIT_MISSIONARY',			'ART_DEF_UNIT_MEMBER_MISSIONARY_02',				0,				NULL,			0		UNION ALL	
 --SELECT	'JAPAN',		'JAPAN',			'unit_model_name',				'ART_DEF_UNIT_INQUISITOR',			'ART_DEF_UNIT_MEMBER_INQUISITOR',					0,				NULL,			0		UNION ALL	
 --SELECT	'JAPAN',		'JAPAN',			'unit_model_name',				'ART_DEF_UNIT_XP_PRIVATEER',		'ART_DEF_UNIT_MEMBER_XP_PRIVATEER',					0,				NULL,			0		UNION ALL	
 --SELECT	'JAPAN',		'JAPAN',			'unit_model_name',				'ART_DEF_UNIT_MARINE',				'ART_DEF_UNIT_MEMBER_MARINE',						0,				NULL,			0		UNION ALL	

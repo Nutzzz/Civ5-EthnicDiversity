@@ -30,7 +30,7 @@
 	<Texture file="Cannon_24pound_DIFF.dds"/>
 	<Texture file="Cannon_24pound_SREF.dds"/>
 	<Texture file="24pdr_Cannonier_diff.dds"/>
-	<Texture file="Black_SREF.dds"/>
+	<Texture file="no_gloss.dds"/>
 	<Texture file="Unit_Environment_Dull.dds"/>
 	<Texture file="Unit_Environment_Sharp.dds"/>
 	<Texture file="Unit_Irradiance.dds"/>

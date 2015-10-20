@@ -160,6 +160,16 @@ UPDATE ArtDefine_UnitInfoMemberInfos SET UnitMemberInfoType='ART_DEF_UNIT_MEMBER
 	WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_OTTOMAN' AND UnitMemberInfoType='ART_DEF_UNIT_MEMBER_AFRICAMEL';
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
+-- Oceania Amerindian Settlers with Donkey ------------------------------------------------------------------------------------------------------
+DELETE FROM ArtDefine_UnitInfoMemberInfos WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_POLY';
+INSERT INTO ArtDefine_UnitInfoMemberInfos (UnitInfoType, UnitMemberInfoType, NumMembers)
+	SELECT 'ART_DEF_UNIT__SETTLER_POLY', UnitMemberInfoType, NumMembers
+	FROM ArtDefine_UnitInfoMemberInfos
+	WHERE UnitInfoType = 'ART_DEF_UNIT__SETTLER_AMER';
+UPDATE ArtDefine_UnitInfoMemberInfos SET UnitMemberInfoType='ART_DEF_UNIT_MEMBER_EURODONKEY'
+	WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_POLY' AND UnitMemberInfoType='ART_DEF_UNIT_MEMBER_AMERLLAMA';
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
 -- Polynesia Amerindian Settlers with Donkey ------------------------------------------------------------------------------------------------------
 DELETE FROM ArtDefine_UnitInfoMemberInfos WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_POLYNESIA';
 INSERT INTO ArtDefine_UnitInfoMemberInfos (UnitInfoType, UnitMemberInfoType, NumMembers)

@@ -1,0 +1,25 @@
+<Asset>
+	<Mesh file="V1_Rocket.gr2"/>
+	<Animation file="GuidedMissile_IdleA.gr2" ec="1000"/>
+	<Animation file="GuidedMissile_AttackA.gr2" ec="1100"/>
+	<Animation file="GuidedMissile_Start_Run.gr2" ec="1420"/>
+	<Animation file="GuidedMissile_Run.gr2" ec="1400"/>
+	<Animation file="GuidedMissile_DeathA.gr2" ec="1200"/>
+	<Animation file="GuidedMissile_DeathA_Idle.gr2" ec="1220"/>
+	<Texture file="V1_diff.dds"/>
+	<Texture file="V1_sref.dds"/>
+	<AnimGraph file="START_RUN_LAUNCH.dge"/>
+	<AnimGraph file="DEATH_A_GRAPH.dge"/>
+	<StateMachine file="MISSLE_STATE_01.fsmxml"/>
+	<AnimGraph file="IDLE_A_GRAPH.dge"/>
+	<AnimGraph file="RUNNING_LOOP_GRAPH.dge"/>
+	<AnimGraph file="DEATH_FINAL_A_GRAPH.dge"/>
+	<AnimGraph file="ATTACK_A_GRAPH.dge"/>
+	<TimedTrigger file="FX_Triggers_GuidedMissile.ftsxml"/>
+	<BoneUsage>
+		<Bone name="bone_BODY"/>
+		<Bone name="WORLD_center"/>
+		<Bone name="GuidedMissile"/>
+	</BoneUsage>
+</Asset>
+

@@ -36,11 +36,11 @@ SELECT	'HUNS',		'HUNS',		'Messerschmitt_Bf-109_Hungary.fxsxml',	'ART_DEF_UNIT_FI
 --SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT_GALLEY',				'ART_DEF_UNIT_MEMBER_GALLEY',						0,				NULL,			0		UNION ALL
 --SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT_GUIDED_MISSILE',		'ART_DEF_UNIT_MEMBER_GUIDEDMISSILE',				0,				NULL,			0		UNION ALL
 --SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT_HELICOPTER_GUNSHIP',	'ART_DEF_UNIT_MEMBER_HELICOPTERGUNSHIP',			0,				NULL,			0		UNION ALL
---SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT_HORSEMAN',			'ART_DEF_UNIT_MEMBER_HORSEMAN',						0,				NULL,			0		UNION ALL
+SELECT	'HUNS',		'HUNS',			'u_cuman_chabani.fxsxml',			'ART_DEF_UNIT_HORSEMAN',			'ART_DEF_UNIT_MEMBER_HORSEMAN',						0,				NULL,			0		UNION ALL
 SELECT	'HUNS',		'HUNS',			'Infantry_Hungary.fxsxml',			'ART_DEF_UNIT_INFANTRY',			'ART_DEF_UNIT_MEMBER_INFANTRY',						0,				NULL,			0		UNION ALL
 --SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT_IRONCLAD',			'ART_DEF_UNIT_MEMBER_IRONCLAD',						0,				NULL,			0		UNION ALL
 --SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT_JET_FIGHTER',			'ART_DEF_UNIT_MEMBER_JETFIGHTER',					0,				NULL,			0		UNION ALL
---SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT_KNIGHT',				'ART_DEF_UNIT_MEMBER_KNIGHT',						0,				NULL,			0		UNION ALL
+SELECT	'HUNS',		'HUNS',			'u_cuman_mamluk.fxsxml',			'ART_DEF_UNIT_KNIGHT',				'ART_DEF_UNIT_MEMBER_KNIGHT',						0,				NULL,			0		UNION ALL
 --SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT_LANCER',				'ART_DEF_UNIT_MEMBER_LANCER',						0,				NULL,			0		UNION ALL
 SELECT	'HUNS',		'HUNS',			'hungary_longsw3.fxsxml',			'ART_DEF_UNIT_LONGSWORDSMAN',		'ART_DEF_UNIT_MEMBER_LONGSWORDSMAN',				0,				NULL,			0		UNION ALL
 --SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT_MECH',				'ART_DEF_UNIT_MEMBER_MECH',							0,				NULL,			0		UNION ALL
@@ -91,6 +91,8 @@ SELECT	'HUNS',		'HUNS_V2',		'ScythiaWarrior2.fxsxml',			'ART_DEF_UNIT__WARRIOR',
 --SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT__WORKER',				'ART_DEF_UNIT_MEMBER_WORKER_EURO',					0,				NULL,			0		UNION ALL
 --SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT__WORKER_LATE',		'ART_DEF_UNIT_MEMBER_WORKER_EURO_LATE',				0,				NULL,			0		UNION ALL
 --SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT__SETTLER',			'ART_DEF_UNIT_MEMBER_EUROMALE45',					0,				NULL,			0		UNION ALL
+--SELECT	'HUNS',		'HUNS_DONKEY',	'Assets/Units/Settler/Settler_Euro/EuroDonkey.fxsxml',
+--																		'ART_DEF_UNIT__SETTLER',			'ART_DEF_UNIT_MEMBER_EURODONKEY',					0,				NULL,			0		UNION ALL
 --SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT_GALLEON',				'ART_DEF_UNIT_MEMBER_GALLEON',						0,				NULL,			0		UNION ALL
 --SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT_SS_BOOSTER',			'ART_DEF_UNIT_MEMBER_SS_BOOSTER',					0,				NULL,			0		UNION ALL
 --SELECT	'HUNS',		'HUNS',			'unit_model_name',				'ART_DEF_UNIT_SS_CAPSULE',			'ART_DEF_UNIT_MEMBER_SS_CAPSULE',					0,				NULL,			0		UNION ALL

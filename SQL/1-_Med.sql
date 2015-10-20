@@ -51,7 +51,7 @@ SELECT	'MED',		'MED',			'spain_longsw6.fxsxml',				'ART_DEF_UNIT_LONGSWORDSMAN',
 --SELECT	'MED',		'MED',			'unit_model_name',				'ART_DEF_UNIT_PARATROOPER',			'ART_DEF_UNIT_MEMBER_PARATROOPER',					0,				NULL,			0		UNION ALL
 SELECT	'MED',		'MED',			'Pikeman_Spain.fxsxml',				'ART_DEF_UNIT_PIKEMAN',				'ART_DEF_UNIT_MEMBER_PIKEMAN',						0,				NULL,			0		UNION ALL
 --SELECT	'MED',		'MED',			'unit_model_name',				'ART_DEF_UNIT_RIFLEMAN',			'ART_DEF_UNIT_MEMBER_RIFLEMAN',						0,				NULL,			0		UNION ALL
---SELECT	'MED',		'MED',			'unit_model_name',				'ART_DEF_UNIT_SCOUT',				'ART_DEF_UNIT_MEMBER_SCOUT',						0,				NULL,			0		UNION ALL
+SELECT	'MED',		'MED',				'MedScout.fxsxml',				'ART_DEF_UNIT_SCOUT',				'ART_DEF_UNIT_MEMBER_SCOUT',						0,				NULL,			0		UNION ALL
 SELECT	'MED',		'MED','Assets/Units/U_Greek_Hoplite/U_Greek_Hoplite.fxsxml','ART_DEF_UNIT_SPEARMAN',	'ART_DEF_UNIT_MEMBER_SPEARMAN',						0,				NULL,			0		UNION ALL
 --SELECT	'MED',		'MED',			'unit_model_name',				'ART_DEF_UNIT_STEALTH_BOMBER',		'ART_DEF_UNIT_MEMBER_STEALTHBOMBER',				0,				NULL,			0		UNION ALL
 --SELECT	'MED',		'MED',			'unit_model_name',				'ART_DEF_UNIT_SUBMARINE',			'ART_DEF_UNIT_MEMBER_SUBMARINE',					0,				NULL,			0		UNION ALL
@@ -61,6 +61,7 @@ SELECT	'MED',		'MED',			'SpanishSwordsman.fxsxml',			'ART_DEF_UNIT_SWORDSMAN',		
 --SELECT	'MED',		'MED',			'unit_model_name',				'ART_DEF_UNIT_TREBUCHET',			'ART_DEF_UNIT_MEMBER_TREBUCHET',					0,				NULL,			0		UNION ALL
 --SELECT	'MED',		'MED',			'unit_model_name',				'ART_DEF_UNIT_TRIREME',				'ART_DEF_UNIT_MEMBER_TRIREME',						0,				NULL,			0		UNION ALL
 --SELECT	'MED',		'MED',			'HannibalMerc.fxsxml',				'ART_DEF_UNIT__WARRIOR',			'ART_DEF_UNIT_MEMBER_WARRIOR',						0,				NULL,			0		UNION ALL
+SELECT	'MED',		'MED',				'MedWarrior.fxsxml',			'ART_DEF_UNIT__WARRIOR',			'ART_DEF_UNIT_MEMBER_WARRIOR',						0,				NULL,			0		UNION ALL
 --SELECT	'MED',		'MED',			'unit_model_name',				'ART_DEF_UNIT_WORKBOAT',			'ART_DEF_UNIT_MEMBER_WORKBOAT',						0,				NULL,			0		UNION ALL
 --SELECT	'MED',		'MED',			'unit_model_name',				'ART_DEF_UNIT_ARTIST',				'ART_DEF_UNIT_MEMBER_GREATARTIST_EARLY_FLUTE',		0,				NULL,			0		UNION ALL
 --SELECT	'MED',		'MED',			'unit_model_name',				'ART_DEF_UNIT_ARTIST',				'ART_DEF_UNIT_MEMBER_GREATARTIST_EARLY_TAMBOURINE',	0,				NULL,			0		UNION ALL

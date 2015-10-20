@@ -116,7 +116,9 @@ SELECT	'CHINA',		'CHINA',		'Composite_Bowman_China_v2.fxsxml',		'ART_DEF_UNIT_CO
 --SELECT	'CHINA',		'CHINA',			'unit_model_name',				'ART_DEF_UNIT_GALLEASS',			'ART_DEF_UNIT_MEMBER_GALLEASS',						0,				NULL,			0		UNION ALL	
 --SELECT	'CHINA',		'CHINA',			'unit_model_name',				'ART_DEF_UNIT_GATLINGGUN',			'ART_DEF_UNIT_MEMBER_GATLINGGUN',					0,				NULL,			0		UNION ALL	
 --SELECT	'CHINA',		'CHINA',			'unit_model_name',				'ART_DEF_UNIT_GREAT_PROPHET',		'ART_DEF_UNIT_MEMBER_GREAT_PROPHET',				0,				NULL,			0		UNION ALL	
---SELECT	'CHINA',		'CHINA',			'unit_model_name',				'ART_DEF_UNIT_MISSIONARY',			'ART_DEF_UNIT_MEMBER_MISSIONARY',					0,				NULL,			0		UNION ALL	
+SELECT	'CHINA',		'CHINA',		'buddhist_missionary.fxsxml',			'ART_DEF_UNIT_MISSIONARY',			'ART_DEF_UNIT_MEMBER_MISSIONARY',					0,				NULL,			0		UNION ALL	
+SELECT	'CHINA',		'CHINA_01',		'buddhist_missionary_01.fxsxml',		'ART_DEF_UNIT_MISSIONARY',			'ART_DEF_UNIT_MEMBER_MISSIONARY_01',				0,				NULL,			0		UNION ALL	
+SELECT	'CHINA',		'CHINA_02',		'buddhist_missionary_02.fxsxml',		'ART_DEF_UNIT_MISSIONARY',			'ART_DEF_UNIT_MEMBER_MISSIONARY_02',				0,				NULL,			0		UNION ALL	
 --SELECT	'CHINA',		'CHINA',			'unit_model_name',				'ART_DEF_UNIT_INQUISITOR',			'ART_DEF_UNIT_MEMBER_INQUISITOR',					0,				NULL,			0		UNION ALL	
 --SELECT	'CHINA',		'CHINA',			'unit_model_name',				'ART_DEF_UNIT_XP_PRIVATEER',		'ART_DEF_UNIT_MEMBER_XP_PRIVATEER',					0,				NULL,			0		UNION ALL	
 --SELECT	'CHINA',		'CHINA',			'unit_model_name',				'ART_DEF_UNIT_MARINE',				'ART_DEF_UNIT_MEMBER_MARINE',						0,				NULL,			0		UNION ALL	

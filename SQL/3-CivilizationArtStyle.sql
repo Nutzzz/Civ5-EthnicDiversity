@@ -428,6 +428,10 @@ INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType'
 -- Minor Civs
 --------------------------------------------------------------------------------------------------------------------------------------
 
+-- BALKANS? (Greece + Belgrade, Ragusa, Sofia)
+
+-- BALTIC? (Riga, Vilnius)
+
 -- BELGIUM (Antwerp, Brussels)
 UPDATE MinorCivilizations SET ArtStyleSuffix = "_BELGIUM" WHERE Type = 'MINOR_CIV_ANTWERP';
 UPDATE MinorCivilizations SET ArtStyleSuffix = "_BELGIUM" WHERE Type = 'MINOR_CIV_BRUSSELS';
@@ -437,6 +441,16 @@ INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
 INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
 	SELECT	REPLACE("UnitInfoType", '_EURO', '_BELGIUM'), "UnitMemberInfoType", "NumMembers"
 	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_EURO';
+
+-- BOHEMIA (Bratislava, Prague)
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_BOHEMIA" WHERE Type = 'MINOR_CIV_BRATISLAVA';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_BOHEMIA" WHERE Type = 'MINOR_CIV_PRAGUE';
+INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
+	SELECT	REPLACE("Type", '_EASTEU', '_BOHEMIA'), "DamageStates", "Formation"
+	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_BOHEMIA';
+INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
+	SELECT	REPLACE("UnitInfoType", '_EASTEU', '_BOHEMIA'), "UnitMemberInfoType", "NumMembers"
+	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_EASTEU';
 
 -- GARAMANTES [YnAEMP]
 UPDATE MinorCivilizations SET ArtStyleSuffix = "_GARAMANTES" WHERE Type = 'MINOR_CIV_GARAMANTES';
@@ -474,20 +488,21 @@ INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType'
 	SELECT	REPLACE("UnitInfoType", '_AFRI', '_MOMBASA'), "UnitMemberInfoType", "NumMembers"
 	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_AFRI';
 
--- PHOENICIA (Byblos, Sidon, Tyre)
-UPDATE MinorCivilizations SET ArtStyleSuffix = "_PHOENICIA" WHERE Type = 'MINOR_CIV_BYBLOS';
-UPDATE MinorCivilizations SET ArtStyleSuffix = "_PHOENICIA" WHERE Type = 'MINOR_CIV_SIDON';
-UPDATE MinorCivilizations SET ArtStyleSuffix = "_PHOENICIA" WHERE Type = 'MINOR_SIDON';
-UPDATE MinorCivilizations SET ArtStyleSuffix = "_PHOENICIA" WHERE Type = 'MINOR_CIV_TYRE';
-UPDATE MinorCivilizations SET ArtStyleSuffix = "_PHOENICIA" WHERE Type = 'MINOR_TYRE';
+-- LEVANT (Byblos, Jerusalem, Sidon, Tyre)
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_LEVANT" WHERE Type = 'MINOR_CIV_BYBLOS';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_LEVANT" WHERE Type = 'MINOR_CIV_JERUSALEM';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_LEVANT" WHERE Type = 'MINOR_CIV_SIDON';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_LEVANT" WHERE Type = 'MINOR_SIDON';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_LEVANT" WHERE Type = 'MINOR_CIV_TYRE';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_LEVANT" WHERE Type = 'MINOR_TYRE';
 INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
-	SELECT	REPLACE("Type", '_MIDEAST', '_PHOENICIA'), "DamageStates", "Formation"
+	SELECT	REPLACE("Type", '_MIDEAST', '_LEVANT'), "DamageStates", "Formation"
 	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_MIDEAST';
 INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
-	SELECT	REPLACE("UnitInfoType", '_MIDEAST', '_PHOENICIA'), "UnitMemberInfoType", "NumMembers"
+	SELECT	REPLACE("UnitInfoType", '_MIDEAST', '_LEVANT'), "UnitMemberInfoType", "NumMembers"
 	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_MIDEAST';
 
--- SWITZERLAND (Geneva, Zurich)
+-- SWISS (Geneva, Zurich)
 UPDATE MinorCivilizations SET ArtStyleSuffix = "_SWISS" WHERE Type = 'MINOR_CIV_GENEVA';
 UPDATE MinorCivilizations SET ArtStyleSuffix = "_SWISS" WHERE Type = 'MINOR_CIV_ZURICH';
 INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
@@ -505,6 +520,15 @@ INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
 INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
 	SELECT	REPLACE("UnitInfoType", '_MED', '_VATICAN_CITY'), "UnitMemberInfoType", "NumMembers"
 	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_MED';
+
+-- WITTENBERG [just re-using GERMANY]
+--UPDATE MinorCivilizations SET ArtStyleSuffix = "_WITTENBERG" WHERE Type = 'MINOR_CIV_WITTENBERG';
+--INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
+--	SELECT	REPLACE("Type", '_EURO', '_WITTENBERG'), "DamageStates", "Formation"
+--	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_EURO';
+--INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
+--	SELECT	REPLACE("UnitInfoType", '_EURO', '_WITTENBERG'), "UnitMemberInfoType", "NumMembers"
+--	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_EURO';
 
 -- Reuse major civ's units
 UPDATE MinorCivilizations SET ArtStyleSuffix = "_HUNS" WHERE Type = 'MINOR_CIV_ALMATY';
@@ -530,3 +554,49 @@ UPDATE MinorCivilizations SET ArtStyleSuffix = "_SWEDEN" WHERE Type = 'MINOR_CIV
 UPDATE MinorCivilizations SET ArtStyleSuffix = "_ROME" WHERE Type = 'MINOR_CIV_VENICE';
 UPDATE MinorCivilizations SET ArtStyleSuffix = "_AUSTRIA" WHERE Type = 'MINOR_CIV_VIENNA';
 UPDATE MinorCivilizations SET ArtStyleSuffix = "_POLAND" WHERE Type = 'MINOR_CIV_WARSAW';
+
+--Preliminary support for modded civilizations
+--(won't work unless they're activated first; I really should set up a trigger if I want to use this route.)
+--[This list is derived from the Cultural Diversity mod.  Note the next version of CulDiv will include an ArtDefineTag column in the custom Civilization_JFD_CultureType table that will need to be copied to the ArtStyleSuffix column in the Civilizations table.  I plan to add support.]
+
+--WESTAS
+--Steppe
+UPDATE Civilizations SET ArtStyleSuffix = "_CENTAS" WHERE Type IN
+	('CIVILIZATION_KAZAKH', 'CIVILIZATION_KHAZARIA', 'CIVILIZATION_SIBIR', 'CIVILIZATION_SCYTHIA_LS_MOD', 'CIVILIZATION_TCM_ALAN', 'CIVILIZATION_TIMURIDES', 'CIVILIZATION_TIMURIDS_LS_MOD', 'CIVILIZATION_UYGHUR', 'CIVILIZATION_YAKUTIA');
+
+--EASTEU
+--Eastern European
+UPDATE Civilizations SET ArtStyleSuffix = "_EASTEU" WHERE Type IN
+	('CIVILIZATION_ALBANIA', 'CIVILIZATION_ARMENIA', 'CIVILIZATION_AZERBAIJAN', 'CIVILIZATION_BOSNIA', 'CIVILIZATION_BULGARIA', 'CIVILIZATION_BULGARIA_LS_MOD', 'CIVILIZATION_CROATIA', 'CIVILIZATION_GE_SLAVS', 'CIVILIZATION_HETMANATE_LS_MOD', 'CIVILIZATION_KDMBOSNIA', 'CIVILIZATION_LATVIA', 'CIVILIZATION_MACEDONIA', 'CIVILIZATION_MOLDAVIA', 'CIVILIZATION_MONTENEGRO', 'CIVILIZATION_ROMANIA', 'CIVILIZATION_ROMANIA_LS_MOD', 'CIVILIZATION_WALLACHIA', 'CIVILIZATION_YUGOSLAVIA');
+
+--MIDEAST
+--Islamic
+UPDATE Civilizations SET ArtStyleSuffix = "_MIDEAST" WHERE Type IN
+	('CIVILIZATION_ALGERIA', 'CIVILIZATION_BERBER', 'CIVILIZATION_CORDOBA', 'CIVILIZATION_DURANNI_LS_MOD', 'CIVILIZATION_HAFEZ_SYRIA', 'CIVILIZATION_IRAN', 'CIVILIZATION_KUWAIT', 'CIVILIZATION_LIBYA', 'CIVILIZATION_SADAT_EGYPT', 'CIVILIZATION_UAE');
+--Mesopotamic
+UPDATE Civilizations SET ArtStyleSuffix = "_MIDEAST" WHERE Type IN
+	('CIVILIZATION_AKKADIA', 'CIVILIZATION_HITTITE_LS_MOD', 'CIVILIZATION_MITANNI', 'CIVILIZATION_NUBIA', 'CIVILIZATION_NUMIDIA_LS_MOD',    'CIVILIZATION_PARTHIA', 'CIVILIZATION_SASANIAN', 'CIVILIZATION_SUMERIA_LS_MOD'); 
+
+--SOUTHAM
+--Andean
+UPDATE Civilizations SET ArtStyleSuffix = "_SOUTHAM" WHERE Type IN
+	('CIVILIZATION_CHIMOR', 'CIVILIZATION_CHIMU_MOD', 'CIVILIZATION_MAPUCHE', 'CIVILIZATION_MUISCA', 'CIVILIZATION_TIWANAKU');
+--MesoAmerican
+UPDATE Civilizations SET ArtStyleSuffix = "_SOUTHAM" WHERE Type IN
+	('CIVILIZATION_OLMEC_LS_MOD', 'CIVILIZATION_ZAPOTEC');
+
+--sub-styles for Minors
+--e.g., Central European
+--('CIVILIZATION_BOHEMIA', 'CIVILIZATION_CROATIA', 'CIVILIZATION_FRANKS_LS_MOD', 'CIVILIZATION_HUNGARY_LS_MOD',	'CIVILIZATION_LITHUANIA_LS_MOD', 'CIVILIZATION_POLAND_LS_MOD', 'CIVILIZATION_SWITZERLAND', 'CIVILIZATION_SWITZERLAND_LS_MOD');
+
+--BOHEMIA?
+--UPDATE Civilizations SET ArtStyleSuffix = "_BOHEMIA" WHERE Type = 'CIVILIZATION_BOHEMIA';
+
+--SWISS
+UPDATE Civilizations SET ArtStyleSuffix = "_SWISS" WHERE Type IN
+	('CIVILIZATION_SWITZERLAND', 'CIVILIZATION_SWITZERLAND_LS_MOD');
+
+--LEVANT
+--Semitic
+UPDATE Civilizations SET ArtStyleSuffix = "_LEVANT" WHERE Type IN
+	('CIVILIZATION_ISRAEL', 'CIVILIZATION_ISRAEL_LS_MOD', 'CIVILIZATION_LEUGI_PHILISTINE', 'CIVILIZATION_NABATAEA', 'CIVILIZATION_PHOENICIA', 'CIVILIZATION_PHOENICIA_LS_MOD', 'CIVILIZATION_SABA');
