@@ -2501,6 +2501,30 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Units\Celts\wizard_black.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Celts\wizard_black.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Celts\wizard_black_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Celts\wizard_fire.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Celts\wizard_fire.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Celts\wizard_fire_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Units\China\Archer_China.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -13901,22 +13925,6 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Units\_Generic\_Asia\Swordsman India\civ5_indsm2.fxsxml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Units\_Generic\_Asia\Swordsman India\civ5_indsm2.gr2">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Units\_Generic\_Asia\Swordsman India\indsm2.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Units\_Generic\_Asia\Swordsman India\indsm2_sref.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
     <Content Include="Units\_Generic\_Asia\Swordsman Mongol\civ5_monsm1.fxsxml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -13946,6 +13954,22 @@
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Units\_Generic\_Asia\War Junk\WarJunk_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_CentAs\Swordsman Turkish\civ5_ottsm1.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_CentAs\Swordsman Turkish\civ5_ottsm1.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_CentAs\Swordsman Turkish\ottsm1.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_CentAs\Swordsman Turkish\ottsm1_sref.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -14349,22 +14373,6 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Units\_Generic\_MidEast\Swordsman Turkish\civ5_ottsm1.fxsxml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Units\_Generic\_MidEast\Swordsman Turkish\civ5_ottsm1.gr2">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Units\_Generic\_MidEast\Swordsman Turkish\ottsm1.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Units\_Generic\_MidEast\Swordsman Turkish\ottsm1_sref.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
     <Content Include="Units\_Generic\_MidEast\Warrior Persian\MidEastWarrior.fxsxml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -14418,6 +14426,22 @@
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Units\_Generic\_SouthAm\Missionary SouthAm\missionary_southam.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_SouthAs\Swordsman India\civ5_indsm2.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_SouthAs\Swordsman India\civ5_indsm2.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_SouthAs\Swordsman India\indsm2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_SouthAs\Swordsman India\indsm2_sref.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -14529,6 +14553,26 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Units\_Minors\Levant\Crossbowman_Jerusalem.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Crossbowman_Jerusalem.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Crossbowman_Jerusalem.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Crossbowman_Jerusalem.jpg">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Crossbowman_Jerusalem_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Units\_Minors\Levant\F4Israel.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -14610,6 +14654,74 @@
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Units\_Minors\Levant\hebrew_warrior_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Knight_Jerusalem.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Knight_Jerusalem.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Knight_Jerusalem.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Knight_Jerusalem.jpg">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Knight_Jerusalem_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Knight_Jerusalem_Horse.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Knight_Jerusalem_Horse_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Longswordsman_Jerusalem.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Longswordsman_Jerusalem.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Longswordsman_Jerusalem.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Longswordsman_Jerusalem.jpg">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Longswordsman_Jerusalem_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Pikeman_Jerusalem.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Pikeman_Jerusalem.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Pikeman_Jerusalem.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Pikeman_Jerusalem.jpg">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Minors\Levant\Pikeman_Jerusalem_gloss.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -14743,6 +14855,9 @@
     <Folder Include="Units\_Generic\Mechanized Infantry" />
     <Folder Include="Units\_Generic\Mobile SAM" />
     <Folder Include="Units\_Generic\Modern Armors" />
+    <Folder Include="Units\_Generic\_CentAs" />
+    <Folder Include="Units\_Generic\_CentAs\Swordsman Turkish" />
+    <Folder Include="Units\_Generic\_SouthAs" />
     <Folder Include="Units\_Generic\Tank" />
     <Folder Include="Units\_Generic\Submarine" />
     <Folder Include="Units\_Generic\Paratrooper" />
@@ -14760,7 +14875,6 @@
     <Folder Include="Units\_Generic\_Asia\Missionary Asian" />
     <Folder Include="Units\_Generic\_Asia\War Junk" />
     <Folder Include="Units\_Generic\_Asia\Swordsman Mongol" />
-    <Folder Include="Units\_Generic\_Asia\Swordsman India" />
     <Folder Include="Units\_Generic\_EastEuro\Knight Russia" />
     <Folder Include="Units\_Generic\_EastEuro\Warrior Russian Slavic" />
     <Folder Include="Units\_Generic\_EastEuro\Swordsman Russia Halych" />
@@ -14778,7 +14892,6 @@
     <Folder Include="Units\_Generic\_MidEast\Cavalry Dervish" />
     <Folder Include="Units\_Generic\_MidEast\Inquisitor Assassin" />
     <Folder Include="Units\_Generic\_MidEast\Warrior Persian" />
-    <Folder Include="Units\_Generic\_MidEast\Swordsman Turkish" />
     <Folder Include="Units\_Generic\_MidEast\Swordsman Persia Sassanid" />
     <Folder Include="Units\_Generic\_MidEast\Swordsman Early Islamic" />
     <Folder Include="Units\_Generic\_MidEast\Swordsman Babylon" />
@@ -14788,6 +14901,7 @@
     <Folder Include="Units\_Generic\_SouthAm\Andes Cargo Ship" />
     <Folder Include="Units\_Generic\_SouthAm\Inquisitor SouthAm" />
     <Folder Include="Units\_Generic\_SouthAm\Missionary SouthAm" />
+    <Folder Include="Units\_Generic\_SouthAs\Swordsman India" />
     <Folder Include="Units\_Generic\_Test" />
     <Folder Include="Units\_Generic\_SouthAm" />
     <Folder Include="Units\_Generic\_MidEast" />
