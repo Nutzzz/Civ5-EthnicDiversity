@@ -37,7 +37,7 @@ Fix for fighter propeller and archer arrow positions (optional) :
 
 	-- Credits and Thanks --
 
-- danrell, bernie14, Wolfdog, JTitan, snafusmith, Patum33, asioasioasio, Coffee Junkie, nautil, Nuvoloblu, Oleg153, Rabbit White, Splinter13, Generalmatt and all other unit makers for the models and conversions
+- danrell, bernie14, Wolfdog, Civitar, JTitan, snafusmith, Patum33, asioasioasio, Coffee Junkie, nautil, Nuvoloblu, Oleg153, Rabbit White, Splinter13, Generalmatt, Nutty, and all other unit makers for the models and conversions
 - RTW unit makers that have allowed conversion of their models to Civ5
 - seZereth and Porges, who created the initial regiment mod for Civ4
 - Pazyryk for SQL corrections
@@ -48,18 +48,21 @@ Fix for fighter propeller and archer arrow positions (optional) :
 	-- Version History --
 	
 v.28 beta 3 TEST (Oct 19, 2015):
-- new general suffix types for South Asia (India and Colombo city state) and Oceania
+- new general suffix types for South Asia (India and Colombo) and Oceania (Polynesia and Wellington)
+- fix bugs with embarked unit Lua
+- some adjustment of the unit choices
 - add bernie14's German marines
 - add Civitar's conversion of the wizard/druid as missionary for Celts
 - add Civitar's conversion of Bakuel's Cuman units for Huns
 - add Civitar's conversion of Bakuel's silat for Indonesia
-- add Civitar's Zapotec battle priest as inquisitor for Native North and South American civs
+- add Civitar's Zapotec battle priest as inquisitor for Native North and South American civs and Polynesia
 - add Civitar's Dervish Maara Weyn as cavalry for Middle Eastern civs
-- add Civitar's conversion of Bakuel's Hebrew units for Levant city states
+- add Civitar's conversion of Bakuel's Hebrew units for Levant city states (Jerusalem, Byblos, Sidon, and Tyre)
+- add danrell's Kingdom of Jerusalem crusaders for Levant city states
 - add danrell's akazonae as lancer for Japan
 - add hangman's Inca axeman as a second longswordsman model
 - add Nomad or What's conversions of Bakuel's Berbers for Morocco
-- add Snafusmith's F-4 jets for Greece?, Egypt, Japan, Korea, and Ottomans
+- add Snafusmith's F-4 jets for Egypt, Japan, Korea, and Ottomans [Q? and Greece ???]
 - add Sukritact's Ogichida as musketman for Native North American civs
 - add Wolfdog's Qizilbash as lancer for Persia
 - add Wolfdog's conversion of TheCoyote's A-7 Corsair II as jet fighter for Greece, Portugal and Siam
