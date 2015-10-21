@@ -47,12 +47,12 @@ Fix for fighter propeller and archer arrow positions (optional) :
 
 	-- Version History --
 	
-v.28 beta 3 TEST (Oct 19, 2015):
+v.28 beta 3 TEST (Oct 21, 2015):
 - new general suffix types for South Asia (India and Colombo) and Oceania (Polynesia and Wellington)
 - fix bugs with embarked unit Lua
 - some adjustment of the unit choices
 - add bernie14's German marines
-- add Civitar's conversion of the wizard/druid as missionary for Celts
+- add Civitar's conversion of the wizard/druid as missionary (white robe) and inquisitor (red robe) for Celts
 - add Civitar's conversion of Bakuel's Cuman units for Huns
 - add Civitar's conversion of Bakuel's silat for Indonesia
 - add Civitar's Zapotec battle priest as inquisitor for Native North and South American civs and Polynesia
@@ -62,17 +62,18 @@ v.28 beta 3 TEST (Oct 19, 2015):
 - add danrell's akazonae as lancer for Japan
 - add hangman's Inca axeman as a second longswordsman model
 - add Nomad or What's conversions of Bakuel's Berbers for Morocco
-- add Snafusmith's F-4 jets for Egypt, Japan, Korea, and Ottomans [Q? and Greece ???]
+- add Snafusmith's F-4 jets for Egypt, Japan, Korea, and Ottomans
+[Q?] (F-4 for Greece instead of A-7?)
 - add Sukritact's Ogichida as musketman for Native North American civs
 - add Wolfdog's Qizilbash as lancer for Persia
 - add Wolfdog's conversion of TheCoyote's A-7 Corsair II as jet fighter for Greece, Portugal and Siam
 - add zwei833's Schwaben reskin of bernie14's longswordsman as an additional model for Germany
 - add zwei833's Bohemian reskin of bernie14's longswordsman for Prague and Bratislava
-- [test] add danrell's warrior monk as inquisitor for Asian civs
-- [test] add Kwadjh's conversion of the assassin as inquisitor for Middle Eastern and Central Asian civs
-- [test] add Ho229 (world war II prototype) as stealth bomber for Germany
-- [test] add V1 Rocket as guided missile for Germany
-- [Q?] should Austria use more German units, etc.?
+[test] add danrell's warrior monk as inquisitor for Asian civs
+[test] add Kwadjh's conversion of the assassin as inquisitor for Middle Eastern and Central Asian civs
+[test] add Ho229 (world war II prototype) as stealth bomber for Germany
+[test] add V1 Rocket as guided missile for Germany
+[Q?] should Austria use more German units, etc.?
 
 v.28 beta 2 (Aug 23, 2015):
 - add Civitar's Anishinaabe Midew medicine man as missionary for Native North American civs
