@@ -14,18 +14,41 @@
 --  Minor Civs New ArtStyle initialization
 --------------------------------------------------------------------------------------------------------------------------------------
 
--- Correct style
-UPDATE MinorCivilizations SET ArtStyleType = 'ARTSTYLE_MIDDLE_EAST' WHERE Type IN 
-	('MINOR_CIV_ZANZIBAR', 
-	'MINOR_CIV_MARRAKECH');
+-- Correct building styles
 UPDATE Civilizations SET ArtStyleType = 'ARTSTYLE_GRECO_ROMAN', ArtStylePrefix = 'MEDITERRANEAN' WHERE Type IN 
 	('CIVILIZATION_BRAZIL', 
-	'CIVILIZATION_PORTUGAL');
+	'CIVILIZATION_PORTUGAL', 
+	'CIVILIZATION_SPAIN');
+UPDATE Civilizations SET ArtStyleType = 'ARTSTYLE_MIDDLE_EAST', ArtStylePrefix = 'AFRICAN' WHERE Type IN 
+	('CIVILIZATION_INDIA', 
+	'CIVILIZATION_HUNS';
+UPDATE Civilizations SET ArtStyleType = 'ARTSTYLE_POLYNESIAN' WHERE Type IN 
+	('CIVILIZATION_SIAM', 
+	'CIVILIZATION_INDONESIA');
+UPDATE Civilizations SET ArtStyleType = 'ARTSTYLE_SOUTH_AMERICA'
+	WHERE Type = 'CIVILIZATION_ZULU';
+
+UPDATE MinorCivilizations SET ArtStyleType = 'ARTSTYLE_GRECO_ROMAN', ArtStylePrefix = 'MEDITERRANEAN' 
+	WHERE Type = 'MINOR_CIV_VALLETTA', 'MINOR_CIV_VATICAN_CITY';
+UPDATE MinorCivilizations SET ArtStyleType = 'ARTSTYLE_MIDDLE_EAST', ArtStylePrefix = 'AFRICAN' WHERE Type IN 
+	('MINOR_CIV_ALMATY', 
+	'MINOR_CIV_KYZYL', 
+	'MINOR_CIV_MARRAKECH', 
+	'MINOR_CIV_ZANZIBAR');
+UPDATE MinorCivilizations SET ArtStyleType = 'ARTSTYLE_POLYNESIAN', ArtStylePrefix = 'AMERICAN' 
+	WHERE Type = 'MINOR_CIV_WELLINGTON';
+UPDATE Civilizations SET ArtStyleType = 'ARTSTYLE_POLYNESIAN' WHERE Type IN 
+	('MINOR_CIV_HANOI', 
+	'MINOR_CIV_KUALA_LUMPUR', 
+	'MINOR_CIV_MALACCA', 
+	'MINOR_CIV_MANILA', 
+	'MINOR_CIV_SINGAPORE');
 
 -- CENTRAL ASIAN (new suffix type)
 UPDATE MinorCivilizations SET ArtStyleSuffix = "_CENTAS" WHERE Type IN 
 	('MINOR_CIV_ALMATY', 
-	'MINOR_CIV_KYZYL');
+	'MINOR_CIV_KYZYL', 
+	'MINOR_CIV_SAMARKAND');
 INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
 	SELECT	REPLACE("Type", '_ASIA', '_CENTAS'), "DamageStates", "Formation"
 	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_ASIA';
@@ -68,6 +91,16 @@ INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType'
 	SELECT	REPLACE("UnitInfoType", '_AFRI', '_MIDEAST'), "UnitMemberInfoType", "NumMembers"
 	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_AFRI';
 
+-- OCEANIC (new suffix type)
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_OCEAN" 
+	WHERE Type = 'MINOR_CIV_WELLINGTON';
+INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
+	SELECT	REPLACE("Type", '_AMER', '_OCEAN'), "DamageStates", "Formation"
+	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_AMER';
+INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
+	SELECT	REPLACE("UnitInfoType", '_AMER', '_OCEAN'), "UnitMemberInfoType", "NumMembers"
+	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_AMER';
+
 -- SOUTH AMERICAN (new suffix type)
 UPDATE MinorCivilizations SET ArtStyleSuffix = "_SOUTHAM" WHERE Type IN 
 	('MINOR_CIV_BOGOTA', 
@@ -83,21 +116,13 @@ INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType'
 	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_AMER';
 
 -- SOUTH ASIAN (new suffix type)
-UPDATE MinorCivilizations SET ArtStyleSuffix = "_SOUTHAS" 
-	WHERE Type = 'MINOR_CIV_COLOMBO';
+UPDATE MinorCivilizations SET ArtStyleSuffix = "_SOUTHAS" WHERE Type IN 
+	('MINOR_CIV_COLOMBO', 
+	'MINOR_CIV_KATHMANDU', 
+	'MINOR_CIV_LHASA');
 INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
 	SELECT	REPLACE("Type", '_ASIA', '_SOUTHAS'), "DamageStates", "Formation"
 	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_ASIA';
 INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
 	SELECT	REPLACE("UnitInfoType", '_ASIA', '_SOUTHAS'), "UnitMemberInfoType", "NumMembers"
 	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_ASIA';
-
--- OCEANIC (new suffix type)
-UPDATE MinorCivilizations SET ArtStyleSuffix = "_POLY" 
-	WHERE Type = 'MINOR_CIV_WELLINGTON';
-INSERT INTO "ArtDefine_UnitInfos" ('Type','DamageStates','Formation')
-	SELECT	REPLACE("Type", '_AMER', '_POLY'), "DamageStates", "Formation"
-	FROM "ArtDefine_UnitInfos" WHERE Type LIKE '%_AMER';
-INSERT INTO "ArtDefine_UnitInfoMemberInfos" ('UnitInfoType','UnitMemberInfoType','NumMembers')
-	SELECT	REPLACE("UnitInfoType", '_AMER', '_POLY'), "UnitMemberInfoType", "NumMembers"
-	FROM "ArtDefine_UnitInfoMemberInfos" WHERE UnitInfoType LIKE '%_AMER';

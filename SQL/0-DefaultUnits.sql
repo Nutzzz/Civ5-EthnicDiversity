@@ -22,6 +22,20 @@ UPDATE ArtDefine_UnitMemberInfos SET Scale = 0.09 WHERE Type IN (SELECT UnitMemb
 
 	-- todo: all other move rates...
 
+CREATE TRIGGER REDModCompatArt
+	AFTER INSERT ON ArtDefine_UnitInfoMemberInfos
+	BEGIN
+UPDATE ArtDefine_UnitMemberInfos SET Scale = 0.09 WHERE Type IN (SELECT UnitMemberInfoType FROM ArtDefine_UnitInfoMemberInfos WHERE UnitInfoType IN
+	(SELECT UnitArtInfo FROM Units WHERE MoveRate = 'BIPED'));
+	END;
+
+CREATE TRIGGER REDModCompatUnits
+	AFTER INSERT ON Units
+	BEGIN
+UPDATE ArtDefine_UnitMemberInfos SET Scale = 0.09 WHERE Type IN (SELECT UnitMemberInfoType FROM ArtDefine_UnitInfoMemberInfos WHERE UnitInfoType IN
+	(SELECT UnitArtInfo FROM Units WHERE MoveRate = 'BIPED'));
+	END;
+
 
 -----------------------------------------------------------------------------
 -- Base Units

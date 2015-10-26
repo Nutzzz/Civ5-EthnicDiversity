@@ -9,7 +9,7 @@
 	It use the info stocked in the UnitGraphicConfiguration table to make all the entries on the various art defines tables.
 	When a model is used multiple times, it will be added once in table with unique ID, only the required table will be updated.
 	
-	That means that some entries in the UnitGraphicConfiguration are redondant (like UC_fxsxml),
+	That means that some entries in the UnitGraphicConfiguration are redundant (like UC_fxsxml),
 	but it allows us to fill that table without bothering which civilization file will be loaded
 	first and we can just add the complete entry every time, the code below should (hopefully)
 	take care of everything. 
@@ -132,25 +132,30 @@ DROP TABLE UnitGraphicConfiguration;
 -- Finalize R.E.D. Database and handle specific conditions...
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
 
--- Japan UU ---------------------------------------------------------------------------------------------------------------------------------------
+-- Japan: UU --------------------------------------------------------------------------------------------------------------------------------------
 UPDATE ArtDefine_UnitInfoMemberInfos SET UnitInfoType='ART_DEF_UNIT_U_JAPANESE_SAMURAI' WHERE UnitInfoType='ART_DEF_UNIT_U_JAPANESE_SAMURAI_TEMP';
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
--- Greece UU --------------------------------------------------------------------------------------------------------------------------------------
+-- Greece: UU -------------------------------------------------------------------------------------------------------------------------------------
 UPDATE ArtDefine_UnitInfoMemberInfos SET UnitInfoType='ART_DEF_UNIT_U_GREEK_HOPLITE' WHERE UnitInfoType='ART_DEF_UNIT_U_GREEK_HOPLITE_TEMP';
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
--- Almaty/Kyzyl East Asian Settlers with Donkey ---------------------------------------------------------------------------------------------------
+-- Mongols: East Asian Settlers with Donkey ----------------------------------------------------------------------------------------------------------
 UPDATE ArtDefine_UnitInfoMemberInfos SET UnitMemberInfoType='ART_DEF_UNIT_MEMBER_EURODONKEY'
-	WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_CENTAS' AND UnitMemberInfoType='ART_DEF_UNIT_MEMBER_SETTLERS_ASIAN_OX';
+	WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_MONGOL' AND UnitMemberInfoType='ART_DEF_UNIT_MEMBER_SETTLERS_ASIAN_OX';
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
--- Huns East Asian Settlers with Donkey -----------------------------------------------------------------------------------------------------------
+-- Huns: East Asian Settlers with Donkey ----------------------------------------------------------------------------------------------------------
 UPDATE ArtDefine_UnitInfoMemberInfos SET UnitMemberInfoType='ART_DEF_UNIT_MEMBER_EURODONKEY'
 	WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_HUNS' AND UnitMemberInfoType='ART_DEF_UNIT_MEMBER_SETTLERS_ASIAN_OX';
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
--- Ottoman Middle Eastern Settlers with Donkey ----------------------------------------------------------------------------------------------------
+-- Central Asian (Almaty/Kyzyl): East Asian Settlers with Donkey ----------------------------------------------------------------------------------
+UPDATE ArtDefine_UnitInfoMemberInfos SET UnitMemberInfoType='ART_DEF_UNIT_MEMBER_EURODONKEY'
+	WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_CENTAS' AND UnitMemberInfoType='ART_DEF_UNIT_MEMBER_SETTLERS_ASIAN_OX';
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- Ottoman: Middle Eastern Settlers with Donkey ---------------------------------------------------------------------------------------------------
 DELETE FROM ArtDefine_UnitInfoMemberInfos WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_OTTOMAN';
 INSERT INTO ArtDefine_UnitInfoMemberInfos (UnitInfoType, UnitMemberInfoType, NumMembers)
 	SELECT 'ART_DEF_UNIT__SETTLER_OTTOMAN', UnitMemberInfoType, NumMembers
@@ -160,17 +165,7 @@ UPDATE ArtDefine_UnitInfoMemberInfos SET UnitMemberInfoType='ART_DEF_UNIT_MEMBER
 	WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_OTTOMAN' AND UnitMemberInfoType='ART_DEF_UNIT_MEMBER_AFRICAMEL';
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
--- Oceania Amerindian Settlers with Donkey ------------------------------------------------------------------------------------------------------
-DELETE FROM ArtDefine_UnitInfoMemberInfos WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_POLY';
-INSERT INTO ArtDefine_UnitInfoMemberInfos (UnitInfoType, UnitMemberInfoType, NumMembers)
-	SELECT 'ART_DEF_UNIT__SETTLER_POLY', UnitMemberInfoType, NumMembers
-	FROM ArtDefine_UnitInfoMemberInfos
-	WHERE UnitInfoType = 'ART_DEF_UNIT__SETTLER_AMER';
-UPDATE ArtDefine_UnitInfoMemberInfos SET UnitMemberInfoType='ART_DEF_UNIT_MEMBER_EURODONKEY'
-	WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_POLY' AND UnitMemberInfoType='ART_DEF_UNIT_MEMBER_AMERLLAMA';
----------------------------------------------------------------------------------------------------------------------------------------------------
-
--- Polynesia Amerindian Settlers with Donkey ------------------------------------------------------------------------------------------------------
+-- Polynesia: Amerindian Settlers with Donkey -----------------------------------------------------------------------------------------------------
 DELETE FROM ArtDefine_UnitInfoMemberInfos WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_POLYNESIA';
 INSERT INTO ArtDefine_UnitInfoMemberInfos (UnitInfoType, UnitMemberInfoType, NumMembers)
 	SELECT 'ART_DEF_UNIT__SETTLER_POLYNESIA', UnitMemberInfoType, NumMembers
@@ -178,4 +173,14 @@ INSERT INTO ArtDefine_UnitInfoMemberInfos (UnitInfoType, UnitMemberInfoType, Num
 	WHERE UnitInfoType = 'ART_DEF_UNIT__SETTLER_AMER';
 UPDATE ArtDefine_UnitInfoMemberInfos SET UnitMemberInfoType='ART_DEF_UNIT_MEMBER_EURODONKEY'
 	WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_POLYNESIA' AND UnitMemberInfoType='ART_DEF_UNIT_MEMBER_AMERLLAMA';
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- Oceanic (Wellington): Amerindian Settlers with Donkey ------------------------------------------------------------------------------------------
+DELETE FROM ArtDefine_UnitInfoMemberInfos WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_OCEAN';
+INSERT INTO ArtDefine_UnitInfoMemberInfos (UnitInfoType, UnitMemberInfoType, NumMembers)
+	SELECT 'ART_DEF_UNIT__SETTLER_OCEAN', UnitMemberInfoType, NumMembers
+	FROM ArtDefine_UnitInfoMemberInfos
+	WHERE UnitInfoType = 'ART_DEF_UNIT__SETTLER_AMER';
+UPDATE ArtDefine_UnitInfoMemberInfos SET UnitMemberInfoType='ART_DEF_UNIT_MEMBER_EURODONKEY'
+	WHERE UnitInfoType='ART_DEF_UNIT__SETTLER_OCEAN' AND UnitMemberInfoType='ART_DEF_UNIT_MEMBER_AMERLLAMA';
 ---------------------------------------------------------------------------------------------------------------------------------------------------

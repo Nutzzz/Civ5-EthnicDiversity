@@ -100,7 +100,7 @@ end
 
 function OnGameInitComplete()
 	local iPlayerID = Game.GetActivePlayer()
-	OnEraChanged(Players[iPlayer]:GetCurrentEra(), iPlayerID);
+	OnEraChanged(Players[iPlayerID]:GetCurrentEra(), iPlayerID);
 end
 
 local bCulDivActive = false;
