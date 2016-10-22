@@ -27,9 +27,9 @@ UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_WOR
 								 WHERE UnitMemberType = 'ART_DEF_UNIT_MEMBER_WORKER_EURO_LATE';
 
 --European Settler (default)
-UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER' 
+UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_DONKEY' 
 								WHERE Type = 'ART_DEF_UNIT_MEMBER_EURODONKEY';
-UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLER' 
+UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLER_DONKEY' 
 								 WHERE UnitMemberType = 'ART_DEF_UNIT_MEMBER_EURODONKEY';
 UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_F1' 
 								WHERE Type = 'ART_DEF_UNIT_MEMBER_EUROFEMALE18';
@@ -59,15 +59,15 @@ UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_M3'
 								WHERE Type = 'ART_DEF_UNIT_MEMBER_EUROMALE35';
 UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLER_M3' 
 								 WHERE UnitMemberType = 'ART_DEF_UNIT_MEMBER_EUROMALE35';
-UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_M4' 
+UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER' 
 								WHERE Type = 'ART_DEF_UNIT_MEMBER_EUROMALE45';
-UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLER_M4' 
+UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLER' 
 								 WHERE UnitMemberType = 'ART_DEF_UNIT_MEMBER_EUROMALE45';
 
 --African/Middle Eastern Settler
-UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_AFRI' 
+UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_AFRI_CAMEL' 
 								WHERE Type = 'ART_DEF_UNIT_MEMBER_AFRICAMEL';
-UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLER_AFRI' 
+UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLER_AFRI_CAMEL' 
 								 WHERE UnitMemberType = 'ART_DEF_UNIT_MEMBER_AFRICAMEL';
 UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_AFRI_F1' 
 								WHERE Type = 'ART_DEF_UNIT_MEMBER_AFRIFEMALE1';
@@ -97,15 +97,15 @@ UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_AFRI_M
 								WHERE Type = 'ART_DEF_UNIT_MEMBER_AFRIMALE3';
 UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLER_AFRI_M3' 
 								 WHERE UnitMemberType = 'ART_DEF_UNIT_MEMBER_AFRIMALE3';
-UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_AFRI_M4' 
+UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_AFRI' 
 								WHERE Type = 'ART_DEF_UNIT_MEMBER_AFRIMALE4';
-UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLER_AFRI_M4' 
+UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLER_AFRI' 
 								 WHERE UnitMemberType = 'ART_DEF_UNIT_MEMBER_AFRIMALE4';
 
 --Native American Settler
-UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_AMER' 
+UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_AMER_LLAMA' 
 								WHERE Type = 'ART_DEF_UNIT_MEMBER_AMERLLAMA';
-UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLER_AMER' 
+UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLER_AMER_LLAMA' 
 								 WHERE UnitMemberType = 'ART_DEF_UNIT_MEMBER_AMERLLAMA';
 UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_AMER_F1' 
 								WHERE Type = 'ART_DEF_UNIT_MEMBER_AMERFEMALE1';
@@ -135,15 +135,15 @@ UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_AMER_M
 								WHERE Type = 'ART_DEF_UNIT_MEMBER_AMERMALE3';
 UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLER_AMER_M3' 
 								 WHERE UnitMemberType = 'ART_DEF_UNIT_MEMBER_AMERMALE3';
-UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_AMER_M4' 
+UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_AMER' 
 								WHERE Type = 'ART_DEF_UNIT_MEMBER_AMERMALE4';
-UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLER_AMER_M4' 
+UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLER_AMER' 
 								 WHERE UnitMemberType = 'ART_DEF_UNIT_MEMBER_AMERMALE4';
 
 --East Asian Settler
-UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_ASIA' 
+UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_ASIA_OX' 
 								WHERE Type = 'ART_DEF_UNIT_MEMBER_SETTLERS_ASIAN_OX';
-UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLER_ASIA' 
+UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLER_ASIA_OX' 
 								 WHERE UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLERS_ASIAN_OX';
 UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_ASIA_F1' 
 								WHERE Type = 'ART_DEF_UNIT_MEMBER_SETTLERS_ASIAN_F1';
@@ -173,9 +173,9 @@ UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_ASIA_M
 								WHERE Type = 'ART_DEF_UNIT_MEMBER_SETTLERS_ASIAN_M3';
 UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLER_ASIA_M3' 
 								 WHERE UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLERS_ASIAN_M3';
-UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_ASIA_M4' 
+UPDATE ArtDefine_UnitMemberInfos  SET Type = 'ART_DEF_UNIT_MEMBER_SETTLER_ASIA' 
 								WHERE Type = 'ART_DEF_UNIT_MEMBER_SETTLERS_ASIAN_M4';
-UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLER_ASIA_M4' 
+UPDATE ArtDefine_UnitMemberCombats SET UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLER_ASIA' 
 								 WHERE UnitMemberType = 'ART_DEF_UNIT_MEMBER_SETTLERS_ASIAN_M4';
 
 --Barbarian Archer
