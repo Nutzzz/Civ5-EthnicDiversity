@@ -35,6 +35,8 @@
 	<Texture file="Unit_Environment_Dull.dds"/>
 	<Texture file="Unit_Environment_Sharp.dds"/>
 	<Texture file="Unit_Irradiance.dds"/>
+	<Texture file="holyromanmusketman_1281.dds"/>
+	<Texture file="Streltsy_Black_Cap_diff.dds"/>
 	<Texture file="Musketman_DIFF.dds"/>
 	<AnimGraph file="IDLE_OFFSET_CONTINUE_TRUE_GRAPH.dge"/>
 	<AnimGraph file="FORTIFY_FIDGET_GRAPH.dge"/>

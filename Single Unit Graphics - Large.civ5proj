@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Deploy" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <ProjectGuid>{480e2a96-6fea-491f-8af0-32d764d467eb}</ProjectGuid>
+    <Name>Single Unit Graphics - Large</Name>
+    <Guid>4a60955e-7dc2-40bc-895e-2e1dd7d46651</Guid>
+    <ModVersion>29</ModVersion>
+    <Stability>Beta</Stability>
+    <Teaser>BETA - Also recommended: R.E.D. Unit Pack v.29</Teaser>
+    <Description>Single Unit Graphics
+for Civilization V (vanilla), Gods + Kings, and Brave New World
+ 
+Causes units to be represented by one large model instead of many small ones, like Civilization III and earlier.  Makes it easier to tell units apart, and it can also increase game performance!
+
+For those that don't like quadruped settlers or want a little more ethnic diversity for settlers, try the "Human Settlers" modmod.
+
+Integrates with R.E.D. Modpack, but can NOT be activated at the same time as Single Unit Graphics - Large, R.E.D. - Just Ethnic Diversity, R.E.D. Xtreme, Reduced Unit Graphics, or Fewer Unit Graphics.</Description>
+    <Authors>Nutty</Authors>
+    <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
+    <AffectsSavedGames>false</AffectsSavedGames>
+    <MinCompatibleSaveVersion>12</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <SupportsMac>true</SupportsMac>
+    <AssemblyName>Single Unit Graphics - Large</AssemblyName>
+    <RootNamespace>Single Unit Graphics - Large</RootNamespace>
+    <ModReferences>
+      <Association>
+        <Type>Mod</Type>
+        <Name>UP VEM</Name>
+        <Id>01127f62-3896-4897-b169-ecab445786cd</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Mechanized Infantry with soldiers</Name>
+        <Id>6b326f24-940e-4fce-bfbf-e12a0bb4d09e</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>CS UU</Name>
+        <Id>d0bc4a46-8a69-46b5-917a-8de842f82ed9</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>CSD</Name>
+        <Id>abaa043a-f851-4c61-bd18-52d480862cd0</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>YnAEMP City States</Name>
+        <Id>53da86d6-4a0d-4f92-a489-4d1a7fb7cd30</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>YnAEMP City States Extended</Name>
+        <Id>77214b67-d97a-4359-bfe6-b534905528f1</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>YnAEMP City States for BNW</Name>
+        <Id>b7069e24-fb9c-4393-b836-44ec5c3dea98</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>YnAEMP City States for G+K</Name>
+        <Id>c78ebfe1-2667-4f48-b5cc-f2db7edebcef</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>YnAEMP only Europe CS for BNW</Name>
+        <Id>6c43d212-94df-4b35-8686-2fe199b9c7f7</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>YnAEMP only spaced CS for G+K</Name>
+        <Id>228f80df-4c07-4f1e-8da9-28a0817947b6</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>City States Expansion (G+K/BNW)</Name>
+        <Id>4d02cc9f-0805-4988-ae84-1dc28d49e1f0</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>City States Expansion (vanilla)</Name>
+        <Id>ba741105-ccc2-4b97-a235-c9eefa22a868</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>More City States (vanilla)</Name>
+        <Id>e5ae90a4-c91f-42f9-830a-80558199bb97</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>More City States (G+K)</Name>
+        <Id>cd0f69db-13b1-4715-bd0c-437d914e283d</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>More City States (BNW)</Name>
+        <Id>5059d899-bc14-451e-971d-b34deabaf59e</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Cultural Diversity</Name>
+        <Id>31a31d1c-b9d7-45e1-842c-23232d66cd47</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Prehistoric Era (BNW)</Name>
+        <Id>7c63c188-045b-4955-bbea-6c685d119c86</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Prehistoric Era Reborn</Name>
+        <Id>8c63c188-045b-4955-bbea-6c685d119c86</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Renaissance Era Revised</Name>
+        <Id>66f38ce9-fc7b-448d-a7db-949d105b9b9f</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Enlightenment Era</Name>
+        <Id>ce8aa614-7ef7-4a45-a179-5329869e8d6d</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+    </ModReferences>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=383375</Homepage>
+    <ReloadUnitSystem>true</ReloadUnitSystem>
+    <ModActions>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/0-CreateTables.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/1-ArtStyleConfig.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/1-SUGLUnitGraphicConfig.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/2-UpdateArtStyles.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/3-InsertArtDefines.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/4-FinalizeArtStyles.sql</FileName>
+      </Action>
+    </ModActions>
+    <ModBlockers>
+    </ModBlockers>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Package Only' ">
+    <PackageMod>true</PackageMod>
+    <DeployMod>false</DeployMod>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Deploy Only' ">
+    <PackageMod>false</PackageMod>
+    <DeployMod>true</DeployMod>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="SQL\0-CreateTables.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="SQL\1-ArtStyleConfig.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="SQL\1-SUGLUnitGraphicConfig.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="SQL\2-UpdateArtStyles.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="SQL\3-InsertArtDefines.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="SQL\4-FinalizeArtStyles.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SQL" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
+</Project>

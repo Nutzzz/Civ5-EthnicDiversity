@@ -1,19 +1,19 @@
 R.E.D. Modpack
 for Civilization 5
-v.28
+v.29 Beta
 
 	-- Presentation --
 
 Regiment and Ethnic Diversity for Civilization V.
 
-- Rescaling : All human and mounted units have been scaled down; no more giant infantry against mini tanks!  Of course, the relative scale is nothing close to reality, but it does give a better sense of proportion.  The sea and air units are rescaled the same way, relative to each other in their respective domain.
+- Rescaling : All human and mounted units have been scaled down; no more giant infantry against mini tanks!  Of course, the relative scale is nothing close to reality, but it does give a better sense of proportion.  The sea and air units are resized in the same way, relative to each other in their respective domain.
 - Formation : Most units are now multi-figure, and the number of figures is raised in all human and mounted units.  Existing formations have been reworked to reflect the change in scale, and 14 new formations have been added.
-- Diversity : Hundreds of new unit models for diversity, with no change to gameplay.  See newunits.xls or forum thread on CivFanatics website for details.
+- Diversity : Hundreds of new unit models for diversity, with no change to gameplay.  See newunits.xlsm, version history below, or forum thread on CivFanatics website for details.
 
 
 	-- Installation --
 
-- Important : Delete previous version of the mod when updating, or the VFS may cause bugs.  Save-game compatibility is not assured; you should always finish your current game before updating.
+- Important : Delete previous version of the mod when updating, or the VFS may cause bugs.
 
 From CFC:
 1. Download the .civ5mod file to your mod folder (..\My Documents\My Games\Sid Meier's Civilization 5\MODS).
@@ -27,18 +27,21 @@ From Steam Workshop:
 2. Go to step #3 above.
 
 Fix for fighter propeller and archer arrow positions (optional) :
-- copy civ5artdefines_viseffects.xml file from the "..\My Documents\My Games\Sid Meier's Civilization 5\MODS\R.E.D. modpack (v xx)\copy to Assets" folder to the "..\Steam\steamapps\common\sid meier's civilization v\Assets\" folder
+- copy civ5artdefines_viseffects.xml file from the "..\My Documents\My Games\Sid Meier's Civilization 5\MODS\R.E.D. Modpack (v xx)\copy to Assets" folder to the "..\Steam\steamapps\common\sid meier's civilization v\Assets\" folder
 
 
 	-- Compatibility --
-...
-
+- Enlightenment Era: Line Infantry and Carrack variation provided
 
 
 	-- Credits and Thanks --
 
-- danrell, bernie14, Wolfdog, Civitar, JTitan, snafusmith, Patum33, asioasioasio, Coffee Junkie, nautil, Nuvoloblu, Oleg153, Rabbit White, Splinter13, Generalmatt, Nutty, and all other unit makers for the models and conversions
-- RTW unit makers that have allowed conversion of their models to Civ5
+- special thanks to Tomahawk.nsk for ideas and bug testing!
+- Civ5 unit modelers and converters, including:
+  bernie14, blazekid87, Civitar, danrell, Deliverator, Ekmek, hangman, JTitan, Kwadjh, Nutty, Patum333, snafusmith, Wolfdog, and zwei833
+- Civ4 and RTW unit makers that have allowed conversion of their models to Civ5, including:
+  Ambrox62, asioasioasio, Bakuel, Coffee Junkie, Generalmatt, nautil, Nuvoloblu, Oleg153, Rabbit,White, Splinter13, and all other unit makers for the models and conversions
+- Deliverator, lemmy101, and CaptainBinky for their work on unit conversion tools
 - seZereth and Porges, who created the initial regiment mod for Civ4
 - Pazyryk for SQL corrections
 - All of the great people at CivFanatics for their tools, tutorials and help
@@ -47,33 +50,72 @@ Fix for fighter propeller and archer arrow positions (optional) :
 
 	-- Version History --
 	
-v.28 beta 3 TEST (Oct 21, 2015):
-- new general suffix types for South Asia (India, Colombo, Kathmandu, and Lhasa) and Oceania (Polynesia and Wellington)
-- Southeast Asian civs and city states now use Polynesian city style (however, no new suffix for them yet)
-- fix bugs with embarked unit Lua
-- mod compatibility enhancements
-- some adjustment of the unit choices
-- add bernie14's German marines
-- add Civitar's conversion of the wizard/druid as missionary (white robe) and inquisitor (red robe) for Celts
+v.29 beta (Aug ??, 2016)
+- new Excel exporter for easier editing/comparing unit choices, remove need to keep separate spreadsheet updated, and consolidate scaling mod data
+- allow override of the fallback suffix type for each specific unit
+- fix bugs and increase flexibility of embarked unit Lua
+- units can now have both era and cultural diversity (e.g., great people, workers, and trade units)
+- new general suffix type for Northern Europe (Denmark and Sweden)
+- new general suffix type for Northern Africa (Carthage, Morocco, and Songhai)
+- new general suffix type for Oceania (Polynesia and city state Wellington)
+- new general suffix type for South Asia (India and city states Colombo and Kathmandu)
+- new general suffix type for Southeast Asia (Siam and Indonesia, and city states Hanoi, Kuala Lumpur, Malacca, Manila, and Singapore)
+- Prehistoric Era compatibility: first pass at diversity, just a few one-offs at this point
+- Enlightenment Era compatibility: diversity for the line infantry and carrack and a first pass at diversity with a few one-offs
+- enhance mod compatibility generically (but we're making wild assumptions and it only works where we're lucky about what order the modder constructs art define tables)
+- Assyria now shares units with Babylon
+- adjust some of the unit and city style choices
+- add Barathor's barbarian galley reskin as trireme for North European civs
+- add Civitar's conversion of the druid/wizard as missionary (white robe) and inquisitor (red robe) for Celts
 - add Civitar's conversion of Bakuel's Cuman units for Huns
 - add Civitar's conversion of Bakuel's silat for Indonesia
 - add Civitar's Zapotec battle priest as inquisitor for Native North and South American civs and Polynesia
 - add Civitar's Dervish Maara Weyn as cavalry for Middle Eastern civs
 - add Civitar's conversion of Bakuel's Hebrew units for Levant city states (Jerusalem, Byblos, Sidon, and Tyre)
+- add danrell's Avro Arrow as Jet Fighter for Canadian city states
+- add danrell's Ram Mk II as Tank for Canadian city states
 - add danrell's Kingdom of Jerusalem crusaders for Levant city states
 - add danrell's akazonae as lancer for Japan
+- add danrell's warrior monk as inquisitor for Asian civs
+- add Deliverator's conversion of coffee junkie's Native Rifleman as musketman for Shoshone
+- add Deliverator's conversion of Walter Harkwood and Refar's cog as middle-era cargo ships for Germany and surrounding civs
+- add Deliverator's mounted conversion of danrell's Roman longswordsman as great general for Rome
+- add GeneralMatt's Kirov cruiser for Russia [though a Slava-class model would be a better choice since Kirov is a battlecruiser]
 - add hangman's Inca axeman as a second longswordsman model
+- add JTitan's conversions of early Songhai units from RTW Europa Barbarorum
+- add Kwadjh's conversion of the assassin as inquisitor for Middle Eastern and Central Asian civs
 - add Nomad or What's conversions of Bakuel's Berbers for Morocco
+- add Nutty's teamcolor reskin of Ansaldo SVA-5 as Great War fighter for Mediterranean civs
+- add Nutty's teamcolor reskin of Nieuport 17 as Great War fighter for Southeast Asian civs
+- add Patum333's Chinese swordsman for Asian civs
+- add Patum333's Netherlands scout
+- add Snafusmith's 155mm gun as artillery for France
+- add Snafusmith's Short Bomber as Great War bomber for England
+- add Snafusmith's Halberstadt DII as Great War fighter for Ottomans
+- add Snafusmith's Hanriot HD1 as Great War fighter for Belgian city states
 - add Snafusmith's F-4 jets for Egypt, Greece, Japan, Korea, and Ottomans
-- add Sukritact's Ogichida as musketman for Native North American civs
-- add Wolfdog's Qizilbash as lancer for Persia
+- add Snafusmith's A7V as extra landship model for Germany
+- add Snafusmith's Ford M.1918 as extra landship model for America
+- add Snafusmith's Mark IV as landship for Canadian city states
+- add Snafusmith's Whippet Mk.A as extra landship model for England
+- add Sukritact's Ogichidaa as musketman for Native North American civs
+- add Tomahawk.nsk's reskins of GeneralMatt's predreadnoughts as ironclads
+- add Wolfdog's V1 Rocket as guided missile for Germany
 - add Wolfdog's conversion of TheCoyote's A-7 Corsair II as jet fighter for Greece, Portugal and Siam
+- add Wolfdog's conversion of TheCoyote's Draken as jet fighter for Sweden and Denmark
+- add Wolfdog's conversion of TheCoyote's Ho229 (world war II prototype) as stealth bomber for Germany and Austria
+- add Wolfdog's Qizilbash as lancer for Persia
+- add Wolfdog's conversions of mechaerik's Special Forces as marines
+- add Wolfdog's conversion of GarretSidzaka's Viet Cong as marine for Siam and Indonesia
+- add Wolfdog's conversion of KrugerPritz's FV510 Warrior as mechanized infantry for England
+- add Wolfdog's conversion of the Civ4Col preacher as a late-era missionary for European civs
+- add Wolfdog's conversion of Walter Harkwood's carrack as middle-era cargo ships for various civs
+- add Wolfdog's ANZAC units as WWII infantry for Wellington and Australian city states
 - add zwei833's Schwaben reskin of bernie14's longswordsman as an additional model for Germany
 - add zwei833's Bohemian reskin of bernie14's longswordsman for Prague and Bratislava
-- add danrell's warrior monk as inquisitor for Asian civs
-- add Kwadjh's conversion of the assassin as inquisitor for Middle Eastern and Central Asian civs
-- add Ho229 (world war II prototype) as stealth bomber for Germany
-- add V1 Rocket as guided missile for Germany
+- add zwei833's conversion of Bakuel's Malay armored cavalry as knight for Indonesia
+- add zwei833's conversion of danrell's Egyptian warrior
+- add zwei833's conversions of Realism Invictus warriors and scouts
 
 v.28 beta 2 (Aug 23, 2015):
 - add Civitar's Anishinaabe Midew medicine man as missionary for Native North American civs
@@ -82,8 +124,8 @@ v.28 beta 2 (Aug 23, 2015):
 - add Wolfdog's conversions of Ambrox62's scouts and warriors (African, European, Mediterranean, and Middle Eastern)
 - add early units (spearman, swordsman, pikeman, and crossbowman) for America from Ethnic Units
 - add additional embarked units (Wolfdog's barge for Middle East civs, Sukritact's canoe for Native American civs)
-- embarked units are now overridden by Cultural Diversity
-- embarked unit era adjustments now adjusted by Prehistoric Era (including extra eras in v14+), Prehistoric Era Reborn, and CCTP (v4+)
+- disable embarked unit diversity if Cultural Diversity is active (CulDiv already includes embarked diversity)
+- adjust embarked unit era if Prehistoric Era (including extra eras in v14+), Prehistoric Era Reborn, or CCTP (v4+) is active
 
 v.28 beta 1 (Sep 5, 2014):
 - reduced texture sizes and removed extraneous specular textures (reduces mod size from 200MB to 120MB)
@@ -523,55 +565,15 @@ v0.1 (Sept 25, 2010) :
 
 
 -----------------------------------------------------------------------------------------------------------------
-Internal stuff under those lines, don't bother, just keeping it here for quick reference when I need it...
------------------------------------------------------------------------------------------------------------------
-
-Associations (replace default blocks in modinfo) :
-
-01127f62-3896-4897-b169-ecab445786cd = Unofficial Patch and Vanilla Enhanced
-abaa043a-f851-4c61-bd18-52d480862cd0 = City State Diplomacy Mod
-d0bc4a46-8a69-46b5-917a-8de842f82ed9 = City states UU
-
-fb230d1a-dd7d-427b-8323-0e30aaf480c1 = Ethnic Diversity - Single Unit Graphics
-6833786c-56f5-4fc4-bdb1-287c15ec3f08 = Ethnic Diversity - R.E.D. Unofficial
-5f779307-3810-439c-9c9e-1c86be3c86cd = Ethnic Diversity
-
-
-  <Dependencies>
-  </Dependencies>
-  <References>
-    <Mod id="01127f62-3896-4897-b169-ecab445786cd" minversion="0" maxversion="9999"/>
-    <Mod id="abaa043a-f851-4c61-bd18-52d480862cd0" minversion="0" maxversion="9999"/>
-    <Mod id="d0bc4a46-8a69-46b5-917a-8de842f82ed9" minversion="0" maxversion="9999"/>
-  </References>
-  <Blocks>
-    <Mod id="fb230d1a-dd7d-427b-8323-0e30aaf480c1" minversion="0" maxversion="9999"/>
-    <Mod id="6833786c-56f5-4fc4-bdb1-287c15ec3f08" minversion="0"
- maxversion="9999"/>
-    <Mod id="5f779307-3810-439c-9c9e-1c86be3c86cd" minversion="0" maxversion="9999"/>
-  </Blocks>
-
-
-  Unused models:
-  ==============
-
-  all danrell chariots
-  Babylon swordsman.fxsxml
-  civ5_nedwa1.fxsxml (Netherlands warrior)
-  Quechua.fxsxml
-  GERMANY_longsw1.fxsxml
-
-
------------------------------------------------------------------------------------------------------------------
 Formatted presentation for Steam Workshop
 -----------------------------------------------------------------------------------------------------------------
 
 
 [b]Regiment and Ethnic Diversity[/b] for Civilization V, G+K, BNW and all DLC
 
-- Rescaling : All human and mounted units have been scaled down; no more giant infantry against mini tanks!  Of course, the relative scale is nothing close to reality, but it does give a better sense of proportion.  The sea and air units are resized the same way, relative to each other in their respective domain.
+- Rescaling : All human and mounted units have been scaled down; no more giant infantry against mini tanks!  Of course, the relative scale is nothing close to reality, but it does give a better sense of proportion.  The sea and air units are resized in the same way, relative to each other in their respective domain.
 - Formation : Most units are now multi-figure, and the number of figures is raised in all human and mounted units.  Existing formations have been reworked to reflect the change in scale, and 14 new formations have been added.
-- Diversity : Hundreds of new unit models for diversity, with no change to gameplay.  See newunits.xls or version history for details.
+- Diversity : Hundreds of new unit models for diversity, with no change to gameplay.  See newunits.xlsx, version history in readme.txt, or forum thread on CivFanatics website for details.
 
 
 [b]Installation[/b]
@@ -602,9 +604,9 @@ Launch Steam, then Civ5, and subscribe again from ingame.
 [b]Credits and Thanks[/b]
 ==============================================================================
 
-- danrell, bernie14, Wolfdog, JTitan, snafusmith, Patum33, asioasioasio, Coffee Junkie, nautil, Nuvoloblu, Oleg153, Rabbit White, Splinter13 for the units models and conversion,
-RTW unit makers that have allowed conversion of their models to Civ5
-- seZereth and Porges who've done the initial regiment mod for Civ4,
+- danrell, bernie14, Wolfdog, Civitar, JTitan, snafusmith, Patum33, asioasioasio, Coffee Junkie, nautil, Nuvoloblu, Oleg153, Rabbit White, Splinter13, Generalmatt, Nutty, and all other unit makers for the models and conversions
+- RTW unit makers that have allowed conversion of their models to Civ5
+- seZereth and Porges, who created the initial regiment mod for Civ4
 - Pazyryk for SQL tutorials,
-- all the great peoples at CivFanatics for their tools, tutorials and help,
+- All of the great people at CivFanatics for their tools, tutorials and help
 - Firaxis

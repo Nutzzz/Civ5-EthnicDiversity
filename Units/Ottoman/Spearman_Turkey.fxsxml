@@ -34,8 +34,8 @@
 	<Texture file="Unit_Environment_Dull.dds"/>
 	<Texture file="Unit_Environment_Sharp.dds"/>
 	<Texture file="Unit_Irradiance.dds"/>
-	<Texture file="Spearman2_DIFF.dds"/>
-	<Texture file="Spearman2_SREF.dds"/>
+	<Texture file="Spearman_Turkey.dds"/>
+	<Texture file="Spearman_Turkey_gloss.dds"/>
 	<BoneUsage>
 		<Bone name="Base HumanRPalm"/>
 		<Bone name="Base HumanLPalm"/>

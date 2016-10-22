@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Deploy" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <ProjectGuid>{480e2a96-6fea-491f-8af0-32d764d467eb}</ProjectGuid>
+    <Name>Ethnic Diversity - Era Variation</Name>
+    <Guid>92b95cbd-625b-498e-a208-770f238604c2</Guid>
+    <ModVersion>29</ModVersion>
+    <Stability>Beta</Stability>
+    <Teaser>BETA - Ethnic Diversity - Era Variation</Teaser>
+    <Description>Era Variation for Ethnic Diversity</Description>
+    <Authors>Gedemon, Nutty</Authors>
+    <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
+    <AffectsSavedGames>false</AffectsSavedGames>
+    <MinCompatibleSaveVersion>12</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <SupportsMac>true</SupportsMac>
+    <AssemblyName>Ethnic Diversity - Era Variation</AssemblyName>
+    <RootNamespace>Ethnic Diversity - Era Variation</RootNamespace>
+    <ModReferences>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Ethnic Diversity - Era Variation</Name>
+        <Id>7f80db44-cd76-493b-9f45-6cb3ee2dfccd</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>R.E.D. Modpack</Name>
+        <Id>8670da15-d435-44ea-9758-7438cb321411</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>R.E.D. Unit Pack</Name>
+        <Id>17e9218c-5ef7-47c5-b6ab-b522e6712c70</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+    </ModReferences>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=383375</Homepage>
+    <ReloadUnitSystem>true</ReloadUnitSystem>
+    <ModActions>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/5-EraDiversity.sql</FileName>
+      </Action>
+    </ModActions>
+    <ModContent>
+      <Content>
+        <Type>InGameUIAddin</Type>
+        <Name>Unit_CreatedFunctions</Name>
+        <Description />
+        <FileName>Lua/Unit_CreatedFunctions.lua</FileName>
+      </Content>
+      <Content>
+        <Type>InGameUIAddin</Type>
+        <Name>EraDiversity</Name>
+        <Description />
+        <FileName>Lua/EraDiversity.lua</FileName>
+      </Content>
+    </ModContent>
+    <ModBlockers>
+    </ModBlockers>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Package Only' ">
+    <PackageMod>true</PackageMod>
+    <DeployMod>false</DeployMod>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Deploy Only' ">
+    <PackageMod>false</PackageMod>
+    <DeployMod>true</DeployMod>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Lua\EraDiversity.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Lua\Unit_CreatedFunctions.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="SQL\5-EraDiversity.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lua" />
+    <Folder Include="SQL" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
+</Project>
