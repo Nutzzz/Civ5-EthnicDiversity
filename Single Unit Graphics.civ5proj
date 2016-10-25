@@ -7,15 +7,8 @@
     <Guid>b4b0c1cc-84e0-4992-bb2a-d18e940effb3</Guid>
     <ModVersion>29</ModVersion>
     <Stability>Beta</Stability>
-    <Teaser>BETA - Also recommended: R.E.D. Unit Pack v.29</Teaser>
-    <Description>Single Unit Graphics
-for Civilization V (vanilla), Gods + Kings, and Brave New World
-
-Causes units to be represented by one large model instead of many small ones, like Civilization III and earlier.  Makes it easier to tell units apart, and it can also increase game performance!
-
-For those that don't like quadruped settlers or want a little more ethnic diversity for settlers, try the "Human Settlers" modmod.
-
-Integrates with R.E.D. Modpack, but can NOT be activated at the same time as Single Unit Graphics - Large, R.E.D. - Just Ethnic Diversity, R.E.D. Xtreme, Reduced Unit Graphics, or Fewer Unit Graphics.</Description>
+    <Teaser>BETA - Single Unit Graphics [small] - Also recommended: E.D. Unit Pack v.29</Teaser>
+    <Description>Single Unit Graphics for Civilization V: Brave New World[NEWLINE]Causes units to be represented by one large model instead of many small ones, like Civilization III and earlier.  Makes it easier to tell units apart, and it can also increase game performance![NEWLINE]For those that don't like quadruped settlers or want a little more ethnic diversity for settlers, try the "Human Settlers" modmod.[NEWLINE]Hundreds of new unit models for diversity, with no change to gameplay.  See newunits.xlsm or forum thread on CivFanatics website for details.[NEWLINE][NEWLINE]Cannot be activated at the same time as Ethnic Diversity (RED Scale), Ethnic Diversity (Xtreme Scale), Ethnic Units, R.E.D. Modpack, R.E.D. Xtreme, R.E.D. - Just Ethnic Diversity, Reduced Unit Graphics, or Fewer Unit Graphics.</Description>
     <Authors>Nutty</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
     <AffectsSavedGames>false</AffectsSavedGames>
@@ -203,6 +196,76 @@ Integrates with R.E.D. Modpack, but can NOT be activated at the same time as Sin
       </Action>
     </ModActions>
     <ModBlockers>
+      <Association>
+        <Type>Mod</Type>
+        <Name>R.E.D. Modpack</Name>
+        <Id>7f80db44-cd76-493b-9f45-6cb3ee2dfccd</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Ethnic Units</Name>
+        <Id>7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>R.E.D. Xtreme</Name>
+        <Id>b3ae4a21-6f9f-47aa-b4e0-34ede1fda0ab</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>R.E.D. - Just Ethnic Diversity</Name>
+        <Id>7f80db44-cd76-493b-9f45-6cb3ee2dfccd</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Ethnic Diversity</Name>
+        <Id>5f779307-3810-439c-9c9e-1c86be3c86cd</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Ethnic Diversity (RED Scale)</Name>
+        <Id>6833786c-56f5-4fc4-bdb1-287c15ec3f08</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Ethnic Diversity (Xtreme Scale)</Name>
+        <Id>c72bcd18-d7f3-4eb6-9cce-b996c054b0ab</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Single Unit Graphics - Large</Name>
+        <Id>4a60955e-7dc2-40bc-895e-2e1dd7d46651</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Reduced Unit Graphics</Name>
+        <Id>de77c612-15a0-4580-92fd-535b525df700</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Fewer Unit Graphics</Name>
+        <Id>8804f1be-7c14-4a1d-a923-9f4db1e3af1c</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
     </ModBlockers>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">

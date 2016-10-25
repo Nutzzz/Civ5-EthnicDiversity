@@ -7,13 +7,8 @@
     <Guid>cf5c8748-d595-4640-a9e7-23f45df32616</Guid>
     <ModVersion>29</ModVersion>
     <Stability>Beta</Stability>
-    <Teaser>BETA - Ethnic Diversity - Mod Support</Teaser>
-    <Description>Mod Support for Ethnic Diversity
-for Civilization V (vanilla), Gods + Kings, and Brave New World
-
-R.E.D. UNIT PACK v.29 REQUIRED!
-
-Cannot be activated at the same time as R.E.D. Xtreme, Single Unit Graphics, Reduced Unit Graphics, or Fewer Unit Graphics.</Description>
+    <Teaser>BETA - Ethnic Diversity Mod Support</Teaser>
+    <Description>Mod Support for Ethnic Diversity for Civilization V</Description>
     <Authors>Nutty</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
     <AffectsSavedGames>false</AffectsSavedGames>

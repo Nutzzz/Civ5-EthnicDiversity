@@ -7,8 +7,8 @@
     <Guid>6833786c-56f5-4fc4-bdb1-287c15ec3f08</Guid>
     <ModVersion>29</ModVersion>
     <Stability>Beta</Stability>
-    <Teaser>BETA - ETHNIC DIVERSITY UNIT PACK v.29 REQUIRED!</Teaser>
-    <Description>Ethnic Diversity for Civilization V (and DLC)[NEWLINE]R.E.D. UNIT PACK v.29 REQUIRED![NEWLINE][ICON_BULLET] [COLOR_YELLOW]Rescaling[/COLOR] : All human and mounted units have been scaled down; no more giant infantry against mini tanks!  Of course, the relative scale is nothing close to reality, but it does give a better sense of proportion.  The sea and air units are rescaled the same way, relative to each other in their respective domain.[NEWLINE][ICON_BULLET] [COLOR_YELLOW]Formation[/COLOR] : Most units are now multi-figure, and the number of figures is raised in all human and mounted units.  Existing formations have been reworked to reflect the change in scale, and 14 new formations have been added.[NEWLINE][ICON_BULLET] [COLOR_YELLOW]Diversity[/COLOR] : Hundreds of new unit models for diversity, with no change to gameplay.  See newunits.xlsm or forum thread on CivFanatics website for details.</Description>
+    <Teaser>BETA - Ethnic Diversity (RED) - Also recommended: E.D. Unit Pack v.29</Teaser>
+    <Description>Ethnic Diversity (R.E.D. Scale and Formation) for Civilization V: Brave New World[NEWLINE]ETHNIC DIVERSITY UNIT PACK v.29 REQUIRED![NEWLINE]Hundreds of new unit models for diversity, with no change to gameplay.  See newunits.xlsm or forum thread on CivFanatics website for details.[NEWLINE][NEWLINE]Cannot be activated at the same time as Ethnic Diversity [vanilla scale], Ethnic Diversity (Xtreme Scale), Ethnic Units, R.E.D. Modpack, R.E.D. Xtreme, R.E.D. - Just Ethnic Diversity, Single Unit Graphics, Reduced Unit Graphics, or Fewer Unit Graphics.</Description>
     <Authors>Gedemon, Nutty</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
     <AffectsSavedGames>false</AffectsSavedGames>
@@ -203,10 +203,73 @@
     <ModContent>
     </ModContent>
     <ModBlockers>
-      <Association xmlns="">
+      <Association>
+        <Type>Mod</Type>
+        <Name>R.E.D. Modpack</Name>
+        <Id>7f80db44-cd76-493b-9f45-6cb3ee2dfccd</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Ethnic Units</Name>
+        <Id>7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>R.E.D. Xtreme</Name>
+        <Id>b3ae4a21-6f9f-47aa-b4e0-34ede1fda0ab</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>R.E.D. - Just Ethnic Diversity</Name>
+        <Id>7f80db44-cd76-493b-9f45-6cb3ee2dfccd</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
         <Type>Mod</Type>
         <Name>Ethnic Diversity</Name>
         <Id>5f779307-3810-439c-9c9e-1c86be3c86cd</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Ethnic Diversity (Xtreme Scale)</Name>
+        <Id>c72bcd18-d7f3-4eb6-9cce-b996c054b0ab</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Single Unit Graphics</Name>
+        <Id>b4b0c1cc-84e0-4992-bb2a-d18e940effb3</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Single Unit Graphics - Large</Name>
+        <Id>4a60955e-7dc2-40bc-895e-2e1dd7d46651</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Reduced Unit Graphics</Name>
+        <Id>de77c612-15a0-4580-92fd-535b525df700</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Fewer Unit Graphics</Name>
+        <Id>8804f1be-7c14-4a1d-a923-9f4db1e3af1c</Id>
         <MinVersion>0</MinVersion>
         <MaxVersion>999</MaxVersion>
       </Association>
