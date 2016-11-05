@@ -1,6 +1,6 @@
 /*
 
-	R.E.D. Modpack
+	Ethnic Diversity (based on R.E.D. Modpack)
 	ArtStyle initial table configuration
 	by Gedemon/Nutty (2016)
 

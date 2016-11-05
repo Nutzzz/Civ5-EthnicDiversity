@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="69e8b077-ab56-48c0-89e6-091f9af52db1" version="29">
+  <Properties>
+    <Name>Ethnic Diversity DLC</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Ethnic Diversity DLC</Teaser>
+    <Description>Ethnic Diversity DLC</Description>
+    <Authors>Nutty</Authors>
+    <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=383375</Homepage>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="331C08FBF47F10FA4FF28AB786C839F1" import="0">SQL/ED_DLC_ArtDefines.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>SQL/ED_DLC_ArtDefines.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

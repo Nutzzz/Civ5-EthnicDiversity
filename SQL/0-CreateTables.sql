@@ -1,6 +1,6 @@
 /*
 
-	R.E.D. Modpack
+	Ethnic Diversity (based on R.E.D. Modpack)
 	Table for new units and art style graphic configuration
 	by Gedemon/Nutty (2016)
 
@@ -78,6 +78,7 @@ CREATE TABLE UnitGraphicConfiguration (	UC_id INTEGER PRIMARY KEY AUTOINCREMENT,
 	Num			= [vanilla/RED/Xtreme/Fewer/Reduced/Single] Number of figures in the unit for that model. Use multiple lines with different models to "interleave" them. 0 means use value from template unit.
 	Scale		= [vanilla/RED/Xtreme/Fewer/Reduced/Single/SingleBig] New scale to use for the model. 0 means use value from template unit.
 	Form		= [vanilla/RED/Xtreme] Formation in which to place the unit figures. NULL means use value from template unit.
+	[ignore all Num?/Scale?/Form? entries other than Num1/Scale1/Form1 -- feature not yet implemented]
 */
 
 
@@ -116,6 +117,6 @@ CREATE TABLE REDConfiguration (	RC_id INTEGER PRIMARY KEY AUTOINCREMENT,
 
 /*
 	ScaleType	= 1=JED, 2=RED, 3=REDX, 4=SUG, 5=SUGL, 6=RUG, 7=FUG
-	NumMult		= Multiplier to apply to number of all units (greater than 1 to increase, between 0 and 1 to decrease.)
-	ScaleMult	= Multiplier to apply to scale of all units (greater than 1 to increase, between 0 and 1 to decrease.) 
+	NumMult		= Multiplier to apply to number of all units (greater than 1 to increase, between 0 and 1 to decrease.) [not yet implemented]
+	ScaleMult	= Multiplier to apply to scale of all units (greater than 1 to increase, between 0 and 1 to decrease.) [not yet implemented]
 */

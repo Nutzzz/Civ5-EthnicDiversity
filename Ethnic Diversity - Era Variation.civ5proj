@@ -12,7 +12,7 @@
     <Authors>Gedemon, Nutty</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
     <AffectsSavedGames>false</AffectsSavedGames>
-    <MinCompatibleSaveVersion>12</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>1</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
@@ -22,22 +22,8 @@
     <ModReferences>
       <Association>
         <Type>Mod</Type>
-        <Name>Ethnic Diversity - Era Variation</Name>
-        <Id>7f80db44-cd76-493b-9f45-6cb3ee2dfccd</Id>
-        <MinVersion>0</MinVersion>
-        <MaxVersion>999</MaxVersion>
-      </Association>
-      <Association>
-        <Type>Mod</Type>
-        <Name>R.E.D. Modpack</Name>
-        <Id>8670da15-d435-44ea-9758-7438cb321411</Id>
-        <MinVersion>0</MinVersion>
-        <MaxVersion>999</MaxVersion>
-      </Association>
-      <Association>
-        <Type>Mod</Type>
-        <Name>R.E.D. Unit Pack</Name>
-        <Id>17e9218c-5ef7-47c5-b6ab-b522e6712c70</Id>
+        <Name>Ethnic Diversity</Name>
+        <Id>5f779307-3810-439c-9c9e-1c86be3c86cd</Id>
         <MinVersion>0</MinVersion>
         <MaxVersion>999</MaxVersion>
       </Association>

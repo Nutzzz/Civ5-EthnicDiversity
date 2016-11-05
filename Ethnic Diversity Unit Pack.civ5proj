@@ -12,7 +12,7 @@
     <Authors>Gedemon, Nutty</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
     <AffectsSavedGames>false</AffectsSavedGames>
-    <MinCompatibleSaveVersion>12</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>1</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
@@ -10272,6 +10272,18 @@
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Units\Polynesia\hawaii_ikaika_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Polynesia\Oceanic_warrior.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Polynesia\Oceanic_warrior.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Polynesia\Oceanic_warrior_128.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>

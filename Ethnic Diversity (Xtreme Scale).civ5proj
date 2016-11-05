@@ -12,7 +12,7 @@
     <Authors>Nutty</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
     <AffectsSavedGames>false</AffectsSavedGames>
-    <MinCompatibleSaveVersion>12</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>13</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>

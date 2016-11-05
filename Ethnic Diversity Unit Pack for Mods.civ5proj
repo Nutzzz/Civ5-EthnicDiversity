@@ -3,22 +3,22 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <ProjectGuid>{480e2a96-6fea-491f-8af0-32d764d467eb}</ProjectGuid>
-    <Name>Ethnic Diversity - Mod Support</Name>
+    <Name>Ethnic Diversity Unit Pack for Mods</Name>
     <Guid>cf5c8748-d595-4640-a9e7-23f45df32616</Guid>
     <ModVersion>29</ModVersion>
     <Stability>Beta</Stability>
-    <Teaser>BETA - Ethnic Diversity Mod Support</Teaser>
-    <Description>Mod Support for Ethnic Diversity for Civilization V</Description>
+    <Teaser>BETA - Ethnic Diversity Unit Pack for Mods</Teaser>
+    <Description>Mod Units for Ethnic Diversity for Civilization V</Description>
     <Authors>Nutty</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
     <AffectsSavedGames>false</AffectsSavedGames>
-    <MinCompatibleSaveVersion>12</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>1</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
     <SupportsMac>true</SupportsMac>
-    <AssemblyName>Ethnic Diversity - Mod Support</AssemblyName>
-    <RootNamespace>Ethnic Diversity - Mod Support</RootNamespace>
+    <AssemblyName>Ethnic Diversity Unit Pack for Mods</AssemblyName>
+    <RootNamespace>Ethnic Diversity Unit Pack for Mods</RootNamespace>
     <ModReferences>
       <Association>
         <Type>Mod</Type>
@@ -160,70 +160,17 @@
         <MinVersion>0</MinVersion>
         <MaxVersion>999</MaxVersion>
       </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Ethnic Diversity</Name>
+        <Id>5f779307-3810-439c-9c9e-1c86be3c86cd</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
     </ModReferences>
     <Homepage>http://forums.civfanatics.com/showthread.php?t=383375</Homepage>
     <ReloadUnitSystem>true</ReloadUnitSystem>
     <ModActions>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>SQL/0-Mod_CreateTables.sql</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>SQL/1-Mod_ArtStyleConfig.sql</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>SQL/1-Mod_JEDUnitGraphicConfig.sql</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>SQL/1-Mod_REDUnitGraphicConfig.sql</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>SQL/1-Mod_REDXUnitGraphicConfig.sql</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>SQL/1-Mod_SUGUnitGraphicConfig.sql</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>SQL/1-Mod_SUGLUnitGraphicConfig.sql</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>SQL/1-Mod_RUGUnitGraphicConfig.sql</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>SQL/1-Mod_FUGUnitGraphicConfig.sql</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>SQL/2-Mod_UpdateArtStyles.sql</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>SQL/3-Mod_InsertArtDefines.sql</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>SQL/4-Mod_FinalizeArtStyles.sql</FileName>
-      </Action>
     </ModActions>
     <ModBlockers>
     </ModBlockers>
@@ -240,54 +187,6 @@
     <DeployMod>true</DeployMod>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="SQL\0-Mod_CreateTables.sql">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="SQL\1-Mod_ArtStyleConfig.sql">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="SQL\1-Mod_JEDUnitGraphicConfig.sql">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="SQL\1-Mod_REDUnitGraphicConfig.sql">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="SQL\1-Mod_REDXUnitGraphicConfig.sql">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="SQL\1-Mod_SUGUnitGraphicConfig.sql">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="SQL\1-Mod_SUGLUnitGraphicConfig.sql">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="SQL\1-Mod_RUGUnitGraphicConfig.sql">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="SQL\1-Mod_FUGUnitGraphicConfig.sql">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="SQL\2-Mod_UpdateArtStyles.sql">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="SQL\3-Mod_InsertArtDefines.sql">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="SQL\4-Mod_FinalizeArtStyles.sql">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
     <Content Include="Compatibility\EnlightenmentEra\Cuirassier\ca_sw1.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -834,7 +733,6 @@
     <Folder Include="Compatibility\EnlightenmentEra\Skirmisher\" />
     <Folder Include="Compatibility\PrehistoricEra\" />
     <Folder Include="Compatibility\PrehistoricEra\Caveman\" />
-    <Folder Include="SQL" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
 </Project>
