@@ -50,7 +50,7 @@ Fix for fighter propeller and archer arrow positions (optional) :
 
 	-- Version History --
 	
-v.29 beta (Aug ??, 2016)
+v.29 beta 1 (Nov 7, 2016)
 - new Excel exporter for easier editing/comparing unit choices, remove need to keep separate spreadsheet updated, and consolidate scaling mod data
 - allow override of the fallback suffix type for each specific unit
 - fix bugs and increase flexibility of embarked unit Lua
