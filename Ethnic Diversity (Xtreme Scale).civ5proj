@@ -7,7 +7,7 @@
     <Guid>c72bcd18-d7f3-4eb6-9cce-b996c054b0ab</Guid>
     <ModVersion>29</ModVersion>
     <Stability>Beta</Stability>
-    <Teaser>BETA - Ethnic Diversity (Xtreme) - Also recommended: E.D. Unit Pack v.29</Teaser>
+    <Teaser>BETA1 - Also recommended: E.D. Unit Pack v.29</Teaser>
     <Description>Ethnic Diversity (R.E.D. Xtreme Scale and Formation) for Civilization V: Brave New World[NEWLINE]ETHNIC DIVERSITY UNIT PACK v.29 REQUIRED![NEWLINE]Hundreds of new unit models for diversity, with no change to gameplay.  See newunits.xlsm or forum thread on CivFanatics website for details.[NEWLINE][NEWLINE]Cannot be activated at the same time as Ethnic Diversity [vanilla scale], Ethnic Diversity (RED Scale), Ethnic Units, R.E.D. Modpack, R.E.D. Xtreme, R.E.D. - Just Ethnic Diversity, Single Unit Graphics, Reduced Unit Graphics, or Fewer Unit Graphics.</Description>
     <Authors>Nutty</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
@@ -246,6 +246,15 @@
         <MaxVersion>999</MaxVersion>
       </Association>
     </ModBlockers>
+    <ModDependencies>
+      <Association xmlns="">
+        <Type>Mod</Type>
+        <Name>Ethnic Diversity Unit Pack</Name>
+        <Id>17e9218c-5ef7-47c5-b6ab-b522e6712c70</Id>
+        <MinVersion>29</MinVersion>
+        <MaxVersion>29</MaxVersion>
+      </Association>
+    </ModDependencies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -259,6 +268,10 @@
     <DeployMod>true</DeployMod>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="copy to Assets\civ5artdefines_viseffects.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="SQL\0-CreateTables.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -283,9 +296,15 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
+    <Content Include="XML\unitformations.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="copy to Assets" />
     <Folder Include="SQL" />
+    <Folder Include="XML" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
 </Project>

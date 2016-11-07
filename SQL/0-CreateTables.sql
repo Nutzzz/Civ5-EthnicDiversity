@@ -2,7 +2,7 @@
 
 	Ethnic Diversity (based on R.E.D. Modpack)
 	Table for new units and art style graphic configuration
-	by Gedemon/Nutty (2016)
+	by Nutty and Gedemon (2016)
 
 	Must create this table before any civilization's units are added.
 	
@@ -18,49 +18,50 @@
 */
 
 -----------------------------------------------
--- Create UnitGraphicConfiguration table
+-- Create EDUnitGraphicConfiguration table
 -----------------------------------------------
 
-CREATE TABLE UnitGraphicConfiguration (	UC_id INTEGER PRIMARY KEY AUTOINCREMENT, 
-										UC_Suffix TEXT DEFAULT '', 
-										UC_Fallback TEXT DEFAULT '', 
-										UC_Template TEXT DEFAULT '', 
-										UC_Member TEXT DEFAULT '', 
-										UC_MemSuffix TEXT DEFAULT '', 
-										UC_fxsxml TEXT DEFAULT '', 
-										UC_EraVar INTEGER DEFAULT 0, 
-										UC_Mod INTEGER DEFAULT 0, 
-										UC_Artists TEXT DEFAULT '', 
-										UC_UMove TEXT DEFAULT '', 
-										UC_CMove FLOAT DEFAULT 0, 
-										UC_Domain TEXT DEFAULT '', 
-										UC_Num1 INTEGER DEFAULT 0, 
-                                        UC_Scale1 FLOAT DEFAULT 0, 
-										UC_Form1 TEXT DEFAULT '', 
-										UC_Num2 INTEGER DEFAULT 0, 
-                                        UC_Scale2 FLOAT DEFAULT 0, 
-										UC_Form2 TEXT DEFAULT '', 
-										UC_Num3 INTEGER DEFAULT 0, 
-                                        UC_Scale3 FLOAT DEFAULT 0, 
-										UC_Form3 TEXT DEFAULT '', 
-										UC_Num4 INTEGER DEFAULT 0, 
-                                        UC_Scale4 FLOAT DEFAULT 0, 
-										UC_Form4 TEXT DEFAULT '', 
-										UC_Num5 INTEGER DEFAULT 0, 
-                                        UC_Scale5 FLOAT DEFAULT 0, 
-										UC_Form5 TEXT DEFAULT '', 
-										UC_Num6 INTEGER DEFAULT 0, 
-                                        UC_Scale6 FLOAT DEFAULT 0, 
-										UC_Form6 TEXT DEFAULT '', 
-										UC_Num7 INTEGER DEFAULT 0, 
-                                        UC_Scale7 FLOAT DEFAULT 0, 
-										UC_Form7 TEXT DEFAULT '', 
-										UC_Num8 INTEGER DEFAULT 0, 
-                                        UC_Scale8 FLOAT DEFAULT 0, 
-										UC_Form8 TEXT DEFAULT '', 
-										UC_Num9 INTEGER DEFAULT 0, 
-                                        UC_Scale9 FLOAT DEFAULT 0, 
-										UC_Form9 TEXT DEFAULT '');
+CREATE TABLE IF NOT EXISTS EDUnitGraphicConfiguration 
+								  (	UC_id INTEGER PRIMARY KEY AUTOINCREMENT, 
+									UC_Suffix TEXT DEFAULT '', 
+									UC_Fallback TEXT DEFAULT '', 
+									UC_Template TEXT DEFAULT '', 
+									UC_Member TEXT DEFAULT '', 
+									UC_MemSuffix TEXT DEFAULT '', 
+									UC_fxsxml TEXT DEFAULT '', 
+									UC_EraVar INTEGER DEFAULT 0, 
+									UC_Mod INTEGER DEFAULT 0, 
+									UC_Artists TEXT DEFAULT '', 
+									UC_UMove TEXT DEFAULT '', 
+									UC_CMove FLOAT DEFAULT 0, 
+									UC_Domain TEXT DEFAULT '', 
+									UC_Num1 INTEGER DEFAULT 0, 
+                                    UC_Scale1 FLOAT DEFAULT 0, 
+									UC_Form1 TEXT DEFAULT '', 
+									UC_Num2 INTEGER DEFAULT 0, 
+                                    UC_Scale2 FLOAT DEFAULT 0, 
+									UC_Form2 TEXT DEFAULT '', 
+									UC_Num3 INTEGER DEFAULT 0, 
+                                    UC_Scale3 FLOAT DEFAULT 0, 
+									UC_Form3 TEXT DEFAULT '', 
+									UC_Num4 INTEGER DEFAULT 0, 
+                                    UC_Scale4 FLOAT DEFAULT 0, 
+									UC_Form4 TEXT DEFAULT '', 
+									UC_Num5 INTEGER DEFAULT 0, 
+                                    UC_Scale5 FLOAT DEFAULT 0, 
+									UC_Form5 TEXT DEFAULT '', 
+									UC_Num6 INTEGER DEFAULT 0, 
+                                    UC_Scale6 FLOAT DEFAULT 0, 
+									UC_Form6 TEXT DEFAULT '', 
+									UC_Num7 INTEGER DEFAULT 0, 
+                                    UC_Scale7 FLOAT DEFAULT 0, 
+									UC_Form7 TEXT DEFAULT '', 
+									UC_Num8 INTEGER DEFAULT 0, 
+                                    UC_Scale8 FLOAT DEFAULT 0, 
+									UC_Form8 TEXT DEFAULT '', 
+									UC_Num9 INTEGER DEFAULT 0, 
+                                    UC_Scale9 FLOAT DEFAULT 0, 
+									UC_Form9 TEXT DEFAULT '');
 
 /*
 	Suffix		= Suffix for the ArtDefine. Must be one of those used in the ArtStyleSuffix in the Civilizations table (with no leading underscore).
@@ -83,17 +84,18 @@ CREATE TABLE UnitGraphicConfiguration (	UC_id INTEGER PRIMARY KEY AUTOINCREMENT,
 
 
 -----------------------------------------------
--- Create ArtStyleConfiguration table
+-- Create EDArtStyleConfiguration table
 -----------------------------------------------
 
-CREATE TABLE ArtStyleConfiguration (	AC_id INTEGER PRIMARY KEY AUTOINCREMENT, 
-										AC_Civ TEXT DEFAULT '', 
-										AC_Mod INTEGER DEFAULT 0, 
-										AC_CS INTEGER DEFAULT 0, 
-										AC_Suffix TEXT DEFAULT '', 
-										AC_Fallback TEXT DEFAULT '', 
-										AC_BldgStyle TEXT DEFAULT '', 
-										AC_Prefix TEXT DEFAULT '');
+CREATE TABLE IF NOT EXISTS EDArtStyleConfiguration 
+								  (	AC_id INTEGER PRIMARY KEY AUTOINCREMENT, 
+									AC_Civ TEXT DEFAULT '', 
+									AC_CS INTEGER DEFAULT 0, 
+									AC_Mod INTEGER DEFAULT 0, 
+									AC_Suffix TEXT DEFAULT '', 
+									AC_Fallback TEXT DEFAULT '', 
+									AC_BldgStyle TEXT DEFAULT '', 
+									AC_Prefix TEXT DEFAULT '');
 
 /*
 	Civ			= Civ name from the Type column of the Civilizations or MinorCivilizations table, (without CIVILIZATION_ or MINOR_CIV_ prefix).
@@ -107,13 +109,15 @@ CREATE TABLE ArtStyleConfiguration (	AC_id INTEGER PRIMARY KEY AUTOINCREMENT,
 
 
 -----------------------------------------------
--- Create REDConfiguration table
+-- Create EDScaleConfiguration table
 -----------------------------------------------
+-- [not yet implemented]
 
-CREATE TABLE REDConfiguration (	RC_id INTEGER PRIMARY KEY AUTOINCREMENT, 
-								RC_ScaleType INTEGER DEFAULT 1, 
-								RC_NumMult FLOAT DEFAULT 1, 
-								RC_ScaleMult FLOAT DEFAULT 1);
+CREATE TABLE IF NOT EXISTS EDScaleConfiguration 
+						  (	RC_id INTEGER PRIMARY KEY AUTOINCREMENT, 
+							RC_ScaleType INTEGER DEFAULT 1, 
+							RC_NumMult FLOAT DEFAULT 1, 
+							RC_ScaleMult FLOAT DEFAULT 1);
 
 /*
 	ScaleType	= 1=JED, 2=RED, 3=REDX, 4=SUG, 5=SUGL, 6=RUG, 7=FUG

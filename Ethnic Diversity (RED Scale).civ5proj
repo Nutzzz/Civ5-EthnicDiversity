@@ -7,7 +7,7 @@
     <Guid>6833786c-56f5-4fc4-bdb1-287c15ec3f08</Guid>
     <ModVersion>29</ModVersion>
     <Stability>Beta</Stability>
-    <Teaser>BETA - Ethnic Diversity (RED) - Also recommended: E.D. Unit Pack v.29</Teaser>
+    <Teaser>BETA1 - Also recommended: E.D. Unit Pack v.29</Teaser>
     <Description>Ethnic Diversity (R.E.D. Scale and Formation) for Civilization V: Brave New World[NEWLINE]ETHNIC DIVERSITY UNIT PACK v.29 REQUIRED![NEWLINE]Hundreds of new unit models for diversity, with no change to gameplay.  See newunits.xlsm or forum thread on CivFanatics website for details.[NEWLINE][NEWLINE]Cannot be activated at the same time as Ethnic Diversity [vanilla scale], Ethnic Diversity (Xtreme Scale), Ethnic Units, R.E.D. Modpack, R.E.D. Xtreme, R.E.D. - Just Ethnic Diversity, Single Unit Graphics, Reduced Unit Graphics, or Fewer Unit Graphics.</Description>
     <Authors>Gedemon, Nutty</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
@@ -274,6 +274,15 @@
         <MaxVersion>999</MaxVersion>
       </Association>
     </ModBlockers>
+    <ModDependencies>
+      <Association xmlns="">
+        <Type>Mod</Type>
+        <Name>Ethnic Diversity Unit Pack</Name>
+        <Id>17e9218c-5ef7-47c5-b6ab-b522e6712c70</Id>
+        <MinVersion>29</MinVersion>
+        <MaxVersion>29</MaxVersion>
+      </Association>
+    </ModDependencies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>

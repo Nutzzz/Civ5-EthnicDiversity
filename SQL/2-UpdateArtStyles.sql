@@ -2,7 +2,7 @@
 
 	Ethnic Diversity (based on R.E.D. Modpack)
 	ArtStyle initial table configuration
-	by Gedemon/Nutty (2016)
+	by Nutty and Gedemon (2016)
 
 	Add new Art Style types (Middle East, Northern European, etc...) based on 1-ArtStyleConfig.sql
 
@@ -13,7 +13,7 @@
 -----------------------------------------------
 -- Remove "END_OF_INSERT" entry
 -----------------------------------------------
-DELETE FROM ArtStyleConfiguration WHERE AC_Civ = 'END_OF_INSERT';
+DELETE FROM EDArtStyleConfiguration WHERE AC_Civ = 'END_OF_INSERT';
 
 
 
@@ -25,36 +25,36 @@ DELETE FROM ArtStyleConfiguration WHERE AC_Civ = 'END_OF_INSERT';
 INSERT OR REPLACE INTO Civilizations (Type, Description, Civilopedia, CivilopediaTag, Strategy, Playable, AIPlayable, ShortDescription, Adjective, DefaultPlayerColor, ArtDefineTag, ArtStyleType, ArtStyleSuffix, ArtStylePrefix, DerivativeCiv, PortraitIndex, IconAtlas, AlphaIconAtlas, MapImage, DawnOfManQuote, DawnOfManImage, DawnOfManAudio, PackageID, SoundtrackTag)
 	SELECT Type, Description, Civilopedia, CivilopediaTag, Strategy, Playable, AIPlayable, ShortDescription, Adjective, DefaultPlayerColor, ArtDefineTag, 
 	'ARTSTYLE_' || AC_BldgStyle, ArtStyleSuffix, ArtStylePrefix, DerivativeCiv, PortraitIndex, IconAtlas, AlphaIconAtlas, MapImage, DawnOfManQuote, DawnOfManImage, DawnOfManAudio, PackageID, SoundtrackTag FROM Civilizations 
-	JOIN ArtStyleConfiguration ON AC_BldgStyle <> '' AND AC_CS = 0
+	JOIN EDArtStyleConfiguration ON AC_BldgStyle <> '' AND AC_CS = 0
 	WHERE Type = 'CIVILIZATION_' || AC_Civ;
 INSERT OR REPLACE INTO MinorCivilizations (Type, Description, Civilopedia, ShortDescription, Adjective, ArtDefineTag, DefaultPlayerColor, ArtStyleType, ArtStyleSuffix, ArtStylePrefix, MinorCivTrait)
 	SELECT Type, Description, Civilopedia, ShortDescription, Adjective, ArtDefineTag, DefaultPlayerColor, 
 	'ARTSTYLE_' || AC_BldgStyle, ArtStyleSuffix, ArtStylePrefix, MinorCivTrait FROM MinorCivilizations 
-	JOIN ArtStyleConfiguration ON AC_BldgStyle <> '' AND AC_CS = 1
+	JOIN EDArtStyleConfiguration ON AC_BldgStyle <> '' AND AC_CS = 1
 	WHERE Type = 'MINOR_CIV_' || AC_Civ;
 
 -- Correct unit styles
 INSERT OR REPLACE INTO Civilizations (Type, Description, Civilopedia, CivilopediaTag, Strategy, Playable, AIPlayable, ShortDescription, Adjective, DefaultPlayerColor, ArtDefineTag, ArtStyleType, ArtStyleSuffix, ArtStylePrefix, DerivativeCiv, PortraitIndex, IconAtlas, AlphaIconAtlas, MapImage, DawnOfManQuote, DawnOfManImage, DawnOfManAudio, PackageID, SoundtrackTag)
 	SELECT Type, Description, Civilopedia, CivilopediaTag, Strategy, Playable, AIPlayable, ShortDescription, Adjective, DefaultPlayerColor, ArtDefineTag, ArtStyleType, 
 	AC_Fallback, ArtStylePrefix, DerivativeCiv, PortraitIndex, IconAtlas, AlphaIconAtlas, MapImage, DawnOfManQuote, DawnOfManImage, DawnOfManAudio, PackageID, SoundtrackTag FROM Civilizations 
-	JOIN ArtStyleConfiguration ON AC_Fallback <> '' AND AC_CS = 0
+	JOIN EDArtStyleConfiguration ON AC_Fallback <> '' AND AC_CS = 0
 	WHERE Type = 'CIVILIZATION_' || AC_Civ;
 INSERT OR REPLACE INTO MinorCivilizations (Type, Description, Civilopedia, ShortDescription, Adjective, ArtDefineTag, DefaultPlayerColor, ArtStyleType, ArtStyleSuffix, ArtStylePrefix, MinorCivTrait)
 	SELECT Type, Description, Civilopedia, ShortDescription, Adjective, ArtDefineTag, DefaultPlayerColor, ArtStyleType, 
 	AC_Fallback, ArtStylePrefix, MinorCivTrait FROM MinorCivilizations 
-	JOIN ArtStyleConfiguration ON AC_Fallback <> '' AND AC_CS = 1
+	JOIN EDArtStyleConfiguration ON AC_Fallback <> '' AND AC_CS = 1
 	WHERE Type = 'MINOR_CIV_' || AC_Civ;
 
 -- Correct prefix [though I'm not sure what it does!]
 INSERT OR REPLACE INTO Civilizations (Type, Description, Civilopedia, CivilopediaTag, Strategy, Playable, AIPlayable, ShortDescription, Adjective, DefaultPlayerColor, ArtDefineTag, ArtStyleType, ArtStyleSuffix, ArtStylePrefix, DerivativeCiv, PortraitIndex, IconAtlas, AlphaIconAtlas, MapImage, DawnOfManQuote, DawnOfManImage, DawnOfManAudio, PackageID, SoundtrackTag)
 	SELECT Type, Description, Civilopedia, CivilopediaTag, Strategy, Playable, AIPlayable, ShortDescription, Adjective, DefaultPlayerColor, ArtDefineTag, ArtStyleType, ArtStyleSuffix, 
 	AC_Prefix, DerivativeCiv, PortraitIndex, IconAtlas, AlphaIconAtlas, MapImage, DawnOfManQuote, DawnOfManImage, DawnOfManAudio, PackageID, SoundtrackTag FROM Civilizations 
-	JOIN ArtStyleConfiguration ON AC_Prefix <> '' AND AC_CS = 0
+	JOIN EDArtStyleConfiguration ON AC_Prefix <> '' AND AC_CS = 0
 	WHERE Type = 'CIVILIZATION_' || AC_Civ;
 INSERT OR REPLACE INTO MinorCivilizations (Type, Description, Civilopedia, ShortDescription, Adjective, ArtDefineTag, DefaultPlayerColor, ArtStyleType, ArtStyleSuffix, ArtStylePrefix, MinorCivTrait)
 	SELECT Type, Description, Civilopedia, ShortDescription, Adjective, ArtDefineTag, DefaultPlayerColor, ArtStyleType, ArtStyleSuffix, 
 	AC_Prefix, MinorCivTrait FROM MinorCivilizations 
-	JOIN ArtStyleConfiguration ON AC_Prefix <> '' AND AC_CS = 1
+	JOIN EDArtStyleConfiguration ON AC_Prefix <> '' AND AC_CS = 1
 	WHERE Type = 'MINOR_CIV_' || AC_Civ;
 
 

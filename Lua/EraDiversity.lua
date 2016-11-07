@@ -1,12 +1,16 @@
 --[[
 
-	R.E.D. Modpack
+	Ethnic Diversity
 	Lua for embarkation diversity [and testing for new feature: era + ethnic unit updating]
 	by Nutty (2016)
 
-Note: If Cultural Diversity (http://forums.civfanatics.com/showthread.php?t=521664) is active, its embarkation settings are used instead.
+Note: If Cultural Diversity (http://forums.civfanatics.com/showthread.php?t=521664) embarkation feature is active, 
+ C.D.'s embarkation settings are used instead.
 
--- TO DO: Make a general solution for units with more than 1 upgrade (at the moment using a workaround for Cargo Ship)
+-- TO DO:
+---------
+-- Check past eras for appropriate upgrades the unit may have missed       
+-- Make a general solution for units with more than 1 upgrade (at the moment using a workaround for Cargo Ship)
 
 ERAS:
 * 0 = "Ancient" (ERA_ANCIENT)
@@ -36,9 +40,9 @@ local strCUL_DIV_ID = "31a31d1c-b9d7-45e1-842c-23232d66cd47";	-- Mod ID for Cult
 local tEraUnits = { };
 
 -- Collect data on era variable units
-print("*** R.E.D. Era + Cultural Variable Units ***");
-print("--------------------------------------------");
-for unitRow in GameInfo.Units("REDEraVariation = 1") do
+print("*** E.D. Era + Cultural Variable Units ***");
+print("------------------------------------------");
+for unitRow in GameInfo.Units("EDEraVariation = 1") do
 	table.insert(tEraUnits, { ID = unitRow.ID, Type = unitRow.Type, Description = Locale.ConvertTextKey(unitRow.Description), UnitArtInfo = unitRow.UnitArtInfo, PortraitIndex = unitRow.PortraitIndex, IconAtlas = unitRow.IconAtlas });
 	print(tEraUnits[#tEraUnits].Description);
 end
@@ -49,15 +53,21 @@ function OnSetEra(iTeamID, iEraID)
         if (pPlayer:IsEverAlive() and pPlayer:IsAlive() and pPlayer:GetTeam() == iTeamID) then
 			print("- Era ".. iEraID ..": ".. tostring(pPlayer:GetName()) .." - ".. Locale.ConvertTextKey(pPlayer:GetCivilizationShortDescription()) );
 
--- Is Cultural Diversity enabled?  If not, update embarked diversity
+-- Is Cultural Diversity (with embarkation diversity) enabled?  If not, use our embarked diversity
 			if not IsModActive(strCUL_DIV_ID) then
-				print("Checking for embarked diversity...");
+				--print("Checking for embarked diversity...");
 				DoEmbarkedDiversity(pPlayer, iEraID);
+			else
+				for culDivRow in GameInfo.JFD_GlobalUserSettings("Type = 'JFD_CULDIV_EMBARKATION_CHANGES'") do
+					if culDivRow.Value == 1 then
+						DoEmbarkedDiversity(pPlayer, iEraID);
+					end
+				end
 			end
 			for pUnit in pPlayer:Units() do
 
 -- Check era variable units for upgrade possibilities
-				print("Checking for era art upgrades...");
+				--print("Checking for era art upgrades...");
 				CheckUnitForUpgrade(pUnit, pPlayer, iEraID);
 			end
 		end
@@ -142,22 +152,27 @@ function CheckUnitForUpgrade(pUnit, pPlayer, iEraID)
 
 	for i, tRow in pairs(tEraUnits) do
 		if pUnit:GetUnitType() == tRow.ID then
-			if tRow.Type == "CARGO_SHIP_RENAISSANCE" then
-				strNewUnit = "CARGO_SHIP_".. strEraType;
+			if tRow.Type == "UNIT_CARGO_SHIP_RENAISSANCE" then
+				strNewUnit = "UNIT_CARGO_SHIP_".. strEraType;
 			else
 				strNewUnit = tRow.Type .."_".. strEraType;
 			end
-			print("Checking ".. tRow.Description .." for ".. strNewUnit);
+			--print("Checking ".. tRow.Description .." for ".. strNewUnit);
 			for j, tNewRow in pairs(tEraUnits) do
 				if tNewRow.Type == strNewUnit then
 					print("Upgrading ".. tRow.Description .." to ".. strNewUnit);
 					pNewUnit = pPlayer:InitUnit(tNewRow.ID, pUnit:GetX(), pUnit:GetY());
-					pUnit:Convert(pNewUnit);
+					pNewUnit:Convert(pUnit);
 				elseif bLate then
-					if tNewRow.Type == tRow.Type .. strLATE_SUFFIX then
+					if tRow.Type == "UNIT_CARGO_SHIP_RENAISSANCE" then
+						strNewUnit = "UNIT_CARGO_SHIP".. strLATE_SUFFIX;
+					else
+						strNewUnit = tRow.Type .. strLATE_SUFFIX;
+					end
+					if tNewRow.Type == strNewUnit then
 						print("Upgrading ".. tRow.Description .." to ".. strNewUnit);
 						pNewUnit = pPlayer:InitUnit(tNewRow.ID, pUnit:GetX(), pUnit:GetY());
-						pUnit:Convert(pNewUnit);
+						pNewUnit:Convert(pUnit);
 					end
 				end
 			end
