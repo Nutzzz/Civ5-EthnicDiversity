@@ -52,6 +52,7 @@ Fix for fighter propeller and archer arrow positions (optional) :
 	
 v.29 beta 1 (Nov 7, 2016)
 - new Excel exporter for easier editing/comparing unit choices, remove need to keep separate spreadsheet updated, and consolidate scaling mod data
+- loads faster by pre-calculating some data that previously required SQL operations
 - allow override of the fallback suffix type for each specific unit
 - fix bugs and increase flexibility of embarked unit Lua
 - units can now have both era and cultural diversity (e.g., great people, workers, and trade units)
