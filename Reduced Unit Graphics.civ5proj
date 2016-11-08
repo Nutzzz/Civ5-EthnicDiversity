@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <ProjectGuid>{480e2a96-6fea-491f-8af0-32d764d467eb}</ProjectGuid>
-    <Name>Reduced Unit Graphics</Name>
+    <Name>Ethnic Diversity (Reduced Unit Graphics)</Name>
     <Guid>de77c612-15a0-4580-92fd-535b525df700</Guid>
     <ModVersion>29</ModVersion>
     <Stability>Beta</Stability>
-    <Teaser>BETA1 - Also recommended: E.D. Unit Pack v.29</Teaser>
+    <Teaser>BETA1 - E.D. UNIT PACK v.29 REQUIRED!</Teaser>
     <Description>Reduced Unit Graphics for Civilization V: Brave New World[NEWLINE]Hundreds of new unit models for diversity, with no change to gameplay.  See newunits.xlsm or forum thread on CivFanatics website for details.[NEWLINE][NEWLINE]Cannot be activated at the same time as Ethnic Diversity (RED Scale), Ethnic Diversity (Xtreme Scale), Ethnic Units, R.E.D. Modpack, R.E.D. Xtreme, R.E.D. - Just Ethnic Diversity, Single Unit Graphics, or Fewer Unit Graphics.</Description>
     <Authors>Nutty</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
@@ -267,6 +267,15 @@
         <MaxVersion>999</MaxVersion>
       </Association>
     </ModBlockers>
+    <ModDependencies>
+      <Association xmlns="">
+        <Type>Mod</Type>
+        <Name>Ethnic Diversity Unit Pack</Name>
+        <Id>17e9218c-5ef7-47c5-b6ab-b522e6712c70</Id>
+        <MinVersion>29</MinVersion>
+        <MaxVersion>29</MaxVersion>
+      </Association>
+    </ModDependencies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
