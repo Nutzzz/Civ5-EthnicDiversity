@@ -162,7 +162,9 @@ function CheckUnitForUpgrade(pUnit, pPlayer, iEraID)
 				if tNewRow.Type == strNewUnit then
 					print("Upgrading ".. tRow.Description .." to ".. strNewUnit);
 					pNewUnit = pPlayer:InitUnit(tNewRow.ID, pUnit:GetX(), pUnit:GetY());
-					pNewUnit:Convert(pUnit);
+					if pNewUnit then
+						pNewUnit:Convert(pUnit);
+					end
 				elseif bLate then
 					if tRow.Type == "UNIT_CARGO_SHIP_RENAISSANCE" then
 						strNewUnit = "UNIT_CARGO_SHIP".. strLATE_SUFFIX;
@@ -172,7 +174,9 @@ function CheckUnitForUpgrade(pUnit, pPlayer, iEraID)
 					if tNewRow.Type == strNewUnit then
 						print("Upgrading ".. tRow.Description .." to ".. strNewUnit);
 						pNewUnit = pPlayer:InitUnit(tNewRow.ID, pUnit:GetX(), pUnit:GetY());
-						pNewUnit:Convert(pUnit);
+						if pNewUnit then
+							pNewUnit:Convert(pUnit);
+						end
 					end
 				end
 			end
