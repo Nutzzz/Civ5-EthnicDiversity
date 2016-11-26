@@ -152,7 +152,7 @@ function CheckUnitForUpgrade(pUnit, pPlayer, iEraID)
 
 	for i, tRow in pairs(tEraUnits) do
 		if pUnit:GetUnitType() == tRow.ID then
-			if tRow.Type == "UNIT_CARGO_SHIP_RENAISSANCE" then
+			if tRow.Type == "UNIT_CARGO_SHIP_RENAISSANCE" and not strEraType == "RENAISSANCE" then
 				strNewUnit = "UNIT_CARGO_SHIP_".. strEraType;
 			else
 				strNewUnit = tRow.Type .."_".. strEraType;
@@ -166,7 +166,7 @@ function CheckUnitForUpgrade(pUnit, pPlayer, iEraID)
 						pNewUnit:Convert(pUnit);
 					end
 				elseif bLate then
-					if tRow.Type == "UNIT_CARGO_SHIP_RENAISSANCE" then
+					if tRow.Type == "UNIT_CARGO_SHIP_RENAISSANCE" and not strEraType == "RENAISSANCE" then
 						strNewUnit = "UNIT_CARGO_SHIP".. strLATE_SUFFIX;
 					else
 						strNewUnit = tRow.Type .. strLATE_SUFFIX;
