@@ -19,6 +19,7 @@ function TestUnitsByType()
 		else
 			x_col = 0
 		end
+		y = y - (x_col * (MAX_H - START_H));			--adjust y as appropriate for new columns
 		local x = 0;
 		local cvx = {};									--x-value for culturally-variable units
 		cvx[unitClass.ID] = 0;
