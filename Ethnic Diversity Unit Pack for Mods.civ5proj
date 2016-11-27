@@ -222,6 +222,98 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\GalleonCannons_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\GalleonCannons_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\GalleonHull_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\GalleonHull_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\RussianGalleon.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\RussianGalleon.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\RussianGalleon_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\RussianGalleon_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\WarGalleon.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\WarGalleon.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\WarGalleonDanish.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\WarGalleonDanish.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\WarGalleonSpanish.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\WarGalleonSpanish.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\WarGalleonSwedish.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\WarGalleonSwedish.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\WarGalleonViking.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\WarGalleonViking.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\war_galleon_danish_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\war_galleon_spanish_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\war_galleon_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\war_galleon_swedish_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\Galleon\war_galleon_viking_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Compatibility\EnlightenmentEra\LineInfantry\ausmm1.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -446,6 +538,14 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Compatibility\EnlightenmentEra\LineInfantry\civ5_sacmm2.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\LineInfantry\civ5_sacmm2.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Compatibility\EnlightenmentEra\LineInfantry\civ5_spamm1.fxsxml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -623,6 +723,14 @@
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Compatibility\EnlightenmentEra\LineInfantry\rusmm3_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\LineInfantry\sacmm2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\EnlightenmentEra\LineInfantry\sacmm2_sref.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -805,6 +913,7 @@
     <Folder Include="Compatibility\EnlightenmentEra\Cuirassier\" />
     <Folder Include="Compatibility\EnlightenmentEra\FieldGun\" />
     <Folder Include="Compatibility\EnlightenmentEra\LineInfantry\" />
+    <Folder Include="Compatibility\EnlightenmentEra\Galleon" />
     <Folder Include="Compatibility\EnlightenmentEra\Skirmisher\" />
     <Folder Include="Compatibility\RenaissanceEra" />
     <Folder Include="Compatibility\PrehistoricEra\" />

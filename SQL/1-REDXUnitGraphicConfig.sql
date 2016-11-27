@@ -1958,6 +1958,12 @@ SELECT     '',               '',               'EE_EXPLORER',                   
 SELECT     '',               '',               'EE_EXPLORER',                             'EE_EXPLORER',                            '_4',            'conquistador_musket_4',              #VALUE!   #VALUE!  'Scout'
 SELECT     '',               '',               'EE_FIELD_GUN',                            'EE_FIELD_GUN',                           '',              'NapoleonCannon',                     #VALUE!   #VALUE!  'ThreeBigGuns'
 SELECT     '_ENGLAND',       '',               'EE_FIELD_GUN',                            'EE_FIELD_GUN',                           '',              'RHA_Cannon',                         #VALUE!   #VALUE!  'ThreeBigGuns'
+SELECT     '',               '',               'EE_GALLEON',                              'EE_GALLEON',                             '',              'WarGalleon',                        1,        0.16,     ''
+SELECT     '_RUSSIA',        '',               'EE_GALLEON',                              'EE_GALLEON',                             '',              'RussianGalleon',                    1,        0.16,     ''
+SELECT     '_SPAIN',         '',               'EE_GALLEON',                              'EE_GALLEON',                             '',              'WarGalleonSpanish',                 1,        0.16,     ''
+SELECT     '_NORTHEU',       '',               'EE_GALLEON',                              'EE_GALLEON',                             '',              'WarGalleonViking',                  1,        0.16,     ''
+SELECT     '_DENMARK',       '',               'EE_GALLEON',                              'EE_GALLEON',                             '',              'WarGalleonDanish',                  1,        0.16,     ''
+SELECT     '_SWEDEN',        '',               'EE_GALLEON',                              'EE_GALLEON',                             '',              'WarGalleonSwedish',                 1,        0.16,     ''
 SELECT     '',               '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '',              'civ5_genmm1',                        #VALUE!   #VALUE!  'HonorableGunpowder'
 SELECT     '',               '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '_V2',           'civ5_genmm2',                        #VALUE!   #VALUE!  'HonorableGunpowder'
 SELECT     '',               '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '_V3',           'civ5_genmm3',                        #VALUE!   #VALUE!  'HonorableGunpowder'
@@ -2002,18 +2008,18 @@ SELECT     '_RUSSIA',        '',               'EE_LINE_INFANTRY',              
 SELECT     '_RUSSIA',        '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '_V2',           'civ5_rusmm2',                       2,         #VALUE!  'HonorableGunpowder'
 SELECT     '_RUSSIA',        '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '_V3',           'civ5_rusmm3',                       1,         #VALUE!  'HonorableGunpowder'
 SELECT     '_SPAIN',         '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '',              'civ5_spamm1',                       14,        #VALUE!  'HonorableGunpowder'
-SELECT     '_WITTENBERG',    '_SPAIN',         'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '',              'civ5_spamm1',                       14,        #VALUE!  'HonorableGunpowder'
+SELECT     '_WITTENBERG',    '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '',              'civ5_sacmm2',                       14,        #VALUE!  'HonorableGunpowder'
 SELECT     '',               '',               'EE_SHIP_OF_THE_LINE',                     'EE_SHIP_OF_THE_LINE',                    '',              'shipoftheline',                     1,        0.059,    ''
 SELECT     '',               '',               'EE_SKIRMISHER',                           'EE_SKIRMISHER',                          '',              '95thRifles',                        14,       0.059,    'UnFormed'
 SELECT     '_MED',           '',               'EE_SKIRMISHER',                           'EE_SKIRMISHER',                          '_V3',           'bandeirante_3',                     6,        0.059,    'UnFormed'
+SELECT 'END_OF_INSERT','','','','',NULL,0,0,'';
+INSERT INTO EDUnitGraphicConfiguration(UC_Suffix,UC_Fallback,UC_Template,UC_Member,UC_MemSuffix,UC_fxsxml,UC_Num3,UC_Scale3,UC_Form3)
 SELECT     '_MED',           '',               'EE_SKIRMISHER',                           'EE_SKIRMISHER',                          '_V2',           'bandeirante_2',                     1,        0.059,    'UnFormed'
 SELECT     '_MED',           '',               'EE_SKIRMISHER',                           'EE_SKIRMISHER',                          '',              'bandeirante_1',                     2,        0.059,    'UnFormed'
 SELECT     '_MED',           '',               'EE_SKIRMISHER',                           'EE_SKIRMISHER',                          '_V3',           'bandeirante_3',                     4,        0.059,    'UnFormed'
 SELECT     '_MED',           '',               'EE_SKIRMISHER',                           'EE_SKIRMISHER',                          '',              'bandeirante_1',                     0,        0.059,    'UnFormed'
 SELECT     '_SOUTHAM',       '',               'EE_SKIRMISHER',                           'EE_SKIRMISHER',                          '',              'u_mexican_rurales',                 14,       0.059,    'UnFormed'
 SELECT     '',               '',               'EE_UHLAN',                                'EE_UHLAN',                               '',              'gerlr1',                             #VALUE!   #VALUE!  ''
-SELECT 'END_OF_INSERT','','','','',NULL,0,0,'';
-INSERT INTO EDUnitGraphicConfiguration(UC_Suffix,UC_Fallback,UC_Template,UC_Member,UC_MemSuffix,UC_fxsxml,UC_Num3,UC_Scale3,UC_Form3)
 SELECT     '_GOTHS',         '',               'SWORDSMAN',                               'SWORDSMAN',                              '',              'Gadrauhts_Swordsman',                #VALUE!   #VALUE!  'UnFormed'
 SELECT 'END_OF_INSERT','','','','',NULL,0,0,'';
 
@@ -4032,5 +4038,11 @@ UNION ALL
 UNION ALL
 
 
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
 UNION ALL
 
