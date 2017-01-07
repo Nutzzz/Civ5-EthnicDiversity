@@ -10,6 +10,15 @@ INSERT INTO EDScaleConfiguration(RC_ScaleType,RC_NumMult,RC_ScaleMult) VALUES (3
 
 --         Suffix            Fallback          Template                                   Member                                    MemSuffix        fxsxml                               Num       Scale     Form
 INSERT INTO EDUnitGraphicConfiguration(UC_Suffix,UC_Fallback,UC_Template,UC_Member,UC_MemSuffix,UC_fxsxml,UC_Num3,UC_Scale3,UC_Form3)
+SELECT     '',               '',               '_SETTLER',                                'EURODONKEY',                             '',              'EuroDonkey',                        0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'EUROFEMALE18',                           '',              'EuroFemale18',                      0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'EUROFEMALE25',                           '',              'EuroFemale25',                      0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'EUROFEMALE35',                           '',              'EuroFemale35',                      0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'EUROFEMALE40',                           '',              'EuroFemale40',                      0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'EUROMALE20',                             '',              'EuroMale20',                        0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'EUROMALE25',                             '',              'EuroMale25',                        0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'EUROMALE35',                             '',              'EuroMale35',                        0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'EUROMALE45',                             '',              'EuroMale45',                        0,         #VALUE!  'LooseCivilian'
 SELECT     '',               '',               '_SETTLER',                                'SETTLER',                                '_DONKEY',       'EuroDonkey',                        1,         #VALUE!  'LooseCivilian'
 SELECT     '',               '',               '_SETTLER',                                'SETTLER',                                '_F1',           'EuroFemale18',                      1,         #VALUE!  'LooseCivilian'
 SELECT     '',               '',               '_SETTLER',                                'SETTLER',                                '_F2',           'EuroFemale25',                      1,         #VALUE!  'LooseCivilian'
@@ -19,6 +28,15 @@ SELECT     '',               '',               '_SETTLER',                      
 SELECT     '',               '',               '_SETTLER',                                'SETTLER',                                '_M2',           'EuroMale25',                        1,         #VALUE!  'LooseCivilian'
 SELECT     '',               '',               '_SETTLER',                                'SETTLER',                                '_M3',           'EuroMale35',                        1,         #VALUE!  'LooseCivilian'
 SELECT     '',               '',               '_SETTLER',                                'SETTLER',                                '',              'EuroMale45',                        1,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'AFRICAMEL',                              '',              'Settlers_AFRI_Camel',               0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'AFRIFEMALE1',                            '',              'Settlers_AFRI_F1',                  0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'AFRIFEMALE2',                            '',              'Settlers_AFRI_F2',                  0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'AFRIFEMALE3',                            '',              'Settlers_AFRI_F3',                  0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'AFRIFEMALE4',                            '',              'Settlers_AFRI_F4',                  0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'AFRIMALE1',                              '',              'Settlers_AFRI_M1',                  0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'AFRIMALE2',                              '',              'Settlers_AFRI_M2',                  0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'AFRIMALE3',                              '',              'Settlers_AFRI_M3',                  0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'AFRIMALE4',                              '',              'Settlers_AFRI_M4',                  0,         #VALUE!  'LooseCivilian'
 SELECT     '_AFRI',          '',               '_SETTLER',                                'SETTLER',                                '_CAMEL',        'Settlers_AFRI_Camel',               1,         #VALUE!  'LooseCivilian'
 SELECT     '_AFRI',          '',               '_SETTLER',                                'SETTLER',                                '_F1',           'Settlers_AFRI_F1',                  1,         #VALUE!  'LooseCivilian'
 SELECT     '_AFRI',          '',               '_SETTLER',                                'SETTLER',                                '_F2',           'Settlers_AFRI_F2',                  1,         #VALUE!  'LooseCivilian'
@@ -28,6 +46,15 @@ SELECT     '_AFRI',          '',               '_SETTLER',                      
 SELECT     '_AFRI',          '',               '_SETTLER',                                'SETTLER',                                '_M2',           'Settlers_AFRI_M2',                  1,         #VALUE!  'LooseCivilian'
 SELECT     '_AFRI',          '',               '_SETTLER',                                'SETTLER',                                '_M3',           'Settlers_AFRI_M3',                  1,         #VALUE!  'LooseCivilian'
 SELECT     '_AFRI',          '',               '_SETTLER',                                'SETTLER',                                '',              'Settlers_AFRI_M4',                  1,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'AMERLLAMA',                              '',              'SettlerAmerican_Llama',             0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'AMERFEMALE1',                            '',              'SettlerAmerican_F1',                0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'AMERFEMALE2',                            '',              'SettlerAmerican_F2',                0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'AMERFEMALE3',                            '',              'SettlerAmerican_F3',                0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'AMERFEMALE4',                            '',              'SettlerAmerican_F4',                0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'AMERMALE1',                              '',              'SettlerAmerican_M1',                0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'AMERMALE2',                              '',              'SettlerAmerican_M2',                0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'AMERMALE3',                              '',              'SettlerAmerican_M3',                0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'AMERMALE4',                              '',              'SettlerAmerican_M4',                0,         #VALUE!  'LooseCivilian'
 SELECT     '_AMER',          '',               '_SETTLER',                                'SETTLER',                                '_LLAMA',        'SettlerAmerican_Llama',             1,         #VALUE!  'LooseCivilian'
 SELECT     '_AMER',          '',               '_SETTLER',                                'SETTLER',                                '_F1',           'SettlerAmerican_F1',                1,         #VALUE!  'LooseCivilian'
 SELECT     '_AMER',          '',               '_SETTLER',                                'SETTLER',                                '_F2',           'SettlerAmerican_F2',                1,         #VALUE!  'LooseCivilian'
@@ -37,6 +64,15 @@ SELECT     '_AMER',          '',               '_SETTLER',                      
 SELECT     '_AMER',          '',               '_SETTLER',                                'SETTLER',                                '_M2',           'SettlerAmerican_M2',                1,         #VALUE!  'LooseCivilian'
 SELECT     '_AMER',          '',               '_SETTLER',                                'SETTLER',                                '_M3',           'SettlerAmerican_M3',                1,         #VALUE!  'LooseCivilian'
 SELECT     '_AMER',          '',               '_SETTLER',                                'SETTLER',                                '',              'SettlerAmerican_M4',                1,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'SETTLERS_ASIAN_OX',                      '',              'Settlers_Asian_Ox',                 0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'SETTLERS_ASIAN_F1',                      '',              'Settlers_Asian_F1',                 0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'SETTLERS_ASIAN_F2',                      '',              'Settlers_Asian_F2',                 0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'SETTLERS_ASIAN_F3',                      '',              'Settlers_Asian_F3',                 0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'SETTLERS_ASIAN_F4',                      '',              'Settlers_Asian_F4',                 0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'SETTLERS_ASIAN_M1',                      '',              'Settlers_Asian_M1',                 0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'SETTLERS_ASIAN_M2',                      '',              'Settlers_Asian_M2',                 0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'SETTLERS_ASIAN_M3',                      '',              'Settlers_Asian_M3',                 0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_SETTLER',                                'SETTLERS_ASIAN_M4',                      '',              'Settlers_Asian_M4',                 0,         #VALUE!  'LooseCivilian'
 SELECT     '_ASIA',          '',               '_SETTLER',                                'SETTLER',                                '_OX',           'Settlers_Asian_Ox',                 1,         #VALUE!  'LooseCivilian'
 SELECT     '_ASIA',          '',               '_SETTLER',                                'SETTLER',                                '_F1',           'Settlers_Asian_F1',                 1,         #VALUE!  'LooseCivilian'
 SELECT     '_ASIA',          '',               '_SETTLER',                                'SETTLER',                                '_F2',           'Settlers_Asian_F2',                 1,         #VALUE!  'LooseCivilian'
@@ -110,10 +146,10 @@ SELECT     '_SEASIA',        '_ASIA',          '_SETTLER',                      
 SELECT     '_SEASIA',        '_ASIA',          '_SETTLER',                                'SETTLER',                                '_M3',           'Settlers_Asian_M3',                 1,         #VALUE!  'LooseCivilian'
 SELECT     '_SEASIA',        '_ASIA',          '_SETTLER',                                'SETTLER',                                '',              'Settlers_Asian_M4',                 1,         #VALUE!  'LooseCivilian'
 SELECT     '',               '',               '_WARRIOR',                                'WARRIOR',                                '_V2',           'Warrior_V2',                         #VALUE!   #VALUE!  'Warrior'
-SELECT     '',               '',               '_WARRIOR',                                'WARRIOR',                                '_V3',           'Warrior_V4',                         #VALUE!   #VALUE!  'Warrior'
+SELECT     '',               '',               '_WARRIOR',                                'WARRIOR',                                '_V4',           'Warrior_V4',                         #VALUE!   #VALUE!  'Warrior'
 SELECT     '',               '',               '_WARRIOR',                                'WARRIOR',                                '',              'Warrior',                            #VALUE!   #VALUE!  'Warrior'
 SELECT     '',               '',               '_WARRIOR',                                'WARRIOR',                                '_V2',           'Warrior_V2',                         #VALUE!   #VALUE!  'Warrior'
-SELECT     '',               '',               '_WARRIOR',                                'WARRIOR',                                '_V3',           'Warrior_V4',                         #VALUE!   #VALUE!  'Warrior'
+SELECT     '',               '',               '_WARRIOR',                                'WARRIOR',                                '_V4',           'Warrior_V4',                         #VALUE!   #VALUE!  'Warrior'
 SELECT     '_AFRI',          '',               '_WARRIOR',                                'WARRIOR',                                '',              'impi_1',                            2,         #VALUE!  'Warrior'
 SELECT     '_AFRI',          '',               '_WARRIOR',                                'WARRIOR',                                '_V2',           'impi_2',                            0,         #VALUE!  'Warrior'
 SELECT     '_AFRI',          '',               '_WARRIOR',                                'WARRIOR',                                '_V3',           'impi_3',                            1,         #VALUE!  'Warrior'
@@ -206,11 +242,14 @@ SELECT     '_MAYA',          '',               '_WARRIOR',                      
 SELECT     '_MAYA',          '',               '_WARRIOR',                                'WARRIOR',                                '',              'MayaWarrior',                       2,         #VALUE!  'Warrior'
 SELECT     '_MAYA',          '',               '_WARRIOR',                                'WARRIOR',                                '_V2',           'MayaWarrior_blue',                  2,         #VALUE!  'Warrior'
 SELECT     '_MAYA',          '',               '_WARRIOR',                                'WARRIOR',                                '_V3',           'MayaWarrior_green',                 2,         #VALUE!  'Warrior'
+SELECT     '',               '',               '_WORKER',                                 'WORKER_EURO',                            '',              'Worker_EURO',                       0,         #VALUE!  'LooseCivilian'
 SELECT     '',               '',               '_WORKER',                                 'WORKER',                                 '',              'Worker_EURO',                        #VALUE!   #VALUE!  'LooseCivilian'
-SELECT     '_NETHERLANDS',   '',               '_WORKER',                                 'WORKER',                                 '',              'CIV5Nedwo',                          #VALUE!   #VALUE!  'LooseCivilian'
-SELECT     '_ASIA',          '',               '_WORKER',                                 'WORKER',                                 '',              'worker_buddhist',                    #VALUE!   #VALUE!  'LooseCivilian'
-SELECT     '_SOUTHAM',       '',               '_WORKER',                                 'WORKER',                                 '',              'worker_andes',                       #VALUE!   #VALUE!  'LooseCivilian'
-SELECT     '_OCEAN',         '',               '_WORKER',                                 'WORKER',                                 '',              'Worker_EURO',                        #VALUE!   #VALUE!  'LooseCivilian'
+SELECT     '_NETHERLANDS',   '',               '_WORKER',                                 'WORKER',                                 '',              'CIV5Nedwo',                         0,         #VALUE!  'LooseCivilian'
+SELECT     '_ASIA',          '',               '_WORKER',                                 'WORKER',                                 '',              'worker_buddhist',                   0,         #VALUE!  'LooseCivilian'
+SELECT     '_SEASIA',        '_ASIA',          '_WORKER',                                 'WORKER',                                 '',              'worker_buddhist',                   0,         #VALUE!  'LooseCivilian'
+SELECT     '_SOUTHAM',       '',               '_WORKER',                                 'WORKER',                                 '',              'worker_andes',                      0,         #VALUE!  'LooseCivilian'
+SELECT     '_OCEAN',         '_SOUTHAM',       '_WORKER',                                 'WORKER',                                 '',              'worker_andes',                      0,         #VALUE!  'LooseCivilian'
+SELECT     '',               '',               '_WORKER_LATE',                            'WORKER_EURO_LATE',                       '',              'Worker_EURO_Modern',                0,         #VALUE!  'LooseCivilian'
 SELECT     '',               '',               '_WORKER_LATE',                            'WORKER_LATE',                            '',              'Worker_EURO_Modern',                 #VALUE!   #VALUE!  'LooseCivilian'
 SELECT     '',               '',               'ANTI_AIRCRAFT_GUN',                       'ANTIAIRCRAFTGUN',                        '',              'AntiAircraftGun',                    #VALUE!   #VALUE!  'ThreeBigGuns'
 SELECT     '',               '',               'ANTI_TANK_GUN',                           'ANTITANKGUN',                            '',              'AntiTankGun',                       7,         #VALUE!  'ThreeBigGuns'
@@ -273,20 +312,23 @@ SELECT     '',               '',               'ARTIST',                        
 SELECT     '',               '',               'ARTIST',                                  'GREATARTIST_EARLY',                      '_BAGPIPER',     'GreatArtist_Early_Bagpiper',        2,         #VALUE!  'EarlyGreatArtist'
 SELECT     '',               '',               'ARTIST',                                  'GREATARTIST_EARLY',                      '_BIGDRUMMER',   'GreatArtist_Early_Bigdrummer',      2,         #VALUE!  'EarlyGreatArtist'
 SELECT     '',               '',               'ARTIST',                                  'GREATARTIST_EARLY',                      '_DRUMMER',      'GreatArtist_Early_Drummer',         2,         #VALUE!  'EarlyGreatArtist'
+SELECT     '',               '',               'ARTIST',                                  'GREATARTIST_EARLY',                      '_FLAGBEARER',   'GreatArtist_Early_Flagbearer',      0,         #VALUE!  'EarlyGreatArtist'
 SELECT     '',               '',               'ARTIST_LATE',                             'GREATARTIST_LATE',                       '',              'GreatArtist_Late',                  1,         #VALUE!  ''
 SELECT     '',               '',               'ATOMIC_BOMB',                             'ATOMICBOMB',                             '',              'AtomicBomb',                        1,         #VALUE!  ''
+SELECT     '',               '',               'BARBARIAN_ARCHER',                        'BARBARIAN_ARCHER',                       '_01',           'Barbarian_Archer_01',               0,         #VALUE!  'Barbarian'
 SELECT     '',               '',               'BARBARIAN_ARCHER',                        'BARBARIAN_ARCHER',                       '',              'Barbarian_Archer_01',               5,         #VALUE!  'Barbarian'
 SELECT     '',               '',               'BARBARIAN_ARCHER',                        'BARBARIAN_ARCHER',                       '_V2',           'Barbarian_Archer_V2',               5,         #VALUE!  'Barbarian'
 SELECT     '',               '',               'BARBARIAN_ARCHER',                        'BARBARIAN_ARCHER',                       '_V3',           'Barbarian_Archer_V3',               5,         #VALUE!  'Barbarian'
 SELECT     '',               '',               'BARBARIAN_ARCHER',                        'BARBARIAN_ARCHER',                       '',              'Barbarian_Archer_01',               5,         #VALUE!  'Barbarian'
 SELECT     '',               '',               'BARBARIAN_ARCHER',                        'BARBARIAN_ARCHER',                       '_V2',           'Barbarian_Archer_V2',               5,         #VALUE!  'Barbarian'
 SELECT     '',               '',               'BARBARIAN_ARCHER',                        'BARBARIAN_ARCHER',                       '_V3',           'Barbarian_Archer_V3',               5,         #VALUE!  'Barbarian'
-SELECT     '',               '',               'BARBARIAN_BRUTE',                         'BARBARIAN_BRUTE',                        '',              'Barbarian_EURO_Alpha',              5,         #VALUE!  'Barbarian'
-SELECT     '',               '',               'BARBARIAN_BRUTE',                         'BARBARIAN_BRUTE',                        '_V2',           'Barbarian_EURO_Bravo',              5,         #VALUE!  'Barbarian'
-SELECT     '',               '',               'BARBARIAN_BRUTE',                         'BARBARIAN_BRUTE',                        '_V3',           'Barbarian_EURO_Charlie',            5,         #VALUE!  'Barbarian'
-SELECT     '',               '',               'BARBARIAN_BRUTE',                         'BARBARIAN_BRUTE',                        '',              'Barbarian_EURO_Alpha',              5,         #VALUE!  'Barbarian'
-SELECT     '',               '',               'BARBARIAN_BRUTE',                         'BARBARIAN_BRUTE',                        '_V2',           'Barbarian_EURO_Bravo',              5,         #VALUE!  'Barbarian'
-SELECT     '',               '',               'BARBARIAN_BRUTE',                         'BARBARIAN_BRUTE',                        '_V3',           'Barbarian_EURO_Charlie',            5,         #VALUE!  'Barbarian'
+SELECT     '',               '',               'BARBARIAN_EURO',                          'BARBARIAN_EURO',                         '_ALPHA',        'Barbarian_EURO_Alpha',              0,         #VALUE!  'Barbarian'
+SELECT     '',               '',               'BARBARIAN_EURO',                          'BARBARIAN_EURO',                         '',              'Barbarian_EURO_Alpha',              5,         #VALUE!  'Barbarian'
+SELECT     '',               '',               'BARBARIAN_EURO',                          'BARBARIAN_EURO',                         '_BRAVO',        'Barbarian_EURO_Bravo',              5,         #VALUE!  'Barbarian'
+SELECT     '',               '',               'BARBARIAN_EURO',                          'BARBARIAN_EURO',                         '_CHARLIE',      'Barbarian_EURO_Charlie',            5,         #VALUE!  'Barbarian'
+SELECT     '',               '',               'BARBARIAN_EURO',                          'BARBARIAN_EURO',                         '',              'Barbarian_EURO_Alpha',              5,         #VALUE!  'Barbarian'
+SELECT     '',               '',               'BARBARIAN_EURO',                          'BARBARIAN_EURO',                         '_BRAVO',        'Barbarian_EURO_Bravo',              5,         #VALUE!  'Barbarian'
+SELECT     '',               '',               'BARBARIAN_EURO',                          'BARBARIAN_EURO',                         '_CHARLIE',      'Barbarian_EURO_Charlie',            5,         #VALUE!  'Barbarian'
 SELECT     '',               '',               'BARBARIAN_GALLEY',                        'BARBARIAN_GALLEY',                       '',              'Barbarian_Galley',                  1,        0.09,     ''
 SELECT     '',               '',               'BARBARIAN_SPEARMAN',                      'BARBARIAN_SPEARMAN',                     '',              'Barbarian_Spearman',                5,         #VALUE!  'Barbarian'
 SELECT     '',               '',               'BARBARIAN_SPEARMAN',                      'BARBARIAN_SPEARMAN',                     '_V2',           'Barbarian_Spearman_V2',             5,         #VALUE!  'Barbarian'
@@ -301,9 +343,11 @@ SELECT     '',               '',               'BARBARIAN_SWORDSMAN',           
 SELECT     '',               '',               'BARBARIAN_SWORDSMAN',                     'BARBARIAN_SWORDSMAN',                    '_V2',           'Barbarian_Swordsman_V2',            5,         #VALUE!  'Barbarian'
 SELECT     '',               '',               'BARBARIAN_SWORDSMAN',                     'BARBARIAN_SWORDSMAN',                    '_V3',           'Barbarian_Swordsman_V3',            5,         #VALUE!  'Barbarian'
 SELECT     '',               '',               'BATTLESHIP',                              'BATTLESHIP',                             '',              'Battleship_Generic',                1,        0.09,     ''
+SELECT     '_ZULU',          '_ENGLAND',       'BATTLESHIP',                              'BATTLESHIP',                             '',              'King_George_V_Class',               1,        0.09,     ''
 SELECT     '_AMER',          '_AMERICA',       'BATTLESHIP',                              'BATTLESHIP',                             '',              'Iowa_Class',                        1,        0.09,     ''
 SELECT     '_ASIA',          '_EASTEU',        'BATTLESHIP',                              'BATTLESHIP',                             '',              'Sovetsky_Soyuz_Class',              1,        0.09,     ''
 SELECT     '_JAPAN',         '',               'BATTLESHIP',                              'BATTLESHIP',                             '',              'Yamato_Class',                      1,        0.09,     ''
+SELECT     '_KOREA',         '_JAPAN',         'BATTLESHIP',                              'BATTLESHIP',                             '',              'Yamato_Class',                      1,        0.09,     ''
 SELECT     '_EASTEU',        '',               'BATTLESHIP',                              'BATTLESHIP',                             '',              'Sovetsky_Soyuz_Class',              1,        0.09,     ''
 SELECT     '_RUSSIA',        '_EASTEU',        'BATTLESHIP',                              'BATTLESHIP',                             '',              'Sovetsky_Soyuz_Class',              1,        0.09,     ''
 SELECT     '_AMERICA',       '',               'BATTLESHIP',                              'BATTLESHIP',                             '',              'Iowa_Class',                        1,        0.09,     ''
@@ -314,9 +358,13 @@ SELECT     '_ENGLAND',       '',               'BATTLESHIP',                    
 SELECT     '_FRANCE',        '',               'BATTLESHIP',                              'BATTLESHIP',                             '',              'Richelieu_Class',                   1,        0.09,     ''
 SELECT     '_GERMANY',       '',               'BATTLESHIP',                              'BATTLESHIP',                             '',              'Bismark_Class',                     1,        0.09,     ''
 SELECT     '_ROME',          '',               'BATTLESHIP',                              'BATTLESHIP',                             '',              'Littorio_Class',                    1,        0.09,     ''
+SELECT     '_NORTHAF',       '_FRANCE',        'BATTLESHIP',                              'BATTLESHIP',                             '',              'Richelieu_Class',                   1,        0.09,     ''
 SELECT     '_OCEAN',         '_AMERICA',       'BATTLESHIP',                              'BATTLESHIP',                             '',              'Iowa_Class',                        1,        0.09,     ''
+SELECT     '_SEASIA',        '_FRANCE',        'BATTLESHIP',                              'BATTLESHIP',                             '',              'Richelieu_Class',                   1,        0.09,     ''
+SELECT     '_SOUTHAS',       '_ENGLAND',       'BATTLESHIP',                              'BATTLESHIP',                             '',              'King_George_V_Class',               1,        0.09,     ''
 SELECT     '',               '',               'BAZOOKA_INFANTRY',                        'BAZOOKA_INFANTRY',                       '',              'Bazooka_Infantry',                   #VALUE!   #VALUE!  'ThreeBigGuns'
 SELECT     '',               '',               'BOMBER',                                  'BOMBER',                                 '',              'Bomber',                             #VALUE!   #VALUE!  'BomberWing'
+SELECT     '_ZULU',          '_ENGLAND',       'BOMBER',                                  'BOMBER',                                 '',              'Vickers_Wellington',                 #VALUE!  0.082,    'BomberWing'
 SELECT     '_AMER',          '_AMERICA',       'BOMBER',                                  'BOMBER',                                 '',              'B-25_Mitchell',                      #VALUE!  0.082,    'BomberWing'
 SELECT     '_ASIA',          '',               'BOMBER',                                  'BOMBER',                                 '',              'Mitsubishi_G4M_Betty',               #VALUE!  0.082,    'BomberWing'
 SELECT     '_CHINA',         '',               'BOMBER',                                  'BOMBER',                                 '',              'B-25_Mitchell_China',                #VALUE!  0.082,    'BomberWing'
@@ -338,8 +386,12 @@ SELECT     '_GREECE',        '',               'BOMBER',                        
 SELECT     '_ROME',          '',               'BOMBER',                                  'BOMBER',                                 '',              'SM.79_Sparviero',                    #VALUE!  0.082,    'BomberWing'
 SELECT     '_SPAIN',         '',               'BOMBER',                                  'BOMBER',                                 '',              'Heinkel_He-111_Spain',               #VALUE!  0.082,    'BomberWing'
 SELECT     '_EGYPT',         '',               'BOMBER',                                  'BOMBER',                                 '',              'Bomber_B-24_Egypt',                  #VALUE!  0.082,    'BomberWing'
+SELECT     '_NORTHAF',       '_FRANCE',        'BOMBER',                                  'BOMBER',                                 '',              'Amiot_350',                          #VALUE!  0.082,    'BomberWing'
 SELECT     '_SWEDEN',        '',               'BOMBER',                                  'BOMBER',                                 '',              'SAAB_B18',                           #VALUE!  0.082,    'BomberWing'
 SELECT     '_OCEAN',         '_AMERICA',       'BOMBER',                                  'BOMBER',                                 '',              'B-25_Mitchell',                      #VALUE!  0.082,    'BomberWing'
+SELECT     '_SAHUL',         '_NETHERLANDS',   'BOMBER',                                  'BOMBER',                                 '',              'Fokker_T.V',                         #VALUE!  0.082,    'BomberWing'
+SELECT     '_SEASIA',        '_FRANCE',        'BOMBER',                                  'BOMBER',                                 '',              'Amiot_350',                          #VALUE!  0.082,    'BomberWing'
+SELECT     '_SOUTHAS',       '_ENGLAND',       'BOMBER',                                  'BOMBER',                                 '',              'Vickers_Wellington',                 #VALUE!  0.082,    'BomberWing'
 SELECT     '',               '',               'CANNON',                                  'CANNON',                                 '',              'Cannon',                             #VALUE!   #VALUE!  'ThreeBigGuns'
 SELECT     '_ENGLAND',       '',               'CANNON',                                  'CANNON',                                 '',              '24_Pounder',                         #VALUE!   #VALUE!  'ThreeBigGuns'
 SELECT     '_FRANCE',        '',               'CANNON',                                  'CANNON',                                 '',              'NapoleonCannon',                     #VALUE!   #VALUE!  'ThreeBigGuns'
@@ -373,9 +425,11 @@ SELECT     '_SPAIN',         '',               'CARGO_SHIP_RENAISSANCE',        
 SELECT     '_NORTHAF',       '',               'CARGO_SHIP_RENAISSANCE',                  'CARGO_SHIP_MID',                         '',              'carrack_alg',                       1,        0.125,    ''
 SELECT     '_SWEDEN',        '',               'CARGO_SHIP_RENAISSANCE',                  'CARGO_SHIP_MID',                         '',              'carrack_swe',                       1,        0.125,    ''
 SELECT     '',               '',               'CARRIER',                                 'CARRIER',                                '',              'Carrier_Generic',                   1,        0.09,     ''
+SELECT     '_ZULU',          '_ENGLAND',       'CARRIER',                                 'CARRIER',                                '',              'Illustrious_Class',                 1,        0.09,     ''
 SELECT     '_AMER',          '_AMERICA',       'CARRIER',                                 'CARRIER',                                '',              'Essex_Class',                       1,        0.09,     ''
 SELECT     '_ASIA',          '_EASTEU',        'CARRIER',                                 'CARRIER',                                '',              'Project_71',                        1,        0.09,     ''
 SELECT     '_JAPAN',         '',               'CARRIER',                                 'CARRIER',                                '',              'Shokaku_Class',                     1,        0.09,     ''
+SELECT     '_KOREA',         '_JAPAN',         'CARRIER',                                 'CARRIER',                                '',              'Shokaku_Class',                     1,        0.09,     ''
 SELECT     '_EASTEU',        '',               'CARRIER',                                 'CARRIER',                                '',              'Project_71',                        1,        0.09,     ''
 SELECT     '_RUSSIA',        '_EASTEU',        'CARRIER',                                 'CARRIER',                                '',              'Project_71',                        1,        0.09,     ''
 SELECT     '_AMERICA',       '',               'CARRIER',                                 'CARRIER',                                '',              'Essex_Class',                       1,        0.09,     ''
@@ -387,8 +441,11 @@ SELECT     '_ENGLAND',       '',               'CARRIER',                       
 SELECT     '_FRANCE',        '',               'CARRIER',                                 'CARRIER',                                '',              'Joffre_Class',                      1,        0.09,     ''
 SELECT     '_GERMANY',       '',               'CARRIER',                                 'CARRIER',                                '',              'Graf_Zeppelin_Class',               1,        0.09,     ''
 SELECT     '_ROME',          '',               'CARRIER',                                 'CARRIER',                                '',              'Aquila_Class',                      1,        0.09,     ''
+SELECT     '_NORTHAF',       '_FRANCE',        'CARRIER',                                 'CARRIER',                                '',              'Joffre_Class',                      1,        0.09,     ''
 SELECT     '_SWEDEN',        '',               'CARRIER',                                 'CARRIER',                                '',              'Implacable_Class',                  1,        0.09,     ''
 SELECT     '_OCEAN',         '_AMERICA',       'CARRIER',                                 'CARRIER',                                '',              'Essex_Class',                       1,        0.09,     ''
+SELECT     '_SEASIA',        '_FRANCE',        'CARRIER',                                 'CARRIER',                                '',              'Joffre_Class',                      1,        0.09,     ''
+SELECT     '_SOUTHAS',       '_ENGLAND',       'CARRIER',                                 'CARRIER',                                '',              'Illustrious_Class',                 1,        0.09,     ''
 SELECT     '',               '',               'CATAPULT',                                'CATAPULT',                               '',              'Catapult',                          7,         #VALUE!  'TwoBigGuns'
 SELECT     '',               '',               'CAVALRY',                                 'CAVALRY',                                '',              'Cavalry',                            #VALUE!   #VALUE!  ''
 SELECT     '_HUNS',          '',               'CAVALRY',                                 'LANCER',                                 '',              'hunhu1',                             #VALUE!   #VALUE!  ''
@@ -452,6 +509,8 @@ SELECT     '',               '',               'CONFEDERATE_CORPS',             
 SELECT     '',               '',               'CONFEDERATE_DIVISION',                    'CONFEDERATE_RIFLEMAN',                   '',              'Confederate_Rifleman',               #VALUE!   #VALUE!  'HonorableGunpowder'
 SELECT     '',               '',               'CONFEDERATE_DIVISION',                    'CONFEDERATE_RIFLEMAN',                   '_V1',           'Confederate_Rifleman_V1',            #VALUE!   #VALUE!  'HonorableGunpowder'
 SELECT     '',               '',               'CONFEDERATE_DIVISION',                    'CONFEDERATE_RIFLEMAN',                   '_V2',           'Confederate_Rifleman_V2',            #VALUE!   #VALUE!  'HonorableGunpowder'
+SELECT 'END_OF_INSERT','','','','',NULL,0,0,'';
+INSERT INTO EDUnitGraphicConfiguration(UC_Suffix,UC_Fallback,UC_Template,UC_Member,UC_MemSuffix,UC_fxsxml,UC_Num3,UC_Scale3,UC_Form3)
 SELECT     '',               '',               'CONFEDERATE_DIVISION',                    'CONFEDERATE_RIFLEMAN',                   '',              'Confederate_Rifleman',               #VALUE!   #VALUE!  'HonorableGunpowder'
 SELECT     '',               '',               'CONFEDERATE_DIVISION',                    'CONFEDERATE_RIFLEMAN',                   '_V1',           'Confederate_Rifleman_V1',            #VALUE!   #VALUE!  'HonorableGunpowder'
 SELECT     '',               '',               'CONFEDERATE_GENERAL',                     'CONFEDERATE_GREAT_GENERAL',              '',              'CW_Great_General_Confederate',      1,         #VALUE!  'UnFormed'
@@ -497,9 +556,11 @@ SELECT     '_INCA',          '',               'CROSSBOWMAN',                   
 SELECT     '_MAYA',          '',               'CROSSBOWMAN',                             'CROSSBOWMAN',                            '',              'Longbowman_Maya',                    #VALUE!   #VALUE!  'Archer'
 SELECT     '_SOUTHAS',       '',               'CROSSBOWMAN',                             'CROSSBOWMAN',                            '',              'Longbowman_India',                   #VALUE!   #VALUE!  'Archer'
 SELECT     '',               '',               'DESTROYER',                               'DESTROYER',                              '',              'Destroyer_Generic',                  #VALUE!  0.055,    'Nelson'
+SELECT     '_ZULU',          '_ENGLAND',       'DESTROYER',                               'DESTROYER',                              '',              'Triba_Class',                        #VALUE!  0.055,    'Nelson'
 SELECT     '_AMER',          '_AMERICA',       'DESTROYER',                               'DESTROYER',                              '',              'Fletcher_Class',                     #VALUE!  0.055,    'Nelson'
 SELECT     '_ASIA',          '_EASTEU',        'DESTROYER',                               'DESTROYER',                              '',              'Gnevny_Class',                       #VALUE!  0.055,    'Nelson'
 SELECT     '_JAPAN',         '',               'DESTROYER',                               'DESTROYER',                              '',              'Kagero_Class',                       #VALUE!  0.055,    'Nelson'
+SELECT     '_KOREA',         '_JAPAN',         'DESTROYER',                               'DESTROYER',                              '',              'Kagero_Class',                       #VALUE!  0.055,    'Nelson'
 SELECT     '_EASTEU',        '',               'DESTROYER',                               'DESTROYER',                              '',              'Gnevny_Class',                       #VALUE!  0.055,    'Nelson'
 SELECT     '_POLAND',        '',               'DESTROYER',                               'DESTROYER',                              '',              'Grom_Class',                         #VALUE!  0.055,    'Nelson'
 SELECT     '_RUSSIA',        '_EASTEU',        'DESTROYER',                               'DESTROYER',                              '',              'Gnevny_Class',                       #VALUE!  0.055,    'Nelson'
@@ -509,15 +570,17 @@ SELECT     '_AUSTRIA',       '_GERMANY',       'DESTROYER',                     
 SELECT     '_CANADA',        '_ENGLAND',       'DESTROYER',                               'DESTROYER',                              '',              'Triba_Class',                        #VALUE!  0.055,    'Nelson'
 SELECT     '_CELTS',         '_ENGLAND',       'DESTROYER',                               'DESTROYER',                              '',              'Triba_Class',                        #VALUE!  0.055,    'Nelson'
 SELECT     '_ENGLAND',       '',               'DESTROYER',                               'DESTROYER',                              '',              'Triba_Class',                        #VALUE!  0.055,    'Nelson'
-SELECT 'END_OF_INSERT','','','','',NULL,0,0,'';
-INSERT INTO EDUnitGraphicConfiguration(UC_Suffix,UC_Fallback,UC_Template,UC_Member,UC_MemSuffix,UC_fxsxml,UC_Num3,UC_Scale3,UC_Form3)
 SELECT     '_FRANCE',        '',               'DESTROYER',                               'DESTROYER',                              '',              'Fantasque_Class',                    #VALUE!  0.055,    'Nelson'
 SELECT     '_GERMANY',       '',               'DESTROYER',                               'DESTROYER',                              '',              'Z23_Class',                          #VALUE!  0.055,    'Nelson'
 SELECT     '_NETHERLANDS',   '',               'DESTROYER',                               'DESTROYER',                              '',              'Admiralen_Class',                    #VALUE!  0.055,    'Nelson'
 SELECT     '_GREECE',        '',               'DESTROYER',                               'DESTROYER',                              '',              'Vasilefs_Georgios_Class',            #VALUE!  0.055,    'Nelson'
 SELECT     '_ROME',          '',               'DESTROYER',                               'DESTROYER',                              '',              'Soldati_Class',                      #VALUE!  0.055,    'Nelson'
+SELECT     '_NORTHAF',       '_FRANCE',        'DESTROYER',                               'DESTROYER',                              '',              'Fantasque_Class',                    #VALUE!  0.055,    'Nelson'
 SELECT     '_SWEDEN',        '',               'DESTROYER',                               'DESTROYER',                              '',              'Goteborg_Class',                     #VALUE!  0.055,    'Nelson'
+SELECT     '_SAHUL',         '_NETHERLANDS',   'DESTROYER',                               'DESTROYER',                              '',              'Admiralen_Class',                    #VALUE!  0.055,    'Nelson'
 SELECT     '_OCEAN',         '_AMERICA',       'DESTROYER',                               'DESTROYER',                              '',              'Fletcher_Class',                     #VALUE!  0.055,    'Nelson'
+SELECT     '_SEASIA',        '_FRANCE',        'DESTROYER',                               'DESTROYER',                              '',              'Fantasque_Class',                    #VALUE!  0.055,    'Nelson'
+SELECT     '_SOUTHAS',       '_ENGLAND',       'DESTROYER',                               'DESTROYER',                              '',              'Triba_Class',                        #VALUE!  0.055,    'Nelson'
 SELECT     '',               '',               'ENGINEER',                                'GREATENGINEER_EARLY',                    '',              'GreatEngineer_Early',               1,         #VALUE!  ''
 SELECT     '',               '',               'ENGINEER_LATE',                           'GREATENGINEER_LATE',                     '',              'GreatEngineer_Late',                1,         #VALUE!  ''
 SELECT     '',               '',               'EXPLORER',                                'GREAT_EXPLORER',                         '',              'Great_Explorer',                    1,         #VALUE!  'EarlyGreatArtist'
@@ -525,6 +588,7 @@ SELECT     '',               '',               'EXPLORER',                      
 SELECT     '',               '',               'EXPLORER',                                'GREAT_EXPLORER',                         '_F2',           'Great_Explorer_F2',                 1,         #VALUE!  'EarlyGreatArtist'
 SELECT     '',               '',               'FIGHTER',                                 'FIGHTER',                                '',              'Fighter',                            #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_AFRI',          '_MIDEAST',       'FIGHTER',                                 'FIGHTER',                                '',              'Fighter_Default',                    #VALUE!   #VALUE!  'FighterWing'
+SELECT     '_ZULU',          '_ENGLAND',       'FIGHTER',                                 'FIGHTER',                                '',              'Supermarine_Spitfire_MK_V',          #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_AMER',          '_MIDEAST',       'FIGHTER',                                 'FIGHTER',                                '',              'Fighter_Default',                    #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_CHINA',         '',               'FIGHTER',                                 'FIGHTER',                                '',              'P-40_Warhawk_China',                 #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_OTTOMAN',       '',               'FIGHTER',                                 'FIGHTER',                                '',              'P40Turkey',                          #VALUE!   #VALUE!  'FighterWing'
@@ -547,17 +611,20 @@ SELECT     '_ROME',          '',               'FIGHTER',                       
 SELECT     '_SPAIN',         '',               'FIGHTER',                                 'FIGHTER',                                '',              'Fighter_Bf-109J',                    #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_MIDEAST',       '',               'FIGHTER',                                 'FIGHTER',                                '',              'Fighter_Default',                    #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_EGYPT',         '',               'FIGHTER',                                 'FIGHTER',                                '',              'P40Egypt',                           #VALUE!   #VALUE!  'FighterWing'
+SELECT     '_NORTHAF',       '_FRANCE',        'FIGHTER',                                 'FIGHTER',                                '',              'Dewoitine_D.520',                    #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_SWEDEN',        '',               'FIGHTER',                                 'FIGHTER',                                '',              'FFVS_J22',                           #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_OCEAN',         '_MIDEAST',       'FIGHTER',                                 'FIGHTER',                                '',              'Fighter_Default',                    #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_SAHUL',         '_AUSTRALIA',     'FIGHTER',                                 'FIGHTER',                                '',              'CACBoomerang',                       #VALUE!   #VALUE!  'FighterWing'
+SELECT     '_SEASIA',        '_FRANCE',        'FIGHTER',                                 'FIGHTER',                                '',              'Dewoitine_D.520',                    #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_SOUTHAM',       '_MIDEAST',       'FIGHTER',                                 'FIGHTER',                                '',              'Fighter_Default',                    #VALUE!   #VALUE!  'FighterWing'
+SELECT     '_SOUTHAS',       '_ENGLAND',       'FIGHTER',                                 'FIGHTER',                                '',              'Supermarine_Spitfire_MK_V',          #VALUE!   #VALUE!  'FighterWing'
 SELECT     '',               '',               'FRIGATE',                                 'FRIGATE',                                '',              'Frigate',                           1,        0.059,    ''
 SELECT     '',               '',               'GADRAUHTS_SWORDSMAN',                     'GADRAUHTS_SWORDSMAN',                    '',              'Gadrauhts_Swordsman',                #VALUE!   #VALUE!  'UnFormed'
 SELECT     '',               '',               'GALLEASS',                                'GALLEASS',                               '',              'Galleass',                          1,        0.059,    ''
 SELECT     '',               '',               'GALLEON',                                 'GALLEON',                                '',              'euro_galleon',                      2,        0.055,    'TwoBigGuns'
 SELECT     '_AFRI',          '_MED',           'GALLEON',                                 'GALLEON',                                '',              'med_galleon',                       2,        0.055,    'TwoBigGuns'
 SELECT     '_AMER',          '_EURO',          'GALLEON',                                 'GALLEON',                                '',              'euro_galleon',                      2,        0.055,    'TwoBigGuns'
-SELECT     '_ASIA',          '',               'GALLEON',                                 'GALLEON',                                '',              'WarJunk',                           2,        0.055,    'TwoBigGuns'
+SELECT     '_ASIA',          '',               'GALLEON',                                 'GALLEON',                                '',              'WarJunk',                           2,        0.11,     'TwoBigGuns'
 SELECT     '_CENTAS',        '_MED',           'GALLEON',                                 'GALLEON',                                '',              'med_galleon',                       2,        0.055,    'TwoBigGuns'
 SELECT     '_EASTEU',        '_EURO',          'GALLEON',                                 'GALLEON',                                '',              'euro_galleon',                      2,        0.055,    'TwoBigGuns'
 SELECT     '_RUSSIA',        '',               'GALLEON',                                 'GALLEON',                                '',              'russian_galleon',                   2,        0.055,    'TwoBigGuns'
@@ -574,7 +641,7 @@ SELECT     '_NORTHEU',       '_EURO',          'GALLEON',                       
 SELECT     '_DENMARK',       '',               'GALLEON',                                 'GALLEON',                                '',              'danish_galleon',                    2,        0.055,    'TwoBigGuns'
 SELECT     '_SWEDEN',        '',               'GALLEON',                                 'GALLEON',                                '',              'swedish_galleon',                   2,        0.055,    'TwoBigGuns'
 SELECT     '_OCEAN',         '_EURO',          'GALLEON',                                 'GALLEON',                                '',              'euro_galleon',                      2,        0.055,    'TwoBigGuns'
-SELECT     '_SEASIA',        '_ASIA',          'GALLEON',                                 'GALLEON',                                '',              'WarJunk',                           2,        0.055,    'TwoBigGuns'
+SELECT     '_SEASIA',        '_ASIA',          'GALLEON',                                 'GALLEON',                                '',              'WarJunk',                           2,        0.11,     'TwoBigGuns'
 SELECT     '_SOUTHAM',       '_EURO',          'GALLEON',                                 'GALLEON',                                '',              'euro_galleon',                      2,        0.055,    'TwoBigGuns'
 SELECT     '_SOUTHAS',       '_MED',           'GALLEON',                                 'GALLEON',                                '',              'med_galleon',                       2,        0.055,    'TwoBigGuns'
 SELECT     '',               '',               'GALLEY',                                  'GALLEY',                                 '',              'Galley',                            2,        0.059,    'TwoBigGuns'
@@ -624,6 +691,7 @@ SELECT     '',               '',               'HAND_AXE_BARBARIAN',            
 SELECT     '',               '',               'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'HelicopterGunship',                  #VALUE!   #VALUE!  'Helicopter'
 SELECT     '_AFRI',          '_MIDEAST',       'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'Mi8DesertTeamColor',                 #VALUE!   #VALUE!  'Helicopter'
 SELECT     '_ETHIOPIA',      '',               'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'Mi8Ethiopia',                        #VALUE!   #VALUE!  'Helicopter'
+SELECT     '_ZULU',          '_ENGLAND',       'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'AH64Britain',                        #VALUE!   #VALUE!  'Helicopter'
 SELECT     '_AMER',          '_AMERICA',       'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'AH64USA',                            #VALUE!   #VALUE!  'Helicopter'
 SELECT     '_ASIA',          '_EASTEU',        'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'Mi8PlainTeamColor',                  #VALUE!   #VALUE!  'Helicopter'
 SELECT     '_JAPAN',         '',               'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'AH64Japan',                          #VALUE!   #VALUE!  'Helicopter'
@@ -647,13 +715,16 @@ SELECT     '_MIDEAST',       '',               'HELICOPTER_GUNSHIP',            
 SELECT     '_ARABIA',        '',               'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'AH64PlainTeamColor',                 #VALUE!   #VALUE!  'Helicopter'
 SELECT     '_BABYLON',       '',               'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'Mi8Iraq',                            #VALUE!   #VALUE!  'Helicopter'
 SELECT     '_EGYPT',         '',               'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'Mi8Egypt',                           #VALUE!   #VALUE!  'Helicopter'
+SELECT     '_LEVANT',        '_AMERICA',       'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'AH64USA',                            #VALUE!   #VALUE!  'Helicopter'
 SELECT     '_NORTHAF',       '_MIDEAST',       'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'Mi8DesertTeamColor',                 #VALUE!   #VALUE!  'Helicopter'
 SELECT     '_SWEDEN',        '',               'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'tiger_sweden',                       #VALUE!   #VALUE!  'Helicopter'
 SELECT     '_OCEAN',         '_AMERICA',       'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'AH64USA',                            #VALUE!   #VALUE!  'Helicopter'
 SELECT     '_SAHUL',         '_AUSTRALIA',     'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'tiger_australia',                    #VALUE!   #VALUE!  'Helicopter'
+SELECT     '_SEASIA',        '_FRANCE',        'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'tiger_france',                       #VALUE!   #VALUE!  'Helicopter'
 SELECT     '_SOUTHAM',       '_ASIA',          'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'HelicopterGunship',                  #VALUE!   #VALUE!  'Helicopter'
 SELECT     '_AZTEC',         '',               'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'Mi8Mexico',                          #VALUE!   #VALUE!  'Helicopter'
-SELECT     '_SOUTHAS',       '',               'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'Mi8India',                           #VALUE!   #VALUE!  'Helicopter'
+SELECT     '_SOUTHAS',       '_EASTEU',        'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'Mi8PlainTeamColor',                  #VALUE!   #VALUE!  'Helicopter'
+SELECT     '_INDIA',         '',               'HELICOPTER_GUNSHIP',                      'HELICOPTERGUNSHIP',                      '',              'Mi8India',                           #VALUE!   #VALUE!  'Helicopter'
 SELECT     '',               '',               'HORSEMAN',                                'HORSEMAN',                               '',              'Horseman',                           #VALUE!   #VALUE!  ''
 SELECT     '_AFRI',          '',               'HORSEMAN',                                'HORSEMAN',                               '',              'EthiopiaHorseman',                  1,         #VALUE!  ''
 SELECT     '_AFRI',          '',               'HORSEMAN',                                'HORSEMAN',                               '_V2',           'EthiopiaHorseman2',                 2,         #VALUE!  ''
@@ -763,8 +834,11 @@ SELECT     '_GERMANY',       '',               'IRONCLAD',                      
 SELECT     '_MED',           '',               'IRONCLAD',                                'IRONCLAD',                               '',              'Pelayo_bb',                         1,        0.085,    ''
 SELECT     '_ROME',          '',               'IRONCLAD',                                'IRONCLAD',                               '',              're_umberto_bb',                     1,        0.08,     ''
 SELECT     '_SPAIN',         '_MED',           'IRONCLAD',                                'IRONCLAD',                               '',              'Pelayo_bb',                         1,        0.085,    ''
-SELECT     '_SOUTHAS',       '_ASIA',          'IRONCLAD',                                'IRONCLAD',                               '',              'Mikasa_BB',                         1,        0.08,     ''
+SELECT     '_NORTHAF',       '_FRANCE',        'IRONCLAD',                                'IRONCLAD',                               '',              'Republique_BB',                     1,        0.085,    ''
+SELECT     '_SEASIA',        '_FRANCE',        'IRONCLAD',                                'IRONCLAD',                               '',              'Republique_BB',                     1,        0.085,    ''
+SELECT     '_SOUTHAS',       '_ENGLAND',       'IRONCLAD',                                'IRONCLAD',                               '',              'Ironclad',                          1,        0.055,    ''
 SELECT     '',               '',               'JET_FIGHTER',                             'JETFIGHTER',                             '',              'JetFighter_Generic',                 #VALUE!   #VALUE!  'FighterWing'
+SELECT     '_ZULU',          '_ENGLAND',       'JET_FIGHTER',                             'JETFIGHTER',                             '',              'EurofighterUK',                      #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_AMER',          '_CANADA',        'JET_FIGHTER',                             'JETFIGHTER',                             '',              'AvroArrow',                          #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_ASIA',          '_EASTEU',        'JET_FIGHTER',                             'JETFIGHTER',                             '',              'MiG29Soviet',                        #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_JAPAN',         '',               'JET_FIGHTER',                             'JETFIGHTER',                             '',              'F4Japan',                            #VALUE!   #VALUE!  'FighterWing'
@@ -789,11 +863,13 @@ SELECT     '_BABYLON',       '',               'JET_FIGHTER',                   
 SELECT     '_EGYPT',         '',               'JET_FIGHTER',                             'JETFIGHTER',                             '',              'F4Egypt',                            #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_LEVANT',        '',               'JET_FIGHTER',                             'JETFIGHTER',                             '',              'F4Israel',                           #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_PERSIA',        '',               'JET_FIGHTER',                             'JETFIGHTER',                             '',              'MiG29Iran',                          #VALUE!   #VALUE!  'FighterWing'
+SELECT     '_NORTHAF',       '_FRANCE',        'JET_FIGHTER',                             'JETFIGHTER',                             '',              'Rafale',                             #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_NORTHEU',       '',               'JET_FIGHTER',                             'JETFIGHTER',                             '',              'draken',                             #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_OCEAN',         '_AMERICA',       'JET_FIGHTER',                             'JETFIGHTER',                             '',              'F15',                                #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_SIAM',          '',               'JET_FIGHTER',                             'JETFIGHTER',                             '',              'A-7',                                #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_SOUTHAM',       '',               'JET_FIGHTER',                             'JETFIGHTER',                             '',              'MiG29Peru',                          #VALUE!   #VALUE!  'FighterWing'
-SELECT     '_SOUTHAS',       '',               'JET_FIGHTER',                             'JETFIGHTER',                             '',              'MiG29India',                         #VALUE!   #VALUE!  'FighterWing'
+SELECT     '_SOUTHAS',       '_EASTEU',        'JET_FIGHTER',                             'JETFIGHTER',                             '',              'MiG29Soviet',                        #VALUE!   #VALUE!  'FighterWing'
+SELECT     '_INDIA',         '',               'JET_FIGHTER',                             'JETFIGHTER',                             '',              'MiG29India',                         #VALUE!   #VALUE!  'FighterWing'
 SELECT     '',               '',               'KNIGHT',                                  'KNIGHT',                                 '',              'Knight',                             #VALUE!   #VALUE!  ''
 SELECT     '_AFRI',          '',               'KNIGHT',                                  'KNIGHT',                                 '',              'EthiopiaKnight',                     #VALUE!   #VALUE!  ''
 SELECT     '_AMER',          '',               'KNIGHT',                                  'KNIGHT',                                 '',              'Sioux_Knight',                       #VALUE!   #VALUE!  ''
@@ -934,6 +1010,8 @@ SELECT     '_FRANCE',        '',               'LONGSWORDSMAN',                 
 SELECT     '_FRANCE',        '',               'LONGSWORDSMAN',                           'LONGSWORDSMAN',                          '_V2',           'Longswordsman_France',              2,         #VALUE!  ''
 SELECT     '_FRANCE',        '',               'LONGSWORDSMAN',                           'LONGSWORDSMAN',                          '_V3',           'france_longsw2',                    1,         #VALUE!  ''
 SELECT     '_FRANCE',        '',               'LONGSWORDSMAN',                           'LONGSWORDSMAN',                          '_V4',           'france_longsw3',                    2,         #VALUE!  ''
+SELECT 'END_OF_INSERT','','','','',NULL,0,0,'';
+INSERT INTO EDUnitGraphicConfiguration(UC_Suffix,UC_Fallback,UC_Template,UC_Member,UC_MemSuffix,UC_fxsxml,UC_Num3,UC_Scale3,UC_Form3)
 SELECT     '_GERMANY',       '',               'LONGSWORDSMAN',                           'LONGSWORDSMAN',                          '',              'Longswordsman_German',              1,         #VALUE!  ''
 SELECT     '_GERMANY',       '',               'LONGSWORDSMAN',                           'LONGSWORDSMAN',                          '_V2',           'gerls1_templar',                    1,         #VALUE!  ''
 SELECT     '_GERMANY',       '',               'LONGSWORDSMAN',                           'LONGSWORDSMAN',                          '_V3',           'gerls2_templar',                    1,         #VALUE!  ''
@@ -1006,12 +1084,11 @@ SELECT     '_SOUTHAM',       '',               'MARINE',                        
 SELECT     '',               '',               'MECH',                                    'MECH',                                   '',              'Mech',                               #VALUE!   #VALUE!  'Vehicle'
 SELECT     '',               '',               'MECHANIZED_INFANTRY',                     'MECHANIZEDINFANTRY',                     '',              'MechanizedInfantry',                7,         #VALUE!  'Vehicle'
 SELECT     '_AFRI',          '_MIDEAST',       'MECHANIZED_INFANTRY',                     'MECHANIZEDINFANTRY',                     '',              'BMP2DesertTeam',                    7,         #VALUE!  'Vehicle'
+SELECT     '_ZULU',          '_ENGLAND',       'MECHANIZED_INFANTRY',                     'MECHANIZEDINFANTRY',                     '',              'FV510Warrior',                      7,         #VALUE!  'Vehicle'
 SELECT     '_AMER',          '_AMERICA',       'MECHANIZED_INFANTRY',                     'MECHANIZEDINFANTRY',                     '',              'Civ5_Bradley_Camo',                 7,         #VALUE!  'Vehicle'
 SELECT     '_ASIA',          '_EASTEU',        'MECHANIZED_INFANTRY',                     'MECHANIZEDINFANTRY',                     '',              'BMP2GreenTeam',                     7,         #VALUE!  'Vehicle'
 SELECT     '_EASTEU',        '',               'MECHANIZED_INFANTRY',                     'MECHANIZEDINFANTRY',                     '',              'BMP2GreenTeam',                     7,         #VALUE!  'Vehicle'
 SELECT     '_RUSSIA',        '',               'MECHANIZED_INFANTRY',                     'MECHANIZEDINFANTRY',                     '',              'BMP2Russia',                        7,         #VALUE!  'Vehicle'
-SELECT 'END_OF_INSERT','','','','',NULL,0,0,'';
-INSERT INTO EDUnitGraphicConfiguration(UC_Suffix,UC_Fallback,UC_Template,UC_Member,UC_MemSuffix,UC_fxsxml,UC_Num3,UC_Scale3,UC_Form3)
 SELECT     '_EURO',          '',               'MECHANIZED_INFANTRY',                     'MECHANIZEDINFANTRY',                     '',              'Civ5_Bradley',                      7,         #VALUE!  'Vehicle'
 SELECT     '_AMERICA',       '',               'MECHANIZED_INFANTRY',                     'MECHANIZEDINFANTRY',                     '',              'Civ5_Bradley_Camo',                 7,         #VALUE!  'Vehicle'
 SELECT     '_AUSTRALIA',     '_ENGLAND',       'MECHANIZED_INFANTRY',                     'MECHANIZEDINFANTRY',                     '',              'FV510Warrior',                      7,         #VALUE!  'Vehicle'
@@ -1027,11 +1104,14 @@ SELECT     '_BABYLON',       '',               'MECHANIZED_INFANTRY',           
 SELECT     '_PERSIA',        '',               'MECHANIZED_INFANTRY',                     'MECHANIZEDINFANTRY',                     '',              'BMP2Iran',                          7,         #VALUE!  'Vehicle'
 SELECT     '_NORTHAF',       '',               'MECHANIZED_INFANTRY',                     'MECHANIZEDINFANTRY',                     '',              'BMP2Algeria',                       7,         #VALUE!  'Vehicle'
 SELECT     '_OCEAN',         '_AMERICA',       'MECHANIZED_INFANTRY',                     'MECHANIZEDINFANTRY',                     '',              'Civ5_Bradley_Camo',                 7,         #VALUE!  'Vehicle'
-SELECT     '_SEASIA',        '_ASIA',          'MECHANIZED_INFANTRY',                     'MECHANIZEDINFANTRY',                     '',              'MechanizedInfantry',                7,         #VALUE!  'Vehicle'
-SELECT     '_SOUTHAS',       '',               'MECHANIZED_INFANTRY',                     'MECHANIZEDINFANTRY',                     '',              'BMP2India',                         7,         #VALUE!  'Vehicle'
+SELECT     '_SAHUL',         '_ARABIA',        'MECHANIZED_INFANTRY',                     'MECHANIZEDINFANTRY',                     '',              'Civ5_Bradley_Desert',               7,         #VALUE!  'Vehicle'
+SELECT     '_SEASIA',        '_EASTEU',        'MECHANIZED_INFANTRY',                     'MECHANIZEDINFANTRY',                     '',              'BMP2GreenTeam',                     7,         #VALUE!  'Vehicle'
+SELECT     '_SOUTHAS',       '_MIDEAST',       'MECHANIZED_INFANTRY',                     'MECHANIZEDINFANTRY',                     '',              'BMP2DesertTeam',                    7,         #VALUE!  'Vehicle'
+SELECT     '_INDIA',         '',               'MECHANIZED_INFANTRY',                     'MECHANIZEDINFANTRY',                     '',              'BMP2India',                         7,         #VALUE!  'Vehicle'
 SELECT     '',               '',               'MERCHANT',                                'GREATMERCHANT_EARLY',                    '',              'GreatMerchant_Early_Leader',        1,         #VALUE!  'EarlyGreatMerchant'
 SELECT     '',               '',               'MERCHANT',                                'GREATMERCHANT_EARLY',                    '_CAMEL_V1',     'GreatMerchant_Early_Camel_V1',      1,         #VALUE!  'EarlyGreatMerchant'
 SELECT     '',               '',               'MERCHANT',                                'GREATMERCHANT_EARLY',                    '_CAMEL_V2',     'GreatMerchant_Early_Camel_V2',      1,         #VALUE!  'EarlyGreatMerchant'
+SELECT     '',               '',               'MERCHANT',                                'GREATMERCHANT_EARLY',                    '_LEADER',       'GreatMerchant_Early_Leader',        0,         #VALUE!  'EarlyGreatMerchant'
 SELECT     '',               '',               'MERCHANT_LATE',                           'GREATMERCHANT_LATE',                     '',              'GreatMerchant_Late',                1,         #VALUE!  ''
 SELECT     '',               '',               'MILITARY_ENGINEER',                       'MILITARY_ENGINEER',                      '',              'Civil_War_Engineer',                8,         #VALUE!  'UnFormed'
 SELECT     '',               '',               'MISSILE_CRUISER',                         'MISSILECRUISER',                         '',              'MissileCruiser',                    1,        0.11,     ''
@@ -1076,11 +1156,15 @@ SELECT     '_FRANCE',        '',               'MOBILE_SAM',                    
 SELECT     '_GERMANY',       '_FRANCE',        'MOBILE_SAM',                              'MOBILESAM',                              '',              'RolandFrance',                       #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_SPAIN',         '',               'MOBILE_SAM',                              'MOBILESAM',                              '',              'RolandSpain',                        #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_MIDEAST',       '',               'MOBILE_SAM',                              'MOBILESAM',                              '',              'RolandTanTeamColor',                 #VALUE!   #VALUE!  'Vehicle'
+SELECT     '_NORTHAF',       '_FRANCE',        'MOBILE_SAM',                              'MOBILESAM',                              '',              'RolandFrance',                       #VALUE!   #VALUE!  'Vehicle'
+SELECT     '_SEASIA',        '_FRANCE',        'MOBILE_SAM',                              'MOBILESAM',                              '',              'RolandFrance',                       #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_SOUTHAM',       '_SPAIN',         'MOBILE_SAM',                              'MOBILESAM',                              '',              'RolandSpain',                        #VALUE!   #VALUE!  'Vehicle'
+SELECT     '_SOUTHAS',       '_MIDEAST',       'MOBILE_SAM',                              'MOBILESAM',                              '',              'RolandTanTeamColor',                 #VALUE!   #VALUE!  'Vehicle'
 SELECT     '',               '',               'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'ModernArmor',                        #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_AFRI',          '',               'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'T55TanTC',                           #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_ETHIOPIA',      '',               'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'T55Ethiopia',                        #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_SONGHAI',       '',               'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'T55Mali',                            #VALUE!   #VALUE!  'Vehicle'
+SELECT     '_ZULU',          '_ENGLAND',       'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'ChallengerII',                       #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_AMER',          '_AMERICA',       'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'M1Abrams',                           #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_ASIA',          '_EASTEU',        'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'T72_USSR',                           #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_CHINA',         '',               'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'T55China',                           #VALUE!   #VALUE!  'Vehicle'
@@ -1101,12 +1185,14 @@ SELECT     '_NETHERLANDS',   '',               'MODERN_ARMOR',                  
 SELECT     '_GREECE',        '',               'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'Leopard1_Greece',                    #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_ROME',          '',               'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'Ariete',                             #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_MIDEAST',       '',               'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'T72',                                #VALUE!   #VALUE!  'Vehicle'
+SELECT     '_LEVANT',        '_AMERICA',       'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'M1Abrams',                           #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_ARABIA',        '',               'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'ChallengerII_Desert',                #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_BABYLON',       '',               'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'T72_Iraq',                           #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_EGYPT',         '',               'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'T55Egypt',                           #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_PERSIA',        '',               'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'T72_Iran',                           #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_NORTHAF',       '',               'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'T72_Algeria',                        #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_OCEAN',         '_AMERICA',       'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'M1Abrams',                           #VALUE!   #VALUE!  'Vehicle'
+SELECT     '_SAHUL',         '_NETHERLANDS',   'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'Leopard1_Netherlands',               #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_SEASIA',        '_EASTEU',        'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'T72_USSR',                           #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_SIAM',          '',               'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'Armor_T-55',                         #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_INCA',          '',               'MODERN_ARMOR',                            'MODERNARMOR',                            '',              'T55Peru',                            #VALUE!   #VALUE!  'Vehicle'
@@ -1425,6 +1511,8 @@ SELECT     '_SOUTHAM',       '',               'RIFLEMAN',                      
 SELECT     '_AZTEC',         '',               'RIFLEMAN',                                'RIFLEMAN',                               '',              'civ5_aztrm1',                       1,        0.055,    'HonorableGunpowder'
 SELECT     '_AZTEC',         '',               'RIFLEMAN',                                'RIFLEMAN',                               '_V2',           'civ5_aztrm2',                       3,        0.055,    'HonorableGunpowder'
 SELECT     '_AZTEC',         '',               'RIFLEMAN',                                'RIFLEMAN',                               '_V3',           'civ5_aztrm3',                       1,        0.055,    'HonorableGunpowder'
+SELECT 'END_OF_INSERT','','','','',NULL,0,0,'';
+INSERT INTO EDUnitGraphicConfiguration(UC_Suffix,UC_Fallback,UC_Template,UC_Member,UC_MemSuffix,UC_fxsxml,UC_Num3,UC_Scale3,UC_Form3)
 SELECT     '_AZTEC',         '',               'RIFLEMAN',                                'RIFLEMAN',                               '',              'civ5_aztrm1',                       3,        0.055,    'HonorableGunpowder'
 SELECT     '_AZTEC',         '',               'RIFLEMAN',                                'RIFLEMAN',                               '_V2',           'civ5_aztrm2',                       2,        0.055,    'HonorableGunpowder'
 SELECT     '_AZTEC',         '',               'RIFLEMAN',                                'RIFLEMAN',                               '_V3',           'civ5_aztrm3',                       4,        0.055,    'HonorableGunpowder'
@@ -1511,8 +1599,6 @@ SELECT     '_FRANCE',        '',               'SPEARMAN',                      
 SELECT     '_GERMANY',       '',               'SPEARMAN',                                'SPEARMAN',                               '',              'Spearman_German',                   32,        #VALUE!  'Phalanx'
 SELECT     '_NETHERLANDS',   '',               'SPEARMAN',                                'SPEARMAN',                               '',              'BatavianSpearman',                  32,        #VALUE!  'Phalanx'
 SELECT     '_MED',           '',               'SPEARMAN',                                'SPEARMAN',                               '',              'U_Greek_Hoplite',                   32,        #VALUE!  'Phalanx'
-SELECT 'END_OF_INSERT','','','','',NULL,0,0,'';
-INSERT INTO EDUnitGraphicConfiguration(UC_Suffix,UC_Fallback,UC_Template,UC_Member,UC_MemSuffix,UC_fxsxml,UC_Num3,UC_Scale3,UC_Form3)
 SELECT     '_CARTHAGE',      '',               'SPEARMAN',                                'SPEARMAN',                               '',              'CitizenMilitia',                    32,        #VALUE!  'Phalanx'
 SELECT     '_GREECE',        '',               'SPEARMAN',                                'SPEARMAN',                               '',              'MycenaeSpear',                      32,        #VALUE!  'Phalanx'
 SELECT     '_PORTUGAL',      '',               'SPEARMAN',                                'SPEARMAN',                               '',              'PortugalSpearman',                  32,        #VALUE!  'Phalanx'
@@ -1555,6 +1641,7 @@ SELECT     '',               '',               'STEALTH_BOMBER',                
 SELECT     '_AUSTRIA',       '_GERMANY',       'STEALTH_BOMBER',                          'STEALTHBOMBER',                          '',              'Ho229',                             1,         #VALUE!  'BomberWing'
 SELECT     '_GERMANY',       '',               'STEALTH_BOMBER',                          'STEALTHBOMBER',                          '',              'Ho229',                             1,         #VALUE!  'BomberWing'
 SELECT     '',               '',               'SUBMARINE',                               'SUBMARINE',                              '',              'Submarine_Generic',                 1,        0.16,     ''
+SELECT     '_ZULU',          '_ENGLAND',       'SUBMARINE',                               'SUBMARINE',                              '',              'Submarine_T-Class',                 1,        0.16,     ''
 SELECT     '_AMER',          '_AMERICA',       'SUBMARINE',                               'SUBMARINE',                              '',              'Submarine_Gato',                    1,        0.16,     ''
 SELECT     '_ASIA',          '',               'SUBMARINE',                               'SUBMARINE',                              '',              'Submarine_I-15',                    1,        0.16,     ''
 SELECT     '_JAPAN',         '_ASIA',          'SUBMARINE',                               'SUBMARINE',                              '',              'Submarine_I-15',                    1,        0.16,     ''
@@ -1573,8 +1660,12 @@ SELECT     '_GERMANY',       '',               'SUBMARINE',                     
 SELECT     '_NETHERLANDS',   '',               'SUBMARINE',                               'SUBMARINE',                              '',              'O-19_Class',                        1,        0.16,     ''
 SELECT     '_GREECE',        '',               'SUBMARINE',                               'SUBMARINE',                              '',              'Katsonis_Class',                    1,        0.16,     ''
 SELECT     '_ROME',          '',               'SUBMARINE',                               'SUBMARINE',                              '',              'Submarine_Marcello',                1,        0.16,     ''
+SELECT     '_NORTHAF',       '_FRANCE',        'SUBMARINE',                               'SUBMARINE',                              '',              'Submarine_Le_Redoutable',           1,        0.16,     ''
 SELECT     '_SWEDEN',        '',               'SUBMARINE',                               'SUBMARINE',                              '',              'Sjolejonet_Class',                  1,        0.16,     ''
 SELECT     '_OCEAN',         '_AMERICA',       'SUBMARINE',                               'SUBMARINE',                              '',              'Submarine_Gato',                    1,        0.16,     ''
+SELECT     '_SAHUL',         '_NETHERLANDS',   'SUBMARINE',                               'SUBMARINE',                              '',              'O-19_Class',                        1,        0.16,     ''
+SELECT     '_SEASIA',        '_FRANCE',        'SUBMARINE',                               'SUBMARINE',                              '',              'Submarine_Le_Redoutable',           1,        0.16,     ''
+SELECT     '_SOUTHAS',       '_ENGLAND',       'SUBMARINE',                               'SUBMARINE',                              '',              'Submarine_T-Class',                 1,        0.16,     ''
 SELECT     '',               '',               'SWORDSMAN',                               'SWORDSMAN',                              '_V2',           'Swordsman_V2',                       #VALUE!   #VALUE!  ''
 SELECT     '',               '',               'SWORDSMAN',                               'SWORDSMAN',                              '',              'Swordsman',                          #VALUE!   #VALUE!  ''
 SELECT     '',               '',               'SWORDSMAN',                               'SWORDSMAN',                              '_V3',           'Swordsman_V3',                       #VALUE!   #VALUE!  ''
@@ -1670,10 +1761,12 @@ SELECT     '_INDIA',         '',               'SWORDSMAN',                     
 SELECT     '_INDIA',         '',               'SWORDSMAN',                               'SWORDSMAN',                              '_V2',           'Swordsman_India_v2',                2,         #VALUE!  ''
 SELECT     '',               '',               'TANK',                                    'TANK',                                   '',              'Tank',                               #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_AFRI',          '_MIDEAST',       'TANK',                                    'TANK',                                   '',              'MediumTank_Generic',                 #VALUE!   #VALUE!  'Vehicle'
+SELECT     '_ZULU',          '_ENGLAND',       'TANK',                                    'TANK',                                   '',              'A27M_Cromwell',                      #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_AMER',          '_CANADA',        'TANK',                                    'TANK',                                   '',              'Ram_MK_II',                          #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_ASIA',          '',               'TANK',                                    'TANK',                                   '',              'M4A4_Sherman_V',                     #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_CHINA',         '_ASIA',          'TANK',                                    'TANK',                                   '',              'M4A4_Sherman_V',                     #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_JAPAN',         '',               'TANK',                                    'TANK',                                   '',              'Type97_Shinhoto_Chi-Ha',             #VALUE!   #VALUE!  'Vehicle'
+SELECT     '_KOREA',         '_JAPAN',         'TANK',                                    'TANK',                                   '',              'Type97_Shinhoto_Chi-Ha',             #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_HUNS',          '',               'TANK',                                    'TANK',                                   '',              '41M_Turan_II',                       #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_EASTEU',        '',               'TANK',                                    'TANK',                                   '',              'T-34-85',                            #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_POLAND',        '',               'TANK',                                    'TANK',                                   '',              '10TP',                               #VALUE!   #VALUE!  'Vehicle'
@@ -1690,9 +1783,13 @@ SELECT     '_MIDEAST',       '',               'TANK',                          
 SELECT     '_NETHERLANDS',   '',               'TANK',                                    'TANK',                                   '',              'MTSL-1GI4',                          #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_ROME',          '',               'TANK',                                    'TANK',                                   '',              'M13-40',                             #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_SPAIN',         '',               'TANK',                                    'TANK',                                   '',              'Panzer_IV_Ausf_G_Spain',             #VALUE!   #VALUE!  'Vehicle'
+SELECT     '_NORTHAF',       '_FRANCE',        'TANK',                                    'TANK',                                   '',              'Somua_S-35',                         #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_SWEDEN',        '',               'TANK',                                    'TANK',                                   '',              'Strv_M41',                           #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_OCEAN',         '_MIDEAST',       'TANK',                                    'TANK',                                   '',              'MediumTank_Generic',                 #VALUE!   #VALUE!  'Vehicle'
+SELECT     '_SAHUL',         '_NETHERLANDS',   'TANK',                                    'TANK',                                   '',              'MTSL-1GI4',                          #VALUE!   #VALUE!  'Vehicle'
+SELECT     '_SEASIA',        '_FRANCE',        'TANK',                                    'TANK',                                   '',              'Somua_S-35',                         #VALUE!   #VALUE!  'Vehicle'
 SELECT     '_SOUTHAM',       '_MIDEAST',       'TANK',                                    'TANK',                                   '',              'MediumTank_Generic',                 #VALUE!   #VALUE!  'Vehicle'
+SELECT     '_SOUTHAS',       '_ENGLAND',       'TANK',                                    'TANK',                                   '',              'A27M_Cromwell',                      #VALUE!   #VALUE!  'Vehicle'
 SELECT     '',               '',               'TRANSPORT',                               'TRANSPORT',                              '',              'Transport',                         2,        0.11,     'TwoBigGuns'
 SELECT     '',               '',               'TREBUCHET',                               'TREBUCHET',                              '',              'Trebuchet',                         7,         #VALUE!  'TwoBigGuns'
 SELECT     '',               '',               'TRIREME',                                 'TRIREME',                                '',              'Trireme',                           1,        0.07,     ''
@@ -1724,6 +1821,7 @@ SELECT     '',               '',               'U_FRENCH_MUSKETEER',            
 SELECT     '',               '',               'U_GERMAN_LANDSKNECHT',                    'U_GERMAN_LANDSKNECHT',                   '',              'U_German_Landsknecht_A',             #VALUE!   #VALUE!  'Pikeman'
 SELECT     '',               '',               'U_GERMAN_LANDSKNECHT',                    'U_GERMAN_LANDSKNECHT',                   '_B',            'U_German_Landsknecht_B',             #VALUE!   #VALUE!  'Pikeman'
 SELECT     '',               '',               'U_GERMAN_LANDSKNECHT',                    'U_GERMAN_LANDSKNECHT',                   '',              'U_German_Landsknecht_A',             #VALUE!   #VALUE!  'Pikeman'
+SELECT     '',               '',               'U_GERMAN_LANDSKNECHT',                    'U_GERMAN_LANDSKNECHT',                   '_A',            'U_German_Landsknecht_A',            0,         #VALUE!  'Pikeman'
 SELECT     '',               '',               'U_GERMAN_PANZER',                         'U_GERMAN_PANZER',                        '',              'U_German_Panzer',                    #VALUE!   #VALUE!  'Vehicle'
 SELECT     '',               '',               'U_GREEK_COMPANIONCAVALRY',                'U_GREEK_COMPANIONCAVALRY',               '',              'U_Greek_CompanionCavalry',           #VALUE!   #VALUE!  ''
 SELECT     '',               '',               'U_GREEK_HOPLITE',                         'U_GREEK_HOPLITE',                        '',              'U_Greek_Hoplite',                   0,         #VALUE!  'Phalanx'
@@ -1780,6 +1878,7 @@ SELECT     '',               '',               'U_SPANISH_CONQUISTADOR',        
 SELECT     '',               '',               'U_SPANISH_GALLEON',                       'U_SPANISH_GALLEON',                      '',              'U_Spanish_Galleon',                 2,        0.13,     'TwoBigGuns'
 SELECT     '',               '',               'U_SPANISH_TERCIO',                        'U_SPANISH_TERCIO',                       '',              'U_Spanish_Terico_Arcabucero',       16,        #VALUE!  'OffsetPikeman'
 SELECT     '',               '',               'U_SPANISH_TERCIO',                        'U_SPANISH_TERCIO',                       '_PIQUERO',      'U_Spanish_Terico_Piquero',          16,        #VALUE!  'OffsetPikeman'
+SELECT     '',               '',               'U_SPANISH_TERCIO',                        'U_SPANISH_TERCIO',                       '_ARCABUCERO',   'U_Spanish_Terico_Arcabucero',       0,         #VALUE!  'OffsetPikeman'
 SELECT     '',               '',               'U_SPANISH_TREASURE_CART',                 'U_SPANISH_TREASURE_CART',                '',              'U_Spanish_Treasure_Cart',           1,         #VALUE!  ''
 SELECT     '',               '',               'U_SUMERIAN_PHALANX',                      'U_SUMERIAN_PHALANX',                     '',              'U_Sumerian_Phalanx',                 #VALUE!   #VALUE!  'Phalanx'
 SELECT     '',               '',               'U_SWEDISH_CAROLEAN',                      'U_SWEDISH_CAROLEAN',                     '',              'U_Swedish_Carolean',                 #VALUE!   #VALUE!  'HonorableGunpowder'
@@ -1800,11 +1899,14 @@ SELECT     '',               '',               'UNION_IRONCLAD',                
 SELECT     '',               '',               'WORKBOAT',                                'WORKBOAT',                               '',              'Workboat',                          1,        0.07,     ''
 SELECT     '',               '',               'WORKBOAT_LATE',                           'WORKBOAT_INDUSTRIAL',                    '',              'WorkBoat_Industrial',               1,        0.07,     ''
 SELECT     '',               '',               'WW1_BOMBER',                              'WW1_BOMBER',                             '',              'WW1_Bomber',                         #VALUE!   #VALUE!  'BomberWing'
+SELECT     '_ZULU',          '_ENGLAND',       'WW1_BOMBER',                              'WW1_BOMBER',                             '',              'ShortBomber',                        #VALUE!  0.178,    'BomberWing'
 SELECT     '_AUSTRALIA',     '_ENGLAND',       'WW1_BOMBER',                              'WW1_BOMBER',                             '',              'ShortBomber',                        #VALUE!  0.178,    'BomberWing'
 SELECT     '_CANADA',        '_ENGLAND',       'WW1_BOMBER',                              'WW1_BOMBER',                             '',              'ShortBomber',                        #VALUE!  0.178,    'BomberWing'
 SELECT     '_CELTS',         '_ENGLAND',       'WW1_BOMBER',                              'WW1_BOMBER',                             '',              'ShortBomber',                        #VALUE!  0.178,    'BomberWing'
 SELECT     '_ENGLAND',       '',               'WW1_BOMBER',                              'WW1_BOMBER',                             '',              'ShortBomber',                        #VALUE!  0.178,    'BomberWing'
+SELECT     '_SOUTHAS',       '_ENGLAND',       'WW1_BOMBER',                              'WW1_BOMBER',                             '',              'ShortBomber',                        #VALUE!  0.178,    'BomberWing'
 SELECT     '',               '',               'WW1_FIGHTER',                             'WW1_FIGHTER',                            '',              'WW1_Fighter',                        #VALUE!   #VALUE!  'FighterWing'
+SELECT     '_ZULU',          '_ENGLAND',       'WW1_FIGHTER',                             'WW1_FIGHTER',                            '',              'Spowith_Camel',                      #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_AMER',          '_AMERICA',       'WW1_FIGHTER',                             'WW1_FIGHTER',                            '',              'SPAD_S.XIII',                        #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_ASIA',          '',               'WW1_FIGHTER',                             'WW1_FIGHTER',                            '',              'Kawasaki_Ki-10_Perry',               #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_CHINA',         '',               'WW1_FIGHTER',                             'WW1_FIGHTER',                            '',              'Polikarpov_I-15_China',              #VALUE!   #VALUE!  'FighterWing'
@@ -1826,6 +1928,8 @@ SELECT     '_SWISS',         '_BELGIUM',       'WW1_FIGHTER',                   
 SELECT     '_MED',           '',               'WW1_FIGHTER',                             'WW1_FIGHTER',                            '',              'Ansaldo_SVA-5_tc',                   #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_ROME',          '',               'WW1_FIGHTER',                             'WW1_FIGHTER',                            '',              'Ansaldo_SVA-5',                      #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_OTTOMAN',       '',               'WW1_FIGHTER',                             'WW1_FIGHTER',                            '',              'HalberstadtDII',                     #VALUE!   #VALUE!  'FighterWing'
+SELECT     '_NORTHAF',       '_FRANCE',        'WW1_FIGHTER',                             'WW1_FIGHTER',                            '',              'Nieuport_17',                        #VALUE!   #VALUE!  'FighterWing'
+SELECT     '_SEASIA',        '_FRANCE',        'WW1_FIGHTER',                             'WW1_FIGHTER',                            '',              'Nieuport_17',                        #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_SOUTHAM',       '_MED',           'WW1_FIGHTER',                             'WW1_FIGHTER',                            '',              'Ansaldo_SVA-5_tc',                   #VALUE!   #VALUE!  'FighterWing'
 SELECT     '_SOUTHAS',       '',               'WW1_FIGHTER',                             'WW1_FIGHTER',                            '',              'Nieuport_17_tc',                     #VALUE!   #VALUE!  'FighterWing'
 SELECT     '',               '',               'WW1_INFANTRY',                            'WW1_INFANTRY',                           '',              'WW1_Infantry',                       #VALUE!   #VALUE!  'UnFormed'
@@ -1845,10 +1949,12 @@ SELECT     '_ROME',          '',               'WW1_INFANTRY',                  
 SELECT     '_MIDEAST',       '',               'WW1_INFANTRY',                            'WW1_INFANTRY',                           '',              'aragw1',                             #VALUE!   #VALUE!  'UnFormed'
 SELECT     '_SOUTHAS',       '',               'WW1_INFANTRY',                            'WW1_INFANTRY',                           '',              'indgw1',                             #VALUE!   #VALUE!  'UnFormed'
 SELECT     '',               '',               'WW1_TANK',                                'WW1_TANK',                               '',              'MarkIV',                             #VALUE!   #VALUE!  'TwoBigGuns'
+SELECT     '_ZULU',          '_CELTS',         'WW1_TANK',                                'WW1_TANK',                               '',              'MK_A_Whippet',                       #VALUE!  0.125,    'TwoBigGuns'
 SELECT     '_AMER',          '_AMERICA',       'WW1_TANK',                                'WW1_TANK',                               '',              'M1917',                             1,        0.13,     'TwoBigGuns'
 SELECT     '_AMER',          '_AMERICA',       'WW1_TANK',                                'WW1_TANK',                               '',              'FordM1918',                         1,        0.13,     'TwoBigGuns'
 SELECT     '_CHINA',         '',               'WW1_TANK',                                'WW1_TANK',                               '',              'Renault_FT-17_China',                #VALUE!  0.13,     'TwoBigGuns'
 SELECT     '_JAPAN',         '',               'WW1_TANK',                                'WW1_TANK',                               '',              'Type79_Ko-Gata',                     #VALUE!  0.13,     'TwoBigGuns'
+SELECT     '_KOREA',         '_JAPAN',         'WW1_TANK',                                'WW1_TANK',                               '',              'Type79_Ko-Gata',                     #VALUE!  0.13,     'TwoBigGuns'
 SELECT     '_HUNS',          '_AUSTRIA',       'WW1_TANK',                                'WW1_TANK',                               '',              'LK_II',                              #VALUE!  0.13,     'TwoBigGuns'
 SELECT     '_EASTEU',        '',               'WW1_TANK',                                'WW1_TANK',                               '',              'RenaultFTPlainGreen',                #VALUE!  0.13,     'TwoBigGuns'
 SELECT     '_POLAND',        '',               'WW1_TANK',                                'WW1_TANK',                               '',              'Renault_FT-17_Poland',               #VALUE!  0.13,     'TwoBigGuns'
@@ -1871,7 +1977,14 @@ SELECT     '_BRAZIL',        '',               'WW1_TANK',                      
 SELECT     '_GREECE',        '',               'WW1_TANK',                                'WW1_TANK',                               '',              'Renault_FT-17_Greece',               #VALUE!  0.13,     'TwoBigGuns'
 SELECT     '_ROME',          '',               'WW1_TANK',                                'WW1_TANK',                               '',              'Fiat_3000',                          #VALUE!  0.13,     'TwoBigGuns'
 SELECT     '_SPAIN',         '',               'WW1_TANK',                                'WW1_TANK',                               '',              'Renault_FT-17_Spain',                #VALUE!  0.13,     'TwoBigGuns'
+SELECT     '_NORTHAF',       '_FRANCE',        'WW1_TANK',                                'WW1_TANK',                               '',              'Renault_FT-17',                     1,        0.13,     'TwoBigGuns'
+SELECT     '_NORTHAF',       '_FRANCE',        'WW1_TANK',                                'WW1_TANK',                               '_V2',           'RenaultFTFrance1',                  1,        0.13,     'TwoBigGuns'
+SELECT     '_NORTHAF',       '_FRANCE',        'WW1_TANK',                                'WW1_TANK',                               '_V3',           'RenaultFTFrance2',                  0,        0.13,     'TwoBigGuns'
 SELECT     '_SWEDEN',        '',               'WW1_TANK',                                'WW1_TANK',                               '',              'Strv_M21',                           #VALUE!  0.13,     'TwoBigGuns'
+SELECT     '_SEASIA',        '_FRANCE',        'WW1_TANK',                                'WW1_TANK',                               '',              'Renault_FT-17',                     1,        0.13,     'TwoBigGuns'
+SELECT     '_SEASIA',        '_FRANCE',        'WW1_TANK',                                'WW1_TANK',                               '_V2',           'RenaultFTFrance1',                  1,        0.13,     'TwoBigGuns'
+SELECT     '_SEASIA',        '_FRANCE',        'WW1_TANK',                                'WW1_TANK',                               '_V3',           'RenaultFTFrance2',                  0,        0.13,     'TwoBigGuns'
+SELECT     '_SOUTHAS',       '_CELTS',         'WW1_TANK',                                'WW1_TANK',                               '',              'MK_A_Whippet',                       #VALUE!  0.125,    'TwoBigGuns'
 SELECT     '',               '',               'WW2_INFANTRY',                            'WW2_INFANTRY',                           '',              'Infantry_Generic',                   #VALUE!   #VALUE!  'UnFormed'
 SELECT     '_AFRI',          '',               'WW2_INFANTRY',                            'WW2_INFANTRY',                           '',              'AfricanInfantry',                    #VALUE!   #VALUE!  'UnFormed'
 SELECT     '_AMER',          '',               'WW2_INFANTRY',                            'WW2_INFANTRY',                           '',              'civ5_iroinf1',                       #VALUE!   #VALUE!  'UnFormed'
@@ -1899,6 +2012,8 @@ SELECT     '_GREECE',        '',               'WW2_INFANTRY',                  
 SELECT     '_ROME',          '',               'WW2_INFANTRY',                            'WW2_INFANTRY',                           '',              'Infantry_Italy',                     #VALUE!   #VALUE!  'UnFormed'
 SELECT     '_SPAIN',         '',               'WW2_INFANTRY',                            'WW2_INFANTRY',                           '',              'Infantry_Spain',                     #VALUE!   #VALUE!  'UnFormed'
 SELECT     '_SWEDEN',        '',               'WW2_INFANTRY',                            'WW2_INFANTRY',                           '',              'Infantry_Sweden',                    #VALUE!   #VALUE!  'UnFormed'
+SELECT 'END_OF_INSERT','','','','',NULL,0,0,'';
+INSERT INTO EDUnitGraphicConfiguration(UC_Suffix,UC_Fallback,UC_Template,UC_Member,UC_MemSuffix,UC_fxsxml,UC_Num3,UC_Scale3,UC_Form3)
 SELECT     '_SAHUL',         '',               'WW2_INFANTRY',                            'WW2_INFANTRY',                           '',              'ANZAC',                              #VALUE!   #VALUE!  'UnFormed'
 SELECT     '_SAHUL',         '',               'WW2_INFANTRY',                            'WW2_INFANTRY',                           '_V2',           'ANZAC.303',                          #VALUE!   #VALUE!  'UnFormed'
 SELECT     '_SAHUL',         '',               'WW2_INFANTRY',                            'WW2_INFANTRY',                           '',              'ANZAC',                              #VALUE!   #VALUE!  'UnFormed'
@@ -1924,7 +2039,8 @@ SELECT     '_NORTHEU',       '',               'CAVEMAN',                       
 SELECT     '_NORTHEU',       '',               'CAVEMAN',                                 'CAVEMAN',                                '_V2',           'SwedenWarrior2',                    2,        0.15,     'Barbarian'
 SELECT     '',               '',               'EXPLORER',                                'EXPLORER',                               '',              'Horseman_Mongol',                    #VALUE!   #VALUE!  'EarlyGreatArtist'
 SELECT     '',               '',               'PRIMITIVE_ARCHER',                        'PRIMITIVE_ARCHER',                       '',              'PrimitiveArcher',                    #VALUE!   #VALUE!  ''
-SELECT     '',               '',               'SAVAGE',                                  'SAVAGE',                                 '',              'civ5_nedwa1_tc',                     #VALUE!   #VALUE!  ''
+SELECT     '',               '',               'SAVAGE',                                  'SAVAGE',                                 '',              'civ5_nedwa1',                        #VALUE!   #VALUE!  ''
+SELECT     '_DEFAULT',       '',               'SAVAGE',                                  'SAVAGE',                                 '',              'civ5_nedwa1_tc',                     #VALUE!   #VALUE!  ''
 SELECT     '_AFRI',          '',               'SAVAGE',                                  'SAVAGE',                                 '',              'SA_EthiopiaClub',                    #VALUE!   #VALUE!  ''
 SELECT     '_CELTS',         '_NORTHEU',       'SAVAGE',                                  'SAVAGE',                                 '',              'Savage',                             #VALUE!   #VALUE!  ''
 SELECT     '_EURO',          '',               'SAVAGE',                                  'SAVAGE',                                 '',              'EuroWarrior',                        #VALUE!   #VALUE!  ''
@@ -1934,14 +2050,15 @@ SELECT     '_NORTHAF',       '',               'SAVAGE',                        
 SELECT     '_NORTHAF',       '',               'SAVAGE',                                  'SAVAGE',                                 '',              'SonghaiSwordsman',                  2,         #VALUE!  ''
 SELECT     '_NORTHAF',       '',               'SAVAGE',                                  'SAVAGE',                                 '',              'SonghaiSwordsman2',                 0,         #VALUE!  ''
 SELECT     '',               '',               'SHAMAN',                                  'SHAMAN',                                 '',              'Shaman',                            3,        0.135,    ''
-SELECT     '',               '',               '2HANDER',                                 '2HANDER',                                '',              '2hswordsman_black',                 1,        0.059,    ''
-SELECT     '_NORTHEU',       '',               '2HANDER',                                 '2HANDER',                                '',              '2hswordsman_denmark',               1,        0.059,    ''
-SELECT     '_SWEDEN',        '',               '2HANDER',                                 '2HANDER',                                '',              '2hswordsman_Sweden',                1,        0.059,    ''
-SELECT     '_SOUTHAS',       '',               '2HANDER',                                 '2HANDER',                                '',              '2hswordsman_India',                 1,        0.059,    ''
-SELECT     '',               '',               'REITER',                                  'REITER',                                 '',              'cuirassier',                        1,        0.059,    ''
-SELECT     '',               '',               'RODELEROS',                               'RODELEROS',                              '',              'Rodeleros',                         1,        0.059,    ''
-SELECT     '',               '',               'FREE_COMPANY',                            'FREE_COMPANY',                           '',              'free_company_poleaxe',              1,        0.059,    ''
-SELECT     '',               '',               'FREE_COMPANY',                            'FREE_COMPANY',                           '_F1',           'free_company',                      1,        0.059,    ''
+SELECT     '',               '',               '2HANDER',                                 '2HANDER',                                '',              '2hswordsman_black',                  #VALUE!   #VALUE!  'Pikeman'
+SELECT     '_NORTHEU',       '',               '2HANDER',                                 '2HANDER',                                '',              '2hswordsman_denmark',                #VALUE!   #VALUE!  'Pikeman'
+SELECT     '_SWEDEN',        '',               '2HANDER',                                 '2HANDER',                                '',              '2hswordsman_Sweden',                 #VALUE!   #VALUE!  'Pikeman'
+SELECT     '_SOUTHAS',       '',               '2HANDER',                                 '2HANDER',                                '',              '2hswordsman_India',                  #VALUE!   #VALUE!  'Pikeman'
+SELECT     '',               '',               'REITER',                                  'REITER',                                 '',              'cuirassier',                         #VALUE!   #VALUE!  ''
+SELECT     '',               '',               'RODELEROS',                               'RODELEROS',                              '',              'Rodeleros',                          #VALUE!   #VALUE!  ''
+SELECT     '',               '',               'FREE_COMPANY',                            'FREE_COMPANY',                           '',              'free_company',                       #VALUE!   #VALUE!  'Pikeman'
+SELECT     '',               '',               'FREE_COMPANY',                            'FREE_COMPANY',                           '_F1',           'free_company_poleaxe',               #VALUE!   #VALUE!  'Pikeman'
+SELECT     '',               '',               'FREE_COMPANY',                            'FREE_COMPANY',                           '',              'free_company',                       #VALUE!   #VALUE!  'Pikeman'
 SELECT     '',               '',               'EE_CARRACK',                              'EE_CARRACK',                             '',              'carrack',                           1,        0.055,    ''
 SELECT     '_OTTOMAN',       '',               'EE_CARRACK',                              'EE_CARRACK',                             '',              'carrack_ott',                       1,        0.055,    ''
 SELECT     '_RUSSIA',        '',               'EE_CARRACK',                              'EE_CARRACK',                             '',              'carrack_rus',                       1,        0.055,    ''
@@ -1951,7 +2068,8 @@ SELECT     '_ROME',          '',               'EE_CARRACK',                    
 SELECT     '_NORTHAF',       '',               'EE_CARRACK',                              'EE_CARRACK',                             '',              'carrack_alg',                       1,        0.055,    ''
 SELECT     '_SWEDEN',        '',               'EE_CARRACK',                              'EE_CARRACK',                             '',              'carrack_swe',                       1,        0.055,    ''
 SELECT     '',               '',               'EE_CRUISER',                              'EE_CRUISER',                             '',              'cruiser',                           1,        0.08,     ''
-SELECT     '',               '',               'EE_CUIRASSIER',                           'EE_CUIRASSIER',                          '',              'ca_sw1',                             #VALUE!   #VALUE!  ''
+SELECT     '',               '',               'EE_CUIRASSIER',                           'EE_CUIRASSIER',                          '',              'freca1',                             #VALUE!   #VALUE!  ''
+SELECT     '_DEFAULT',       '',               'EE_CUIRASSIER',                           'EE_CUIRASSIER',                          '',              'ca_sw1',                             #VALUE!   #VALUE!  ''
 SELECT     '',               '',               'EE_EXPLORER',                             'EE_EXPLORER',                            '_1',            'conquistador_musket_1',              #VALUE!   #VALUE!  'Scout'
 SELECT     '',               '',               'EE_EXPLORER',                             'EE_EXPLORER',                            '_2',            'conquistador_musket_2',              #VALUE!   #VALUE!  'Scout'
 SELECT     '',               '',               'EE_EXPLORER',                             'EE_EXPLORER',                            '_3',            'conquistador_musket_3',              #VALUE!   #VALUE!  'Scout'
@@ -1959,17 +2077,25 @@ SELECT     '',               '',               'EE_EXPLORER',                   
 SELECT     '',               '',               'EE_FIELD_GUN',                            'EE_FIELD_GUN',                           '',              'NapoleonCannon',                     #VALUE!   #VALUE!  'ThreeBigGuns'
 SELECT     '_ENGLAND',       '',               'EE_FIELD_GUN',                            'EE_FIELD_GUN',                           '',              'RHA_Cannon',                         #VALUE!   #VALUE!  'ThreeBigGuns'
 SELECT     '',               '',               'EE_GALLEON',                              'EE_GALLEON',                             '',              'WarGalleon',                        1,        0.16,     ''
+SELECT     '_ASIA',          '',               'EE_GALLEON',                              'EE_GALLEON',                             '',              'WarJunk',                           1,        0.15,     ''
 SELECT     '_RUSSIA',        '',               'EE_GALLEON',                              'EE_GALLEON',                             '',              'RussianGalleon',                    1,        0.16,     ''
+SELECT     '_ENGLAND',       '',               'EE_GALLEON',                              'EE_GALLEON',                             '',              'WarGalleonEnglish',                 1,        0.16,     ''
+SELECT     '_FRANCE',        '',               'EE_GALLEON',                              'EE_GALLEON',                             '',              'WarGalleonFrench',                  1,        0.16,     ''
+SELECT     '_GERMANY',       '',               'EE_GALLEON',                              'EE_GALLEON',                             '',              'PrussianGalleon',                   1,        0.16,     ''
+SELECT     '_GREECE',        '',               'EE_GALLEON',                              'EE_GALLEON',                             '',              'WarGalleonGreek',                   1,        0.16,     ''
+SELECT     '_PORTUGAL',      '',               'EE_GALLEON',                              'EE_GALLEON',                             '',              'WarGalleonPortuguese',              1,        0.16,     ''
+SELECT     '_ROME',          '',               'EE_GALLEON',                              'EE_GALLEON',                             '',              'WarGalleonItalian',                 1,        0.16,     ''
 SELECT     '_SPAIN',         '',               'EE_GALLEON',                              'EE_GALLEON',                             '',              'WarGalleonSpanish',                 1,        0.16,     ''
 SELECT     '_NORTHEU',       '',               'EE_GALLEON',                              'EE_GALLEON',                             '',              'WarGalleonViking',                  1,        0.16,     ''
 SELECT     '_DENMARK',       '',               'EE_GALLEON',                              'EE_GALLEON',                             '',              'WarGalleonDanish',                  1,        0.16,     ''
 SELECT     '_SWEDEN',        '',               'EE_GALLEON',                              'EE_GALLEON',                             '',              'WarGalleonSwedish',                 1,        0.16,     ''
 SELECT     '',               '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '',              'civ5_genmm1',                        #VALUE!   #VALUE!  'HonorableGunpowder'
-SELECT     '',               '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '_V2',           'civ5_genmm2',                        #VALUE!   #VALUE!  'HonorableGunpowder'
-SELECT     '',               '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '_V3',           'civ5_genmm3',                        #VALUE!   #VALUE!  'HonorableGunpowder'
-SELECT     '',               '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '',              'civ5_genmm1',                        #VALUE!   #VALUE!  'HonorableGunpowder'
-SELECT     '',               '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '_V2',           'civ5_genmm2',                        #VALUE!   #VALUE!  'HonorableGunpowder'
-SELECT     '',               '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '_V3',           'civ5_genmm3',                        #VALUE!   #VALUE!  'HonorableGunpowder'
+SELECT     '_DEFAULT',       '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '',              'civ5_genmm1',                        #VALUE!   #VALUE!  'HonorableGunpowder'
+SELECT     '_DEFAULT',       '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '_V2',           'civ5_genmm2',                        #VALUE!   #VALUE!  'HonorableGunpowder'
+SELECT     '_DEFAULT',       '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '_V3',           'civ5_genmm3',                        #VALUE!   #VALUE!  'HonorableGunpowder'
+SELECT     '_DEFAULT',       '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '',              'civ5_genmm1',                        #VALUE!   #VALUE!  'HonorableGunpowder'
+SELECT     '_DEFAULT',       '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '_V2',           'civ5_genmm2',                        #VALUE!   #VALUE!  'HonorableGunpowder'
+SELECT     '_DEFAULT',       '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '_V3',           'civ5_genmm3',                        #VALUE!   #VALUE!  'HonorableGunpowder'
 SELECT     '_AUSTRIA',       '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '',              'civ5_ausmm1',                       4,         #VALUE!  'HonorableGunpowder'
 SELECT     '_AUSTRIA',       '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '_V2',           'civ5_ausmm2',                       2,         #VALUE!  'HonorableGunpowder'
 SELECT     '_AUSTRIA',       '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '_V3',           'civ5_ausmm3',                       1,         #VALUE!  'HonorableGunpowder'
@@ -2010,16 +2136,89 @@ SELECT     '_RUSSIA',        '',               'EE_LINE_INFANTRY',              
 SELECT     '_SPAIN',         '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '',              'civ5_spamm1',                       14,        #VALUE!  'HonorableGunpowder'
 SELECT     '_WITTENBERG',    '',               'EE_LINE_INFANTRY',                        'EE_LINE_INFANTRY',                       '',              'civ5_sacmm2',                       14,        #VALUE!  'HonorableGunpowder'
 SELECT     '',               '',               'EE_SHIP_OF_THE_LINE',                     'EE_SHIP_OF_THE_LINE',                    '',              'shipoftheline',                     1,        0.059,    ''
-SELECT     '',               '',               'EE_SKIRMISHER',                           'EE_SKIRMISHER',                          '',              '95thRifles',                        14,       0.059,    'UnFormed'
+SELECT     '',               '',               'EE_SKIRMISHER',                           'EE_SKIRMISHER',                          '',              'civ5_engmm1',                       14,       0.059,    'UnFormed'
+SELECT     '_DEFAULT',       '',               'EE_SKIRMISHER',                           'EE_SKIRMISHER',                          '',              '95thRifles',                        14,       0.059,    'UnFormed'
 SELECT     '_MED',           '',               'EE_SKIRMISHER',                           'EE_SKIRMISHER',                          '_V3',           'bandeirante_3',                     6,        0.059,    'UnFormed'
-SELECT 'END_OF_INSERT','','','','',NULL,0,0,'';
-INSERT INTO EDUnitGraphicConfiguration(UC_Suffix,UC_Fallback,UC_Template,UC_Member,UC_MemSuffix,UC_fxsxml,UC_Num3,UC_Scale3,UC_Form3)
 SELECT     '_MED',           '',               'EE_SKIRMISHER',                           'EE_SKIRMISHER',                          '_V2',           'bandeirante_2',                     1,        0.059,    'UnFormed'
 SELECT     '_MED',           '',               'EE_SKIRMISHER',                           'EE_SKIRMISHER',                          '',              'bandeirante_1',                     2,        0.059,    'UnFormed'
 SELECT     '_MED',           '',               'EE_SKIRMISHER',                           'EE_SKIRMISHER',                          '_V3',           'bandeirante_3',                     4,        0.059,    'UnFormed'
 SELECT     '_MED',           '',               'EE_SKIRMISHER',                           'EE_SKIRMISHER',                          '',              'bandeirante_1',                     0,        0.059,    'UnFormed'
 SELECT     '_SOUTHAM',       '',               'EE_SKIRMISHER',                           'EE_SKIRMISHER',                          '',              'u_mexican_rurales',                 14,       0.059,    'UnFormed'
 SELECT     '',               '',               'EE_UHLAN',                                'EE_UHLAN',                               '',              'gerlr1',                             #VALUE!   #VALUE!  ''
+SELECT     '',               '',               'ARSENAL_SHIP',                            'ARSENAL_SHIP',                           '',              'ArsenalShip',                       1,        0.11,     ''
+SELECT     '',               '',               'FW_AIRBORNE_FORCES',                      'FW_AIRBORNE_FORCES',                     '',              'US_Airborne',                       6,        0.059,    'UnFormed'
+SELECT     '',               '',               'FW_AUTOMATON',                            'FW_AUTOMATON',                           '',              'metalgear',                         3,        0.04,     'Vehicle'
+SELECT     '',               '',               'FW_BATTLESUIT',                           'FW_BATTLESUIT',                          '',              'Battlesuit',                        3,        0.05,     'Vehicle'
+SELECT     '',               '',               'FW_BIOINFANTRY',                          'FW_BIOINFANTRY',                         '',              'BioInfantry',                       8,        0.059,    'UnFormed'
+SELECT     '',               '',               'FW_BIOTROOPER',                           'FW_BIOTROOPER',                          '',              'BioTrooper',                        5,        0.059,    'UnFormed'
+SELECT     '',               '',               'FW_CHIMERA',                              'FW_CHIMERA',                             '',              'Chimera',                           6,        1.5,      'Barbarian'
+SELECT     '',               '',               'FW_CRAWLER',                              'FW_CRAWLER',                             '',              'Crawler',                           1,        0.1,      ''
+SELECT     '',               '',               'FW_CYBERSUB',                             'FW_CYBERSUB',                            '',              'Cybersub',                          1,        0.16,     ''
+SELECT     '',               '',               'FW_CYBORG',                               'FW_CYBORG',                              '',              'PowerArmor',                        8,        0.059,    'UnFormed'
+SELECT     '_ASIA',          '',               'FW_CYBORG',                               'FW_CYBORG',                              '',              'PowerArmor_EASTASIA',               8,        0.059,    'UnFormed'
+SELECT     '_EASTEU',        '_EURO',          'FW_CYBORG',                               'FW_CYBORG',                              '',              'PowerArmor_EURASIA',                8,        0.059,    'UnFormed'
+SELECT     '_EURO',          '',               'FW_CYBORG',                               'FW_CYBORG',                              '',              'PowerArmor_EURASIA',                8,        0.059,    'UnFormed'
+SELECT     '_MED',           '_EURO',          'FW_CYBORG',                               'FW_CYBORG',                              '',              'PowerArmor_EURASIA',                8,        0.059,    'UnFormed'
+SELECT     '_NORTHEU',       '_EURO',          'FW_CYBORG',                               'FW_CYBORG',                              '',              'PowerArmor_EURASIA',                8,        0.059,    'UnFormed'
+SELECT     '_SEASIA',        '_ASIA',          'FW_CYBORG',                               'FW_CYBORG',                              '',              'PowerArmor_EASTASIA',               8,        0.059,    'UnFormed'
+SELECT     '_SOUTHAS',       '_ASIA',          'FW_CYBORG',                               'FW_CYBORG',                              '',              'PowerArmor_EASTASIA',               8,        0.059,    'UnFormed'
+SELECT     '',               '',               'FW_DRONE_FIGHTER_2',                      'FW_DRONE_FIGHTER_2',                     '',              'DroneFighter',                      1,        0.09,     'FighterWing'
+SELECT     '',               '',               'FW_HOVERTANK',                            'FW_HOVERTANK',                           '',              'Hovertank',                         1,        0.1,      ''
+SELECT     '_AMER',          '_OCEAN',         'FW_HOVERTANK',                            'FW_HOVERTANK',                           '',              'Hovertank_OCEANIA',                 1,        0.1,      ''
+SELECT     '_ASIA',          '',               'FW_HOVERTANK',                            'FW_HOVERTANK',                           '',              'Hovertank_EASTASIA',                1,        0.1,      ''
+SELECT     '_AMERICA',       '_OCEAN',         'FW_HOVERTANK',                            'FW_HOVERTANK',                           '',              'Hovertank_OCEANIA',                 1,        0.1,      ''
+SELECT     '_AUSTRALIA',     '_OCEAN',         'FW_HOVERTANK',                            'FW_HOVERTANK',                           '',              'Hovertank_OCEANIA',                 1,        0.1,      ''
+SELECT     '_CANADA',        '_OCEAN',         'FW_HOVERTANK',                            'FW_HOVERTANK',                           '',              'Hovertank_OCEANIA',                 1,        0.1,      ''
+SELECT     '_OCEAN',         '',               'FW_HOVERTANK',                            'FW_HOVERTANK',                           '',              'Hovertank_OCEANIA',                 1,        0.1,      ''
+SELECT     '_SEASIA',        '_ASIA',          'FW_HOVERTANK',                            'FW_HOVERTANK',                           '',              'Hovertank_EASTASIA',                1,        0.1,      ''
+SELECT     '_SOUTHAM',       '_OCEAN',         'FW_HOVERTANK',                            'FW_HOVERTANK',                           '',              'Hovertank_OCEANIA',                 1,        0.1,      ''
+SELECT     '_SOUTHAS',       '_ASIA',          'FW_HOVERTANK',                            'FW_HOVERTANK',                           '',              'Hovertank_EASTASIA',                1,        0.1,      ''
+SELECT     '',               '',               'FW_HYBRID_DRONE',                         'FW_HYBRID_DRONE',                        '',              'HybridDrone',                       1,        0.09,     'FighterWing'
+SELECT     '',               '',               'FW_HYDRA',                                'FW_HYDRA',                               '',              'Hydra',                             1,        6,        ''
+SELECT     '',               '',               'FW_MECH_ARTILLERY',                       'FW_MECH_ARTILLERY',                      '',              'MechArtillery',                     2,        0.09,     'TwoBigGuns'
+SELECT     '',               '',               'FW_MISSILE_DESTROYER',                    'FW_MISSILE_DESTROYER',                   '',              'MissileDestroyer',                  1,        0.09,     ''
+SELECT     '',               '',               'FW_MUTANT',                               'FW_MUTANT',                              '',              'zombie',                            6,        0.16,     'UnFormed'
+SELECT     '',               '',               'FW_NANOHIVE',                             'FW_NANOHIVE',                            '',              'Nanohive',                          3,        0.05,     'ThreeBigGuns'
+SELECT     '',               '',               'FW_NEODESTROYER',                         'FW_NEODESTROYER',                        '',              'neodestroyer',                      1,        0.11,     ''
+SELECT     '',               '',               'FW_NEXUS',                                'FW_NEXUS',                               '',              'Nexus',                             1,        0.15,     ''
+SELECT     '',               '',               'FW_RAILGUN_TANK',                         'FW_RAILGUN_TANK',                        '',              'RailgunTank',                       2,        0.1,      'Vehicle'
+SELECT     '_AMER',          '_OCEAN',         'FW_RAILGUN_TANK',                         'FW_RAILGUN_TANK',                        '',              'RailgunTank_OCEANIA',               2,        0.1,      'Vehicle'
+SELECT     '_ASIA',          '',               'FW_RAILGUN_TANK',                         'FW_RAILGUN_TANK',                        '',              'RailgunTank_EASTASIA',              2,        0.1,      'Vehicle'
+SELECT     '_AMERICA',       '_OCEAN',         'FW_RAILGUN_TANK',                         'FW_RAILGUN_TANK',                        '',              'RailgunTank_OCEANIA',               2,        0.1,      'Vehicle'
+SELECT     '_AUSTRALIA',     '_OCEAN',         'FW_RAILGUN_TANK',                         'FW_RAILGUN_TANK',                        '',              'RailgunTank_OCEANIA',               2,        0.1,      'Vehicle'
+SELECT     '_OCEAN',         '',               'FW_RAILGUN_TANK',                         'FW_RAILGUN_TANK',                        '',              'RailgunTank_OCEANIA',               2,        0.1,      'Vehicle'
+SELECT     '_SEASIA',        '_ASIA',          'FW_RAILGUN_TANK',                         'FW_RAILGUN_TANK',                        '',              'RailgunTank_EASTASIA',              2,        0.1,      'Vehicle'
+SELECT     '_SOUTHAM',       '_OCEAN',         'FW_RAILGUN_TANK',                         'FW_RAILGUN_TANK',                        '',              'RailgunTank_OCEANIA',               2,        0.1,      'Vehicle'
+SELECT     '_SOUTHAS',       '_ASIA',          'FW_RAILGUN_TANK',                         'FW_RAILGUN_TANK',                        '',              'RailgunTank_EASTASIA',              2,        0.1,      'Vehicle'
+SELECT     '',               '',               'FW_ROBOT_INFANTRY',                       'FW_ROBOT_INFANTRY',                      '',              'RobotInfantry',                     8,        0.059,    'UnFormed'
+SELECT     '',               '',               'FW_SUBORBITAL_BOMBER',                    'FW_SUBORBITAL_BOMBER',                   '',              'SuborbitalBomber',                  1,        0.11,     'BomberWing'
+SELECT     '',               '',               'FW_SUPERCARRIER',                         'FW_SUPERCARRIER',                        '',              'Porte-Avions_2',                    1,        0.055,    ''
+SELECT     '_AMER',          '_AMERICA',       'FW_SUPERCARRIER',                         'FW_SUPERCARRIER',                        '',              'USS_Nimitz',                        1,        0.055,    ''
+SELECT     '_AMERICA',       '',               'FW_SUPERCARRIER',                         'FW_SUPERCARRIER',                        '',              'USS_Nimitz',                        1,        0.055,    ''
+SELECT     '_AUSTRALIA',     '_ENGLAND',       'FW_SUPERCARRIER',                         'FW_SUPERCARRIER',                        '',              'Queen_Elizabeth_Class_Carrier',     1,        0.055,    ''
+SELECT     '_CANADA',        '_ENGLAND',       'FW_SUPERCARRIER',                         'FW_SUPERCARRIER',                        '',              'Queen_Elizabeth_Class_Carrier',     1,        0.055,    ''
+SELECT     '_CELTS',         '_ENGLAND',       'FW_SUPERCARRIER',                         'FW_SUPERCARRIER',                        '',              'Queen_Elizabeth_Class_Carrier',     1,        0.055,    ''
+SELECT     '_ENGLAND',       '',               'FW_SUPERCARRIER',                         'FW_SUPERCARRIER',                        '',              'Queen_Elizabeth_Class_Carrier',     1,        0.055,    ''
+SELECT     '_LEVANT',        '_AMERICA',       'FW_SUPERCARRIER',                         'FW_SUPERCARRIER',                        '',              'USS_Nimitz',                        1,        0.055,    ''
+SELECT     '_OCEAN',         '_AMERICA',       'FW_SUPERCARRIER',                         'FW_SUPERCARRIER',                        '',              'USS_Nimitz',                        1,        0.055,    ''
+SELECT     '_SOUTHAM',       '_AMERICA',       'FW_SUPERCARRIER',                         'FW_SUPERCARRIER',                        '',              'USS_Nimitz',                        1,        0.055,    ''
+SELECT     '',               '',               'FW_TREX',                                 'FW_TREX',                                '',              'trex',                              1,        0.08,     'ChariotElephant'
+SELECT     '',               '',               'FW_TRICERATOPS',                          'FW_TRICERATOPS',                         '',              'triceratops',                       1,        0.1,      'ChariotElephant'
+SELECT     '',               '',               'FW_TRICERATOPS',                          'FW_TRICERATOPS',                         '_V2',           'triceratops_v2',                    1,        0.1,      'ChariotElephant'
+SELECT     '',               '',               'FW_VELOCIRAPTOR',                         'FW_VELOCIRAPTOR',                        '',              'velociraptor',                      3,        0.23,     'DefaultCavalry'
+SELECT     '',               '',               'FW_VELOCIRAPTOR',                         'FW_VELOCIRAPTOR',                        '_V2',           'velociraptor_v2',                   2,        0.23,     'DefaultCavalry'
+SELECT     '',               '',               'FW_VERTOL',                               'FW_VERTOL',                              '',              'Vertol',                            1,        0.1,      ''
+SELECT     '_AMER',          '_OCEAN',         'FW_VERTOL',                               'FW_VERTOL',                              '',              'Vertol_OCEANIA',                    1,        0.1,      ''
+SELECT     '_ASIA',          '',               'FW_VERTOL',                               'FW_VERTOL',                              '',              'Vertol_EASTASIA',                   1,        0.1,      ''
+SELECT     '_AMERICA',       '_OCEAN',         'FW_VERTOL',                               'FW_VERTOL',                              '',              'Vertol_OCEANIA',                    1,        0.1,      ''
+SELECT     '_AUSTRALIA',     '_OCEAN',         'FW_VERTOL',                               'FW_VERTOL',                              '',              'Vertol_OCEANIA',                    1,        0.1,      ''
+SELECT     '_OCEAN',         '',               'FW_VERTOL',                               'FW_VERTOL',                              '',              'Vertol_OCEANIA',                    1,        0.1,      ''
+SELECT     '_SEASIA',        '_ASIA',          'FW_VERTOL',                               'FW_VERTOL',                              '',              'Vertol_EASTASIA',                   1,        0.1,      ''
+SELECT     '_SOUTHAM',       '_OCEAN',         'FW_VERTOL',                               'FW_VERTOL',                              '',              'Vertol_OCEANIA',                    1,        0.1,      ''
+SELECT     '_SOUTHAS',       '_ASIA',          'FW_VERTOL',                               'FW_VERTOL',                              '',              'Vertol_EASTASIA',                   1,        0.1,      ''
+SELECT     '',               '',               'SCORPION_GREEN',                          'SCORPION_GREEN',                         '',              'Scorpion_GREEN',                    6,        0.2,      'Barbarian'
+SELECT     '',               '',               'SEAL_TEAM',                               'SEAL_TEAM',                              '',              'RM_Commando',                       6,        0.059,    'EarlyGreatArtist'
+SELECT     '',               '',               'UAV',                                     'UAV',                                    '',              'UAV',                               1,        0.09,     'FighterWing'
 SELECT     '_GOTHS',         '',               'SWORDSMAN',                               'SWORDSMAN',                              '',              'Gadrauhts_Swordsman',                #VALUE!   #VALUE!  'UnFormed'
 SELECT 'END_OF_INSERT','','','','',NULL,0,0,'';
 
@@ -4038,6 +4237,205 @@ UNION ALL
 UNION ALL
 
 
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
+UNION ALL
 UNION ALL
 UNION ALL
 UNION ALL

@@ -113,6 +113,13 @@
       </Association>
       <Association>
         <Type>Mod</Type>
+        <Name>Future Worlds</Name>
+        <Id>d9ece224-6cd8-4519-a27a-c417b59cdf35</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
         <Name>City States Expansion (vanilla)</Name>
         <Id>ba741105-ccc2-4b97-a235-c9eefa22a868</Id>
         <MinVersion>0</MinVersion>
@@ -172,6 +179,11 @@
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
         <FileName>SQL/4-FinalizeArtStyles.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/7-ModCompatibility.sql</FileName>
       </Action>
     </ModActions>
     <ModBlockers>
@@ -293,6 +305,10 @@
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="SQL\4-FinalizeArtStyles.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="SQL\7-ModCompatibility.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

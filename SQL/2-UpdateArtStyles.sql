@@ -158,7 +158,7 @@ UPDATE Civilizations SET ArtStyleSuffix = "_MIDEAST" WHERE Type IN
 	'CIVILIZATION_SUMERIA_LS_MOD'); 
 
 -- _NORTHAF (North African)
-UPDATE Civilizations SET ArtStyleSuffix = "_OCEAN" WHERE Type IN 
+UPDATE Civilizations SET ArtStyleSuffix = "_NORTHAF" WHERE Type IN 
 	('CIVILIZATION_ALGERIA', 
 	'CIVILIZATION_BERBER', 
 	'CIVILIZATION_LIBYA', 
@@ -315,8 +315,9 @@ UPDATE Civilizations SET ArtStyleSuffix = "_SWISS" WHERE Type IN
 --Bantu <-- AFRI (Zulu; Cape Town, Mbanza Kongo)
 --Berber <-- NORTHAF? (Morocco)
 --Celtic (Celts)
---Germanic <-- EURO (America, Austria, Denmark, England, Germany, Netherlands, Sweden)
+--Germanic <-- EURO (America, Austria, England, Germany, Netherlands)
 --Hellenic (Byzantium, Greece)
+--Nordic <-- NORTHEU (Denmark, Sweden)
 --Oceanic <-- OCEAN (Polynesia, Wellington)
 --Romantic <-- MED (Brazil, France, Portugal, Rome, Spain, Venice; Florence, Genoa, Vatican City)
 --Semitic <-- MIDEAST (Arabia, Assyria, Babylon, Ethiopia; Byblos, Jerusalem, Sidon, Tyre)

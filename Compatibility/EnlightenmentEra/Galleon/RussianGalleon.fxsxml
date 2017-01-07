@@ -32,7 +32,7 @@
 	<Texture file="Unit_environment_Dull.dds"/>
 	<Texture file="Unit_environment_Sharp.dds"/>
 	<Texture file="RussianGalleon_DIFF.dds"/>
-	<Texture file="RussianGalleon_SREF.dds"/>
+	<Texture file="no_gloss.dds"/>
 	<BoneUsage>
 		<Bone name="World"/>
 		<Bone name="point_PROJECTILE_40"/>
