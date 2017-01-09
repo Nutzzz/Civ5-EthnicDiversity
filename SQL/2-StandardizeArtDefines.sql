@@ -2,7 +2,7 @@
 
 	Ethnic Diversity (based on R.E.D. Modpack)
 	ArtDefines table pre-configuration
-	by Nutty and Gedemon (2016)
+	by Nutty (2016)
 
 	Standardize names to make 3-InsertArtDefines.sql more efficient.
 

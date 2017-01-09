@@ -8,7 +8,6 @@
 
 */
 
-/*
 --Prehistoric Era
 UPDATE Units SET UnitArtInfo = 'ART_DEF_UNIT_SAVAGE_ED' WHERE Type = 'UNIT_SAVAGE';
 --Renaissance Era Revised
@@ -20,7 +19,6 @@ UPDATE Units SET UnitArtInfo = UnitArtInfo || '_ED' WHERE Type IN
 --Future Worlds
 UPDATE Units SET UnitArtInfo = UnitArtInfo || '_ED' WHERE Type IN 
 	('UNIT_FUTURE_SOLDIER', 'UNIT_FW_HOVERTANK', 'UNIT_FW_RAILGUN_TANK', 'UNIT_FW_SUPERCARRIER', 'UNIT_FW_VERTOL');
-*/
 
 --Misc:
 --"Units - Super Carrier" by whoward69
