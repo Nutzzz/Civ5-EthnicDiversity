@@ -7,7 +7,7 @@ local DEBUG_RED = false;
 local W, H = Map.GetGridSize();
 local START_H = 8;
 local MAX_H = H - 8;
-local NEWCOL = 14;
+local NEWCOL = 24;
 
 -- do not use when more than 2-3 civilizations on the map, your computer won't like to spawn so many units at the same time...
 function TestUnitsByType()

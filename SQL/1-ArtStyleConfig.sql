@@ -7,238 +7,238 @@
     This file was created automatically by a macro on the Style List worksheet of the included "newunits.xlsm".    Use Autosave checkbox or save as filetype *.prn then rename to *.sql
 */
 
---         Civ                        CS   Mod    Suffix            Fallback      BldgStyle           Prefix
-INSERT INTO EDArtStyleConfiguration(AC_Civ,AC_CS,AC_Mod,AC_Suffix,AC_Fallback,AC_BldgStyle,AC_Prefix)
-SELECT     'AMERICA',                 0,   0,     '_AMERICA',       '_EURO',      '',                 ''                 UNION ALL
-SELECT     'ARABIA',                  0,   0,     '_ARABIA',        '_MIDEAST',   '',                 ''                 UNION ALL
-SELECT     'ASSYRIA',                 0,   0,     '_BABYLON',       '_MIDEAST',   '',                 ''                 UNION ALL
-SELECT     'AUSTRIA',                 0,   0,     '_AUSTRIA',       '_EURO',      '',                 ''                 UNION ALL
-SELECT     'AZTEC',                   0,   0,     '_AZTEC',         '_SOUTHAM',   '',                 ''                 UNION ALL
-SELECT     'BABYLON',                 0,   0,     '_BABYLON',       '_MIDEAST',   '',                 ''                 UNION ALL
-SELECT     'BRAZIL',                  0,   0,     '_BRAZIL',        '_MED',       'GRECO_ROMAN',      'MEDITERRANEAN'    UNION ALL
-SELECT     'BYZANTIUM',               0,   0,     '_GREECE',        '_MED',       '',                 ''                 UNION ALL
-SELECT     'CARTHAGE',                0,   0,     '_CARTHAGE',      '_NORTHAF',   '',                 ''                 UNION ALL
-SELECT     'CELTS',                   0,   0,     '_CELTS',         '_EURO',      '',                 ''                 UNION ALL
-SELECT     'CHINA',                   0,   0,     '_CHINA',         '_ASIA',      '',                 ''                 UNION ALL
-SELECT     'DENMARK',                 0,   0,     '_DENMARK',       '_NORTHEU',   '',                 ''                 UNION ALL
-SELECT     'EGYPT',                   0,   0,     '_EGYPT',         '_MIDEAST',   '',                 ''                 UNION ALL
-SELECT     'ENGLAND',                 0,   0,     '_ENGLAND',       '_EURO',      '',                 ''                 UNION ALL
-SELECT     'ETHIOPIA',                0,   0,     '_ETHIOPIA',      '_AFRI',      '',                 ''                 UNION ALL
-SELECT     'FRANCE',                  0,   0,     '_FRANCE',        '_EURO',      '',                 ''                 UNION ALL
-SELECT     'GERMANY',                 0,   0,     '_GERMANY',       '_EURO',      '',                 ''                 UNION ALL
-SELECT     'GREECE',                  0,   0,     '_GREECE',        '_MED',       '',                 ''                 UNION ALL
-SELECT     'HUNS',                    0,   0,     '_HUNS',          '_CENTAS',    'MIDDLE_EAST',      'AFRICAN'          UNION ALL
-SELECT     'INCA',                    0,   0,     '_INCA',          '_SOUTHAM',   '',                 ''                 UNION ALL
-SELECT     'INDIA',                   0,   0,     '_INDIA',         '_SOUTHAS',   'MIDDLE_EAST',      'AFRICAN'          UNION ALL
-SELECT     'INDONESIA',               0,   0,     '_INDONESIA',     '_SEASIA',    'POLYNESIAN',       ''                 UNION ALL
-SELECT     'IROQUOIS',                0,   0,     '_IROQUOIS',      '_AMER',      '',                 ''                 UNION ALL
-SELECT     'JAPAN',                   0,   0,     '_JAPAN',         '_ASIA',      '',                 ''                 UNION ALL
-SELECT     'KOREA',                   0,   0,     '_KOREA',         '_ASIA',      '',                 ''                 UNION ALL
-SELECT     'MAYA',                    0,   0,     '_MAYA',          '_SOUTHAM',   '',                 ''                 UNION ALL
-SELECT     'MONGOL',                  0,   0,     '_MONGOL',        '_ASIA',      '',                 ''                 UNION ALL
-SELECT     'MOROCCO',                 0,   0,     '_MOROCCO',       '_NORTHAF',   '',                 ''                 UNION ALL
-SELECT     'NETHERLANDS',             0,   0,     '_NETHERLANDS',   '_EURO',      '',                 ''                 UNION ALL
-SELECT     'OTTOMAN',                 0,   0,     '_OTTOMAN',       '_CENTAS',    '',                 ''                 UNION ALL
-SELECT     'PERSIA',                  0,   0,     '_PERSIA',        '_MIDEAST',   '',                 ''                 UNION ALL
-SELECT     'POLAND',                  0,   0,     '_POLAND',        '_EASTEU',    '',                 ''                 UNION ALL
-SELECT     'POLYNESIA',               0,   0,     '_POLYNESIA',     '_OCEAN',     '',                 ''                 UNION ALL
-SELECT     'PORTUGAL',                0,   0,     '_PORTUGAL',      '_MED',       'GRECO_ROMAN',      'MEDITERRANEAN'    UNION ALL
-SELECT     'ROME',                    0,   0,     '_ROME',          '_MED',       '',                 ''                 UNION ALL
-SELECT     'RUSSIA',                  0,   0,     '_RUSSIA',        '_EASTEU',    '',                 ''                 UNION ALL
-SELECT     'SHOSHONE',                0,   0,     '_SHOSHONE',      '_AMER',      '',                 ''                 UNION ALL
-SELECT     'SIAM',                    0,   0,     '_SIAM',          '_SEASIA',    'POLYNESIAN',       ''                 UNION ALL
-SELECT     'SONGHAI',                 0,   0,     '_SONGHAI',       '_AFRI',      '',                 ''                 UNION ALL
-SELECT     'SPAIN',                   0,   0,     '_SPAIN',         '_MED',       'GRECO_ROMAN',      'MEDITERRANEAN'    UNION ALL
-SELECT     'SWEDEN',                  0,   0,     '_SWEDEN',        '_NORTHEU',   '',                 ''                 UNION ALL
-SELECT     'VENICE',                  0,   0,     '_VENICE',        '_MED',       '',                 ''                 UNION ALL
-SELECT     'ZULU',                    0,   0,     '_ZULU',          '_AFRI',      'SOUTH_AMERICA',    ''                 UNION ALL
-SELECT     'ALMATY',                  1,   0,     '_HUNS',          '_CENTAS',    'MIDDLE_EAST',      'AFRICAN'          UNION ALL
-SELECT     'ANTANANARIVO',            1,   0,     '_AFRI',          '',           'SOUTH_AMERICA',    ''                 UNION ALL
-SELECT     'ANTWERP',                 1,   0,     '_BELGIUM',       '_EURO',      '',                 ''                 UNION ALL
-SELECT     'BELGRADE',                1,   0,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'BOGOTA',                  1,   0,     '_SOUTHAM',       '',           '',                 ''                 UNION ALL
-SELECT     'BRATISLAVA',              1,   0,     '_BOHEMIA',       '_EASTEU',    '',                 ''                 UNION ALL
-SELECT     'BRUSSELS',                1,   0,     '_BELGIUM',       '_EURO',      '',                 ''                 UNION ALL
-SELECT     'BUCHAREST',               1,   0,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'BUDAPEST',                1,   0,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'BUENOS_AIRES',            1,   0,     '_SOUTHAM',       '',           '',                 ''                 UNION ALL
-SELECT     'BYBLOS',                  1,   0,     '_LEVANT',        '_MIDEAST',   '',                 ''                 UNION ALL
-SELECT     'CAHOKIA',                 1,   0,     '_AMER',          '',           '',                 ''                 UNION ALL
-SELECT     'CAPE_TOWN',               1,   0,     '_AFRI',          '',           'SOUTH_AMERICA',    ''                 UNION ALL
-SELECT     'COLOMBO',                 1,   0,     '_SOUTHAS',       '',           '',                 ''                 UNION ALL
-SELECT     'COPENHAGEN',              1,   0,     '_DENMARK',       '_NORTHEU',   '',                 ''                 UNION ALL
-SELECT     'DUBLIN',                  1,   0,     '_CELTS',         '_EURO',      '',                 ''                 UNION ALL
-SELECT     'EDINBURGH',               1,   0,     '_CELTS',         '_EURO',      '',                 ''                 UNION ALL
-SELECT     'FLORENCE',                1,   0,     '_ROME',          '_MED',       '',                 ''                 UNION ALL
-SELECT     'GENEVA',                  1,   0,     '_SWISS',         '_EURO',      '',                 ''                 UNION ALL
-SELECT     'GENOA',                   1,   0,     '_ROME',          '_MED',       '',                 ''                 UNION ALL
-SELECT     'HANOI',                   1,   0,     '_SEASIA',        '',           'POLYNESIAN',       ''                 UNION ALL
-SELECT     'HELSINKI',                1,   0,     '_SWEDEN',        '_NORTHEU',   '',                 ''                 UNION ALL
-SELECT     'HONG_KONG',               1,   0,     '_CHINA',         '',           '',                 ''                 UNION ALL
-SELECT     'IFE',                     1,   0,     '_AFRI',          '',           '',                 ''                 UNION ALL
-SELECT     'JAKARTA',                 1,   0,     '_INDONESIA',     '_SEASIA',    'POLYNESIAN',       ''                 UNION ALL
-SELECT     'JERUSALEM',               1,   0,     '_LEVANT',        '_MIDEAST',   '',                 ''                 UNION ALL
-SELECT     'KABUL',                   1,   0,     '_MIDEAST',       '',           '',                 ''                 UNION ALL
-SELECT     'KATHMANDU',               1,   0,     '_SOUTHAS',       '',           '',                 ''                 UNION ALL
-SELECT     'KIEV',                    1,   0,     '_KIEV',          '_EASTEU',    '',                 ''                 UNION ALL
-SELECT     'KUALA_LUMPUR',            1,   0,     '_SEASIA',        '',           'POLYNESIAN',       ''                 UNION ALL
-SELECT     'KYZYL',                   1,   0,     '_HUNS',          '_CENTAS',    'MIDDLE_EAST',      'AFRICAN'          UNION ALL
-SELECT     'LA_VENTA',                1,   0,     '_SOUTHAM',       '',           '',                 ''                 UNION ALL
-SELECT     'LHASA',                   1,   0,     '_ASIA',          '',           '',                 ''                 UNION ALL
-SELECT     'LISBON',                  1,   0,     '_PORTUGAL',      '_MED',       '',                 ''                 UNION ALL
-SELECT     'MALACCA',                 1,   0,     '_SEASIA',        '',           'POLYNESIAN',       ''                 UNION ALL
-SELECT     'MANILA',                  1,   0,     '_SEASIA',        '',           'POLYNESIAN',       ''                 UNION ALL
-SELECT     'MARRAKECH',               1,   0,     '_MOROCCO',       '_NORTHAF',   'MIDDLE_EAST',      'AFRICAN'          UNION ALL
-SELECT     'MBANZA_KONGO',            1,   0,     '_AFRI',          '',           '',                 ''                 UNION ALL
-SELECT     'MELBOURNE',               1,   0,     '_EURO',          '',           '',                 ''                 UNION ALL
-SELECT     'MILAN',                   1,   0,     '_VENICE',        '_MED',       '',                 ''                 UNION ALL
-SELECT     'MOGADISHU',               1,   0,     '_MOGADISHU',     '_AFRI',      '',                 ''                 UNION ALL
-SELECT     'MOMBASA',                 1,   0,     '_MOMBASA',       '_AFRI',      '',                 ''                 UNION ALL
-SELECT     'MONACO',                  1,   0,     '_FRANCE',        '_EURO',      '',                 ''                 UNION ALL
-SELECT     'ORMUS',                   1,   0,     '_MIDEAST',       '',           '',                 ''                 UNION ALL
-SELECT     'OSLO',                    1,   0,     '_DENMARK',       '_NORTHEU',   '',                 ''                 UNION ALL
-SELECT     'PANAMA_CITY',             1,   0,     '_SOUTHAM',       '',           '',                 ''                 UNION ALL
-SELECT     'PRAGUE',                  1,   0,     '_BOHEMIA',       '_EASTEU',    '',                 ''                 UNION ALL
-SELECT     'QUEBEC_CITY',             1,   0,     '_CANADA',        '_EURO',      '',                 ''                 UNION ALL
-SELECT     'RAGUSA',                  1,   0,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'RIGA',                    1,   0,     '_EURO',          '',           '',                 ''                 UNION ALL
-SELECT     'RIO_DE_JANEIRO',          1,   0,     '_BRAZIL',        '_MED',       '',                 ''                 UNION ALL
-SELECT     'SAMARKAND',               1,   0,     '_CENTAS',        '',           '',                 ''                 UNION ALL
-SELECT     'SEOUL',                   1,   0,     '_KOREA',         '_ASIA',      '',                 ''                 UNION ALL
-SELECT     'SIDON',                   1,   0,     '_LEVANT',        '_MIDEAST',   '',                 ''                 UNION ALL
-SELECT     'SINGAPORE',               1,   0,     '_SEASIA',        '',           'POLYNESIAN',       ''                 UNION ALL
-SELECT     'SOFIA',                   1,   0,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'STOCKHOLM',               1,   0,     '_SWEDEN',        '_NORTHEU',   '',                 ''                 UNION ALL
-SELECT     'SYDNEY',                  1,   0,     '_AUSTRALIA',     '_EURO',      '',                 ''                 UNION ALL
-SELECT     'TYRE',                    1,   0,     '_LEVANT',        '_MIDEAST',   '',                 ''                 UNION ALL
-SELECT     'UR',                      1,   0,     '_BABYLON',       '_MIDEAST',   '',                 ''                 UNION ALL
-SELECT     'VALLETTA',                1,   0,     '_EURO',          '',           'GRECO_ROMAN',      'MEDITERRANEAN'    UNION ALL
-SELECT     'VANCOUVER',               1,   0,     '_CANADA',        '_EURO',      '',                 ''                 UNION ALL
-SELECT     'VATICAN_CITY',            1,   0,     '_VATICAN_CITY',  '_MED',       'GRECO_ROMAN',      'MEDITERRANEAN'    UNION ALL
-SELECT     'VIENNA',                  1,   0,     '_AUSTRIA',       '_EURO',      '',                 ''                 UNION ALL
-SELECT     'VILNIUS',                 1,   0,     '_EURO',          '',           '',                 ''                 UNION ALL
-SELECT     'WARSAW',                  1,   0,     '_POLAND',        '_EASTEU',    '',                 ''                 UNION ALL
-SELECT     'WELLINGTON',              1,   0,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       'AMERICAN'         UNION ALL
-SELECT     'WITTENBERG',              1,   0,     '_GERMANY',       '_EURO',      '',                 ''                 UNION ALL
-SELECT     'YEREVAN',                 1,   0,     '_MIDEAST',       '',           '',                 ''                 UNION ALL
-SELECT     'ZANZIBAR',                1,   0,     '_AFRI',          '',           'MIDDLE_EAST',      'AFRICAN'          UNION ALL
-SELECT     'ZURICH',                  1,   0,     '_SWISS',         '_EURO',      '',                 ''                 UNION ALL
-SELECT     'AKKADIA',                 0,   1,     '_MIDEAST',       '',           '',                 ''                 UNION ALL
-SELECT     'ALBANIA',                 0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'ALGERIA',                 0,   1,     '_MOROCCO',       '_NORTHAF',   '',                 ''                 UNION ALL
-SELECT     'ARMENIA',                 0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'AUSTRALIA_LS_MOD',        0,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''                 UNION ALL
-SELECT     'AZERBAIJAN',              0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'BERBER',                  0,   1,     '_MOROCCO',       '_NORTHAF',   '',                 ''                 UNION ALL
-SELECT     'BOHEMIA',                 0,   1,     '_BOHEMIA',       '_EASTEU',    '',                 ''                 UNION ALL
-SELECT     'BOSNIA',                  0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'BULGARIA',                0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'BULGARIA_LS_MOD',         0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'CGF1_GH_GOLDENHORDE',     0,   1,     '_HUNS',          '_CENTAS',    '',                 ''                 UNION ALL
-SELECT     'CHIMOR',                  0,   1,     '_SOUTHAM',       '',           '',                 ''                 UNION ALL
-SELECT     'CHIMU_MOD',               0,   1,     '_SOUTHAM',       '',           '',                 ''                 UNION ALL
-SELECT     'CL_AUSTRALIA',            0,   1,     '_AUSTRALIA',     '',           '',                 ''                 UNION ALL
-SELECT     'CL_KULIN',                0,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''                 UNION ALL
-SELECT     'CLINUIT',                 0,   1,     '_SOUTHAM',       '',           '',                 ''                 UNION ALL
-SELECT     'COLONIALCANADA',          1,   1,     '_CANADA',        '',           '',                 ''                 UNION ALL
-SELECT     'CORDOBA',                 0,   1,     '_MIDEAST',       '',           '',                 ''                 UNION ALL
-SELECT     'CROATIA',                 0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'DENEFIRSTNATION',         0,   1,     '_SOUTHAM',       '',           '',                 ''                 UNION ALL
-SELECT     'DURANNI_LS_MOD',          0,   1,     '_MIDEAST',       '',           '',                 ''                 UNION ALL
-SELECT     'FINLAND',                 0,   1,     '_NORTHEU',       '',           '',                 ''                 UNION ALL
-SELECT     'FLANDERS_LS_MOD',         0,   1,     '_BELGIUM',       '',           '',                 ''                 UNION ALL
-SELECT     'GE_SLAVS',                0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'GENOA_LS_MOD',            0,   1,     '_MED',           '',           '',                 ''                 UNION ALL
-SELECT     'GOTHS_LS_MOD',            0,   1,     '_GOTHS',         '_NORTHEU',   '',                 ''                 UNION ALL
-SELECT     'HAFEZ_SYRIA',             0,   1,     '_LEVANT',        '_MIDEAST',   '',                 ''                 UNION ALL
-SELECT     'HARAPPAN',                0,   1,     '_SOUTHAS',       '',           '',                 ''                 UNION ALL
-SELECT     'HETMANATE_LS_MOD',        0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'HITTITE_LS_MOD',          0,   1,     '_MIDEAST',       '',           '',                 ''                 UNION ALL
-SELECT     'HUNGARY_LS_MOD',          0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'INUIT',                   0,   1,     '_SOUTHAM',       '',           '',                 ''                 UNION ALL
-SELECT     'IRAN',                    0,   1,     '_MIDEAST',       '',           '',                 ''                 UNION ALL
-SELECT     'ISRAEL',                  0,   1,     '_LEVANT',        '_MIDEAST',   '',                 ''                 UNION ALL
-SELECT     'ISRAEL_LS_MOD',           0,   1,     '_LEVANT',        '_MIDEAST',   '',                 ''                 UNION ALL
-SELECT     'JFD_GERMANS',             0,   1,     '_GERMANY',       '',           '',                 ''                 UNION ALL
-SELECT     'JFD_PHILIPPINES',         0,   1,     '_SEASIA',        '',           'POLYNESIAN',       ''                 UNION ALL
-SELECT     'JFD_USSR_STALIN',         0,   1,     '_RUSSIA',        '_EASTEU',    '',                 ''                 UNION ALL
-SELECT     'KAZAKH',                  0,   1,     '_CENTAS',        '',           '',                 ''                 UNION ALL
-SELECT     'KAZAN',                   0,   1,     '_CENTAS',        '',           '',                 ''                 UNION ALL
-SELECT     'KDMBOSNIA',               0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'KHAZARIA',                0,   1,     '_CENTAS',        '',           '',                 ''                 UNION ALL
-SELECT     'KULINNATION',             0,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''                 UNION ALL
-SELECT     'KUWAIT',                  0,   1,     '_MIDEAST',       '',           '',                 ''                 UNION ALL
-SELECT     'LATVIA',                  0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'LEUGI_PHILISTINE',        0,   1,     '_LEVANT',        '_MIDEAST',   '',                 ''                 UNION ALL
-SELECT     'LIBYA',                   0,   1,     '_NORTHAF',       '',           '',                 ''                 UNION ALL
-SELECT     'LITHUANIA_LS_MOD',        0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'MACEDONIA',               0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'MAPUCHE',                 0,   1,     '_SOUTHAM',       '',           '',                 ''                 UNION ALL
-SELECT     'MARATHA',                 0,   1,     '_SOUTHAS',       '',           '',                 ''                 UNION ALL
-SELECT     'MAURYA',                  0,   1,     '_SOUTHAS',       '',           '',                 ''                 UNION ALL
-SELECT     'MAURYA_LS_MOD',           0,   1,     '_SOUTHAS',       '',           '',                 ''                 UNION ALL
-SELECT     'MC_MAORI',                0,   1,     '_OCEAN',         '',           '',                 ''                 UNION ALL
-SELECT     'MC_RAPA_NUI',             0,   1,     '_OCEAN',         '',           '',                 ''                 UNION ALL
-SELECT     'MC_TONGA',                0,   1,     '_OCEAN',         '',           '',                 ''                 UNION ALL
-SELECT     'MITANNI',                 0,   1,     '_MIDEAST',       '',           '',                 ''                 UNION ALL
-SELECT     'MOLDAVIA',                0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'MONTENEGRO',              0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'MUISCA',                  0,   1,     '_SOUTHAM',       '',           '',                 ''                 UNION ALL
-SELECT     'NABATAEA',                0,   1,     '_LEVANT',        '_MIDEAST',   '',                 ''                 UNION ALL
-SELECT     'NEPAL',                   0,   1,     '_SOUTHAS',       '',           '',                 ''                 UNION ALL
-SELECT     'NEPAL_LS_MOD',            0,   1,     '_SOUTHAS',       '',           '',                 ''                 UNION ALL
-SELECT     'NEWZEALAND',              0,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''                 UNION ALL
-SELECT     'NUBIA',                   0,   1,     '_ETHIOPIA',      '',           '',                 ''                 UNION ALL
-SELECT     'NUMIDIA_LS_MOD',          0,   1,     '_NORTHAF',       '',           '',                 ''                 UNION ALL
-SELECT     'OLMEC_LS_MOD',            0,   1,     '_SOUTHAM',       '',           '',                 ''                 UNION ALL
-SELECT     'PAKISTAN',                0,   1,     '_SOUTHAS',       '',           '',                 ''                 UNION ALL
-SELECT     'PAPUA',                   0,   1,     '_SAHUL',         '_OCEAN',     '',                 ''                 UNION ALL
-SELECT     'PARTHIA',                 0,   1,     '_MIDEAST',       '',           '',                 ''                 UNION ALL
-SELECT     'PHOENICIA',               0,   1,     '_LEVANT',        '_MIDEAST',   '',                 ''                 UNION ALL
-SELECT     'PHOENICIA_LS_MOD',        0,   1,     '_LEVANT',        '_MIDEAST',   '',                 ''                 UNION ALL
-SELECT     'POLAND_LS_MOD',           0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'RCUMANIA',                0,   1,     '_CENTAS',        '',           '',                 ''                 UNION ALL
-SELECT     'ROMANIA',                 0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'ROMANIA_LS_MOD',          0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'SABA',                    0,   1,     '_LEVANT',        '_MIDEAST',   '',                 ''                 UNION ALL
-SELECT     'SADAT_EGYPT',             0,   1,     '_MIDEAST',       '',           '',                 ''                 UNION ALL
-SELECT     'SAMI',                    0,   1,     '_SOUTHAM',       '',           '',                 ''                 UNION ALL
-SELECT     'SASANIAN',                0,   1,     '_MIDEAST',       '',           '',                 ''                 UNION ALL
-SELECT     'SCYTHIA_LS_MOD',          0,   1,     '_OTTOMAN',       '_MIDEAST',   '',                 ''                 UNION ALL
-SELECT     'SIBIR',                   0,   1,     '_CENTAS',        '',           '',                 ''                 UNION ALL
-SELECT     'SIKH',                    0,   1,     '_SOUTHAS',       '',           '',                 ''                 UNION ALL
-SELECT     'SRI_LANKA',               0,   1,     '_SOUTHAS',       '',           '',                 ''                 UNION ALL
-SELECT     'SUMERIA_LS_MOD',          0,   1,     '_BABYLON',       '_MIDEAST',   '',                 ''                 UNION ALL
-SELECT     'SWITZERLAND',             0,   1,     '_SWISS',         '',           '',                 ''                 UNION ALL
-SELECT     'SWITZERLAND_LS_MOD',      0,   1,     '_SWISS',         '',           '',                 ''                 UNION ALL
-SELECT     'TAHITI_LS_MOD',           0,   1,     '_OCEAN',         '',           '',                 ''                 UNION ALL
-SELECT     'TCM_ALAN',                0,   1,     '_CENTAS',        '',           '',                 ''                 UNION ALL
-SELECT     'TCM_OSTROGOTH',           0,   1,     '_GOTHS',         '_NORTHEU',   '',                 ''                 UNION ALL
-SELECT     'TCM_VISIGOTH',            0,   1,     '_GOTHS',         '_NORTHEU',   '',                 ''                 UNION ALL
-SELECT     'TIMURIDES',               0,   1,     '_CENTAS',        '',           '',                 ''                 UNION ALL
-SELECT     'TIMURIDS_LS_MOD',         0,   1,     '_CENTAS',        '',           '',                 ''                 UNION ALL
-SELECT     'TIMURIDS_MOD',            0,   1,     '_CENTAS',        '',           '',                 ''                 UNION ALL
-SELECT     'TIWANAKU',                0,   1,     '_SOUTHAM',       '',           '',                 ''                 UNION ALL
-SELECT     'UAE',                     0,   1,     '_MIDEAST',       '',           '',                 ''                 UNION ALL
-SELECT     'USSR',                    0,   1,     '_RUSSIA',        '_EASTEU',    '',                 ''                 UNION ALL
-SELECT     'UYGHUR',                  0,   1,     '_CENTAS',        '',           '',                 ''                 UNION ALL
-SELECT     'VIETNAM',                 0,   1,     '_SEASIA',        '',           'POLYNESIAN',       ''                 UNION ALL
-SELECT     'VIETNAM_LS_MOD',          0,   1,     '_SEASIA',        '',           'POLYNESIAN',       ''                 UNION ALL
-SELECT     'VIJAYANAGAR',             0,   1,     '_SOUTHAS',       '',           '',                 ''                 UNION ALL
-SELECT     'VISIGOTHS_MOD',           0,   1,     '_GOTHS',         '_NORTHEU',   '',                 ''                 UNION ALL
-SELECT     'WALLACHIA',               0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'YAKUTIA',                 0,   1,     '_CENTAS',        '',           '',                 ''                 UNION ALL
-SELECT     'YUGOSLAVIA',              0,   1,     '_EASTEU',        '',           '',                 ''                 UNION ALL
-SELECT     'YUPIK',                   0,   1,     '_SOUTHAM',       '',           '',                 ''                 UNION ALL
-SELECT     'ZAPOTEC',                 0,   1,     '_SOUTHAM',       '',           '',                 ''                 UNION ALL
-SELECT     'BAMAGA',                  1,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''                 UNION ALL
-SELECT     'GARAMANTES',              1,   1,     '_GARAMANTES',    '_NORTHAF',   '',                 ''                 UNION ALL
-SELECT     'HONIARA',                 1,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''                 UNION ALL
-SELECT     'KOROR',                   1,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''                 UNION ALL
-SELECT     'NAIN',                    1,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''                 UNION ALL
-SELECT     'NEW_ZEALAND',             1,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''                 UNION ALL
-SELECT     'NOUMEA',                  1,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''                 UNION ALL
-SELECT     'PORT_MORESBY',            1,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''                 UNION ALL
-SELECT     'PORT_VILA',               1,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''                 UNION ALL
-SELECT     'SUVA',                    1,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''                 UNION ALL
-SELECT 'END_OF_INSERT',0,0,'','','','';
+-- Civ                        CS   Mod    Suffix            Fallback      BldgStyle           Prefix
+INSERT INTO EDArtStyleConfiguration(AC_Civ,AC_CS,AC_Mod,AC_Suffix,AC_Fallback,AC_BldgStyle,AC_Prefix) VALUES
+(  'AMERICA',                 0,   0,     '_AMERICA',       '_EURO',      '',                 ''),
+(  'ARABIA',                  0,   0,     '_ARABIA',        '_MIDEAST',   '',                 ''),
+(  'ASSYRIA',                 0,   0,     '_BABYLON',       '_MIDEAST',   '',                 ''),
+(  'AUSTRIA',                 0,   0,     '_AUSTRIA',       '_EURO',      '',                 ''),
+(  'AZTEC',                   0,   0,     '_AZTEC',         '_SOUTHAM',   '',                 ''),
+(  'BABYLON',                 0,   0,     '_BABYLON',       '_MIDEAST',   '',                 ''),
+(  'BRAZIL',                  0,   0,     '_BRAZIL',        '_MED',       'GRECO_ROMAN',      'MEDITERRANEAN'),
+(  'BYZANTIUM',               0,   0,     '_GREECE',        '_MED',       '',                 ''),
+(  'CARTHAGE',                0,   0,     '_CARTHAGE',      '_NORTHAF',   '',                 ''),
+(  'CELTS',                   0,   0,     '_CELTS',         '_EURO',      '',                 ''),
+(  'CHINA',                   0,   0,     '_CHINA',         '_ASIA',      '',                 ''),
+(  'DENMARK',                 0,   0,     '_DENMARK',       '_NORTHEU',   '',                 ''),
+(  'EGYPT',                   0,   0,     '_EGYPT',         '_MIDEAST',   '',                 ''),
+(  'ENGLAND',                 0,   0,     '_ENGLAND',       '_EURO',      '',                 ''),
+(  'ETHIOPIA',                0,   0,     '_ETHIOPIA',      '_AFRI',      '',                 ''),
+(  'FRANCE',                  0,   0,     '_FRANCE',        '_EURO',      '',                 ''),
+(  'GERMANY',                 0,   0,     '_GERMANY',       '_EURO',      '',                 ''),
+(  'GREECE',                  0,   0,     '_GREECE',        '_MED',       '',                 ''),
+(  'HUNS',                    0,   0,     '_HUNS',          '_CENTAS',    'MIDDLE_EAST',      'AFRICAN'),
+(  'INCA',                    0,   0,     '_INCA',          '_SOUTHAM',   '',                 ''),
+(  'INDIA',                   0,   0,     '_INDIA',         '_SOUTHAS',   'MIDDLE_EAST',      'AFRICAN'),
+(  'INDONESIA',               0,   0,     '_INDONESIA',     '_SEASIA',    'POLYNESIAN',       ''),
+(  'IROQUOIS',                0,   0,     '_IROQUOIS',      '_AMER',      '',                 ''),
+(  'JAPAN',                   0,   0,     '_JAPAN',         '_ASIA',      '',                 ''),
+(  'KOREA',                   0,   0,     '_KOREA',         '_ASIA',      '',                 ''),
+(  'MAYA',                    0,   0,     '_MAYA',          '_SOUTHAM',   '',                 ''),
+(  'MONGOL',                  0,   0,     '_MONGOL',        '_ASIA',      '',                 ''),
+(  'MOROCCO',                 0,   0,     '_MOROCCO',       '_NORTHAF',   '',                 ''),
+(  'NETHERLANDS',             0,   0,     '_NETHERLANDS',   '_EURO',      '',                 ''),
+(  'OTTOMAN',                 0,   0,     '_OTTOMAN',       '_CENTAS',    '',                 ''),
+(  'PERSIA',                  0,   0,     '_PERSIA',        '_MIDEAST',   '',                 ''),
+(  'POLAND',                  0,   0,     '_POLAND',        '_EASTEU',    '',                 ''),
+(  'POLYNESIA',               0,   0,     '_POLYNESIA',     '_OCEAN',     '',                 ''),
+(  'PORTUGAL',                0,   0,     '_PORTUGAL',      '_MED',       'GRECO_ROMAN',      'MEDITERRANEAN'),
+(  'ROME',                    0,   0,     '_ROME',          '_MED',       '',                 ''),
+(  'RUSSIA',                  0,   0,     '_RUSSIA',        '_EASTEU',    '',                 ''),
+(  'SHOSHONE',                0,   0,     '_SHOSHONE',      '_AMER',      '',                 ''),
+(  'SIAM',                    0,   0,     '_SIAM',          '_SEASIA',    'POLYNESIAN',       ''),
+(  'SONGHAI',                 0,   0,     '_SONGHAI',       '_AFRI',      '',                 ''),
+(  'SPAIN',                   0,   0,     '_SPAIN',         '_MED',       'GRECO_ROMAN',      'MEDITERRANEAN'),
+(  'SWEDEN',                  0,   0,     '_SWEDEN',        '_NORTHEU',   '',                 ''),
+(  'VENICE',                  0,   0,     '_VENICE',        '_MED',       '',                 ''),
+(  'ZULU',                    0,   0,     '_ZULU',          '_AFRI',      'SOUTH_AMERICA',    ''),
+(  'ALMATY',                  1,   0,     '_HUNS',          '_CENTAS',    'MIDDLE_EAST',      'AFRICAN'),
+(  'ANTANANARIVO',            1,   0,     '_AFRI',          '',           'SOUTH_AMERICA',    ''),
+(  'ANTWERP',                 1,   0,     '_BELGIUM',       '_EURO',      '',                 ''),
+(  'BELGRADE',                1,   0,     '_EASTEU',        '',           '',                 ''),
+(  'BOGOTA',                  1,   0,     '_SOUTHAM',       '',           '',                 ''),
+(  'BRATISLAVA',              1,   0,     '_BOHEMIA',       '_EASTEU',    '',                 ''),
+(  'BRUSSELS',                1,   0,     '_BELGIUM',       '_EURO',      '',                 ''),
+(  'BUCHAREST',               1,   0,     '_EASTEU',        '',           '',                 ''),
+(  'BUDAPEST',                1,   0,     '_EASTEU',        '',           '',                 ''),
+(  'BUENOS_AIRES',            1,   0,     '_SOUTHAM',       '',           '',                 ''),
+(  'BYBLOS',                  1,   0,     '_LEVANT',        '_MIDEAST',   '',                 ''),
+(  'CAHOKIA',                 1,   0,     '_AMER',          '',           '',                 ''),
+(  'CAPE_TOWN',               1,   0,     '_AFRI',          '',           'SOUTH_AMERICA',    ''),
+(  'COLOMBO',                 1,   0,     '_SOUTHAS',       '',           '',                 ''),
+(  'COPENHAGEN',              1,   0,     '_DENMARK',       '_NORTHEU',   '',                 ''),
+(  'DUBLIN',                  1,   0,     '_CELTS',         '_EURO',      '',                 ''),
+(  'EDINBURGH',               1,   0,     '_CELTS',         '_EURO',      '',                 ''),
+(  'FLORENCE',                1,   0,     '_ROME',          '_MED',       '',                 ''),
+(  'GENEVA',                  1,   0,     '_SWISS',         '_EURO',      '',                 ''),
+(  'GENOA',                   1,   0,     '_ROME',          '_MED',       '',                 ''),
+(  'HANOI',                   1,   0,     '_SEASIA',        '',           'POLYNESIAN',       ''),
+(  'HELSINKI',                1,   0,     '_SWEDEN',        '_NORTHEU',   '',                 ''),
+(  'HONG_KONG',               1,   0,     '_CHINA',         '',           '',                 ''),
+(  'IFE',                     1,   0,     '_AFRI',          '',           '',                 ''),
+(  'JAKARTA',                 1,   0,     '_INDONESIA',     '_SEASIA',    'POLYNESIAN',       ''),
+(  'JERUSALEM',               1,   0,     '_LEVANT',        '_MIDEAST',   '',                 ''),
+(  'KABUL',                   1,   0,     '_MIDEAST',       '',           '',                 ''),
+(  'KATHMANDU',               1,   0,     '_SOUTHAS',       '',           '',                 ''),
+(  'KIEV',                    1,   0,     '_KIEV',          '_EASTEU',    '',                 ''),
+(  'KUALA_LUMPUR',            1,   0,     '_SEASIA',        '',           'POLYNESIAN',       ''),
+(  'KYZYL',                   1,   0,     '_HUNS',          '_CENTAS',    'MIDDLE_EAST',      'AFRICAN'),
+(  'LA_VENTA',                1,   0,     '_SOUTHAM',       '',           '',                 ''),
+(  'LHASA',                   1,   0,     '_ASIA',          '',           '',                 ''),
+(  'LISBON',                  1,   0,     '_PORTUGAL',      '_MED',       '',                 ''),
+(  'MALACCA',                 1,   0,     '_SEASIA',        '',           'POLYNESIAN',       ''),
+(  'MANILA',                  1,   0,     '_SEASIA',        '',           'POLYNESIAN',       ''),
+(  'MARRAKECH',               1,   0,     '_MOROCCO',       '_NORTHAF',   'MIDDLE_EAST',      'AFRICAN'),
+(  'MBANZA_KONGO',            1,   0,     '_AFRI',          '',           '',                 ''),
+(  'MELBOURNE',               1,   0,     '_EURO',          '',           '',                 ''),
+(  'MILAN',                   1,   0,     '_VENICE',        '_MED',       '',                 ''),
+(  'MOGADISHU',               1,   0,     '_MOGADISHU',     '_AFRI',      '',                 ''),
+(  'MOMBASA',                 1,   0,     '_MOMBASA',       '_AFRI',      '',                 ''),
+(  'MONACO',                  1,   0,     '_FRANCE',        '_EURO',      '',                 ''),
+(  'ORMUS',                   1,   0,     '_MIDEAST',       '',           '',                 ''),
+(  'OSLO',                    1,   0,     '_DENMARK',       '_NORTHEU',   '',                 ''),
+(  'PANAMA_CITY',             1,   0,     '_SOUTHAM',       '',           '',                 ''),
+(  'PRAGUE',                  1,   0,     '_BOHEMIA',       '_EASTEU',    '',                 ''),
+(  'QUEBEC_CITY',             1,   0,     '_CANADA',        '_EURO',      '',                 ''),
+(  'RAGUSA',                  1,   0,     '_EASTEU',        '',           '',                 ''),
+(  'RIGA',                    1,   0,     '_EURO',          '',           '',                 ''),
+(  'RIO_DE_JANEIRO',          1,   0,     '_BRAZIL',        '_MED',       '',                 ''),
+(  'SAMARKAND',               1,   0,     '_CENTAS',        '',           '',                 ''),
+(  'SEOUL',                   1,   0,     '_KOREA',         '_ASIA',      '',                 ''),
+(  'SIDON',                   1,   0,     '_LEVANT',        '_MIDEAST',   '',                 ''),
+(  'SINGAPORE',               1,   0,     '_SEASIA',        '',           'POLYNESIAN',       ''),
+(  'SOFIA',                   1,   0,     '_EASTEU',        '',           '',                 ''),
+(  'STOCKHOLM',               1,   0,     '_SWEDEN',        '_NORTHEU',   '',                 ''),
+(  'SYDNEY',                  1,   0,     '_AUSTRALIA',     '_EURO',      '',                 ''),
+(  'TYRE',                    1,   0,     '_LEVANT',        '_MIDEAST',   '',                 ''),
+(  'UR',                      1,   0,     '_BABYLON',       '_MIDEAST',   '',                 ''),
+(  'VALLETTA',                1,   0,     '_EURO',          '',           'GRECO_ROMAN',      'MEDITERRANEAN'),
+(  'VANCOUVER',               1,   0,     '_CANADA',        '_EURO',      '',                 ''),
+(  'VATICAN_CITY',            1,   0,     '_VATICAN_CITY',  '_MED',       'GRECO_ROMAN',      'MEDITERRANEAN'),
+(  'VIENNA',                  1,   0,     '_AUSTRIA',       '_EURO',      '',                 ''),
+(  'VILNIUS',                 1,   0,     '_EURO',          '',           '',                 ''),
+(  'WARSAW',                  1,   0,     '_POLAND',        '_EASTEU',    '',                 ''),
+(  'WELLINGTON',              1,   0,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       'AMERICAN'),
+(  'WITTENBERG',              1,   0,     '_GERMANY',       '_EURO',      '',                 ''),
+(  'YEREVAN',                 1,   0,     '_MIDEAST',       '',           '',                 ''),
+(  'ZANZIBAR',                1,   0,     '_AFRI',          '',           'MIDDLE_EAST',      'AFRICAN'),
+(  'ZURICH',                  1,   0,     '_SWISS',         '_EURO',      '',                 ''),
+(  'AKKADIA',                 0,   1,     '_MIDEAST',       '',           '',                 ''),
+(  'ALBANIA',                 0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'ALGERIA',                 0,   1,     '_MOROCCO',       '_NORTHAF',   '',                 ''),
+(  'ARMENIA',                 0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'AUSTRALIA_LS_MOD',        0,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''),
+(  'AZERBAIJAN',              0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'BERBER',                  0,   1,     '_MOROCCO',       '_NORTHAF',   '',                 ''),
+(  'BOHEMIA',                 0,   1,     '_BOHEMIA',       '_EASTEU',    '',                 ''),
+(  'BOSNIA',                  0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'BULGARIA',                0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'BULGARIA_LS_MOD',         0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'CGF1_GH_GOLDENHORDE',     0,   1,     '_HUNS',          '_CENTAS',    '',                 ''),
+(  'CHIMOR',                  0,   1,     '_SOUTHAM',       '',           '',                 ''),
+(  'CHIMU_MOD',               0,   1,     '_SOUTHAM',       '',           '',                 ''),
+(  'CL_AUSTRALIA',            0,   1,     '_AUSTRALIA',     '',           '',                 ''),
+(  'CL_KULIN',                0,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''),
+(  'CLINUIT',                 0,   1,     '_SOUTHAM',       '',           '',                 ''),
+(  'COLONIALCANADA',          1,   1,     '_CANADA',        '',           '',                 ''),
+(  'CORDOBA',                 0,   1,     '_MIDEAST',       '',           '',                 ''),
+(  'CROATIA',                 0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'DENEFIRSTNATION',         0,   1,     '_SOUTHAM',       '',           '',                 ''),
+(  'DURANNI_LS_MOD',          0,   1,     '_MIDEAST',       '',           '',                 ''),
+(  'FINLAND',                 0,   1,     '_NORTHEU',       '',           '',                 ''),
+(  'FLANDERS_LS_MOD',         0,   1,     '_BELGIUM',       '',           '',                 ''),
+(  'GE_SLAVS',                0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'GENOA_LS_MOD',            0,   1,     '_MED',           '',           '',                 ''),
+(  'GOTHS_LS_MOD',            0,   1,     '_GOTHS',         '_NORTHEU',   '',                 ''),
+(  'HAFEZ_SYRIA',             0,   1,     '_LEVANT',        '_MIDEAST',   '',                 ''),
+(  'HARAPPAN',                0,   1,     '_SOUTHAS',       '',           '',                 ''),
+(  'HETMANATE_LS_MOD',        0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'HITTITE_LS_MOD',          0,   1,     '_MIDEAST',       '',           '',                 ''),
+(  'HUNGARY_LS_MOD',          0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'INUIT',                   0,   1,     '_SOUTHAM',       '',           '',                 ''),
+(  'IRAN',                    0,   1,     '_MIDEAST',       '',           '',                 ''),
+(  'ISRAEL',                  0,   1,     '_LEVANT',        '_MIDEAST',   '',                 ''),
+(  'ISRAEL_LS_MOD',           0,   1,     '_LEVANT',        '_MIDEAST',   '',                 ''),
+(  'JFD_GERMANS',             0,   1,     '_GERMANY',       '',           '',                 ''),
+(  'JFD_PHILIPPINES',         0,   1,     '_SEASIA',        '',           'POLYNESIAN',       ''),
+(  'JFD_USSR_STALIN',         0,   1,     '_RUSSIA',        '_EASTEU',    '',                 ''),
+(  'KAZAKH',                  0,   1,     '_CENTAS',        '',           '',                 ''),
+(  'KAZAN',                   0,   1,     '_CENTAS',        '',           '',                 ''),
+(  'KDMBOSNIA',               0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'KHAZARIA',                0,   1,     '_CENTAS',        '',           '',                 ''),
+(  'KULINNATION',             0,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''),
+(  'KUWAIT',                  0,   1,     '_MIDEAST',       '',           '',                 ''),
+(  'LATVIA',                  0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'LEUGI_PHILISTINE',        0,   1,     '_LEVANT',        '_MIDEAST',   '',                 ''),
+(  'LIBYA',                   0,   1,     '_NORTHAF',       '',           '',                 ''),
+(  'LITHUANIA_LS_MOD',        0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'MACEDONIA',               0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'MAPUCHE',                 0,   1,     '_SOUTHAM',       '',           '',                 ''),
+(  'MARATHA',                 0,   1,     '_SOUTHAS',       '',           '',                 ''),
+(  'MAURYA',                  0,   1,     '_SOUTHAS',       '',           '',                 ''),
+(  'MAURYA_LS_MOD',           0,   1,     '_SOUTHAS',       '',           '',                 ''),
+(  'MC_MAORI',                0,   1,     '_OCEAN',         '',           '',                 ''),
+(  'MC_RAPA_NUI',             0,   1,     '_OCEAN',         '',           '',                 ''),
+(  'MC_TONGA',                0,   1,     '_OCEAN',         '',           '',                 ''),
+(  'MITANNI',                 0,   1,     '_MIDEAST',       '',           '',                 ''),
+(  'MOLDAVIA',                0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'MONTENEGRO',              0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'MUISCA',                  0,   1,     '_SOUTHAM',       '',           '',                 ''),
+(  'NABATAEA',                0,   1,     '_LEVANT',        '_MIDEAST',   '',                 ''),
+(  'NEPAL',                   0,   1,     '_SOUTHAS',       '',           '',                 ''),
+(  'NEPAL_LS_MOD',            0,   1,     '_SOUTHAS',       '',           '',                 ''),
+(  'NEWZEALAND',              0,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''),
+(  'NUBIA',                   0,   1,     '_ETHIOPIA',      '',           '',                 ''),
+(  'NUMIDIA_LS_MOD',          0,   1,     '_NORTHAF',       '',           '',                 ''),
+(  'OLMEC_LS_MOD',            0,   1,     '_SOUTHAM',       '',           '',                 ''),
+(  'PAKISTAN',                0,   1,     '_SOUTHAS',       '',           '',                 ''),
+(  'PAPUA',                   0,   1,     '_SAHUL',         '_OCEAN',     '',                 ''),
+(  'PARTHIA',                 0,   1,     '_MIDEAST',       '',           '',                 ''),
+(  'PHOENICIA',               0,   1,     '_LEVANT',        '_MIDEAST',   '',                 ''),
+(  'PHOENICIA_LS_MOD',        0,   1,     '_LEVANT',        '_MIDEAST',   '',                 ''),
+(  'POLAND_LS_MOD',           0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'RCUMANIA',                0,   1,     '_CENTAS',        '',           '',                 ''),
+(  'ROMANIA',                 0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'ROMANIA_LS_MOD',          0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'SABA',                    0,   1,     '_LEVANT',        '_MIDEAST',   '',                 ''),
+(  'SADAT_EGYPT',             0,   1,     '_MIDEAST',       '',           '',                 ''),
+(  'SAMI',                    0,   1,     '_SOUTHAM',       '',           '',                 ''),
+(  'SASANIAN',                0,   1,     '_MIDEAST',       '',           '',                 ''),
+(  'SCYTHIA_LS_MOD',          0,   1,     '_OTTOMAN',       '_MIDEAST',   '',                 ''),
+(  'SIBIR',                   0,   1,     '_CENTAS',        '',           '',                 ''),
+(  'SIKH',                    0,   1,     '_SOUTHAS',       '',           '',                 ''),
+(  'SRI_LANKA',               0,   1,     '_SOUTHAS',       '',           '',                 ''),
+(  'SUMERIA_LS_MOD',          0,   1,     '_BABYLON',       '_MIDEAST',   '',                 ''),
+(  'SWITZERLAND',             0,   1,     '_SWISS',         '',           '',                 ''),
+(  'SWITZERLAND_LS_MOD',      0,   1,     '_SWISS',         '',           '',                 ''),
+(  'TAHITI_LS_MOD',           0,   1,     '_OCEAN',         '',           '',                 ''),
+(  'TCM_ALAN',                0,   1,     '_CENTAS',        '',           '',                 ''),
+(  'TCM_OSTROGOTH',           0,   1,     '_GOTHS',         '_NORTHEU',   '',                 ''),
+(  'TCM_VISIGOTH',            0,   1,     '_GOTHS',         '_NORTHEU',   '',                 ''),
+(  'TIMURIDES',               0,   1,     '_CENTAS',        '',           '',                 ''),
+(  'TIMURIDS_LS_MOD',         0,   1,     '_CENTAS',        '',           '',                 ''),
+(  'TIMURIDS_MOD',            0,   1,     '_CENTAS',        '',           '',                 ''),
+(  'TIWANAKU',                0,   1,     '_SOUTHAM',       '',           '',                 ''),
+(  'UAE',                     0,   1,     '_MIDEAST',       '',           '',                 ''),
+(  'USSR',                    0,   1,     '_RUSSIA',        '_EASTEU',    '',                 ''),
+(  'UYGHUR',                  0,   1,     '_CENTAS',        '',           '',                 ''),
+(  'VIETNAM',                 0,   1,     '_SEASIA',        '',           'POLYNESIAN',       ''),
+(  'VIETNAM_LS_MOD',          0,   1,     '_SEASIA',        '',           'POLYNESIAN',       ''),
+(  'VIJAYANAGAR',             0,   1,     '_SOUTHAS',       '',           '',                 ''),
+(  'VISIGOTHS_MOD',           0,   1,     '_GOTHS',         '_NORTHEU',   '',                 ''),
+(  'WALLACHIA',               0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'YAKUTIA',                 0,   1,     '_CENTAS',        '',           '',                 ''),
+(  'YUGOSLAVIA',              0,   1,     '_EASTEU',        '',           '',                 ''),
+(  'YUPIK',                   0,   1,     '_SOUTHAM',       '',           '',                 ''),
+(  'ZAPOTEC',                 0,   1,     '_SOUTHAM',       '',           '',                 ''),
+(  'BAMAGA',                  1,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''),
+(  'GARAMANTES',              1,   1,     '_GARAMANTES',    '_NORTHAF',   '',                 ''),
+(  'HONIARA',                 1,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''),
+(  'KOROR',                   1,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''),
+(  'NAIN',                    1,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''),
+(  'NEW_ZEALAND',             1,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''),
+(  'NOUMEA',                  1,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''),
+(  'PORT_MORESBY',            1,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''),
+(  'PORT_VILA',               1,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''),
+(  'SUVA',                    1,   1,     '_SAHUL',         '_OCEAN',     'POLYNESIAN',       ''),
+('END_OF_INSERT',0,0,'','','','');

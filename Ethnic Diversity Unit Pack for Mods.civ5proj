@@ -8,7 +8,7 @@
     <ModVersion>29</ModVersion>
     <Stability>Beta</Stability>
     <Teaser>BETA3 - Unit Pack for Mods, for Ethnic Diversity mod</Teaser>
-    <Description>Ethnic Diversity for Civilization V: Brave New World[NEWLINE]Extra Units for Prehistoric Era, Renaissance Era Revised, and Enlightenment Era mods</Description>
+    <Description>Ethnic Diversity for Civilization V: Brave New World[NEWLINE]Extra Unit diversity for Prehistoric Era, Renaissance Era Revised, Enlightenment Era, Future Worlds, and super carrier mods</Description>
     <Authors>Gedemon, Nutty</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
     <AffectsSavedGames>false</AffectsSavedGames>
@@ -917,6 +917,54 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Compatibility\FutureWorlds\BioTrooper\BioTrooper_EASTASIA.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\BioTrooper\BioTrooper_EASTASIA.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\BioTrooper\BioTrooper_EASTASIA.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\BioTrooper\BioTrooper_EURASIA.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\BioTrooper\BioTrooper_EURASIA.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\BioTrooper\BioTrooper_EURASIA.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\DroneFighter\DroneFighter_EASTASIA.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\DroneFighter\DroneFighter_EASTASIA.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\DroneFighter\DroneFighter_EASTASIA.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\DroneFighter\DroneFighter_EURASIA.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\DroneFighter\DroneFighter_EURASIA.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\DroneFighter\DroneFighter_EURASIA.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Compatibility\FutureWorlds\Hovertank\fx_triggers_hovertank_EASTASIA.ftsxml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -946,6 +994,54 @@
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Compatibility\FutureWorlds\Hovertank\Hovertank_OCEANIA_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\HybridDrone\HybridDrone_EASTASIA.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\HybridDrone\HybridDrone_EASTASIA.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\HybridDrone\HybridDrone_EASTASIA.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\HybridDrone\HybridDrone_EURASIA.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\HybridDrone\HybridDrone_EURASIA.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\HybridDrone\HybridDrone_EURASIA.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\Nanohive\Nanohive_EURASIA.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\Nanohive\Nanohive_EURASIA.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\Nanohive\Nanohive_EURASIA.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\Nanohive\Nanohive_OCEANIA.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\Nanohive\Nanohive_OCEANIA.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\FutureWorlds\Nanohive\Nanohive_OCEANIA.gr2">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -1093,6 +1189,18 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Compatibility\PrehistoricEra\Savage\Savage_tc.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Savage\Savage_tc.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Savage\Savage_tc.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Compatibility\RenaissanceEra\2Handed\2hgs_black_diff.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -1169,6 +1277,42 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Compatibility\RenaissanceEra\2Handed\DBaronClay_2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\RenaissanceEra\2Handed\dopp-pik_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\RenaissanceEra\2Handed\dopp-pik_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\RenaissanceEra\2Handed\dopp_a.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\RenaissanceEra\2Handed\dopp_a.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\RenaissanceEra\2Handed\dopp_b.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\RenaissanceEra\2Handed\dopp_b.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\RenaissanceEra\2Handed\hat_a_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\RenaissanceEra\2Handed\hat_b_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="SQL\8-ModUnitPack.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -1184,6 +1328,10 @@
     <Folder Include="Compatibility\EnlightenmentEra\Skirmisher\" />
     <Folder Include="Compatibility\FutureWorlds" />
     <Folder Include="Compatibility\FutureWorlds\Hovertank" />
+    <Folder Include="Compatibility\FutureWorlds\BioTrooper" />
+    <Folder Include="Compatibility\FutureWorlds\DroneFighter" />
+    <Folder Include="Compatibility\FutureWorlds\HybridDrone" />
+    <Folder Include="Compatibility\FutureWorlds\Nanohive" />
     <Folder Include="Compatibility\FutureWorlds\Supercarrier" />
     <Folder Include="Compatibility\FutureWorlds\Vertol" />
     <Folder Include="Compatibility\FutureWorlds\RailgunTank" />

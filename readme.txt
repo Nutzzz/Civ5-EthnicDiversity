@@ -27,30 +27,39 @@ From Steam Workshop:
 2. Go to step #3 above.
 
 Fix for fighter propeller and archer arrow positions (optional) :
-- copy civ5artdefines_viseffects.xml file from the "..\My Documents\My Games\Sid Meier's Civilization 5\MODS\R.E.D. Modpack (v xx)\copy to Assets" folder to the "..\Steam\steamapps\common\sid meier's civilization v\Assets\" folder
+- copy civ5artdefines_viseffects.xml file from the "%userprofile%\Documents\My Games\Sid Meier's Civilization 5\MODS\Ethnic Diversity (v xx)\copy to Assets" folder to the "..\Steam\steamapps\common\sid meier's civilization v\Assets\" folder
 
 
 	-- Compatibility --
-- Enlightenment Era: Line Infantry and Carrack variation provided
-
+Some variation provided for Prehistoric Era, Renaissance Era Revised, Enlightenment Era, and Future Worlds
 
 	-- Credits and Thanks --
 
+- Gedemon, for the great R.E.D. Modpack without which this mod would not exist
 - special thanks to Tomahawk.nsk for ideas and bug testing!
-- Civ5 unit modelers and converters, including:
+- the community of Civ5 unit modelers and converters at CivFanatics, including:
   bernie14, blazekid87, Civitar, danrell, Deliverator, Ekmek, hangman, JTitan, Kwadjh, Nutty, Patum333, snafusmith, Wolfdog, and zwei833
 - Civ4 and RTW unit makers that have allowed conversion of their models to Civ5, including:
   Ambrox62, asioasioasio, Bakuel, Coffee Junkie, Generalmatt, nautil, Nuvoloblu, Oleg153, Rabbit,White, Splinter13, and all other unit makers for the models and conversions
 - Deliverator, lemmy101, and CaptainBinky for their work on unit conversion tools
 - seZereth and Porges, who created the initial regiment mod for Civ4
 - Pazyryk for SQL corrections
-- All of the great people at CivFanatics for their tools, tutorials and help
-- Firaxis
+- All of the other great people at CivFanatics for their tools, tutorials and help
+- Firaxis, of course!
 
 
 	-- Version History --
 	
-v.29 beta 2 (in progress)
+v.29 beta 3 (in progress)
+- add more galleon skins by Nutty for Enlightenment Era
+- add Wolfog's Nimitz and danrell's QE and PA2 models for Future Worlds' super carriers (also for whoward69's and swatmp5's super carrier mods)
+- add a few alternate models for Future Worlds
+- a few more scaling and unit choice tweaks
+- fixes to the naming standardization to allow other mods to still use vanilla art defines
+- should no longer get invisible units for some units if user forgets to activate the Unit Pack for Mods (just no diversity for that unit)
+- add some more 2-handed Swordsman by zwei833 for Denmark, Germany, and Sweden for Renaissance Era Revised
+
+v.29 beta 2 (Nov 27, 2016)
 - fix some scaling issues
 - fix sref reference for skirmisher for South American civs with the Enlightenment Era mod
 - add zwei833's Indian 2-handed Swordsman for Renaissance Era Revised mod

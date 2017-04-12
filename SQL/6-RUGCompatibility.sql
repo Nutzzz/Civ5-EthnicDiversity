@@ -83,20 +83,20 @@ so we need triggers on 3 tables, however...
 
 Note the AIR_REBASE and SUB MoveRates are probably too inconsistent to be helpful
 
-TYPE		NUMMEMBERS
---------------  --------------------
-soldiers	12 --> 16-19
+TYPE				NUMMEMBERS
+----------------	--------------------
+soldiers	12	--> 3
 civilians	unchanged
-artillery	1-3 --> 3
-chariots	2 --> 3
-cavalry		5 --> 7
-elephants	2 --> 3
+artillery	1-3	--> 1
+chariots	2	--> 2
+cavalry		5	--> 3
+elephants	2	--> 2
 tanks		unchanged
-bombers		1 --> 3
-fighters	3 --> 4
-ships (some)	1 --> 3
-sub(not nuke)	1 --> 3
-gdr		1 [.12] --> 5 [.065]
+bombers		1	--> 1
+fighters	3	--> 3
+ships (some) 1	--> 1
+sub(not nuke) 1	--> 1
+gdr			1	--> 1
 
 */
 
@@ -107,7 +107,7 @@ CREATE TRIGGER REDCompat_ArtDef_UMI1
 	WHEN NEW.Type IN (SELECT UnitMemberInfoType FROM ArtDefine_UnitInfoMemberInfos WHERE UnitInfoType IN
 		(SELECT UnitArtInfo FROM Units WHERE MoveRate IN ('BIPED', 'HEAVY_BIPED', 'GREAT_PERSON', 'ARTILLERY')))
 	BEGIN
-		UPDATE ArtDefine_UnitMemberInfos SET Scale = NEW.Scale * 0.65		--new 0.09 (0.075-0.09)
+		UPDATE ArtDefine_UnitMemberInfos SET Scale = NEW.Scale * 1.29		--new 0.18 (0.148-0.18)
 			WHERE Type = NEW.Type AND NEW.Scale BETWEEN 0.10 AND 0.15;		--old 0.14 (0.115-0.14)
 	END;
 CREATE TRIGGER REDCompat_ArtDef_UMI2
@@ -115,7 +115,7 @@ CREATE TRIGGER REDCompat_ArtDef_UMI2
 	WHEN NEW.Type IN (SELECT UnitMemberInfoType FROM ArtDefine_UnitInfoMemberInfos WHERE UnitInfoType IN
 		(SELECT UnitArtInfo FROM Units WHERE MoveRate IN ('QUADRUPED', 'PHANT', 'WOODEN_BOAT')))
 	BEGIN
-		UPDATE ArtDefine_UnitMemberInfos SET Scale = NEW.Scale * 0.7		--new ~0.085
+		UPDATE ArtDefine_UnitMemberInfos SET Scale = NEW.Scale * 1.25		--new ~0.15
 			WHERE Type = NEW.Type AND NEW.Scale BETWEEN 0.07 AND 0.13;		--old ~0.12
 	END;
 CREATE TRIGGER REDCompat_ArtDef_UMI3
@@ -123,7 +123,7 @@ CREATE TRIGGER REDCompat_ArtDef_UMI3
 	WHEN NEW.Type IN (SELECT UnitMemberInfoType FROM ArtDefine_UnitInfoMemberInfos WHERE UnitInfoType IN
 		(SELECT UnitArtInfo FROM Units WHERE MoveRate IN ('WHEELED', 'BOAT')))
 	BEGIN
-		UPDATE ArtDefine_UnitMemberInfos SET Scale = NEW.Scale * 0.75		--new ~0.105
+		UPDATE ArtDefine_UnitMemberInfos SET Scale = NEW.Scale * 1.0		--new ~0.14
 			WHERE Type = NEW.Type AND NEW.Scale BETWEEN 0.10 AND 0.16;		--old ~0.14
 	END;
 CREATE TRIGGER REDCompat_ArtDef_UMI4
@@ -131,23 +131,30 @@ CREATE TRIGGER REDCompat_ArtDef_UMI4
 	WHEN NEW.Type IN (SELECT UnitMemberInfoType FROM ArtDefine_UnitInfoMemberInfos WHERE UnitInfoType IN
 		(SELECT UnitArtInfo FROM Units WHERE MoveRate = 'ROBOT'))
 	BEGIN
-		UPDATE ArtDefine_UnitMemberInfos SET Scale = NEW.Scale * 0.55		--new 0.065
+		UPDATE ArtDefine_UnitMemberInfos SET Scale = NEW.Scale * 1.0		--new 0.12
 			WHERE Type = NEW.Type;											--old 0.12
 	END;
 
 --Number of Member Adjustments
 CREATE TRIGGER REDCompat_ArtDef_UIMI_Num1
 	AFTER INSERT ON ArtDefine_UnitInfoMemberInfos
-	WHEN NEW.UnitInfoType IN (SELECT UnitArtInfo FROM Units WHERE MoveRate IN ('BIPED', 'HEAVY_BIPED', 'QUADRUPED', 'PHANT'))
+	WHEN NEW.UnitInfoType IN (SELECT UnitArtInfo FROM Units WHERE MoveRate IN ('BIPED', 'HEAVY_BIPED'))
 	BEGIN
-		UPDATE ArtDefine_UnitInfoMemberInfos SET NumMembers = NEW.NumMembers * 1.5
-			WHERE UnitInfoType = NEW.UnitInfoType;
+		UPDATE ArtDefine_UnitInfoMemberInfos SET NumMembers = NEW.NumMembers / 4	--new 3
+			WHERE UnitInfoType = NEW.UnitInfoType AND NEW.NumMembers > 1;			--old 12 (8-14)
 	END;
 CREATE TRIGGER REDCompat_ArtDef_UIMI_Num2
 	AFTER INSERT ON ArtDefine_UnitInfoMemberInfos
+	WHEN NEW.UnitInfoType IN (SELECT UnitArtInfo FROM Units WHERE MoveRate IN ('QUADRUPED', 'PHANT'))
+	BEGIN
+		UPDATE ArtDefine_UnitInfoMemberInfos SET NumMembers = NEW.NumMembers / 1.5	--new 3
+			WHERE UnitInfoType = NEW.UnitInfoType AND NEW.NumMembers > 1;			--old 2-3
+	END;
+CREATE TRIGGER REDCompat_ArtDef_UIMI_Num3
+	AFTER INSERT ON ArtDefine_UnitInfoMemberInfos
 	WHEN NEW.UnitInfoType IN (SELECT UnitArtInfo FROM Units WHERE MoveRate = 'ROBOT')
 	BEGIN
-		UPDATE ArtDefine_UnitInfoMemberInfos SET NumMembers = 5
+		UPDATE ArtDefine_UnitInfoMemberInfos SET NumMembers = * 1.0
 			WHERE UnitInfoType = NEW.UnitInfoType AND NEW.NumMembers BETWEEN 1 AND 3;
 	END;
 */

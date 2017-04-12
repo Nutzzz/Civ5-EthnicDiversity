@@ -2,7 +2,7 @@
 
 	Ethnic Diversity
 	Lua for embarkation diversity [and testing for new feature: era + ethnic unit updating]
-	by Nutty (2016)
+	by Nutty and Tomahawk.nsk (2017)
 
 Note: If Cultural Diversity (http://forums.civfanatics.com/showthread.php?t=521664) embarkation feature is active, 
  C.D.'s embarkation settings are used instead.
@@ -26,9 +26,11 @@ ERAS:
 --]]
 
 local strEARLY_EMBARK_DEF = "ART_DEF_UNIT_GALLEY";
-local iMID_EMBARK_ERA = GameInfoTypes.ERA_MEDIEVAL;	-- Era to switch embarked units from Galleys to Galleons
+local iMID_EMBARK_ERA = GameInfoTypes.ERA_MEDIEVAL;			-- Era to switch embarked units from Galleys to Galleons
+--local iMID_EMBARK_ERA = GameInfoTypes.ERA_RENAISSANCE;	-- alternative
 local strMID_EMBARK_DEF = "ART_DEF_UNIT_GALLEON";
-local iLATE_EMBARK_ERA = GameInfoTypes.ERA_MODERN;	-- Era to switch embarked units from Galleons to Transports
+--local iLATE_EMBARK_ERA = GameInfoTypes.ERA_INDUSTRIAL;	-- Era to switch embarked units from Galleons to Transports
+local iLATE_EMBARK_ERA = GameInfoTypes.ERA_MODERN;			-- alternative
 local strLATE_EMBARK_DEF = "ART_DEF_UNIT_TRANSPORT";
 
 local strLATE_SUFFIX = "_LATE";
@@ -37,7 +39,7 @@ local iLATE_ERA = GameInfoTypes.ERA_INDUSTRIAL;		-- Era equivalent for "_LATE" s
 
 local strCUL_DIV_ID = "31a31d1c-b9d7-45e1-842c-23232d66cd47";	-- Mod ID for Cultural Diversity
 
-local tEraUnits = { };
+local tEraUnits = {};
 
 -- Collect data on era variable units
 print("*** E.D. Era + Cultural Variable Units ***");

@@ -106,20 +106,6 @@
       </Association>
       <Association>
         <Type>Mod</Type>
-        <Name>Enlightenment Era</Name>
-        <Id>ce8aa614-7ef7-4a45-a179-5329869e8d6d</Id>
-        <MinVersion>0</MinVersion>
-        <MaxVersion>999</MaxVersion>
-      </Association>
-      <Association>
-        <Type>Mod</Type>
-        <Name>Future Worlds</Name>
-        <Id>d9ece224-6cd8-4519-a27a-c417b59cdf35</Id>
-        <MinVersion>0</MinVersion>
-        <MaxVersion>999</MaxVersion>
-      </Association>
-      <Association>
-        <Type>Mod</Type>
         <Name>City States Expansion (vanilla)</Name>
         <Id>ba741105-ccc2-4b97-a235-c9eefa22a868</Id>
         <MinVersion>0</MinVersion>
@@ -143,6 +129,55 @@
         <Type>Mod</Type>
         <Name>More City States (BNW)</Name>
         <Id>5059d899-bc14-451e-971d-b34deabaf59e</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Prehistoric Era (BNW)</Name>
+        <Id>7c63c188-045b-4955-bbea-6c685d119c86</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Prehistoric Era Reborn</Name>
+        <Id>8c63c188-045b-4955-bbea-6c685d119c86</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Renaissance Era Revised</Name>
+        <Id>66f38ce9-fc7b-448d-a7db-949d105b9b9f</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Enlightenment Era</Name>
+        <Id>ce8aa614-7ef7-4a45-a179-5329869e8d6d</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Future Worlds</Name>
+        <Id>d9ece224-6cd8-4519-a27a-c417b59cdf35</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Supercarrier</Name>
+        <Id>dda9a4d5-6d80-40b5-9918-d8a4d869130f</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Units - Super Carrier</Name>
+        <Id>85665628-c1c9-457a-8f61-a6a6a244e5a5</Id>
         <MinVersion>0</MinVersion>
         <MaxVersion>999</MaxVersion>
       </Association>
@@ -174,6 +209,11 @@
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
         <FileName>SQL/2-StandardizeArtDefines.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/2-StandardizeModArtDefines.sql</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
@@ -309,6 +349,10 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
+    <Content Include="SQL\2-StandardizeModArtDefines.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>    
     <Content Include="SQL\3-InsertArtDefines.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>

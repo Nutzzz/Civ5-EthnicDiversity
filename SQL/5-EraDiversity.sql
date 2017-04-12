@@ -40,7 +40,7 @@ UPDATE Units SET UnitArtInfoCulturalVariation = 1, UnitArtInfoEraVariation = 0, 
 --[Cargo Ship is the only non-embarked unit with 2 model upgrades; EDEraVariation set to 1 here too]
 INSERT INTO Units (              Type,   Description,   Civilopedia,   Strategy,   Help,   Requirements, Cost, FaithCost,   Moves,   Immobile,   Class,   Special,   Capture,   Domain,   CivilianAttackPriority,   DefaultUnitAI,   MilitarySupport,   MilitaryProduction,   OneShotTourism,   OneShotTourismPercentOthers,   PrereqResources,   Mechanized,   PrereqTech,   HurryCostModifier,   AdvancedStartCost,   WorkRate,   BaseHurry,   HurryMultiplier,   BaseGold,   NumGoldPerEra,   SpreadReligion,   RemoveHeresy,   ReligionSpreads,   ReligiousStrength,   FoundReligion,   RequiresEnhancedReligion,   ProhibitsSpread,   CanBuyCityState,   Trade,   XPValueDefense,   CombatLimit,   NoMaintenance,
      UnitArtInfo, UnitArtInfoCulturalVariation, UnitArtInfoEraVariation,   DontShowYields, ShowInPedia,   MoveRate,   UnitFlagIconOffset,   PortraitIndex,   IconAtlas,   UnitFlagAtlas, EDEraVariation)
-	SELECT (u.Type || '_RENAISSANCE'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance,
+	SELECT (u.Type || '_RENAISSANCE'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance, 
 	      a.Type,                            1,                       0, u.DontShowYields,           0, u.MoveRate, u.UnitFlagIconOffset, a.PortraitIndex, a.IconAtlas, u.UnitFlagAtlas, 1
 	FROM Units AS u
 	JOIN ArtDefine_UnitInfos AS a ON (u.UnitArtInfo || '_RENAISSANCE' = a.Type)
@@ -49,7 +49,7 @@ INSERT INTO Units (              Type,   Description,   Civilopedia,   Strategy,
 --[Religious Units aren't era varied by default and don't have new portraits]
 --INSERT INTO Units (              Type,   Description,   Civilopedia,   Strategy,   Help,   Requirements, Cost, FaithCost,   Moves,   Immobile,   Class,   Special,   Capture,   Domain,   CivilianAttackPriority,   DefaultUnitAI,   MilitarySupport,   MilitaryProduction,   OneShotTourism,   OneShotTourismPercentOthers,   PrereqResources,   Mechanized,   PrereqTech,   HurryCostModifier,   AdvancedStartCost,   WorkRate,   BaseHurry,   HurryMultiplier,   BaseGold,   NumGoldPerEra,   SpreadReligion,   RemoveHeresy,   ReligionSpreads,   ReligiousStrength,   FoundReligion,   RequiresEnhancedReligion,   ProhibitsSpread,   CanBuyCityState,   Trade,   XPValueDefense,   CombatLimit,   NoMaintenance,
 --                       UnitArtInfo, UnitArtInfoCulturalVariation, UnitArtInfoEraVariation,   DontShowYields, ShowInPedia,   MoveRate,   UnitFlagIconOffset,   PortraitIndex,   IconAtlas,   UnitFlagAtlas, EDEraVariation)
---	SELECT (u.Type || '_RENAISSANCE'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance,
+--	SELECT (u.Type || '_RENAISSANCE'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance, 
 --   u.UnitArtInfo || '_RENAISSANCE',                            1,                       0, u.DontShowYields,           0, u.MoveRate, u.UnitFlagIconOffset, u.PortraitIndex, u.IconAtlas, u.UnitFlagAtlas, 0
 --	FROM Units AS u
 --	WHERE u.Type IN 
@@ -60,7 +60,7 @@ INSERT INTO Units (              Type,   Description,   Civilopedia,   Strategy,
 --Industrial Era (LATE)
 INSERT INTO Units (       Type,   Description,   Civilopedia,   Strategy,   Help,   Requirements, Cost, FaithCost,   Moves,   Immobile,   Class,   Special,   Capture,   Domain,   CivilianAttackPriority,   DefaultUnitAI,   MilitarySupport,   MilitaryProduction,   OneShotTourism,   OneShotTourismPercentOthers,   PrereqResources,   Mechanized,   PrereqTech,   HurryCostModifier,   AdvancedStartCost,   WorkRate,   BaseHurry,   HurryMultiplier,   BaseGold,   NumGoldPerEra,   SpreadReligion,   RemoveHeresy,   ReligionSpreads,   ReligiousStrength,   FoundReligion,   RequiresEnhancedReligion,   ProhibitsSpread,   CanBuyCityState,   Trade,   XPValueDefense,   CombatLimit,   NoMaintenance,
      UnitArtInfo, UnitArtInfoCulturalVariation, UnitArtInfoEraVariation,   DontShowYields, ShowInPedia,   MoveRate,   UnitFlagIconOffset,   PortraitIndex,   IconAtlas,   UnitFlagAtlas, EDEraVariation)
-	SELECT (u.Type || '_LATE'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance,
+	SELECT (u.Type || '_LATE'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance, 
 	      a.Type,                            1,                       0, u.DontShowYields,           0, u.MoveRate, u.UnitFlagIconOffset, a.PortraitIndex, a.IconAtlas, u.UnitFlagAtlas, 0
 	FROM Units AS u
 	JOIN ArtDefine_UnitInfos AS a ON (u.UnitArtInfo || '_LATE' = a.Type)
@@ -74,7 +74,7 @@ INSERT INTO Units (       Type,   Description,   Civilopedia,   Strategy,   Help
 	'UNIT_WORKER');
 INSERT INTO Units (             Type,   Description,   Civilopedia,   Strategy,   Help,   Requirements, Cost, FaithCost,   Moves,   Immobile,   Class,   Special,   Capture,   Domain,   CivilianAttackPriority,   DefaultUnitAI,   MilitarySupport,   MilitaryProduction,   OneShotTourism,   OneShotTourismPercentOthers,   PrereqResources,   Mechanized,   PrereqTech,   HurryCostModifier,   AdvancedStartCost,   WorkRate,   BaseHurry,   HurryMultiplier,   BaseGold,   NumGoldPerEra,   SpreadReligion,   RemoveHeresy,   ReligionSpreads,   ReligiousStrength,   FoundReligion,   RequiresEnhancedReligion,   ProhibitsSpread,   CanBuyCityState,   Trade,   XPValueDefense,   CombatLimit,   NoMaintenance,
      UnitArtInfo, UnitArtInfoCulturalVariation, UnitArtInfoEraVariation,   DontShowYields, ShowInPedia,   MoveRate,   UnitFlagIconOffset,   PortraitIndex,   IconAtlas,   UnitFlagAtlas, EDEraVariation)
-	SELECT (u.Type || '_INDUSTRIAL'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance,
+	SELECT (u.Type || '_INDUSTRIAL'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance, 
 	      a.Type,                            1,                       0, u.DontShowYields,           0, u.MoveRate, u.UnitFlagIconOffset, a.PortraitIndex, a.IconAtlas, u.UnitFlagAtlas, 1
 	FROM Units AS u
 	JOIN ArtDefine_UnitInfos AS a ON (u.UnitArtInfo || '_RENAISSANCE' = a.Type)
@@ -83,7 +83,7 @@ INSERT INTO Units (             Type,   Description,   Civilopedia,   Strategy, 
 --[Religious Units aren't era varied by default and don't have new portraits]
 --INSERT INTO Units (           Type,   Description,   Civilopedia,   Strategy,   Help,   Requirements, Cost, FaithCost,   Moves,   Immobile,   Class,   Special,   Capture,   Domain,   CivilianAttackPriority,   DefaultUnitAI,   MilitarySupport,   MilitaryProduction,   OneShotTourism,   OneShotTourismPercentOthers,   PrereqResources,   Mechanized,   PrereqTech,   HurryCostModifier,   AdvancedStartCost,   WorkRate,   BaseHurry,   HurryMultiplier,   BaseGold,   NumGoldPerEra,   SpreadReligion,   RemoveHeresy,   ReligionSpreads,   ReligiousStrength,   FoundReligion,   RequiresEnhancedReligion,   ProhibitsSpread,   CanBuyCityState,   Trade,   XPValueDefense,   CombatLimit,   NoMaintenance,
 --                        UnitArtInfo, UnitArtInfoCulturalVariation, UnitArtInfoEraVariation,   DontShowYields, ShowInPedia,   MoveRate,   UnitFlagIconOffset,   PortraitIndex,   IconAtlas,   UnitFlagAtlas, EDEraVariation)
---	SELECT (u.Type || '_INDUSTRIAL'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance,
+--	SELECT (u.Type || '_INDUSTRIAL'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance, 
 --   (u.UnitArtInfo || '_INDUSTRIAL'),                            1,                       0, u.DontShowYields,           0, u.MoveRate, u.UnitFlagIconOffset, u.PortraitIndex, u.IconAtlas, u.UnitFlagAtlas, 0
 --	FROM Units AS u
 --	WHERE u.Type IN 
@@ -94,7 +94,7 @@ INSERT INTO Units (             Type,   Description,   Civilopedia,   Strategy, 
 --Modern Era
 INSERT INTO Units (       Type,   Description,   Civilopedia,   Strategy,   Help,   Requirements, Cost, FaithCost,   Moves,   Immobile,   Class,   Special,   Capture,   Domain,   CivilianAttackPriority,   DefaultUnitAI,   MilitarySupport,   MilitaryProduction,   OneShotTourism,   OneShotTourismPercentOthers,   PrereqResources,   Mechanized,   PrereqTech,   HurryCostModifier,   AdvancedStartCost,   WorkRate,   BaseHurry,   HurryMultiplier,   BaseGold,   NumGoldPerEra,   SpreadReligion,   RemoveHeresy,   ReligionSpreads,   ReligiousStrength,   FoundReligion,   RequiresEnhancedReligion,   ProhibitsSpread,   CanBuyCityState,   Trade,   XPValueDefense,   CombatLimit,   NoMaintenance,
      UnitArtInfo, UnitArtInfoCulturalVariation, UnitArtInfoEraVariation,   DontShowYields, ShowInPedia,   MoveRate,   UnitFlagIconOffset,   PortraitIndex,   IconAtlas,   UnitFlagAtlas, EDEraVariation)
-	SELECT (u.Type || '_MODERN'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance,
+	SELECT (u.Type || '_MODERN'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance, 
 	      a.Type,                            1,                       0, u.DontShowYields,           0, u.MoveRate, u.UnitFlagIconOffset, a.PortraitIndex, a.IconAtlas, u.UnitFlagAtlas, 0
 	FROM Units AS u
 	JOIN ArtDefine_UnitInfos AS a ON (u.UnitArtInfo || '_LATE' = a.Type)
@@ -108,7 +108,7 @@ INSERT INTO Units (       Type,   Description,   Civilopedia,   Strategy,   Help
 	'UNIT_WORKER');
 INSERT INTO Units (         Type,   Description,   Civilopedia,   Strategy,   Help,   Requirements, Cost, FaithCost,   Moves,   Immobile,   Class,   Special,   Capture,   Domain,   CivilianAttackPriority,   DefaultUnitAI,   MilitarySupport,   MilitaryProduction,   OneShotTourism,   OneShotTourismPercentOthers,   PrereqResources,   Mechanized,   PrereqTech,   HurryCostModifier,   AdvancedStartCost,   WorkRate,   BaseHurry,   HurryMultiplier,   BaseGold,   NumGoldPerEra,   SpreadReligion,   RemoveHeresy,   ReligionSpreads,   ReligiousStrength,   FoundReligion,   RequiresEnhancedReligion,   ProhibitsSpread,   CanBuyCityState,   Trade,   XPValueDefense,   CombatLimit,   NoMaintenance,
                     UnitArtInfo, UnitArtInfoCulturalVariation, UnitArtInfoEraVariation,   DontShowYields, ShowInPedia,   MoveRate,   UnitFlagIconOffset,   PortraitIndex,   IconAtlas,   UnitFlagAtlas, EDEraVariation)
-	SELECT (u.Type || '_MODERN'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance,
+	SELECT (u.Type || '_MODERN'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance, 
 	 (u.Type || '_RENAISSANCE'),                            1,                       0, u.DontShowYields,           0, u.MoveRate, u.UnitFlagIconOffset, a.PortraitIndex, a.IconAtlas, u.UnitFlagAtlas, 1
 	FROM Units AS u
 	JOIN ArtDefine_UnitInfos AS a ON (u.UnitArtInfo || '_RENAISSANCE' = a.Type)
@@ -117,7 +117,7 @@ INSERT INTO Units (         Type,   Description,   Civilopedia,   Strategy,   He
 --[Religious Units aren't era varied by default and don't have new portraits]
 --INSERT INTO Units (       Type,   Description,   Civilopedia,   Strategy,   Help,   Requirements, Cost, FaithCost,   Moves,   Immobile,   Class,   Special,   Capture,   Domain,   CivilianAttackPriority,   DefaultUnitAI,   MilitarySupport,   MilitaryProduction,   OneShotTourism,   OneShotTourismPercentOthers,   PrereqResources,   Mechanized,   PrereqTech,   HurryCostModifier,   AdvancedStartCost,   WorkRate,   BaseHurry,   HurryMultiplier,   BaseGold,   NumGoldPerEra,   SpreadReligion,   RemoveHeresy,   ReligionSpreads,   ReligiousStrength,   FoundReligion,   RequiresEnhancedReligion,   ProhibitsSpread,   CanBuyCityState,   Trade,   XPValueDefense,   CombatLimit,   NoMaintenance,
 --                         UnitArtInfo, UnitArtInfoCulturalVariation, UnitArtInfoEraVariation,   DontShowYields, ShowInPedia,   MoveRate,   UnitFlagIconOffset,   PortraitIndex,   IconAtlas,   UnitFlagAtlas, EDEraVariation)
---	SELECT (u.Type || '_MODERN'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance,
+--	SELECT (u.Type || '_MODERN'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance, 
 --   (u.UnitArtInfo || '_RENAISSANCE'),                            1,                       0, u.DontShowYields,           0, u.MoveRate, u.UnitFlagIconOffset, u.PortraitIndex, u.IconAtlas, u.UnitFlagAtlas, 0
 --	FROM Units AS u
 --	WHERE u.Type IN 
@@ -128,7 +128,7 @@ INSERT INTO Units (         Type,   Description,   Civilopedia,   Strategy,   He
 --Atomic Era (POSTMODERN)
 INSERT INTO Units (             Type,   Description,   Civilopedia,   Strategy,   Help,   Requirements, Cost, FaithCost,   Moves,   Immobile,   Class,   Special,   Capture,   Domain,   CivilianAttackPriority,   DefaultUnitAI,   MilitarySupport,   MilitaryProduction,   OneShotTourism,   OneShotTourismPercentOthers,   PrereqResources,   Mechanized,   PrereqTech,   HurryCostModifier,   AdvancedStartCost,   WorkRate,   BaseHurry,   HurryMultiplier,   BaseGold,   NumGoldPerEra,   SpreadReligion,   RemoveHeresy,   ReligionSpreads,   ReligiousStrength,   FoundReligion,   RequiresEnhancedReligion,   ProhibitsSpread,   CanBuyCityState,   Trade,   XPValueDefense,   CombatLimit,   NoMaintenance,
      UnitArtInfo, UnitArtInfoCulturalVariation, UnitArtInfoEraVariation,   DontShowYields, ShowInPedia,   MoveRate,   UnitFlagIconOffset,   PortraitIndex,   IconAtlas,   UnitFlagAtlas, EDEraVariation)
-	SELECT (u.Type || '_POSTMODERN'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance,
+	SELECT (u.Type || '_POSTMODERN'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance, 
 	      a.Type,                            1,                       0, u.DontShowYields,           0, u.MoveRate, u.UnitFlagIconOffset, a.PortraitIndex, a.IconAtlas, u.UnitFlagAtlas, 0
 	FROM Units AS u
 	JOIN ArtDefine_UnitInfos AS a ON (u.UnitArtInfo || '_POSTMODERN' = a.Type)
@@ -140,7 +140,7 @@ INSERT INTO Units (             Type,   Description,   Civilopedia,   Strategy, 
 	'UNIT_WRITER');
 INSERT INTO Units (             Type,   Description,   Civilopedia,   Strategy,   Help,   Requirements, Cost, FaithCost,   Moves,   Immobile,   Class,   Special,   Capture,   Domain,   CivilianAttackPriority,   DefaultUnitAI,   MilitarySupport,   MilitaryProduction,   OneShotTourism,   OneShotTourismPercentOthers,   PrereqResources,   Mechanized,   PrereqTech,   HurryCostModifier,   AdvancedStartCost,   WorkRate,   BaseHurry,   HurryMultiplier,   BaseGold,   NumGoldPerEra,   SpreadReligion,   RemoveHeresy,   ReligionSpreads,   ReligiousStrength,   FoundReligion,   RequiresEnhancedReligion,   ProhibitsSpread,   CanBuyCityState,   Trade,   XPValueDefense,   CombatLimit,   NoMaintenance,
      UnitArtInfo, UnitArtInfoCulturalVariation, UnitArtInfoEraVariation,   DontShowYields, ShowInPedia,   MoveRate,   UnitFlagIconOffset,   PortraitIndex,   IconAtlas,   UnitFlagAtlas, EDEraVariation)
-	SELECT (u.Type || '_POSTMODERN'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance,
+	SELECT (u.Type || '_POSTMODERN'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance, 
 	      a.Type,                            1,                       0, u.DontShowYields,           0, u.MoveRate, u.UnitFlagIconOffset, a.PortraitIndex, a.IconAtlas, u.UnitFlagAtlas, 0
 	FROM Units AS u
 	JOIN ArtDefine_UnitInfos AS a ON (u.UnitArtInfo || '_LATE' = a.Type)
@@ -155,7 +155,7 @@ INSERT INTO Units (             Type,   Description,   Civilopedia,   Strategy, 
 --[Religious Units aren't era varied by default and don't have new portraits]
 --INSERT INTO Units (           Type,   Description,   Civilopedia,   Strategy,   Help,   Requirements, Cost, FaithCost,   Moves,   Immobile,   Class,   Special,   Capture,   Domain,   CivilianAttackPriority,   DefaultUnitAI,   MilitarySupport,   MilitaryProduction,   OneShotTourism,   OneShotTourismPercentOthers,   PrereqResources,   Mechanized,   PrereqTech,   HurryCostModifier,   AdvancedStartCost,   WorkRate,   BaseHurry,   HurryMultiplier,   BaseGold,   NumGoldPerEra,   SpreadReligion,   RemoveHeresy,   ReligionSpreads,   ReligiousStrength,   FoundReligion,   RequiresEnhancedReligion,   ProhibitsSpread,   CanBuyCityState,   Trade,   XPValueDefense,   CombatLimit,   NoMaintenance,
 --                         UnitArtInfo, UnitArtInfoCulturalVariation, UnitArtInfoEraVariation,   DontShowYields, ShowInPedia,   MoveRate,   UnitFlagIconOffset,   PortraitIndex,   IconAtlas,   UnitFlagAtlas, EDEraVariation)
---	SELECT (u.Type || '_POSTMODERN'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance,
+--	SELECT (u.Type || '_POSTMODERN'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance, 
 --   (u.UnitArtInfo || '_RENAISSANCE'),                            1,                       0, u.DontShowYields,           0, u.MoveRate, u.UnitFlagIconOffset, u.PortraitIndex, u.IconAtlas, u.UnitFlagAtlas, 0
 --	FROM Units AS u
 --	WHERE u.Type IN 
@@ -166,7 +166,7 @@ INSERT INTO Units (             Type,   Description,   Civilopedia,   Strategy, 
 --Information Era (FUTURE)
 INSERT INTO Units (         Type,   Description,   Civilopedia,   Strategy,   Help,   Requirements, Cost, FaithCost,   Moves,   Immobile,   Class,   Special,   Capture,   Domain,   CivilianAttackPriority,   DefaultUnitAI,   MilitarySupport,   MilitaryProduction,   OneShotTourism,   OneShotTourismPercentOthers,   PrereqResources,   Mechanized,   PrereqTech,   HurryCostModifier,   AdvancedStartCost,   WorkRate,   BaseHurry,   HurryMultiplier,   BaseGold,   NumGoldPerEra,   SpreadReligion,   RemoveHeresy,   ReligionSpreads,   ReligiousStrength,   FoundReligion,   RequiresEnhancedReligion,   ProhibitsSpread,   CanBuyCityState,   Trade,   XPValueDefense,   CombatLimit,   NoMaintenance,
      UnitArtInfo, UnitArtInfoCulturalVariation, UnitArtInfoEraVariation,   DontShowYields, ShowInPedia,   MoveRate,   UnitFlagIconOffset,   PortraitIndex,   IconAtlas,   UnitFlagAtlas, EDEraVariation)
-	SELECT (u.Type || '_FUTURE'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance,
+	SELECT (u.Type || '_FUTURE'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance, 
 	      a.Type,                            1,                       0, u.DontShowYields,           0, u.MoveRate, u.UnitFlagIconOffset, a.PortraitIndex, a.IconAtlas, u.UnitFlagAtlas, 0
 	FROM Units AS u
 	JOIN ArtDefine_UnitInfos AS a ON (u.UnitArtInfo || '_POSTMODERN' = a.Type)
@@ -178,7 +178,7 @@ INSERT INTO Units (         Type,   Description,   Civilopedia,   Strategy,   He
 	'UNIT_WRITER');
 INSERT INTO Units (       Type,   Description,   Civilopedia,   Strategy,   Help,   Requirements, Cost, FaithCost,   Moves,   Immobile,   Class,   Special,   Capture,   Domain,   CivilianAttackPriority,   DefaultUnitAI,   MilitarySupport,   MilitaryProduction,   OneShotTourism,   OneShotTourismPercentOthers,   PrereqResources,   Mechanized,   PrereqTech,   HurryCostModifier,   AdvancedStartCost,   WorkRate,   BaseHurry,   HurryMultiplier,   BaseGold,   NumGoldPerEra,   SpreadReligion,   RemoveHeresy,   ReligionSpreads,   ReligiousStrength,   FoundReligion,   RequiresEnhancedReligion,   ProhibitsSpread,   CanBuyCityState,   Trade,   XPValueDefense,   CombatLimit,   NoMaintenance,
      UnitArtInfo, UnitArtInfoCulturalVariation, UnitArtInfoEraVariation,   DontShowYields, ShowInPedia,   MoveRate,   UnitFlagIconOffset,   PortraitIndex,   IconAtlas,   UnitFlagAtlas, EDEraVariation)
-	SELECT (u.Type || '_FUTURE'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance,
+	SELECT (u.Type || '_FUTURE'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance, 
 	      a.Type,                            1,                       0, u.DontShowYields,           0, u.MoveRate, u.UnitFlagIconOffset, a.PortraitIndex, a.IconAtlas, u.UnitFlagAtlas, 0
 	FROM Units AS u
 	JOIN ArtDefine_UnitInfos AS a ON (u.UnitArtInfo || '_LATE' = a.Type)
@@ -193,7 +193,7 @@ INSERT INTO Units (       Type,   Description,   Civilopedia,   Strategy,   Help
 --[Religious Units aren't era varied by default and don't have new portraits]
 --INSERT INTO Units (       Type,   Description,   Civilopedia,   Strategy,   Help,   Requirements, Cost, FaithCost,   Moves,   Immobile,   Class,   Special,   Capture,   Domain,   CivilianAttackPriority,   DefaultUnitAI,   MilitarySupport,   MilitaryProduction,   OneShotTourism,   OneShotTourismPercentOthers,   PrereqResources,   Mechanized,   PrereqTech,   HurryCostModifier,   AdvancedStartCost,   WorkRate,   BaseHurry,   HurryMultiplier,   BaseGold,   NumGoldPerEra,   SpreadReligion,   RemoveHeresy,   ReligionSpreads,   ReligiousStrength,   FoundReligion,   RequiresEnhancedReligion,   ProhibitsSpread,   CanBuyCityState,   Trade,   XPValueDefense,   CombatLimit,   NoMaintenance,
 --                         UnitArtInfo, UnitArtInfoCulturalVariation, UnitArtInfoEraVariation,   DontShowYields, ShowInPedia,   MoveRate,   UnitFlagIconOffset,   PortraitIndex,   IconAtlas,   UnitFlagAtlas, EDEraVariation)
---	SELECT (u.Type || '_FUTURE'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance,
+--	SELECT (u.Type || '_FUTURE'), u.Description, u.Civilopedia, u.Strategy, u.Help, u.Requirements,   -1,         0, u.Moves, u.Immobile, u.Class, u.Special, u.Capture, u.Domain, u.CivilianAttackPriority, u.DefaultUnitAI, u.MilitarySupport, u.MilitaryProduction, u.OneShotTourism, u.OneShotTourismPercentOthers, u.PrereqResources, u.Mechanized, u.PrereqTech, u.HurryCostModifier, u.AdvancedStartCost, u.WorkRate, u.BaseHurry, u.HurryMultiplier, u.BaseGold, u.NumGoldPerEra, u.SpreadReligion, u.RemoveHeresy, u.ReligionSpreads, u.ReligiousStrength, u.FoundReligion, u.RequiresEnhancedReligion, u.ProhibitsSpread, u.CanBuyCityState, u.Trade, u.XPValueDefense, u.CombatLimit, u.NoMaintenance, 
 --   (u.UnitArtInfo || '_RENAISSANCE'),                            1,                       0, u.DontShowYields,           0, u.MoveRate, u.UnitFlagIconOffset, u.PortraitIndex, u.IconAtlas, u.UnitFlagAtlas, 0
 --	FROM Units AS u
 --	WHERE u.Type IN 
@@ -228,6 +228,91 @@ INSERT OR REPLACE INTO ArtDefine_UnitInfos (Type, DamageStates, Formation, UnitF
 --EraVariation enabled by default but no new art defines:
 --'UNIT_VENETIAN_MERCHANT'
 --'UNIT_ARCHAEOLOGIST'
+
+
+INSERT INTO Unit_AITypes (UnitType, UnitAIType) 
+	SELECT 'UNIT_CARGO_SHIP_RENAISSANCE', UnitAIType FROM Unit_AITypes 
+	WHERE UnitType = 'UNIT_CARGO_SHIP';
+INSERT INTO Unit_AITypes (UnitType, UnitAIType) 
+	SELECT UnitType || '_LATE', UnitAIType FROM Unit_AITypes 
+	WHERE UnitType IN 
+	('UNIT_ENGINEER', 
+	'UNIT_GREAT_GENERAL', 
+	'UNIT_GREAT_ADMIRAL', 
+	'UNIT_MERCHANT', 
+	'UNIT_SCIENTIST', 
+	'UNIT_WORKBOAT', 
+	'UNIT_WORKER');
+INSERT INTO Unit_AITypes (UnitType, UnitAIType) 
+	SELECT UnitType || '_POSTMODERN', UnitAIType FROM Unit_AITypes 
+	WHERE UnitType IN 
+	('UNIT_CARAVAN', 
+	'UNIT_ARTIST', 
+	'UNIT_MUSICIAN', 
+	'UNIT_WRITER');
+
+INSERT INTO Unit_Builds (UnitType, BuildType) 
+	SELECT 'UNIT_CARGO_SHIP_RENAISSANCE', BuildType FROM Unit_Builds 
+	WHERE UnitType = 'UNIT_CARGO_SHIP';
+INSERT INTO Unit_Builds (UnitType, BuildType) 
+	SELECT UnitType || '_LATE', BuildType FROM Unit_Builds 
+	WHERE UnitType IN 
+	('UNIT_ENGINEER', 
+	'UNIT_GREAT_GENERAL', 
+	'UNIT_GREAT_ADMIRAL', 
+	'UNIT_MERCHANT', 
+	'UNIT_SCIENTIST', 
+	'UNIT_WORKBOAT', 
+	'UNIT_WORKER');
+INSERT INTO Unit_Builds (UnitType, BuildType) 
+	SELECT UnitType || '_POSTMODERN', BuildType FROM Unit_Builds 
+	WHERE UnitType IN 
+	('UNIT_CARAVAN', 
+	'UNIT_ARTIST', 
+	'UNIT_MUSICIAN', 
+	'UNIT_WRITER');
+
+INSERT INTO Unit_Flavors (UnitType, FlavorType, Flavor)
+	SELECT 'UNIT_CARGO_SHIP_RENAISSANCE', FlavorType, Flavor FROM Unit_Flavors 
+	WHERE UnitType = 'UNIT_CARGO_SHIP';
+INSERT INTO Unit_Flavors (UnitType, FlavorType, Flavor)
+	SELECT UnitType || '_LATE', FlavorType, Flavor FROM Unit_Flavors 
+	WHERE UnitType IN 
+	('UNIT_ENGINEER', 
+	'UNIT_GREAT_GENERAL', 
+	'UNIT_GREAT_ADMIRAL', 
+	'UNIT_MERCHANT', 
+	'UNIT_SCIENTIST', 
+	'UNIT_WORKBOAT', 
+	'UNIT_WORKER');
+INSERT INTO Unit_Flavors (UnitType, FlavorType, Flavor)
+	SELECT UnitType || '_POSTMODERN', FlavorType, Flavor FROM Unit_Flavors 
+	WHERE UnitType IN 
+	('UNIT_CARAVAN', 
+	'UNIT_ARTIST', 
+	'UNIT_MUSICIAN', 
+	'UNIT_WRITER');
+
+INSERT INTO Unit_FreePromotions (UnitType, PromotionType)
+	SELECT 'UNIT_CARGO_SHIP_RENAISSANCE', PromotionType FROM Unit_FreePromotions 
+	WHERE UnitType = 'UNIT_CARGO_SHIP'; 
+INSERT INTO Unit_FreePromotions (UnitType, PromotionType)
+	SELECT UnitType || '_LATE', PromotionType FROM Unit_FreePromotions 
+	WHERE UnitType IN 
+	('UNIT_ENGINEER', 
+	'UNIT_GREAT_GENERAL', 
+	'UNIT_GREAT_ADMIRAL', 
+	'UNIT_MERCHANT', 
+	'UNIT_SCIENTIST', 
+	'UNIT_WORKBOAT', 
+	'UNIT_WORKER');
+INSERT INTO Unit_FreePromotions (UnitType, PromotionType)
+	SELECT UnitType || '_POSTMODERN', PromotionType FROM Unit_FreePromotions 
+	WHERE UnitType IN 
+	('UNIT_CARAVAN', 
+	'UNIT_ARTIST', 
+	'UNIT_MUSICIAN', 
+	'UNIT_WRITER');
 
 
 -- Support Promotion for Machiavelli's Unit_CreatedFunctions.lua

@@ -83,20 +83,20 @@ so we need triggers on 3 tables, however...
 
 Note the AIR_REBASE and SUB MoveRates are probably too inconsistent to be helpful
 
-TYPE		NUMMEMBERS
---------------  --------------------
-soldiers	12 --> 16-19
+TYPE				NUMMEMBERS
+----------------	--------------------
+soldiers	12	-->	7
 civilians	unchanged
 artillery	1-3 --> 3
-chariots	2 --> 3
-cavalry		5 --> 7
-elephants	2 --> 3
+chariots	2	--> 2
+cavalry		5	--> 5
+elephants	2	--> 2
 tanks		unchanged
-bombers		1 --> 3
-fighters	3 --> 4
-ships (some)	1 --> 3
-sub(not nuke)	1 --> 3
-gdr		1 [.12] --> 5 [.065]
+bombers		1	--> 1
+fighters	3	--> 3
+ships (some) 1	--> 1
+sub(not nuke) 1	--> 1
+gdr			1	--> 1
 
 */
 

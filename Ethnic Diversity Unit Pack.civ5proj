@@ -167,6 +167,20 @@
         <MinVersion>0</MinVersion>
         <MaxVersion>999</MaxVersion>
       </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Supercarrier</Name>
+        <Id>dda9a4d5-6d80-40b5-9918-d8a4d869130f</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Units - Super Carrier</Name>
+        <Id>85665628-c1c9-457a-8f61-a6a6a244e5a5</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
     </ModReferences>
     <Homepage>http://forums.civfanatics.com/showthread.php?t=383375</Homepage>
     <ReloadUnitSystem>true</ReloadUnitSystem>
