@@ -261,10 +261,6 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Compatibility\EnlightenmentEra\Galleon\GalleonHull_sref.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
     <Content Include="Compatibility\EnlightenmentEra\Galleon\PrussianGalleon.fxsxml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -1313,6 +1309,234 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\38M_Toldi_I.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\38M_Toldi_I.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\38M_Toldi_I.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\L6-40.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\L6-40.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\L6-40.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\L6-40_2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\L6-40_3.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\L6-40_Desert.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\L6-40_Desert.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\LightTank_Generic.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\LightTank_Generic.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\LightTank_Generic.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\LightTank_Generic_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\M3_Stuart.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\M3_Stuart.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\M3_Stuart.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\M3_Stuart_2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\M3_Stuart_3.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\M3_Stuart_4.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\M3_Stuart_5.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\M3_Stuart_6.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Panzer_I.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Panzer_I.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Panzer_I.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Panzer_I_Spain.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Panzer_I_Spain.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Panzer_I_Spain.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Renault_R-35.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Renault_R-35.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Renault_R-35.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Strv_M31.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Strv_M31.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Strv_M31.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\T-26.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\T-26.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\T-26.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Type4_Ke-Nu.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Type4_Ke-Nu.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Type4_Ke-Nu.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Vickers_M1936.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Vickers_M1936.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Vickers_M1936.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Vickers_M1936_2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Vickers_M1936_3.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Vickers_MK_E_China.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Vickers_MK_E_China.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Vickers_MK_E_China.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Vickers_MK_E_Greece.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Vickers_MK_E_Greece.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Vickers_MK_E_Greece.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Vickers_MK_E_TypeA.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Vickers_MK_E_TypeA.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Vickers_MK_E_TypeA.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Vickers_MK_VIB.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Vickers_MK_VIB.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\VoxPopuli\LightTank\Vickers_MK_VIB.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="SQL\8-ModUnitPack.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -1336,10 +1560,12 @@
     <Folder Include="Compatibility\FutureWorlds\Vertol" />
     <Folder Include="Compatibility\FutureWorlds\RailgunTank" />
     <Folder Include="Compatibility\FutureWorlds\PowerArmor" />
+    <Folder Include="Compatibility\VoxPopuli" />
     <Folder Include="Compatibility\PrehistoricEra\Savage" />
     <Folder Include="Compatibility\RenaissanceEra\" />
     <Folder Include="Compatibility\PrehistoricEra\" />
     <Folder Include="Compatibility\RenaissanceEra\2Handed\" />
+    <Folder Include="Compatibility\VoxPopuli\LightTank" />
     <Folder Include="SQL\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />

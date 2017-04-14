@@ -20,6 +20,9 @@ UPDATE Units SET UnitArtInfo = UnitArtInfo || '_ED' WHERE Type IN
 UPDATE Units SET UnitArtInfo = UnitArtInfo || '_ED' WHERE Type IN 
 	('UNIT_FUTURE_SOLDIER', 'UNIT_FW_BIOTROOPER', 'UNIT_FW_DRONE_FIGHTER_2', 'UNIT_FW_HOVERTANK', 'UNIT_FW_HYBRID_DRONE', 
 	'UNIT_FW_NANOHIVE', 'UNIT_FW_RAILGUN_TANK', 'UNIT_FW_SUPERCARRIER', 'UNIT_FW_VERTOL');
+--Vox Populi
+UPDATE Units SET UnitArtInfo = UnitArtInfo || '_ED' 
+	WHERE Type = 'UNIT_ARMORED_CAR';
 
 --Misc:
 --"Units - Super Carrier" by whoward69 and "Supercarrier" by swatmp5
