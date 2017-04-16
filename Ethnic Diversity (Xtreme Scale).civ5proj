@@ -36,6 +36,13 @@
       </Association>
       <Association>
         <Type>Mod</Type>
+        <Name>CSD DLL</Name>
+        <Id>eead0050-1e3f-4178-a91f-26cf1881ac39</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
         <Name>CS UU</Name>
         <Id>d0bc4a46-8a69-46b5-917a-8de842f82ed9</Id>
         <MinVersion>0</MinVersion>
@@ -164,6 +171,13 @@
         <Type>Mod</Type>
         <Name>Future Worlds</Name>
         <Id>d9ece224-6cd8-4519-a27a-c417b59cdf35</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Vox Populi</Name>
+        <Id>8411a7a8-dad3-4622-a18e-fcc18324c799</Id>
         <MinVersion>0</MinVersion>
         <MaxVersion>999</MaxVersion>
       </Association>

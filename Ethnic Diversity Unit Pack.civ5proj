@@ -7,7 +7,7 @@
     <Guid>17e9218c-5ef7-47c5-b6ab-b522e6712c70</Guid>
     <ModVersion>29</ModVersion>
     <Stability>Beta</Stability>
-    <Teaser>BETA2 - Unit Pack for Ethnic Diversity mod</Teaser>
+    <Teaser>BETA3 - Unit Pack for Ethnic Diversity mod</Teaser>
     <Description>Ethnic Diversity for Civilization V: Brave New World[NEWLINE]Hundreds of new unit models for diversity, with no change to gameplay.  See newunits.xlsm or forum thread on CivFanatics website for details.</Description>
     <Authors>Gedemon, Nutty</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
@@ -45,6 +45,13 @@
         <Type>Mod</Type>
         <Name>CSD</Name>
         <Id>abaa043a-f851-4c61-bd18-52d480862cd0</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>CSD DLL</Name>
+        <Id>eead0050-1e3f-4178-a91f-26cf1881ac39</Id>
         <MinVersion>0</MinVersion>
         <MaxVersion>999</MaxVersion>
       </Association>
@@ -169,6 +176,13 @@
       </Association>
       <Association>
         <Type>Mod</Type>
+        <Name>Vox Populi</Name>
+        <Id>8411a7a8-dad3-4622-a18e-fcc18324c799</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
         <Name>Supercarrier</Name>
         <Id>dda9a4d5-6d80-40b5-9918-d8a4d869130f</Id>
         <MinVersion>0</MinVersion>
@@ -186,7 +200,29 @@
     <ReloadUnitSystem>true</ReloadUnitSystem>
     <ModActions />
     <ModContent />
-    <ModBlockers />
+    <ModBlockers>
+      <Association>
+        <Type>Mod</Type>
+        <Name>R.E.D. Modpack</Name>
+        <Id>8670da15-d435-44ea-9758-7438cb321411</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Ethnic Units</Name>
+        <Id>dccf86be-f66f-49a2-bc9f-159195df6d57</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Ethnic Diversity - R.E.D. Semi-Official</Name>
+        <Id>6833786c-56f5-4fc4-bdb1-287c15ec3f08</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+    </ModBlockers>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>

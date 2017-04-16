@@ -50,6 +50,13 @@
       </Association>
       <Association>
         <Type>Mod</Type>
+        <Name>CSD DLL</Name>
+        <Id>eead0050-1e3f-4178-a91f-26cf1881ac39</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
         <Name>YnAEMP City States</Name>
         <Id>53da86d6-4a0d-4f92-a489-4d1a7fb7cd30</Id>
         <MinVersion>0</MinVersion>
@@ -167,6 +174,14 @@
         <MinVersion>0</MinVersion>
         <MaxVersion>999</MaxVersion>
       </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Vox Populi</Name>
+        <Id>8411a7a8-dad3-4622-a18e-fcc18324c799</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+
       <Association>
         <Type>Mod</Type>
         <Name>Supercarrier</Name>
