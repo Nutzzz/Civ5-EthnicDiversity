@@ -5,7 +5,7 @@
     <ProjectGuid>{480e2a96-6fea-491f-8af0-32d764d467eb}</ProjectGuid>
     <Name>Ethnic Diversity - Unit Tester</Name>
     <Guid>8affec94-2588-4fe9-a87a-703a64bdf53c</Guid>
-    <ModVersion>3</ModVersion>
+    <ModVersion>4</ModVersion>
     <Stability>Beta</Stability>
     <Teaser>WARNING: MAY CRASH WITH MORE THAN A FEW CIVS ON THE MAP!</Teaser>
     <Description>Unit Tester for Ethnic Diversity for Civilization V</Description>

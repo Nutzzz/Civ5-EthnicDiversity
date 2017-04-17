@@ -7,7 +7,7 @@
     <Guid>de77c612-15a0-4580-92fd-535b525df700</Guid>
     <ModVersion>29</ModVersion>
     <Stability>Beta</Stability>
-    <Teaser>BETA3 - E.D. UNIT PACK v.29 REQUIRED!</Teaser>
+    <Teaser>BETA4 - E.D. UNIT PACK v.29 REQUIRED!</Teaser>
     <Description>Reduced Unit Graphics for Civilization V: Brave New World[NEWLINE]Hundreds of new unit models for diversity, with no change to gameplay.  See newunits.xlsm or forum thread on CivFanatics website for details.[NEWLINE][NEWLINE]Cannot be activated at the same time as Ethnic Diversity (RED Scale), Ethnic Diversity (Xtreme Scale), Ethnic Units, R.E.D. Modpack, R.E.D. Xtreme, R.E.D. - Just Ethnic Diversity, Single Unit Graphics, or Fewer Unit Graphics.</Description>
     <Authors>Nutty</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
@@ -362,7 +362,7 @@
     <Content Include="SQL\2-StandardizeModArtDefines.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>    
+    </Content>
     <Content Include="SQL\3-InsertArtDefines.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
