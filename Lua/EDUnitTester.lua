@@ -44,7 +44,7 @@ function TestUnitsByType()
 					uux[unitClass.ID] = uux[unitClass.ID] + 1;
 					x = new_col * x_col + uux[unitClass.ID];
 					if (x <= MAX_X) then
-						print("  - Spawning unique unit  (".. tostring(x) ..",".. tostring(y + 1) ..") ".. Locale.ConvertTextKey(unitRow.Description));
+						print("  - Spawning unique unit  (".. tostring(x) ..",".. tostring(y + 1) ..") ".. Locale.ConvertTextKey(unitRow.Description) .."[".. unitRow.UnitArtInfo .."]");
 						Players[0]:InitUnit(unitRow.ID, x, y + 1);
 						sleep(SLEEP_TIME);
 					else
@@ -61,7 +61,7 @@ function TestUnitsByType()
 								cvx[unitClass.ID] = cvx[unitClass.ID] + 1;
 								x = new_col * x_col + cvx[unitClass.ID];
 								if (x <= MAX_X) then
-									print("  - Spawning diverse unit (".. tostring(x) ..",".. tostring(y) ..") ".. Locale.ConvertTextKey(unitRow.Description) .." for ".. civType:sub(14));
+									print("  - Spawning diverse unit (".. tostring(x) ..",".. tostring(y) ..") ".. Locale.ConvertTextKey(unitRow.Description) .." for ".. civType:sub(14) .."[".. unitRow.UnitArtInfo .."]");
 									pPlayer:InitUnit(unitRow.ID, x, y);
 									sleep(SLEEP_TIME);
 								else
@@ -72,7 +72,7 @@ function TestUnitsByType()
 									bFirstNonCV = 1;
 									x = new_col * x_col + START_X;
 									if (x <= MAX_X) then
-										print("  - Spawning base unit    (".. tostring(x) ..",".. tostring(y) ..") ".. Locale.ConvertTextKey(unitRow.Description));
+										print("  - Spawning base unit    (".. tostring(x) ..",".. tostring(y) ..") ".. Locale.ConvertTextKey(unitRow.Description) .."[".. unitRow.UnitArtInfo .."]");
 										pPlayer:InitUnit(unitRow.ID, x, y);
 										sleep(SLEEP_TIME);
 									else
