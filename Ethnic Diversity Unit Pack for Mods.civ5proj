@@ -1187,6 +1187,162 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Compatibility\PrehistoricEra\Autochthon\SA_Native.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Autochthon\SA_Native.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Autochthon\SA_Native.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Caveman\SA_Caveman.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Caveman\SA_Caveman.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Caveman\SA_Caveman.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Africa_SA_Hunter.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Africa_SA_Hunter.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Africa_SA_Hunter.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Asia_SA_Hunter.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Asia_SA_Hunter.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Asia_SA_Hunter.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Carthage_SA_Hunter.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Carthage_SA_Hunter.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Carthage_SA_Hunter.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\EEurope_SA_Hunter.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\EEurope_SA_Hunter.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\EEurope_SA_Hunter.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Germany_SA_Hunter.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Germany_SA_Hunter.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Germany_SA_Hunter.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\India_SA_Hunter.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\India_SA_Hunter.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\India_SA_Hunter.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Japan_SA_Hunter.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Japan_SA_Hunter.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Japan_SA_Hunter.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Middle_East_SA_Hunter.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Middle_East_SA_Hunter.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Middle_East_SA_Hunter.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Native_American_SA_Hunter.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Native_American_SA_Hunter.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Native_American_SA_Hunter.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Sweden_SA_Hunter.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Sweden_SA_Hunter.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\Sweden_SA_Hunter.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\WEurope_SA_Hunter.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\WEurope_SA_Hunter.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\PrehistoricEra\Hunter\WEurope_SA_Hunter.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Compatibility\PrehistoricEra\Savage\civ5_nedwa1_tc.fxsxml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -1574,6 +1730,9 @@
     <Folder Include="Compatibility\FutureWorlds\Vertol" />
     <Folder Include="Compatibility\FutureWorlds\RailgunTank" />
     <Folder Include="Compatibility\FutureWorlds\PowerArmor" />
+    <Folder Include="Compatibility\PrehistoricEra\Hunter" />
+    <Folder Include="Compatibility\PrehistoricEra\Caveman" />
+    <Folder Include="Compatibility\PrehistoricEra\Autochthon" />
     <Folder Include="Compatibility\VoxPopuli" />
     <Folder Include="Compatibility\PrehistoricEra\Savage" />
     <Folder Include="Compatibility\RenaissanceEra\" />

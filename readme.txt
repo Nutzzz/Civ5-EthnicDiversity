@@ -50,10 +50,18 @@ Some variation provided for Prehistoric Era, Renaissance Era Revised, Enlightenm
 
 	-- Version History --
 	
-v.29 beta 3 (in progress)
+v.29 beta 4 (May 6, 2017)
+- removed some Future Worlds units that caused crashes
+- some scale tweaks for missionaries and inquisitors
+- add danrell's half-track anti-aircraft guns
+- add Carthage units from JTitan
+- add Prehistoric Era units from JTitan
+
+v.29 beta 3 (Apr 14, 2017)
 - add more galleon skins by Nutty for Enlightenment Era
 - add Wolfog's Nimitz and danrell's QE and PA2 models for Future Worlds' super carriers (also for whoward69's and swatmp5's super carrier mods)
 - add a few alternate models for Future Worlds
+- add danrell's light tanks for Vox Populi
 - a few more scaling and unit choice tweaks
 - fixes to the naming standardization to allow other mods to still use vanilla art defines
 - should no longer get invisible units for some units if user forgets to activate the Unit Pack for Mods (just no diversity for that unit)

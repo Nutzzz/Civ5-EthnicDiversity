@@ -10,7 +10,7 @@
 
 --Prehistoric Era
 UPDATE Units SET UnitArtInfo = UnitArtInfo || '_ED' WHERE Type IN 
-	('UNIT_SAVAGE', 'UNIT_EXPLORER');
+	('UNIT_AUTOCHTHON', 'UNIT_CAVEMAN', 'UNIT_EXPLORER', 'UNIT_HUNTER', 'UNIT_SAVAGE');
 --Renaissance Era Revised
 UPDATE Units SET UnitArtInfo = 'ART_DEF_UNIT_2HANDER_ED' WHERE Type = 'UNIT_2HANDER';
 --Enlightenment Era
