@@ -7,7 +7,7 @@
     <Guid>17e9218c-5ef7-47c5-b6ab-b522e6712c70</Guid>
     <ModVersion>29</ModVersion>
     <Stability>Beta</Stability>
-    <Teaser>BETA4 - Unit Pack for Ethnic Diversity mod</Teaser>
+    <Teaser>BETA4 - Unit Pack for Ethnic Diversity mod - Activate this first, then one of the scaling options</Teaser>
     <Description>Ethnic Diversity for Civilization V: Brave New World[NEWLINE]Hundreds of new unit models for diversity, with no change to gameplay.  See newunits.xlsm or forum thread on CivFanatics website for details.[NEWLINE][NEWLINE]Cannot be activated at the same time as Hulfgar's Modpack, Ethnic Units, or R.E.D. Modpack.</Description>
     <Authors>Gedemon, Nutty</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
@@ -6402,6 +6402,30 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Units\Greece\Fx_Triggers_GreekPeltast.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Greece\Fx_Triggers_SpartanHypomeione.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Greece\GreekPeltast.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Greece\GreekPeltast.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Greece\GreekPeltast.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Greece\GreekPeltast_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Units\Greece\greek_galleon.fxsxml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -6667,6 +6691,22 @@
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Units\Greece\Renault_FT-17_Greece.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Greece\SpartanHypomeione.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Greece\SpartanHypomeione.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Greece\SpartanHypomeiones.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Greece\SpartanHypomeiones_sref.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -15194,6 +15234,22 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Units\_Generic\_Euro\Swordsman Gaul\GaulMerc.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_Euro\Swordsman Gaul\GaulMerc.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_Euro\Swordsman Gaul\GaulMerc.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_Euro\Swordsman Gaul\GaulMerc_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Units\_Generic\_Euro\Swordsman Viking\Swordsman_Viking.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -15282,6 +15338,22 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Units\_Generic\_Med\Swordsman Mediterranean\IberianMerc.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_Med\Swordsman Mediterranean\IberianMerc.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_Med\Swordsman Mediterranean\IberianMerc.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_Med\Swordsman Mediterranean\IberianMerc_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Units\_Generic\_Med\Swordsman Mediterranean\SpanishSwordsman.fxsxml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -15291,22 +15363,6 @@
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Units\_Generic\_Med\Swordsman Mediterranean\spasm3_sref.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Units\_Generic\_Med\Swordsman Spain\Swordsman_Spain.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Units\_Generic\_Med\Swordsman Spain\Swordsman_Spain.fxsxml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Units\_Generic\_Med\Swordsman Spain\Swordsman_Spain.gr2">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Units\_Generic\_Med\Swordsman Spain\Swordsman_Spain_gloss.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -16402,6 +16458,7 @@
     <Folder Include="Units\_Generic\_Asia\Worker Buddhist" />
     <Folder Include="Units\_Generic\_EastEuro\Marine Russia Special Forces" />
     <Folder Include="Units\_Generic\_Euro\Caravan Supply Train" />
+    <Folder Include="Units\_Generic\_Euro\Swordsman Gaul" />
     <Folder Include="Units\_Generic\_NorthAfri\Heavy Footman Sudan\" />
     <Folder Include="Units\_Generic\_NorthAfri\Scout Nubia\" />
     <Folder Include="Units\_Generic\_NorthAfri\Warrior Nubia\" />
@@ -16456,7 +16513,6 @@
     <Folder Include="Units\_Generic\_Euro\Scout Briton" />
     <Folder Include="Units\_Generic\_Med\Galleon Mediterranean" />
     <Folder Include="Units\_Generic\_Med\Warrior Carthage" />
-    <Folder Include="Units\_Generic\_Med\Swordsman Spain" />
     <Folder Include="Units\_Generic\_Med\Swordsman Mediterranean" />
     <Folder Include="Units\_Generic\_Med\Scout Carthage" />
     <Folder Include="Units\_Generic\_MidEast\Barge" />

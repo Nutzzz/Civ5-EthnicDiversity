@@ -1189,27 +1189,27 @@
     </Content>
     <Content Include="Compatibility\PrehistoricEra\Autochthon\SA_Native.dds">
       <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
+      <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Compatibility\PrehistoricEra\Autochthon\SA_Native.fxsxml">
       <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
+      <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Compatibility\PrehistoricEra\Autochthon\SA_Native.gr2">
       <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
+      <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Compatibility\PrehistoricEra\Caveman\SA_Caveman.dds">
       <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
+      <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Compatibility\PrehistoricEra\Caveman\SA_Caveman.fxsxml">
       <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
+      <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Compatibility\PrehistoricEra\Caveman\SA_Caveman.gr2">
       <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
+      <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Compatibility\PrehistoricEra\Hunter\Africa_SA_Hunter.dds">
       <SubType>Lua</SubType>
