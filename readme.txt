@@ -50,7 +50,7 @@ Some variation provided for Prehistoric Era, Renaissance Era Revised, Enlightenm
 
 	-- Version History --
 	
-v.29 beta 4 (May ??, 2017)
+v.29 beta 4 (May 20, 2017)
 - removed some Future Worlds units that caused crashes
 - some scale tweaks for missionaries and inquisitors
 - add danrell's half-track anti-aircraft guns
