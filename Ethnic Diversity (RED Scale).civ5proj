@@ -4,7 +4,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <ProjectGuid>{480e2a96-6fea-491f-8af0-32d764d467eb}</ProjectGuid>
     <Name>Ethnic Diversity (RED Scale)</Name>
-    <Guid>6833786c-56f5-4fc4-bdb1-287c15ec3f08</Guid>
+    <Guid>4a3866d8-ed50-446a-a9a5-a97924d79a86</Guid>
     <ModVersion>29</ModVersion>
     <Stability>Beta</Stability>
     <Teaser>BETA4 - E.D. UNIT PACK v.29 REQUIRED!</Teaser>
