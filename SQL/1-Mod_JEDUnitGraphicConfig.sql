@@ -9,7 +9,7 @@
 
 
 --         Suffix            Fallback     Template                Member                      MemSuffix   fxsxml                    Num    Scale   Form
-INSERT INTO UnitGraphicConfiguration(UC_Suffix,UC_Fallback,UC_Template,UC_Member,UC_MemSuffix,UC_fxsxml,UC_Num1,UC_Scale1,UC_Form1)
+INSERT INTO UnitGraphicConfiguration(UC_Suffix,UC_Fallback,UC_Template,UC_Member,UC_MemSuffix,UC_fxsxml,UC_Num,UC_Scale,UC_Form)
 SELECT     '',               '',          'AUTOCHTHON',           'AUTOCHTHON',               '',         'Autochthon',             6,     0.175,  ''                     UNION ALL
 SELECT     '',               '',          'CAVEMAN',              'CAVEMAN',                  '',         'Barbarian_EURO_Alpha',   2,     0.14,   'Barbarian'            UNION ALL
 SELECT     '',               '',          'CAVEMAN',              'CAVEMAN',                  '_V2',      'Barbarian_EURO_Bravo',   4,     0.14,   'Barbarian'            UNION ALL

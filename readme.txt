@@ -50,12 +50,13 @@ Some variation provided for Prehistoric Era, Renaissance Era Revised, Enlightenm
 
 	-- Version History --
 	
-v.29 beta 4 (May 20, 2017)
-- removed some Future Worlds units that caused crashes
+v.29 beta 4 (May 21, 2017)
 - some scale tweaks for missionaries and inquisitors
 - add danrell's half-track anti-aircraft guns
 - add Carthage units from JTitan
 - add Prehistoric Era units from JTitan
+- fixed SE Asian knight
+- fixed Future Worlds units that were causing crashes
 
 v.29 beta 3 (Apr 14, 2017)
 - add more galleon skins by Nutty for Enlightenment Era

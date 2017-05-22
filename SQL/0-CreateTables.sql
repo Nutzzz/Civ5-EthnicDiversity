@@ -35,33 +35,9 @@ CREATE TABLE IF NOT EXISTS EDUnitGraphicConfiguration
 									UC_UMove TEXT DEFAULT '', 
 									UC_CMove FLOAT DEFAULT 0, 
 									UC_Domain TEXT DEFAULT '', 
-									UC_Num1 INTEGER DEFAULT 0, 
-                                    UC_Scale1 FLOAT DEFAULT 0, 
-									UC_Form1 TEXT DEFAULT '', 
-									UC_Num2 INTEGER DEFAULT 0, 
-                                    UC_Scale2 FLOAT DEFAULT 0, 
-									UC_Form2 TEXT DEFAULT '', 
-									UC_Num3 INTEGER DEFAULT 0, 
-                                    UC_Scale3 FLOAT DEFAULT 0, 
-									UC_Form3 TEXT DEFAULT '', 
-									UC_Num4 INTEGER DEFAULT 0, 
-                                    UC_Scale4 FLOAT DEFAULT 0, 
-									UC_Form4 TEXT DEFAULT '', 
-									UC_Num5 INTEGER DEFAULT 0, 
-                                    UC_Scale5 FLOAT DEFAULT 0, 
-									UC_Form5 TEXT DEFAULT '', 
-									UC_Num6 INTEGER DEFAULT 0, 
-                                    UC_Scale6 FLOAT DEFAULT 0, 
-									UC_Form6 TEXT DEFAULT '', 
-									UC_Num7 INTEGER DEFAULT 0, 
-                                    UC_Scale7 FLOAT DEFAULT 0, 
-									UC_Form7 TEXT DEFAULT '', 
-									UC_Num8 INTEGER DEFAULT 0, 
-                                    UC_Scale8 FLOAT DEFAULT 0, 
-									UC_Form8 TEXT DEFAULT '', 
-									UC_Num9 INTEGER DEFAULT 0, 
-                                    UC_Scale9 FLOAT DEFAULT 0, 
-									UC_Form9 TEXT DEFAULT '');
+									UC_Num INTEGER DEFAULT 0, 
+                                    UC_Scale FLOAT DEFAULT 0, 
+									UC_Form TEXT DEFAULT '');
 
 /*
 	Suffix		= Suffix for the ArtDefine. Must be one of those used in the ArtStyleSuffix in the Civilizations table (with no leading underscore).
@@ -79,7 +55,6 @@ CREATE TABLE IF NOT EXISTS EDUnitGraphicConfiguration
 	Num			= [vanilla/RED/Xtreme/Fewer/Reduced/Single] Number of figures in the unit for that model. Use multiple lines with different models to "interleave" them. 0 means use value from template unit.
 	Scale		= [vanilla/RED/Xtreme/Fewer/Reduced/Single/SingleBig] New scale to use for the model. 0 means use value from template unit.
 	Form		= [vanilla/RED/Xtreme] Formation in which to place the unit figures. NULL means use value from template unit.
-	[ignore all Num?/Scale?/Form? entries other than Num1/Scale1/Form1 -- feature not yet implemented]
 */
 
 

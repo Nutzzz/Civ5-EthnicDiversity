@@ -927,51 +927,51 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Compatibility\FutureWorlds\BioTrooper\BioTrooper_EASTASIA.dds">
+    <Content Include="Compatibility\FutureWorlds\BioTrooper\BioTrooperEastasia.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Compatibility\FutureWorlds\BioTrooper\BioTrooper_EASTASIA.fxsxml">
+    <Content Include="Compatibility\FutureWorlds\BioTrooper\BioTrooperEastasia.fxsxml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Compatibility\FutureWorlds\BioTrooper\BioTrooper_EASTASIA.gr2">
+    <Content Include="Compatibility\FutureWorlds\BioTrooper\BioTrooperEastasia.gr2">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Compatibility\FutureWorlds\BioTrooper\BioTrooper_EURASIA.dds">
+    <Content Include="Compatibility\FutureWorlds\BioTrooper\BioTrooperEurasia.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Compatibility\FutureWorlds\BioTrooper\BioTrooper_EURASIA.fxsxml">
+    <Content Include="Compatibility\FutureWorlds\BioTrooper\BioTrooperEurasia.fxsxml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Compatibility\FutureWorlds\BioTrooper\BioTrooper_EURASIA.gr2">
+    <Content Include="Compatibility\FutureWorlds\BioTrooper\BioTrooperEurasia.gr2">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Compatibility\FutureWorlds\DroneFighter\DroneFighter_EASTASIA.dds">
+    <Content Include="Compatibility\FutureWorlds\DroneFighter\DroneFighterEastasia.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Compatibility\FutureWorlds\DroneFighter\DroneFighter_EASTASIA.fxsxml">
+    <Content Include="Compatibility\FutureWorlds\DroneFighter\DroneFighterEastasia.fxsxml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Compatibility\FutureWorlds\DroneFighter\DroneFighter_EASTASIA.gr2">
+    <Content Include="Compatibility\FutureWorlds\DroneFighter\DroneFighterEastasia.gr2">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Compatibility\FutureWorlds\DroneFighter\DroneFighter_EURASIA.dds">
+    <Content Include="Compatibility\FutureWorlds\DroneFighter\DroneFighterEurasia.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Compatibility\FutureWorlds\DroneFighter\DroneFighter_EURASIA.fxsxml">
+    <Content Include="Compatibility\FutureWorlds\DroneFighter\DroneFighterEurasia.fxsxml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Compatibility\FutureWorlds\DroneFighter\DroneFighter_EURASIA.gr2">
+    <Content Include="Compatibility\FutureWorlds\DroneFighter\DroneFighterEurasia.gr2">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -1007,27 +1007,27 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Compatibility\FutureWorlds\HybridDrone\HybridDrone_EASTASIA.dds">
+    <Content Include="Compatibility\FutureWorlds\HybridDrone\HybridDroneEastasia.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Compatibility\FutureWorlds\HybridDrone\HybridDrone_EASTASIA.fxsxml">
+    <Content Include="Compatibility\FutureWorlds\HybridDrone\HybridDroneEastasia.fxsxml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Compatibility\FutureWorlds\HybridDrone\HybridDrone_EASTASIA.gr2">
+    <Content Include="Compatibility\FutureWorlds\HybridDrone\HybridDroneEastasia.gr2">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Compatibility\FutureWorlds\HybridDrone\HybridDrone_EURASIA.dds">
+    <Content Include="Compatibility\FutureWorlds\HybridDrone\HybridDroneEurasia.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Compatibility\FutureWorlds\HybridDrone\HybridDrone_EURASIA.fxsxml">
+    <Content Include="Compatibility\FutureWorlds\HybridDrone\HybridDroneEurasia.fxsxml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Compatibility\FutureWorlds\HybridDrone\HybridDrone_EURASIA.gr2">
+    <Content Include="Compatibility\FutureWorlds\HybridDrone\HybridDroneEurasia.gr2">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
