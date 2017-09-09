@@ -33,10 +33,8 @@ UPDATE Units SET UnitArtInfo = UnitArtInfo || '_ED' WHERE Type = 'UNIT_ARMORED_C
 UPDATE Units SET UnitArtInfo = 'ART_DEF_UNIT_EXPLORER_CBP' WHERE Type = 'UNIT_EXPLORER' AND MoveRate = 'BIPED';
 
 --City State Diplomacy
-/*
-UPDATE Units SET UnitArtInfo = UnitArtInfo || '_ED' WHERE Type IN 
-	('UNIT_AMBASSADOR', 'UNIT_DIPLOMAT', 'UNIT_EMISSARY', 'UNIT_ENVOY', 'UNIT_GREAT_DIPLOMAT');
-*/
+UPDATE Units SET UnitArtInfo = UnitArtInfo || '_ED' WHERE Type = 'UNIT_GREAT_DIPLOMAT';
+	--('UNIT_AMBASSADOR', 'UNIT_DIPLOMAT', 'UNIT_EMISSARY', 'UNIT_ENVOY', 'UNIT_GREAT_DIPLOMAT');
 
 --Misc:
 --"Units - Super Carrier" by whoward69 and "Supercarrier" by swatmp5

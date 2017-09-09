@@ -50,7 +50,13 @@ Some variation provided for Prehistoric Era, Renaissance Era Revised, Enlightenm
 
 	-- Version History --
 v.29 beta 5 (in progress)
-- ...
+- add zwei833's Han spearman as pikeman for Asian civs
+- add zwei833's Bashtnik as pikeman for Eastern European civs
+- add zwei833's Lefegii as longswordsman for Eastern European civs
+- add zwei833's Vitez as knight for Eastern European civs
+- add zwei833's missionaries for India and Middle Eastern civs
+- add zwei833's ambassador as Renaissance-era Great Diplomat for City State Diplomacy mod
+- sharing of artillery models
 	
 v.29 beta 4 (May 22, 2017)
 - add Carthage units from JTitan

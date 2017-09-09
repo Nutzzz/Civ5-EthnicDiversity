@@ -227,6 +227,30 @@
     <DeployMod>true</DeployMod>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Compatibility\CityStateDiplomacy\Ambassador\amb.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\CityStateDiplomacy\Ambassador\amb.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\CityStateDiplomacy\Ambassador\amb_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\CityStateDiplomacy\Ambassador\amb_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\CityStateDiplomacy\Ambassador\hat_amb_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Compatibility\CityStateDiplomacy\Ambassador\hat_amb_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Compatibility\EnlightenmentEra\Cuirassier\ca_sw1.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -1714,6 +1738,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Compatibility\" />
+    <Folder Include="Compatibility\CityStateDiplomacy\Ambassador" />
     <Folder Include="Compatibility\EnlightenmentEra\" />
     <Folder Include="Compatibility\EnlightenmentEra\Cuirassier\" />
     <Folder Include="Compatibility\EnlightenmentEra\FieldGun\" />
@@ -1730,6 +1755,7 @@
     <Folder Include="Compatibility\FutureWorlds\Vertol" />
     <Folder Include="Compatibility\FutureWorlds\RailgunTank" />
     <Folder Include="Compatibility\FutureWorlds\PowerArmor" />
+    <Folder Include="Compatibility\CityStateDiplomacy" />
     <Folder Include="Compatibility\PrehistoricEra\Hunter" />
     <Folder Include="Compatibility\PrehistoricEra\Caveman" />
     <Folder Include="Compatibility\PrehistoricEra\Autochthon" />

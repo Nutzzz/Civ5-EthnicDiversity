@@ -2626,6 +2626,22 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Units\China\HanSpearman_China.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\China\Han_Spearman.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\China\Han_Spearman.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\China\HAN_SS_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Units\China\Horseman_China.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -15074,6 +15090,38 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Units\_Generic\_EastEuro\Longswordsman Lefegii\Lefegii.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_EastEuro\Longswordsman Lefegii\Lefegii.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_EastEuro\Longswordsman Lefegii\Lefegii_body.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_EastEuro\Longswordsman Lefegii\Lefegii_body_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_EastEuro\Longswordsman Lefegii\Lefegii_clothe.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_EastEuro\Longswordsman Lefegii\Lefegii_clothe_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_EastEuro\Longswordsman Lefegii\Lefegii_shield.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_EastEuro\Longswordsman Lefegii\Lefegii_shield_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Units\_Generic\_EastEuro\Marine Russia Special Forces\RussianSF.fxsxml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -15083,6 +15131,30 @@
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Units\_Generic\_EastEuro\Marine Russia Special Forces\RussianSF_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_EastEuro\Pikeman Bashtnik\Bashtnik.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_EastEuro\Pikeman Bashtnik\Bashtnik.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_EastEuro\Pikeman Bashtnik\Bashtnik.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_EastEuro\Pikeman Bashtnik\Bashtnik_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_EastEuro\Pikeman Bashtnik\Bashtnik_helm.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_EastEuro\Pikeman Bashtnik\Bashtnik_helm_gloss.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -15430,6 +15502,18 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Units\_Generic\_MidEast\Missionary Imam\Imam.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_MidEast\Missionary Imam\Imam.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_MidEast\Missionary Imam\islamic_missionary_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Units\_Generic\_MidEast\Rifleman Arab\civ5_ararm.gr2">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -15638,6 +15722,18 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Units\_Generic\_NorthAfri\Missionary NorthAf\islamic_missionary_northaf_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_NorthAfri\Missionary NorthAf\MissionaryNorthAf.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_NorthAfri\Missionary NorthAf\MissionaryNorthAf.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Units\_Generic\_NorthAfri\Scout Nubia\AfrScout.fxsxml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -15823,6 +15919,18 @@
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Units\_Generic\_SouthAmer\Warrior Chimu Axeman\chimu_axeman_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_SouthAsia\Missionary Guru\Guru.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_SouthAsia\Missionary Guru\Guru.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\_Generic\_SouthAsia\Missionary Guru\missionary_hindu_128.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -16457,9 +16565,13 @@
     <Folder Include="Units\_Generic\AntiAircraftGun" />
     <Folder Include="Units\_Generic\_Asia\Worker Buddhist" />
     <Folder Include="Units\_Generic\_EastEuro\Marine Russia Special Forces" />
+    <Folder Include="Units\_Generic\_EastEuro\Longswordsman Lefegii" />
+    <Folder Include="Units\_Generic\_EastEuro\Pikeman Bashtnik" />
     <Folder Include="Units\_Generic\_Euro\Caravan Supply Train" />
     <Folder Include="Units\_Generic\_Euro\Swordsman Gaul" />
+    <Folder Include="Units\_Generic\_MidEast\Missionary Imam" />
     <Folder Include="Units\_Generic\_NorthAfri\Heavy Footman Sudan\" />
+    <Folder Include="Units\_Generic\_NorthAfri\Missionary NorthAf" />
     <Folder Include="Units\_Generic\_NorthAfri\Scout Nubia\" />
     <Folder Include="Units\_Generic\_NorthAfri\Warrior Nubia\" />
     <Folder Include="Units\_Generic\_NorthEuro" />
@@ -16528,6 +16640,7 @@
     <Folder Include="Units\_Generic\_SouthAmer\Andes Cargo Ship" />
     <Folder Include="Units\_Generic\_SouthAmer\Inquisitor SouthAm" />
     <Folder Include="Units\_Generic\_SouthAmer\Missionary SouthAm" />
+    <Folder Include="Units\_Generic\_SouthAsia\Missionary Guru" />
     <Folder Include="Units\_Generic\_SouthAsia\Scout Harappan" />
     <Folder Include="Units\_Generic\_SouthAsia\Swordsman India" />
     <Folder Include="Units\_Generic\_Test" />
