@@ -5,9 +5,9 @@
     <ProjectGuid>{480e2a96-6fea-491f-8af0-32d764d467eb}</ProjectGuid>
     <Name>Ethnic Diversity DLC</Name>
     <Guid>69e8b077-ab56-48c0-89e6-091f9af52db1</Guid>
-    <ModVersion>29</ModVersion>
+    <ModVersion>30</ModVersion>
     <Stability>Beta</Stability>
-    <Teaser>BETA3 - Ethnic Diversity DLC</Teaser>
+    <Teaser>BETA - Ethnic Diversity DLC</Teaser>
     <Description>Ethnic Diversity DLC for Civilization V: Brave New World</Description>
     <Authors>Nutty</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
@@ -45,6 +45,10 @@
     <DeployMod>true</DeployMod>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="readme.txt">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="SQL\ED_DLC_ArtDefines.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>

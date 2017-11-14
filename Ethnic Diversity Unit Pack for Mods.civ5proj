@@ -5,11 +5,11 @@
     <ProjectGuid>{480e2a96-6fea-491f-8af0-32d764d467eb}</ProjectGuid>
     <Name>Ethnic Diversity Unit Pack for Mods</Name>
     <Guid>063a4f5d-e9a5-4336-b755-1a81c33165dd</Guid>
-    <ModVersion>29</ModVersion>
+    <ModVersion>30</ModVersion>
     <Stability>Beta</Stability>
-    <Teaser>BETA5 - optional - Unit Pack for Mods, for Ethnic Diversity mod</Teaser>
+    <Teaser>BETA - optional - Unit Pack for Mods, for Ethnic Diversity mod</Teaser>
     <Description>Ethnic Diversity for Civilization V: Brave New World[NEWLINE]Extra Unit diversity for Prehistoric Era, Renaissance Era Revised, Enlightenment Era, Future Worlds, Vox Populi, and super carrier mods</Description>
-    <Authors>Gedemon, Nutty</Authors>
+    <Authors>Nutty</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
     <AffectsSavedGames>false</AffectsSavedGames>
     <MinCompatibleSaveVersion>1</MinCompatibleSaveVersion>
@@ -227,6 +227,10 @@
     <DeployMod>true</DeployMod>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="readme.txt">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="Compatibility\CityStateDiplomacy\Ambassador\amb.fxsxml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>

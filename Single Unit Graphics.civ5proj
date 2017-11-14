@@ -5,9 +5,9 @@
     <ProjectGuid>{480e2a96-6fea-491f-8af0-32d764d467eb}</ProjectGuid>
     <Name>Ethnic Diversity (Single Unit Graphics)</Name>
     <Guid>b4b0c1cc-84e0-4992-bb2a-d18e940effb3</Guid>
-    <ModVersion>29</ModVersion>
+    <ModVersion>30</ModVersion>
     <Stability>Beta</Stability>
-    <Teaser>BETA5 - smaller scale - E.D. UNIT PACK v.29 REQUIRED!</Teaser>
+    <Teaser>BETA - smaller scale - E.D. UNIT PACK v.30 REQUIRED!</Teaser>
     <Description>Single Unit Graphics for Civilization V: Brave New World[NEWLINE]Causes units to be represented by one large model instead of many small ones, like Civilization III and earlier.  Makes it easier to tell units apart, and it can also increase game performance![NEWLINE]For those that don't like quadruped settlers or want a little more ethnic diversity for settlers, try the "Human Settlers" modmod.[NEWLINE]Hundreds of new unit models for diversity, with no change to gameplay.  See newunits.xlsm or forum thread on CivFanatics website for details.[NEWLINE][NEWLINE]Cannot be activated at the same time as Ethnic Diversity (RED Scale), Ethnic Diversity (Xtreme Scale), Hulfgar's Modpack, Ethnic Units, R.E.D. Modpack, R.E.D. Xtreme, R.E.D. - Just Ethnic Diversity, Reduced Unit Graphics, or Fewer Unit Graphics.</Description>
     <Authors>Nutty</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
@@ -360,6 +360,10 @@
     <DeployMod>true</DeployMod>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="readme.txt">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="SQL\0-CreateTables.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>

@@ -5,9 +5,9 @@
     <ProjectGuid>{480e2a96-6fea-491f-8af0-32d764d467eb}</ProjectGuid>
     <Name>Ethnic Diversity Unit Pack</Name>
     <Guid>17e9218c-5ef7-47c5-b6ab-b522e6712c70</Guid>
-    <ModVersion>29</ModVersion>
+    <ModVersion>30</ModVersion>
     <Stability>Beta</Stability>
-    <Teaser>BETA5 - Unit Pack for Ethnic Diversity mod - Activate this first, then one of the scaling options</Teaser>
+    <Teaser>BETA - Unit Pack for Ethnic Diversity mod - Activate this first, then one of the scaling options</Teaser>
     <Description>Ethnic Diversity for Civilization V: Brave New World[NEWLINE]Hundreds of new unit models for diversity, with no change to gameplay.  See newunits.xlsm or forum thread on CivFanatics website for details.[NEWLINE][NEWLINE]Cannot be activated at the same time as Hulfgar's Modpack, Ethnic Units, or R.E.D. Modpack.</Description>
     <Authors>Gedemon, Nutty</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
@@ -250,6 +250,10 @@
     <DeployMod>true</DeployMod>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="readme.txt">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="Units\America\AH64USA.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
