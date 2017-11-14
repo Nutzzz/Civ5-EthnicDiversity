@@ -964,7 +964,7 @@ INSERT INTO EDUnitGraphicConfiguration(UC_Suffix,UC_Fallback,UC_Template,UC_Memb
 (  '_EASTEU',        '',               'KNIGHT',                                  'KNIGHT',                                 '',               'Vitez',                             1,     0.18,   ''),
 (  '_EASTEU',        '',               'KNIGHT',                                  'KNIGHT',                                 '',               'russian_knight',                    0,     0.18,   ''),
 (  '_EASTEU',        '',               'KNIGHT',                                  'KNIGHT',                                 '',               'Vitez',                             0,     0.18,   ''),
-(  '_POLAND',        '',               'KNIGHT',                                  'KNIGHT',                                 '',               'polish_knight',                     0,     0.18,   ''),
+(  '_POLAND',        '',               'KNIGHT',                                  'KNIGHT',                                 '',               'polish_knight',                     5,     0.18,   ''),
 (  '_RUSSIA',        '',               'KNIGHT',                                  'KNIGHT',                                 '',               'Knight_Russia',                     0,     0.18,   ''),
 (  '_RUSSIA',        '',               'KNIGHT',                                  'KNIGHT',                                 '_V2',            'Knight_Russia_v2',                  1,     0.18,   ''),
 (  '_RUSSIA',        '',               'KNIGHT',                                  'KNIGHT',                                 '_V3',            'Knight_Russia_v3',                  0,     0.18,   ''),
