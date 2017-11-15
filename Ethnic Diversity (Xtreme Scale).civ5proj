@@ -8,7 +8,7 @@
     <ModVersion>30</ModVersion>
     <Stability>Beta</Stability>
     <Teaser>BETA - E.D. UNIT PACK v.30 REQUIRED!</Teaser>
-    <Description>Ethnic Diversity (R.E.D. Xtreme Scale and Formation) for Civilization V: Brave New World[NEWLINE]ETHNIC DIVERSITY UNIT PACK v.29 REQUIRED![NEWLINE]Over 1000 new unit models for diversity, with no change to gameplay.  See newunits.xlsm or forum thread on CivFanatics website for details.[NEWLINE][NEWLINE]Cannot be activated at the same time as Ethnic Diversity [vanilla scale], Ethnic Diversity (RED Scale), Hulfgar's Modpack, Ethnic Units, R.E.D. Modpack, R.E.D. Xtreme, R.E.D. - Just Ethnic Diversity, Single Unit Graphics, Reduced Unit Graphics, or Fewer Unit Graphics.</Description>
+    <Description>Ethnic Diversity (R.E.D. Xtreme Scale and Formation) for Civilization V: Brave New World[NEWLINE]ETHNIC DIVERSITY UNIT PACK v.29 REQUIRED![NEWLINE]Over 1000 new unit models for diversity, with no change to gameplay.  See newunits.xlsm or forum thread on CivFanatics website for details.[NEWLINE][NEWLINE]Cannot be activated at the same time as Ethnic Diversity [vanilla scale], Ethnic Diversity (RED Scale), Hulfgar's Modpack, Ethnic Units, R.E.D. Modpack, R.E.D. Xtreme, R.E.D. - Just Ethnic Diversity, Single Unit Graphics, Reduced Unit Graphics, or Fewer Unit Graphics; or the Steam version of Ethnic Diversity.</Description>
     <Authors>Nutty</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
     <AffectsSavedGames>false</AffectsSavedGames>
@@ -337,6 +337,13 @@
         <MinVersion>0</MinVersion>
         <MaxVersion>999</MaxVersion>
       </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Ethnic Diversity [Steam version]</Name>
+        <Id>5f4c1c74-5c6a-47d0-97c4-45b15ca3bdd9</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>      
     </ModBlockers>
     <ModDependencies>
       <Association xmlns="">

@@ -1,37 +1,65 @@
 Ethnic Diversity for Civilization V
-v.30 Beta
+v.29 (stable)
 
 	-- Description --
 
 Over 1000 new unit models for diversity, with no change to gameplay.
 
-See newunits.xlsm, version history below or the Wikia entry for details.
-
 To get support, visit the CivFanatics forum thread:
-https://forums.civfanatics.com/threads/ethnic-diversity-r-e-d-unofficial.449070
+<https://forums.civfanatics.com/threads/ethnic-diversity-r-e-d-unofficial.449070>
+
+Contribute on GitHub:
+<https://github.com/Nutzzz/Civ5-EthnicDiversity>
 
 
 	-- Installation --
 
 - Important : Delete previous version of the mod when updating, or the VFS may cause bugs.
 
-From CFC:
-1. Download the .civ5mod file to your mod folder (..\My Documents\My Games\Sid Meier's Civilization 5\MODS).
-2. Launch Civ5, go to the MODS menu, and it should be extracted automatically.
-3. Find the "R.E.D. Modpack" line and activate the mod.
-4. Click "NEXT", then "SINGLE PLAYER," and set up your new game.
-5. When restoring from save, you must use the MODS menu, click NEXT, and then LOAD GAME.
-
-From Steam Workshop:
+Steam Workshop version:
 1. Click "+ Subscribe" and the mod should automatically download and extract itself.
-2. Go to step #3 above.
+	a. This is a large mod, so it may take some time.
+	b. However, CiV sometimes has issues with large mods using the automatic method. See note below.
+2. Find the "Ethnic Diversity [Steam version]" line and activate the mod.
+3. Click NEXT, then SINGLE PLAYER, and set up your new game.
+4. When restoring from save, you must use the MODS menu, click NEXT, and then LOAD GAME.
 
-Fix for fighter propeller and archer arrow positions (optional) :
-- copy civ5artdefines_viseffects.xml file from the "%userprofile%\Documents\My Games\Sid Meier's Civilization 5\MODS\Ethnic Diversity (v xx)\copy to Assets" folder to the "..\Steam\steamapps\common\sid meier's civilization v\Assets\" folder
+Note: If the game fails to download or extract the mod using the automatic method,
+you can get the CivFanatics Center version or follow the steps below:
+1. Check your mods folder (%UserProfile%\Documents\My Games\Sid Meier's Civilization 5\MODS) for the file
+   "Ethnic Diversity [Steam version] (v xx).civ5mod"
+2. If the file doesn't exist:
+	a. "Unsubscribe" from the mod in Steam.
+	b. Use Steam Workshop Downloader <http://steamworkshopdownloader.com> to download the mod.
+	c. Copy the .civ5mod file to your mods folder.
+3. If the download failed or if the file exists but the automatic extraction failed:
+	a. You can use 7-zip <http://sevenzip.sourceforge.net> to unzip .civ5mod files.
+	b. Launch 7-zip, open the .civ5mod and extract it to its own folder (not directly in the mods folder).
+	   The folder name does not matter.
+
+CivFanatics Center version:
+1. Download the .zip file and extract it in your mods folder (..\My Documents\My Games\Sid Meier's Civilization 5\MODS).
+2. Launch Civ5 and go to the MODS menu.
+3. Find the "Ethnic Diversity Unit Pack" line and activate the mod.
+     a. If desired, find the "Ethnic Diversity Unit Pack for Mods" line and activate it.
+4. Now activate "Ethnic Diversity (vanilla scale)" or another scale if available and preferred.
+5. Click NEXT, then SINGLE PLAYER, and set up your new game.
+6. When restoring from save, you must use the MODS menu, click NEXT, and then LOAD GAME.
+
+RED scale only: Fix for fighter propeller and archer arrow positions (optional) :
+- copy civ5artdefines_viseffects.xml file from the folder 
+  "%UserProfile%\Documents\My Games\Sid Meier's Civilization 5\MODS\Ethnic Diversity (RED scale) (v xx)\copy to Assets" to
+  "%ProgramFiles%\Steam\steamapps\common\sid meier's civilization v\Assets\"
 
 
 	-- Compatibility --
-Some variation provided for Prehistoric Era, Renaissance Era Revised, Enlightenment Era, and Future Worlds
+
+The separate "Unit Pack for Mods" available on CFC provides some variation for
+- Prehistoric Era or P.E. Reborn
+- Renaissance Era Revised
+- Enlightenment Era
+- Future Worlds
+
 
 	-- Credits and Thanks --
 
@@ -49,8 +77,6 @@ Some variation provided for Prehistoric Era, Renaissance Era Revised, Enlightenm
 
 
 	-- Version History --
-v.30 (in progress)
-- 
 
 v.29 beta 5 (November 12, 2017)
 - add zwei833's Han spearman as pikeman for Asian civs
@@ -192,4 +218,4 @@ v.28 beta 1 (Sep 5, 2014):
 - add ProtectedBigGun formation for the Indian Civ Pack
 - fix some specular textures to reduce excess "shininess" of some units
 
-See R.E.D. Modpack changelog for older versions
+See R.E.D. Modpack changelog for v.27 and older

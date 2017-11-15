@@ -3,13 +3,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <ProjectGuid>{480e2a96-6fea-491f-8af0-32d764d467eb}</ProjectGuid>
-    <Name>Ethnic Diversity Unit Pack</Name>
-    <Guid>17e9218c-5ef7-47c5-b6ab-b522e6712c70</Guid>
-    <ModVersion>30</ModVersion>
-    <Stability>Beta</Stability>
-    <Teaser>BETA - Unit Pack for Ethnic Diversity mod - Activate this first, then one of the scaling options</Teaser>
-    <Description>Ethnic Diversity for Civilization V: Brave New World[NEWLINE]Over 1000 new unit models for diversity, with no change to gameplay.  See newunits.xlsm or forum thread on CivFanatics website for details.[NEWLINE][NEWLINE]Cannot be activated at the same time as Hulfgar's Modpack, Ethnic Units, or R.E.D. Modpack; or the Steam version of Ethnic Diversity.</Description>
-    <Authors>Gedemon, Nutty</Authors>
+    <Name>Ethnic Diversity [Steam version]</Name>
+    <Guid>5f4c1c74-5c6a-47d0-97c4-45b15ca3bdd9</Guid>
+    <ModVersion>29</ModVersion>
+    <Stability>Stable</Stability>
+    <Teaser>Ethnic Diversity - Over 100 models of ethnic and cultural diversity!</Teaser>
+    <Description>Ethnic Diversity for Civilization V: Brave New World[NEWLINE]Over 1000 new unit models for diversity, with no change to gameplay.  See newunits.xlsm or forum thread on CivFanatics website for details.[NEWLINE][NEWLINE]Cannot be activated at the same time as Hulfgar's Modpack, Ethnic Units, or R.E.D. Modpack; or the non-Steam version of Ethnic Diversity.</Description>
+    <Authors>Nutzzz, Gedemon</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
     <AffectsSavedGames>false</AffectsSavedGames>
     <MinCompatibleSaveVersion>1</MinCompatibleSaveVersion>
@@ -198,7 +198,53 @@
     </ModReferences>
     <Homepage>http://forums.civfanatics.com/showthread.php?t=383375</Homepage>
     <ReloadUnitSystem>true</ReloadUnitSystem>
-    <ModActions />
+    <ModActions>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/0-CreateTables.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/1-ArtStyleConfig.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/1-JEDUnitGraphicConfig.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/2-UpdateArtStyles.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/2-StandardizeArtDefines.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/2-StandardizeModArtDefines.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/3-InsertArtDefines.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/4-FinalizeArtStyles.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/7-ModCompatibility.sql</FileName>
+      </Action>
+    </ModActions>
     <ModContent />
     <ModBlockers>
       <Association>
@@ -212,6 +258,62 @@
         <Type>Mod</Type>
         <Name>Ethnic Units</Name>
         <Id>dccf86be-f66f-49a2-bc9f-159195df6d57</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>R.E.D. Xtreme</Name>
+        <Id>b3ae4a21-6f9f-47aa-b4e0-34ede1fda0ab</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>R.E.D. - Just Ethnic Diversity</Name>
+        <Id>7f80db44-cd76-493b-9f45-6cb3ee2dfccd</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Ethnic Diversity (RED Scale)</Name>
+        <Id>4a3866d8-ed50-446a-a9a5-a97924d79a86</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Ethnic Diversity (Xtreme Scale)</Name>
+        <Id>c72bcd18-d7f3-4eb6-9cce-b996c054b0ab</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Single Unit Graphics</Name>
+        <Id>b4b0c1cc-84e0-4992-bb2a-d18e940effb3</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Single Unit Graphics - Large</Name>
+        <Id>4a60955e-7dc2-40bc-895e-2e1dd7d46651</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Reduced Unit Graphics</Name>
+        <Id>de77c612-15a0-4580-92fd-535b525df700</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Fewer Unit Graphics</Name>
+        <Id>8804f1be-7c14-4a1d-a923-9f4db1e3af1c</Id>
         <MinVersion>0</MinVersion>
         <MaxVersion>999</MaxVersion>
       </Association>
@@ -238,8 +340,8 @@
       </Association>
       <Association>
         <Type>Mod</Type>
-        <Name>Ethnic Diversity [Steam version]</Name>
-        <Id>5f4c1c74-5c6a-47d0-97c4-45b15ca3bdd9</Id>
+        <Name>Ethnic Diversity Unit Pack</Name>
+        <Id>17e9218c-5ef7-47c5-b6ab-b522e6712c70</Id>
         <MinVersion>0</MinVersion>
         <MaxVersion>999</MaxVersion>
       </Association>
@@ -258,6 +360,42 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="readme.txt">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="SQL\0-CreateTables.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="SQL\1-ArtStyleConfig.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="SQL\1-JEDUnitGraphicConfig.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="SQL\2-UpdateArtStyles.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="SQL\2-StandardizeArtDefines.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="SQL\2-StandardizeModArtDefines.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="SQL\3-InsertArtDefines.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="SQL\4-FinalizeArtStyles.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="SQL\7-ModCompatibility.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
@@ -16511,6 +16649,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="SQL" />
     <Folder Include="Units\America" />
     <Folder Include="Units\Arabia" />
     <Folder Include="Units\Austria" />

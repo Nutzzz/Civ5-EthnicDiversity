@@ -8,7 +8,7 @@
     <ModVersion>30</ModVersion>
     <Stability>Beta</Stability>
     <Teaser>BETA - larger scale - E.D. UNIT PACK v.30 REQUIRED!</Teaser>
-    <Description>Single Unit Graphics for Civilization V: Brave New World[NEWLINE]Causes units to be represented by one large model instead of many small ones, like Civilization III and earlier.  Makes it easier to tell units apart, and it can also increase game performance![NEWLINE]For those that don't like quadruped settlers or want a little more ethnic diversity for settlers, try the "Human Settlers" modmod.[NEWLINE]Hundreds of new unit models for diversity, with no change to gameplay.  See newunits.xlsm or forum thread on CivFanatics website for details.[NEWLINE][NEWLINE]Cannot be activated at the same time as Ethnic Diversity (RED Scale), Ethnic Diversity (Xtreme Scale), Hulfgar's Modpack, Ethnic Units, R.E.D. Modpack, R.E.D. Xtreme, R.E.D. - Just Ethnic Diversity, Reduced Unit Graphics, or Fewer Unit Graphics.</Description>
+    <Description>Single Unit Graphics for Civilization V: Brave New World[NEWLINE]Causes units to be represented by one large model instead of many small ones, like Civilization III and earlier.  Makes it easier to tell units apart, and it can also increase game performance![NEWLINE]For those that don't like quadruped settlers or want a little more ethnic diversity for settlers, try the "Human Settlers" modmod.[NEWLINE]Hundreds of new unit models for diversity, with no change to gameplay.  See newunits.xlsm or forum thread on CivFanatics website for details.[NEWLINE][NEWLINE]Cannot be activated at the same time as Ethnic Diversity (RED Scale), Ethnic Diversity (Xtreme Scale), Hulfgar's Modpack, Ethnic Units, R.E.D. Modpack, R.E.D. Xtreme, R.E.D. - Just Ethnic Diversity, Reduced Unit Graphics, or Fewer Unit Graphics; or the Steam version of Ethnic Diversity.</Description>
     <Authors>Nutty</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
     <AffectsSavedGames>false</AffectsSavedGames>
@@ -334,6 +334,13 @@
         <Type>Mod</Type>
         <Name>Hulfgars Modpack CE</Name>
         <Id>e764b792-14b7-44ab-a7b8-6182214d8efa</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Ethnic Diversity [Steam version]</Name>
+        <Id>5f4c1c74-5c6a-47d0-97c4-45b15ca3bdd9</Id>
         <MinVersion>0</MinVersion>
         <MaxVersion>999</MaxVersion>
       </Association>
