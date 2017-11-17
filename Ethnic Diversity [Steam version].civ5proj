@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <ProjectGuid>{480e2a96-6fea-491f-8af0-32d764d467eb}</ProjectGuid>
-    <Name>Ethnic Diversity [Steam version]</Name>
+    <Name>Ethnic Diversity - Steam version</Name>
     <Guid>5f4c1c74-5c6a-47d0-97c4-45b15ca3bdd9</Guid>
     <ModVersion>29</ModVersion>
     <Stability>Stable</Stability>
-    <Teaser>Ethnic Diversity - Over 100 models of ethnic and cultural diversity!</Teaser>
-    <Description>Ethnic Diversity for Civilization V: Brave New World[NEWLINE]Over 1000 new unit models for diversity, with no change to gameplay.  See newunits.xlsm or forum thread on CivFanatics website for details.[NEWLINE][NEWLINE]Cannot be activated at the same time as Hulfgar's Modpack, Ethnic Units, or R.E.D. Modpack; or the non-Steam version of Ethnic Diversity.</Description>
+    <Teaser>Ethnic Diversity - Over 1000 models of ethnic and cultural diversity!</Teaser>
+    <Description>Ethnic Diversity for Civilization V: Brave New World[NEWLINE]Over 1000 new unit models for diversity, with no change to gameplay.  See forum thread on CivFanatics.com for more details and support.[NEWLINE][NEWLINE]Cannot be activated at the same time as Hulfgar's Modpack, Ethnic Units, or R.E.D. Modpack; or the non-Steam version of Ethnic Diversity.</Description>
     <Authors>Nutzzz, Gedemon</Authors>
     <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
     <AffectsSavedGames>false</AffectsSavedGames>

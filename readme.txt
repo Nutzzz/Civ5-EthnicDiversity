@@ -5,7 +5,7 @@ v.29 (stable)
 
 Over 1000 new unit models for diversity, with no change to gameplay.
 
-To get support, visit the CivFanatics forum thread:
+To get support, visit the forum thread at Civilization Fanatics Center:
 <https://forums.civfanatics.com/threads/ethnic-diversity-r-e-d-unofficial.449070>
 
 Contribute on GitHub:
@@ -25,7 +25,7 @@ Steam Workshop version:
 4. When restoring from save, you must use the MODS menu, click NEXT, and then LOAD GAME.
 
 Note: If the game fails to download or extract the mod using the automatic method,
-you can get the CivFanatics Center version or follow the steps below:
+you can get the CivFanatics version or follow the steps below:
 1. Check your mods folder (%UserProfile%\Documents\My Games\Sid Meier's Civilization 5\MODS) for the file
    "Ethnic Diversity [Steam version] (v xx).civ5mod"
 2. If the file doesn't exist:
@@ -37,7 +37,7 @@ you can get the CivFanatics Center version or follow the steps below:
 	b. Launch 7-zip, open the .civ5mod and extract it to its own folder (not directly in the mods folder).
 	   The folder name does not matter.
 
-CivFanatics Center version:
+CivFanatics version:
 1. Download the .zip file and extract it in your mods folder (..\My Documents\My Games\Sid Meier's Civilization 5\MODS).
 2. Launch Civ5 and go to the MODS menu.
 3. Find the "Ethnic Diversity Unit Pack" line and activate the mod.
