@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Deploy" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <ProjectGuid>{480e2a96-6fea-491f-8af0-32d764d467eb}</ProjectGuid>
+    <Name>Ethnic Diversity - Unit Tester by civ</Name>
+    <Guid>8affec94-2588-4fe9-a87a-703a64bdf53c</Guid>
+    <ModVersion>4</ModVersion>
+    <Stability>Beta</Stability>
+    <Teaser>WARNING: MAY CRASH WITH MORE THAN A FEW CIVS ON THE MAP!</Teaser>
+    <Description>Unit Tester for Ethnic Diversity for Civilization V</Description>
+    <Authors>Gedemon, Nutty</Authors>
+    <SpecialThanks>All unit makers, CivFanatics</SpecialThanks>
+    <AffectsSavedGames>false</AffectsSavedGames>
+    <MinCompatibleSaveVersion>1</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <SupportsMac>true</SupportsMac>
+    <AssemblyName>Ethnic Diversity - Unit Tester</AssemblyName>
+    <RootNamespace>Ethnic Diversity - Unit Tester</RootNamespace>
+    <ModReferences>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Ethnic Diversity</Name>
+        <Id>5f779307-3810-439c-9c9e-1c86be3c86cd</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Ethnic Diversity - Steam version</Name>
+        <Id>5f4c1c74-5c6a-47d0-97c4-45b15ca3bdd9</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+    </ModReferences>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=383375</Homepage>
+    <ReloadUnitSystem>true</ReloadUnitSystem>
+    <ModActions />
+    <ModContent>
+      <Content>
+        <Type>InGameUIAddin</Type>
+        <Name>EDUnitTester</Name>
+        <Description />
+        <FileName>Lua/EDUnitTesterC.lua</FileName>
+      </Content>
+    </ModContent>
+    <ModBlockers>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Ethnic Diversity - Unit Tester by type</Name>
+        <Id>3883ddb6-0146-4690-9565-4a4e3698b4e2</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+    </ModBlockers>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Package Only' ">
+    <PackageMod>true</PackageMod>
+    <DeployMod>false</DeployMod>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Deploy Only' ">
+    <PackageMod>false</PackageMod>
+    <DeployMod>true</DeployMod>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Lua\EDUnitTester.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Lua\EDUnitTesterC.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lua" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
+</Project>

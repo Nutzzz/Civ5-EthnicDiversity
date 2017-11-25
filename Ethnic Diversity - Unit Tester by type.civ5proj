@@ -3,8 +3,8 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <ProjectGuid>{480e2a96-6fea-491f-8af0-32d764d467eb}</ProjectGuid>
-    <Name>Ethnic Diversity - Unit Tester</Name>
-    <Guid>8affec94-2588-4fe9-a87a-703a64bdf53c</Guid>
+    <Name>Ethnic Diversity - Unit Tester by type</Name>
+    <Guid>3883ddb6-0146-4690-9565-4a4e3698b4e2</Guid>
     <ModVersion>4</ModVersion>
     <Stability>Beta</Stability>
     <Teaser>WARNING: MAY CRASH WITH MORE THAN A FEW CIVS ON THE MAP!</Teaser>
@@ -27,6 +27,13 @@
         <MinVersion>0</MinVersion>
         <MaxVersion>999</MaxVersion>
       </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Ethnic Diversity - Steam version</Name>
+        <Id>5f4c1c74-5c6a-47d0-97c4-45b15ca3bdd9</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
     </ModReferences>
     <Homepage>http://forums.civfanatics.com/showthread.php?t=383375</Homepage>
     <ReloadUnitSystem>true</ReloadUnitSystem>
@@ -36,10 +43,17 @@
         <Type>InGameUIAddin</Type>
         <Name>EDUnitTester</Name>
         <Description />
-        <FileName>Lua/EDUnitTester.lua</FileName>
+        <FileName>Lua/EDUnitTesterT.lua</FileName>
       </Content>
     </ModContent>
     <ModBlockers>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Ethnic Diversity - Unit Tester by civ</Name>
+        <Id>8affec94-2588-4fe9-a87a-703a64bdf53c</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
     </ModBlockers>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
@@ -55,6 +69,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="Lua\EDUnitTester.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Lua\EDUnitTesterT.lua">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

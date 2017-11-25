@@ -2,7 +2,7 @@
 <Mod id="69e8b077-ab56-48c0-89e6-091f9af52db1" version="29">
   <Properties>
     <Name>Ethnic Diversity DLC</Name>
-    <Stability>Beta</Stability>
+    <Stability>Stable</Stability>
     <Teaser>Ethnic Diversity DLC</Teaser>
     <Description>Ethnic Diversity DLC</Description>
     <Authors>Nutty</Authors>
@@ -23,6 +23,7 @@
   <References />
   <Blocks />
   <Files>
+    <File md5="B3A3F716781195FB073838803ACA9AD3" import="0">readme.txt</File>
     <File md5="331C08FBF47F10FA4FF28AB786C839F1" import="0">SQL/ED_DLC_ArtDefines.sql</File>
   </Files>
   <Actions>

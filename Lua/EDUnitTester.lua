@@ -6,7 +6,7 @@
 local SLEEP_TIME = 0.1				-- time in seconds between spawns (decreases likelihood of a crash)
 local DEBUG_RED = false;
 local W, H = Map.GetGridSize();
-local START_X = 0;
+local START_X = 2;
 local MAX_X = W;
 local START_Y = 5;
 local MAX_Y = H - 5;
@@ -16,6 +16,10 @@ local DELTA_H = MAX_Y - START_Y;
 -- do not use when more than 2-3 civilizations on the map, your computer won't like to spawn so many units at the same time...
 function TestUnitsByType()
     local new_col = NumActiveCivs() + 2;
+	if (new_col > 25) then
+		new_col = 25;
+	end
+
 	local x_col;
 	for unitClass in GameInfo.UnitClasses() do
 		local y = unitClass.ID * 2 + START_Y;
@@ -92,12 +96,13 @@ function TestUnitsByType()
 	RevealMap();
     Events.GameplaySetActivePlayer.Remove(TestUnitsByType);
 end
-Events.GameplaySetActivePlayer.Add(TestUnitsByType);
+--Events.GameplaySetActivePlayer.Add(TestUnitsByType);
 
 -- do not use when more than 2-3 civilizations on the map, your computer won't like to spawn so many units at the same time...
 function TestUnitsByCiv()
 	local x = 1;
 	local y = START_Y;
+	local gap = 2;
 	local uux = 7;
 	local uuy = START_Y;
 	local cvx = 8;
@@ -113,13 +118,13 @@ function TestUnitsByCiv()
 			print();
 			print("----------------------------------------------------------- ");
 			print("- Testing units for ".. tostring(pPlayer:GetName()) .." - ".. Locale.ConvertTextKey(pPlayer:GetCivilizationShortDescription()) );
-			othx = othx + 3;
+			othx = othx + gap + 1;
 			othy = START_Y;
-			regx = regx + 3;
+			regx = regx + gap + 1;
 			regy = START_Y;
-			uux = uux + 3;
+			uux = uux + gap + 1;
 			uuy = START_Y;
-			cvx = cvx + 3;
+			cvx = cvx + gap + 1;
 			cvy = START_Y;
 			for unitRow in GameInfo.Units() do
 				local iUnitID = unitRow.ID;
@@ -137,14 +142,14 @@ function TestUnitsByCiv()
         			end
     			end
 				if (iUU == 1) then
-					print("  - Spawning unique unit ".. tostring(iUnitID) .." - ".. Locale.ConvertTextKey(unitRow.Description));
-					uuy = uuy + 1;
-					if uuy > MAX_Y then
-						uux = uux + 1;
-						uuy = START_Y;
-					end
-					pPlayer:InitUnit(iUnitID, uux, uuy);
-					sleep(SLEEP_TIME);
+					--print("  - Spawning unique unit ".. tostring(iUnitID) .." - ".. Locale.ConvertTextKey(unitRow.Description));
+					--uuy = uuy + 1;
+					--if uuy > MAX_Y then
+					--	uux = uux + 1;
+					--	uuy = START_Y;
+					--end
+					--pPlayer:InitUnit(iUnitID, uux, uuy);
+					--sleep(SLEEP_TIME);
 				elseif (CVTest(civType, iUnitID)) then
 					print("  - Spawning diverse unit ".. tostring(iUnitID) .." - ".. Locale.ConvertTextKey(unitRow.Description));
 					cvy = cvy + 1;
@@ -156,14 +161,14 @@ function TestUnitsByCiv()
 					sleep(SLEEP_TIME);
 				elseif (iPlayerID == 0) then
 					if (iUU == -1) then
-						print("  - Spawning other unique ".. tostring(iUnitID) .." - ".. Locale.ConvertTextKey(unitRow.Description));
-						othy = othy + 1;
-						if othy > MAX_Y then
-							othx = regx + 1;
-							othy = START_Y;
-						end
-						pPlayer:InitUnit(iUnitID, othx, othy);
-						sleep(SLEEP_TIME);
+						--print("  - Spawning other unique ".. tostring(iUnitID) .." - ".. Locale.ConvertTextKey(unitRow.Description));
+						--othy = othy + 1;
+						--if othy > MAX_Y then
+						--	othx = regx + 1;
+						--	othy = START_Y;
+						--end
+						--pPlayer:InitUnit(iUnitID, othx, othy);
+						--sleep(SLEEP_TIME);
 					else
 						print("  - Spawning regular unit ".. tostring(iUnitID) .." - ".. Locale.ConvertTextKey(unitRow.Description));
 						regy = regy + 1;
